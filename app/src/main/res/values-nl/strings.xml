@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kerkbibliotheek</string>
+
+    <!-- Demomodus -->
+    <string name="demo_mode">Demomodus</string>
+    <string name="demo_mode_active">DEMOMODUS IS ACTIEF</string>
+    <string name="demo_mode_banner_desc">Geen zorgen! Uw echte bibliotheekdatabase is verborgen en volkomen veilig tijdens de demomodus.</string>
+    <string name="exit_demo_mode">Demomodus verlaten</string>
+
+    <!-- Algemeen -->
+    <string name="back">Terug</string>
+    <string name="cancel">Annuleren</string>
+    <string name="delete">Verwijderen</string>
+    <string name="save">Opslaan</string>
+    <string name="edit">Bewerken</string>
+    <string name="close">Sluiten</string>
+    <string name="admin">Beheerder</string>
+    <string name="success">Geslaagd</string>
+    <string name="library_logo">Bibliotheeklogo</string>
+
+    <!-- Startscherm -->
+    <string name="welcome_to_library">Welkom in de Bibliotheek</string>
+    <string name="home_subtitle">Zoek uw boek op de plank en tik hieronder om het te lenen of in te leveren.</string>
+    <string name="borrow_books">Boeken lenen</string>
+    <string name="borrow_books_desc">Leen één of meerdere boeken</string>
+    <string name="return_books">Boeken inleveren</string>
+    <string name="return_books_desc">Breng gelezen boeken terug</string>
+
+    <!-- Boeken selecteren scherm -->
+    <string name="select_books_title">Selecteer boeken om te lenen</string>
+    <string name="search_books_placeholder">Zoek op titel of auteur…</string>
+    <string name="selected_books_count">%1$d / %2$d geselecteerd</string>
+    <string name="proceed_to_checkout">Verder naar lenen</string>
+    <string name="no_books_found">Geen boeken gevonden.</string>
+    <string name="limit_reached">Limiet bereikt</string>
+    <string name="out_of_stock">UITGELEEND</string>
+    <string name="cover_for_title">Omslag voor %1$s</string>
+
+    <!-- Lener gegevens scherm -->
+    <string name="checkout_details_title">Leendetails</string>
+    <string name="your_details">Uw gegevens</string>
+    <string name="your_details_desc">Voer uw gegevens in om de geselecteerde boeken te lenen.</string>
+    <string name="full_name_required">Volledige naam *</string>
+    <string name="full_name_placeholder">Jan de Vries</string>
+    <string name="email_required">E-mailadres *</string>
+    <string name="email_placeholder">jan@voorbeeld.nl</string>
+    <string name="phone_optional">Telefoonnummer</string>
+    <string name="phone_placeholder">06 12345678</string>
+    <string name="borrow_duration_label">Leenperiode *</string>
+    <string name="duration_1_week">1 Week</string>
+    <string name="duration_2_weeks">2 Weken</string>
+    <string name="duration_1_month">1 Maand</string>
+    <string name="duration_2_months">2 Maanden</string>
+    <string name="review_and_confirm">Controleren en bevestigen</string>
+    <string name="books_to_checkout">Te lenen boeken (%1$d)</string>
+    <string name="reminder_dialog_title">Stel een herinnering in uw agenda in!</string>
+    <string name="reminder_dialog_message">Voeg voor vertrek even een herinnering toe aan de agenda van uw telefoon om deze boeken over %1$s in te leveren.</string>
+    <string name="reminder_dialog_offline_note">We versturen geen e-mailherinneringen om de app volledig gratis en offline te houden.</string>
+    <string name="confirm_loan">Lening bevestigen</string>
+    <string name="confirm_loan_timer">Lening bevestigen (%1$ds)</string>
+
+    <!-- Succes scherm -->
+    <string name="success_title">Gelukt!</string>
+    <string name="success_one_book">U heeft 1 boek geleend.\nUiterste inleverdatum: %1$s.</string>
+    <string name="success_multiple_books">U heeft %1$d boeken geleend.\nUiterste inleverdatum: %2$s.</string>
+    <string name="returning_home_seconds">Terug naar het startscherm in 10 seconden…</string>
+    <string name="return_to_home_button">Terug naar startscherm</string>
+
+    <!-- Boeken inleveren scherm -->
+    <string name="return_books_title">Boeken inleveren</string>
+    <string name="search_return_placeholder">Zoek op uw naam of boektitel…</string>
+    <string name="no_active_loans">Geen actieve leningen gevonden.</string>
+    <string name="return_all_count">Alles inleveren (%1$d)</string>
+    <string name="return_all_button">Alles inleveren</string>
+    <string name="return_book_button">Boek inleveren</string>
+    <string name="return_book_dialog_title">Boek inleveren</string>
+    <string name="return_book_dialog_message">\"%1$s\" inleveren voor %2$s?</string>
+    <string name="return_all_dialog_title">Alle boeken inleveren</string>
+    <string name="return_all_dialog_message">Alle %1$d boeken inleveren voor %2$s?</string>
+    <string name="borrower_label">Lener: %1$s</string>
+    <string name="overdue_badge">⚠ TE LAAT</string>
+    <string name="due_date_label">Inleverdatum: %1$s</string>
+    <string name="book_returned_success">Boek succesvol ingeleverd!</string>
+    <string name="all_books_returned_success">Alle boeken succesvol ingeleverd!</string>
+
+    <!-- Pincode scherm -->
+    <string name="admin_access_title">Beheerders toegang</string>
+    <string name="enter_pin_message">Voer de pincode in om de bibliotheek te beheren.</string>
+    <string name="default_pin_hint">(Standaard pincode: 1234)</string>
+    <string name="incorrect_pin_error">Onjuiste pincode. Probeer opnieuw.</string>
+
+    <!-- Fout- en validatiemeldingen -->
+    <string name="error_book_unavailable">Dit boek is momenteel niet beschikbaar.</string>
+    <string name="error_max_borrow_limit">U kunt maximaal %1$d verschillende titels tegelijk lenen.</string>
+    <string name="error_max_borrow_total">U kunt in totaal maximaal %1$d boeken lenen.</string>
+    <string name="error_only_copies_available">Slechts %1$d exemplaren beschikbaar.</string>
+    <string name="error_name_email_required">Vul ten minste naam en e-mailadres in.</string>
+    <string name="error_valid_name_required">Voer een geldige naam in.</string>
+    <string name="error_valid_email_required">Voer een geldig e-mailadres in.</string>
+    <string name="error_valid_phone_required">Voer een geldig telefoonnummer in.</string>
+    <string name="error_no_books_selected">Geen boeken geselecteerd.</string>
+    <string name="error_overdue_single">U heeft een te laat boek (\"%1$s\") dat eerst ingeleverd moet worden voordat u nieuwe boeken kunt lenen.</string>
+    <string name="error_overdue_multiple">U heeft %1$d te late boeken (%2$s) die eerst ingeleverd moeten worden voordat u nieuwe boeken leent.</string>
+    <string name="error_duplicate_book">U heeft \"%1$s\" al geleend. Lever het eerst in voordat u het opnieuw leent.</string>
+    <string name="error_limit_reached">U heeft momenteel %1$d actieve boeken geleend, waarmee de limiet van %2$d is bereikt. Lever eerst boeken in om meer te lenen.</string>
+    <string name="error_limit_exceeded">Leenlimiet overschreden: u heeft al %1$d boek(en) geleend. Met de limiet van %2$d kunt u nog maar %3$d boek(en) lenen.</string>
+    <string name="active_loans_info">Actieve leningen: u leent momenteel %1$d boek(en) (Limiet: %2$d). U kunt er nog maximaal %3$d lenen.</string>
+    <string name="active_loans_limit_reached">Limiet bereikt: u leent momenteel %1$d boeken (Maximale limiet: %2$d). Lever eerst boeken in om nieuwe te lenen.</string>
+    <string name="active_loans_overdue_warning">Let op: u heeft %1$d te late boeken. Lever deze in voordat u nieuwe boeken leent.</string>
+
+    <!-- Categorieën -->
+    <string name="category_biographies">Biografieën</string>
+    <string name="category_devotionals">Dagboeken &amp; Meditaties</string>
+    <string name="category_kids">Kinderen &amp; Jeugd</string>
+    <string name="category_commentaries">Commentaren</string>
+    <string name="category_theology">Theologie</string>
+    <string name="category_practical_christianity">Praktisch christendom</string>
+    <string name="category_bibles">Bijbels</string>
+    <string name="category_bible_study_material">Bijbelstudiemateriaal</string>
+    <string name="category_christian_living">Christelijk leven</string>
+    <string name="category_church_history">Kerkgeschiedenis</string>
+    <string name="category_apologetics">Apologetiek</string>
+    <string name="category_other">Overig</string>
+
+    <!-- Beheerdersdashboard -->
+    <string name="admin_dashboard_title">Bibliotheek Beheerdersdashboard</string>
+    <string name="admin_dashboard_subtitle">Beheer bibliotheekcollectie en leningen</string>
+    <string name="admin_what_to_do">Wat wilt u doen?</string>
+    <string name="admin_active_loans">Actieve leningen</string>
+    <string name="admin_active_loans_desc">Bekijk en registreer teruggave van uitgeleende boeken.</string>
+    <string name="admin_manage_inventory">Collectie beheren</string>
+    <string name="admin_manage_inventory_desc">Boeken toevoegen, bewerken of verwijderen.</string>
+    <string name="admin_settings_backup">Instellingen &amp; Back-up</string>
+    <string name="admin_settings_backup_desc">Offline P2P-back-up, demomodus en bibliotheekinstellingen.</string>
+    <string name="admin_log_out">Uitloggen</string>
+    <string name="admin_log_out_desc">Het beheerdersdashboard veilig vergrendelen.</string>
+    <string name="about_developer">Over de ontwikkelaar</string>
+</resources>

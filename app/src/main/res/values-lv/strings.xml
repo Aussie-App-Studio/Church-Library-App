@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Draudzes bibliotēka</string>
+
+    <!-- Demonstrācijas režīms -->
+    <string name="demo_mode">Demonstrācijas režīms</string>
+    <string name="demo_mode_active">DEMONSTRĀCIJAS REŽĪMS IR AKTĪVS</string>
+    <string name="demo_mode_banner_desc">Neuztraucieties! Jūsu īstā bibliotēkas datubāze demonstrācijas režīmā ir paslēpta un pilnīgi droša.</string>
+    <string name="exit_demo_mode">Iziet no demonstrācijas režīma</string>
+
+    <!-- Vispārīgi -->
+    <string name="back">Atpakaļ</string>
+    <string name="cancel">Atcelt</string>
+    <string name="delete">Dzēst</string>
+    <string name="save">Saglabāt</string>
+    <string name="edit">Rediģēt</string>
+    <string name="close">Aizvērt</string>
+    <string name="admin">Administrators</string>
+    <string name="success">Veiksmīgi</string>
+    <string name="library_logo">Bibliotēkas logotips</string>
+
+    <!-- Sākuma ekrāns -->
+    <string name="welcome_to_library">Laipni lūdzam bibliotēkā</string>
+    <string name="home_subtitle">Atrodiet grāmatu plauktā un pieskarieties zemāk, lai to paņemtu vai atdotu.</string>
+    <string name="borrow_books">Paņemt grāmatas</string>
+    <string name="borrow_books_desc">Paņemiet vienu vai vairākas grāmatas</string>
+    <string name="return_books">Atdot grāmatas</string>
+    <string name="return_books_desc">Atnesiet atpakaļ izlasītās grāmatas</string>
+
+    <!-- Grāmatu izvēle -->
+    <string name="select_books_title">Izvēlieties grāmatas lasīšanai</string>
+    <string name="search_books_placeholder">Meklēt pēc nosaukuma vai autora…</string>
+    <string name="selected_books_count">Izvēlēts %1$d no %2$d</string>
+    <string name="proceed_to_checkout">Turpināt uz saņemšanu</string>
+    <string name="no_books_found">Grāmatas netika atrastas.</string>
+    <string name="limit_reached">Sasniegts limits</string>
+    <string name="out_of_stock">IZSNIEGTS</string>
+    <string name="cover_for_title">%1$s vāks</string>
+
+    <!-- Lasītāja dati -->
+    <string name="checkout_details_title">Izsniegšanas informācija</string>
+    <string name="your_details">Jūsu dati</string>
+    <string name="your_details_desc">Lūdzu, ievadiet savus datus, lai paņemtu izvēlētās grāmatas.</string>
+    <string name="full_name_required">Vārds un uzvārds *</string>
+    <string name="full_name_placeholder">Jānis Bērziņš</string>
+    <string name="email_required">E-pasta adrese *</string>
+    <string name="email_placeholder">janis@example.lv</string>
+    <string name="phone_optional">Tālruņa numurs</string>
+    <string name="phone_placeholder">20 000 000</string>
+    <string name="borrow_duration_label">Lietošanas termiņš *</string>
+    <string name="duration_1_week">1 nedēļa</string>
+    <string name="duration_2_weeks">2 nedēļas</string>
+    <string name="duration_1_month">1 mēnesis</string>
+    <string name="duration_2_months">2 mēneši</string>
+    <string name="review_and_confirm">Pārskatīt un apstiprināt</string>
+    <string name="books_to_checkout">Paņemamās grāmatas (%1$d)</string>
+    <string name="reminder_dialog_title">Iestatiet atgādinājumu kalendārā!</string>
+    <string name="reminder_dialog_message">Pirms došanās prom, pievienojiet sava tālruņa kalendārā atgādinājumu atdot šīs grāmatas pēc %1$s.</string>
+    <string name="reminder_dialog_offline_note">Mēs nesūtām e-pasta atgādinājumus, lai lietotne paliktu pilnīgi bezmaksas un darbotos bezsaistē.</string>
+    <string name="confirm_loan">Apstiprināt saņemšanu</string>
+    <string name="confirm_loan_timer">Apstiprināt saņemšanu (%1$ds)</string>
+
+    <!-- Pabeigšanas ekrāns -->
+    <string name="success_title">Veiksmīgi!</string>
+    <string name="success_one_book">Jūs esat paņēmis 1 grāmatu.\nAtdošanas termiņš: %1$s.</string>
+    <string name="success_multiple_books">Jūs esat paņēmis %1$d grāmatas.\nAtdošanas termiņš: %2$s.</string>
+    <string name="returning_home_seconds">Atgriešanās sākuma ekrānā pēc 10 sekundēm…</string>
+    <string name="return_to_home_button">Atgriezties sākuma ekrānā</string>
+
+    <!-- Grāmatu atdošana -->
+    <string name="return_books_title">Atdot grāmatas</string>
+    <string name="search_return_placeholder">Meklēt pēc sava vārda vai grāmatas nosaukuma…</string>
+    <string name="no_active_loans">Nav atrasti aktīvi aizņēmumi.</string>
+    <string name="return_all_count">Atdot visas (%1$d)</string>
+    <string name="return_all_button">Atdot visas</string>
+    <string name="return_book_button">Atdot grāmatu</string>
+    <string name="return_book_dialog_title">Atdot grāmatu</string>
+    <string name="return_book_dialog_message">Vai atdot \"%1$s\" lasītājam %2$s?</string>
+    <string name="return_all_dialog_title">Atdot visas grāmatas</string>
+    <string name="return_all_dialog_message">Vai atdot visas %1$d grāmatas lasītājam %2$s?</string>
+    <string name="borrower_label">Lasītājs: %1$s</string>
+    <string name="overdue_badge">⚠ NOKAVĒTS</string>
+    <string name="due_date_label">Termiņš: %1$s</string>
+    <string name="book_returned_success">Grāmata veiksmīgi atdota!</string>
+    <string name="all_books_returned_success">Visas grāmatas veiksmīgi atdotas!</string>
+
+    <!-- PIN ekrāns -->
+    <string name="admin_access_title">Administratora piekļuve</string>
+    <string name="enter_pin_message">Ievadiet PIN kodu bibliotēkas pārvaldībai.</string>
+    <string name="default_pin_hint">(Noklusējuma PIN: 1234)</string>
+    <string name="incorrect_pin_error">Nepareizs PIN kods. Mēģiniet vēlreiz.</string>
+
+    <!-- Kļūdu ziņojumi -->
+    <string name="error_book_unavailable">Šī grāmata pašlaik nav pieejama.</string>
+    <string name="error_max_borrow_limit">Vienlaikus var paņemt ne vairāk kā %1$d dažādus nosaukumus.</string>
+    <string name="error_max_borrow_total">Kopā var paņemt ne vairāk kā %1$d grāmatas.</string>
+    <string name="error_only_copies_available">Pieejami vairs tikai %1$d eksemplāri.</string>
+    <string name="error_name_email_required">Lūdzu, norādiet vismaz vārdu un e-pastu.</string>
+    <string name="error_valid_name_required">Lūdzu, ievadiet derīgu vārdu.</string>
+    <string name="error_valid_email_required">Lūdzu, ievadiet derīgu e-pasta adresi.</string>
+    <string name="error_valid_phone_required">Lūdzu, ievadiet derīgu tālruņa numuru.</string>
+    <string name="error_no_books_selected">Nav izvēlēta neviena grāmata.</string>
+    <string name="error_overdue_single">Jums ir nokavēta grāmata (\"%1$s\"), kas jāatdod pirms jaunu grāmatu saņemšanas.</string>
+    <string name="error_overdue_multiple">Jums ir %1$d nokavētas grāmatas (%2$s), kas jāatdod pirms jaunu grāmatu saņemšanas.</string>
+    <string name="error_duplicate_book">Grāmata \"%1$s\" jau ir pie jums. Lūdzu, atdodiet to pirms atkārtotas paņemšanas.</string>
+    <string name="error_limit_reached">Pie jums pašlaik ir %1$d grāmatas, kas sasniedz limitu %2$d. Lūdzu, atdodiet dažas, pirms ņemat vairāk.</string>
+    <string name="error_limit_exceeded">Pārsniegts limits: Jums jau ir %1$d grāmatas. Pie limita %2$d jūs varat paņemt vēl tikai %3$d grāmatas.</string>
+    <string name="active_loans_info">Aktīvie aizņēmumi: Pie jums ir %1$d grāmatas (Limits: %2$d). Varat paņemt vēl līdz %3$d grāmatām.</string>
+    <string name="active_loans_limit_reached">Limits sasniegts: Pie jums ir %1$d grāmatas (Maksimālais limits: %2$d). Atdodiet grāmatas, lai paņemtu jaunas.</string>
+    <string name="active_loans_overdue_warning">Uzmanību: Jums ir %1$d nokavētas grāmatas. Lūdzu, atdodiet tās pirms jaunu grāmatu saņemšanas.</string>
+
+    <!-- Kategorijas -->
+    <string name="category_biographies">Biogrāfijas</string>
+    <string name="category_devotionals">Garīgās pārdomas un lūgšanas</string>
+    <string name="category_kids">Bērniem un jauniešiem</string>
+    <string name="category_commentaries">Bībeles komentāri un skaidrojumi</string>
+    <string name="category_theology">Teoloģija</string>
+    <string name="category_practical_christianity">Praktiskā kristietība</string>
+    <string name="category_bibles">Bībeles</string>
+    <string name="category_bible_study_material">Bībeles studiju materiāli</string>
+    <string name="category_christian_living">Kristīgā dzīve</string>
+    <string name="category_church_history">Baznīcas vēsture</string>
+    <string name="category_apologetics">Apoloģētika</string>
+    <string name="category_other">Cits</string>
+
+    <!-- Administratora panelis -->
+    <string name="admin_dashboard_title">Bibliotēkas vadības panelis</string>
+    <string name="admin_dashboard_subtitle">Pārvaldiet grāmatu krājumu un aizņēmumus</string>
+    <string name="admin_what_to_do">Ko vēlaties darīt?</string>
+    <string name="admin_active_loans">Aktīvie aizņēmumi</string>
+    <string name="admin_active_loans_desc">Apskatīt un reģistrēt izsniegto grāmatu atdošanu.</string>
+    <string name="admin_manage_inventory">Pārvaldīt krājumu</string>
+    <string name="admin_manage_inventory_desc">Pievienot, rediģēt vai dzēst grāmatas no bibliotēkas.</string>
+    <string name="admin_settings_backup">Iestatījumi un dublēšana</string>
+    <string name="admin_settings_backup_desc">Bezsaistes P2P rezerves kopija, demonstrācijas režīms un iestatījumi.</string>
+    <string name="admin_log_out">Izrakstīties</string>
+    <string name="admin_log_out_desc">Droši bloķēt administratora paneli.</string>
+    <string name="about_developer">Par izstrādātāju</string>
+</resources>

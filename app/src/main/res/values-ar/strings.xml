@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">مكتبة الكنيسة</string>
+
+    <!-- Demo Mode -->
+    <string name="demo_mode">الوضع التجريبي</string>
+    <string name="demo_mode_active">الوضع التجريبي مفعّل</string>
+    <string name="demo_mode_banner_desc">لا تقلق! قاعدة بيانات المكتبة الحقيقية آمنة ومحمية أثناء الوضع التجريبي.</string>
+    <string name="exit_demo_mode">الخروج من الوضع التجريبي</string>
+
+    <!-- General / Common -->
+    <string name="back">رجوع</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete">حذف</string>
+    <string name="save">حفظ</string>
+    <string name="edit">تعديل</string>
+    <string name="close">إغلاق</string>
+    <string name="admin">إدارة</string>
+    <string name="success">نجاح</string>
+    <string name="library_logo">شعار المكتبة</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_to_library">مرحباً بكم في المكتبة</string>
+    <string name="home_subtitle">ابحث عن كتابك على الرف، ثم اضغط بالأسفل لاستعارته أو إرجاعه.</string>
+    <string name="borrow_books">استعارة كتب</string>
+    <string name="borrow_books_desc">استعر كتاباً أو أكثر</string>
+    <string name="return_books">إرجاع الكتب</string>
+    <string name="return_books_desc">إرجاع الكتب المقروءة</string>
+
+    <!-- Select Books Screen -->
+    <string name="select_books_title">تحديد كتب للاستعارة</string>
+    <string name="search_books_placeholder">البحث بالعنوان أو اسم المؤلف…</string>
+    <string name="selected_books_count">تم اختيار %1$d من %2$d</string>
+    <string name="proceed_to_checkout">المتابعة إلى الاستعارة</string>
+    <string name="no_books_found">لم يتم العثور على كتب.</string>
+    <string name="limit_reached">تم بلوغ الحد الأقصى</string>
+    <string name="out_of_stock">غير متوفر</string>
+    <string name="cover_for_title">غلاف كتاب %1$s</string>
+
+    <!-- Borrower Info Screen -->
+    <string name="checkout_details_title">تفاصيل الاستعارة</string>
+    <string name="your_details">بيانات المستعير</string>
+    <string name="your_details_desc">يرجى إدخال معلوماتك لاستعارة الكتب المختارة.</string>
+    <string name="full_name_required">الاسم الكامل *</string>
+    <string name="full_name_placeholder">يوسف أحمد</string>
+    <string name="email_required">البريد الإلكتروني *</string>
+    <string name="email_placeholder">youssef@example.com</string>
+    <string name="phone_optional">رقم الهاتف</string>
+    <string name="phone_placeholder">0500000000</string>
+    <string name="borrow_duration_label">مدة الاستعارة *</string>
+    <string name="duration_1_week">أسبوع واحد</string>
+    <string name="duration_2_weeks">أسبوعان</string>
+    <string name="duration_1_month">شهر واحد</string>
+    <string name="duration_2_months">شهران</string>
+    <string name="review_and_confirm">مراجعة وتأكيد</string>
+    <string name="books_to_checkout">كتب للاستعارة (%1$d)</string>
+    <string name="reminder_dialog_title">إضافة تذكير للتقويم!</string>
+    <string name="reminder_dialog_message">قبل المغادرة، يرجى إضافة تذكير في تقويم هاتفك لإرجاع هذه الكتب خلال %1$s.</string>
+    <string name="reminder_dialog_offline_note">نحن لا نرسل رسائل بريد إلكتروني للحفاظ على التطبيق مجانياً ويعمل دون اتصال بالإنترنت.</string>
+    <string name="confirm_loan">تأكيد الاستعارة</string>
+    <string name="confirm_loan_timer">تأكيد الاستعارة (%1$d ث)</string>
+
+    <!-- Borrow Success Screen -->
+    <string name="success_title">تمت بنجاح!</string>
+    <string name="success_one_book">لقد استعرت كتاباً واحداً.\nتاريخ الإرجاع هو %1$s.</string>
+    <string name="success_multiple_books">لقد استعرت %1$d كتب.\nتاريخ الإرجاع هو %2$s.</string>
+    <string name="returning_home_seconds">العودة إلى الصفحة الرئيسية خلال 10 ثوانٍ…</string>
+    <string name="return_to_home_button">العودة إلى الصفحة الرئيسية</string>
+
+    <!-- Return Books Screen -->
+    <string name="return_books_title">إرجاع الكتب</string>
+    <string name="search_return_placeholder">ابحث باسمك أو بعنوان الكتاب…</string>
+    <string name="no_active_loans">لا توجد إعارات نشطة حالياً.</string>
+    <string name="return_all_count">إرجاع الكل (%1$d)</string>
+    <string name="return_all_button">إرجاع الكل</string>
+    <string name="return_book_button">إرجاع الكتاب</string>
+    <string name="return_book_dialog_title">إرجاع كتاب</string>
+    <string name="return_book_dialog_message">إرجاع \"%1$s\" للمستعير %2$s؟</string>
+    <string name="return_all_dialog_title">إرجاع جميع الكتب</string>
+    <string name="return_all_dialog_message">إرجاع جميع الكتب (%1$d) للمستعير %2$s؟</string>
+    <string name="borrower_label">المستعير: %1$s</string>
+    <string name="overdue_badge">⚠ متأخر</string>
+    <string name="due_date_label">تاريخ الاستحقاق: %1$s</string>
+    <string name="book_returned_success">تم إرجاع الكتاب بنجاح!</string>
+    <string name="all_books_returned_success">تم إرجاع جميع الكتب بنجاح!</string>
+
+    <!-- Pin Screen -->
+    <string name="admin_access_title">دخول الإدارة</string>
+    <string name="enter_pin_message">أدخل رمز PIN لإدارة سجلات المكتبة.</string>
+    <string name="default_pin_hint">(الرمز الافتراضي: 1234)</string>
+    <string name="incorrect_pin_error">رمز PIN غير صحيح. حاول مجدداً.</string>
+
+    <!-- Validation & Error Messages -->
+    <string name="error_book_unavailable">هذا الكتاب غير متوفر حالياً.</string>
+    <string name="error_max_borrow_limit">يمكنك استعارة ما يصل إلى %1$d عناوين مختلفة فقط في المرة الواحدة.</string>
+    <string name="error_only_copies_available">يتوفر %1$d نسخ فقط.</string>
+    <string name="error_name_email_required">يرجى إدخال الاسم والبريد الإلكتروني على الأقل.</string>
+    <string name="error_valid_name_required">يرجى إدخال اسم صحيح.</string>
+    <string name="error_valid_email_required">يرجى إدخال بريد إلكتروني صحيح.</string>
+    <string name="error_valid_phone_required">يرجى إدخال رقم هاتف صحيح.</string>
+    <string name="error_no_books_selected">لم يتم اختيار أي كتاب.</string>
+
+    <!-- Categories -->
+    <string name="category_biographies">سير شخصية</string>
+    <string name="category_devotionals">تأملات يومية</string>
+    <string name="category_kids">أطفال</string>
+    <string name="category_commentaries">تفاسير</string>
+    <string name="category_theology">لاهوت</string>
+    <string name="category_practical_christianity">مسيحية عملية</string>
+    <string name="category_bibles">الكتاب المقدس</string>
+    <string name="category_bible_study_material">دراسات كتابية</string>
+    <string name="category_christian_living">الحياة المسيحية</string>
+    <string name="category_church_history">تاريخ الكنيسة</string>
+    <string name="category_apologetics">دفاعيات</string>
+    <string name="category_other">أخرى</string>
+
+    <!-- Admin Dashboard Hub -->
+    <string name="admin_dashboard_title">لوحة تحكم المكتبة</string>
+    <string name="admin_dashboard_subtitle">إدارة المخزون والإعارات</string>
+    <string name="admin_what_to_do">ماذا تريد أن تفعل؟</string>
+    <string name="admin_active_loans">الإعارات النشطة</string>
+    <string name="admin_active_loans_desc">عرض الكتب المستعارة حالياً وتسجيل الإرجاع.</string>
+    <string name="admin_manage_inventory">إدارة الكتب</string>
+    <string name="admin_manage_inventory_desc">إضافة وتعديل وحذف كتب المكتبة.</string>
+    <string name="admin_settings_backup">الإعدادات والنسخ الاحتياطي</string>
+    <string name="admin_settings_backup_desc">المزامنة المباشرة، الوضع التجريبي، وإعدادات المكتبة.</string>
+    <string name="admin_log_out">تسجيل الخروج</string>
+    <string name="admin_log_out_desc">قفل لوحة التحكم بأمان.</string>
+    <string name="about_developer">عن المطور</string>
+</resources>

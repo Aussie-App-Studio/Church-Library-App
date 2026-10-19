@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Biblioteca Bisericii</string>
+
+    <!-- Modul Demo -->
+    <string name="demo_mode">Mod Demo</string>
+    <string name="demo_mode_active">MODUL DEMO ESTE ACTIV</string>
+    <string name="demo_mode_banner_desc">Fără griji! Baza de date reală a bibliotecii este ascunsă și în perfectă siguranță în timpul modului Demo.</string>
+    <string name="exit_demo_mode">Ieșire din modul Demo</string>
+
+    <!-- General -->
+    <string name="back">Înapoi</string>
+    <string name="cancel">Anulare</string>
+    <string name="delete">Ștergere</string>
+    <string name="save">Salvare</string>
+    <string name="edit">Editare</string>
+    <string name="close">Închidere</string>
+    <string name="admin">Administrator</string>
+    <string name="success">Succes</string>
+    <string name="library_logo">Sigla Bibliotecii</string>
+
+    <!-- Ecranul Principal -->
+    <string name="welcome_to_library">Bun venit la Bibliotecă</string>
+    <string name="home_subtitle">Găsește cartea pe raft, apoi atinge mai jos pentru a o împrumuta sau returna.</string>
+    <string name="borrow_books">Împrumută cărți</string>
+    <string name="borrow_books_desc">Împrumută una sau mai multe cărți</string>
+    <string name="return_books">Returnează cărți</string>
+    <string name="return_books_desc">Adu înapoi cărțile pe care le-ai citit</string>
+
+    <!-- Selectare Cărți -->
+    <string name="select_books_title">Selectează cărți de împrumutat</string>
+    <string name="search_books_placeholder">Caută după titlu sau autor…</string>
+    <string name="selected_books_count">%1$d / %2$d selectate</string>
+    <string name="proceed_to_checkout">Continuă spre împrumut</string>
+    <string name="no_books_found">Nu s-au găsit cărți.</string>
+    <string name="limit_reached">Limita a fost atinsă</string>
+    <string name="out_of_stock">INDISPONIBIL</string>
+    <string name="cover_for_title">Copertă pentru %1$s</string>
+
+    <!-- Detalii Împrumutător -->
+    <string name="checkout_details_title">Detalii Împrumut</string>
+    <string name="your_details">Datele tale</string>
+    <string name="your_details_desc">Te rugăm să introduci datele tale pentru a împrumuta cărțile selectate.</string>
+    <string name="full_name_required">Nume și prenume *</string>
+    <string name="full_name_placeholder">Ion Popescu</string>
+    <string name="email_required">Adresă de email *</string>
+    <string name="email_placeholder">ion@example.com</string>
+    <string name="phone_optional">Număr de telefon</string>
+    <string name="phone_placeholder">0700 000 000</string>
+    <string name="borrow_duration_label">Perioada de împrumut *</string>
+    <string name="duration_1_week">1 Săptămână</string>
+    <string name="duration_2_weeks">2 Săptămâni</string>
+    <string name="duration_1_month">1 Lună</string>
+    <string name="duration_2_months">2 Luni</string>
+    <string name="review_and_confirm">Verificare și Confirmare</string>
+    <string name="books_to_checkout">Cărți de împrumutat (%1$d)</string>
+    <string name="reminder_dialog_title">Setează o alertă în calendar!</string>
+    <string name="reminder_dialog_message">Înainte de a pleca, adaugă o alertă în calendarul telefonului tău pentru a returna aceste cărți peste %1$s.</string>
+    <string name="reminder_dialog_offline_note">Nu trimitem memento-uri prin email pentru ca aplicația să rămână complet gratuită și offline.</string>
+    <string name="confirm_loan">Confirmă împrumutul</string>
+    <string name="confirm_loan_timer">Confirmă împrumutul (%1$ds)</string>
+
+    <!-- Ecran Succes -->
+    <string name="success_title">Succes!</string>
+    <string name="success_one_book">Ai împrumutat 1 carte.\nData de returnare: %1$s.</string>
+    <string name="success_multiple_books">Ai împrumutat %1$d cărți.\nData de returnare: %2$s.</string>
+    <string name="returning_home_seconds">Revenire la ecranul principal în 10 secunde…</string>
+    <string name="return_to_home_button">Înapoi la ecranul principal</string>
+
+    <!-- Returnare Cărți -->
+    <string name="return_books_title">Returnează cărți</string>
+    <string name="search_return_placeholder">Caută după nume sau titlul cărții…</string>
+    <string name="no_active_loans">Nu s-au găsit împrumuturi active.</string>
+    <string name="return_all_count">Returnează tot (%1$d)</string>
+    <string name="return_all_button">Returnează tot</string>
+    <string name="return_book_button">Returnează cartea</string>
+    <string name="return_book_dialog_title">Returnează cartea</string>
+    <string name="return_book_dialog_message">Returnezi \"%1$s\" pentru %2$s?</string>
+    <string name="return_all_dialog_title">Returnează toate cărțile</string>
+    <string name="return_all_dialog_message">Returnezi toate cele %1$d cărți pentru %2$s?</string>
+    <string name="borrower_label">Împrumutat de: %1$s</string>
+    <string name="overdue_badge">⚠ ÎNTÂRZIAT</string>
+    <string name="due_date_label">Scadență: %1$s</string>
+    <string name="book_returned_success">Cartea a fost returnată cu succes!</string>
+    <string name="all_books_returned_success">Toate cărțile au fost returnate cu succes!</string>
+
+    <!-- Ecran PIN -->
+    <string name="admin_access_title">Acces Administrator</string>
+    <string name="enter_pin_message">Introdu codul PIN pentru a gestiona biblioteca.</string>
+    <string name="default_pin_hint">(PIN prestabilit: 1234)</string>
+    <string name="incorrect_pin_error">PIN incorect. Încearcă din nou.</string>
+
+    <!-- Mesaje de eroare -->
+    <string name="error_book_unavailable">Această carte nu este disponibilă momentan.</string>
+    <string name="error_max_borrow_limit">Poți împrumuta maximum %1$d titluri diferite în același timp.</string>
+    <string name="error_max_borrow_total">Poți împrumuta maximum %1$d cărți în total.</string>
+    <string name="error_only_copies_available">Doar %1$d exemplare disponibile.</string>
+    <string name="error_name_email_required">Te rugăm să introduci cel puțin Numele și Emailul.</string>
+    <string name="error_valid_name_required">Te rugăm să introduci un nume valid.</string>
+    <string name="error_valid_email_required">Te rugăm să introduci o adresă de email validă.</string>
+    <string name="error_valid_phone_required">Te rugăm să introduci un număr de telefon valid.</string>
+    <string name="error_no_books_selected">Nu a fost selectată nicio carte.</string>
+    <string name="error_overdue_single">Ai o carte restantă (\"%1$s\") care trebuie returnată înainte de a împrumuta altele noi.</string>
+    <string name="error_overdue_multiple">Ai %1$d cărți restante (%2$s) care trebuie returnate înainte de a împrumuta altele noi.</string>
+    <string name="error_duplicate_book">Ai deja cartea \"%1$s\" împrumutată. Te rugăm să o returnezi înainte de a o lua din nou.</string>
+    <string name="error_limit_reached">Ai în prezent %1$d cărți împrumutate, atingând limita de %2$d. Te rugăm să returnezi câteva înainte de a împrumuta mai multe.</string>
+    <string name="error_limit_exceeded">Limita de împrumut a fost depășită: Ai deja %1$d cărți. Cu limita de %2$d, mai poți lua doar %3$d cărți.</string>
+    <string name="active_loans_info">Împrumuturi active: Ai în prezent %1$d cărți (Limită: %2$d). Mai poți împrumuta până la %3$d cărți.</string>
+    <string name="active_loans_limit_reached">Limită atinsă: Ai în prezent %1$d cărți împrumutate (Limita maximă: %2$d). Returnează cărțile pentru a împrumuta altele noi.</string>
+    <string name="active_loans_overdue_warning">Atenție: Ai %1$d cărți restante. Te rugăm să le returnezi înainte de a împrumuta cărți noi.</string>
+
+    <!-- Categorii -->
+    <string name="category_biographies">Biografii</string>
+    <string name="category_devotionals">Devoționale</string>
+    <string name="category_kids">Copii și Tineret</string>
+    <string name="category_commentaries">Comentarii biblice</string>
+    <string name="category_theology">Teologie</string>
+    <string name="category_practical_christianity">Creștinism practic</string>
+    <string name="category_bibles">Biblii</string>
+    <string name="category_bible_study_material">Materiale de studiu biblic</string>
+    <string name="category_christian_living">Viață creștină</string>
+    <string name="category_church_history">Istoria Bisericii</string>
+    <string name="category_apologetics">Apologetică</string>
+    <string name="category_other">Altele</string>
+
+    <!-- Panou Administrator -->
+    <string name="admin_dashboard_title">Panou Administrare Bibliotecă</string>
+    <string name="admin_dashboard_subtitle">Gestionează stocul și împrumuturile</string>
+    <string name="admin_what_to_do">Ce dorești să faci?</string>
+    <string name="admin_active_loans">Împrumuturi active</string>
+    <string name="admin_active_loans_desc">Vizualizează și înregistrează cărțile returnate.</string>
+    <string name="admin_manage_inventory">Gestionează inventarul</string>
+    <string name="admin_manage_inventory_desc">Adaugă, editează sau șterge cărți din bibliotecă.</string>
+    <string name="admin_settings_backup">Setări și Backup</string>
+    <string name="admin_settings_backup_desc">Backup P2P offline, Mod Demo și setări ale bibliotecii.</string>
+    <string name="admin_log_out">Deconectare</string>
+    <string name="admin_log_out_desc">Blochează panoul de administrare în siguranță.</string>
+    <string name="about_developer">Despre dezvoltator</string>
+</resources>

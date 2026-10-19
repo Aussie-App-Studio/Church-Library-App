@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">教会図書室</string>
+
+    <!-- Demo Mode -->
+    <string name="demo_mode">デモモード</string>
+    <string name="demo_mode_active">デモモード実行中</string>
+    <string name="demo_mode_banner_desc">ご安心ください。デモモード中は実際のデータは安全に保護されています。</string>
+    <string name="exit_demo_mode">デモモードを終了</string>
+
+    <!-- General / Common -->
+    <string name="back">戻る</string>
+    <string name="cancel">キャンセル</string>
+    <string name="delete">削除</string>
+    <string name="save">保存</string>
+    <string name="edit">編集</string>
+    <string name="close">閉じる</string>
+    <string name="admin">管理</string>
+    <string name="success">成功</string>
+    <string name="library_logo">図書室のロゴ</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_to_library">図書室へようこそ</string>
+    <string name="home_subtitle">本棚から本を選び、下のボタンをタップして貸出または返却の手続きを行ってください。</string>
+    <string name="borrow_books">本を借りる</string>
+    <string name="borrow_books_desc">1冊または複数冊の本を借りる</string>
+    <string name="return_books">本を返却する</string>
+    <string name="return_books_desc">読み終わった本を返却する</string>
+
+    <!-- Select Books Screen -->
+    <string name="select_books_title">借りる本を選択</string>
+    <string name="search_books_placeholder">タイトルまたは著者名で検索…</string>
+    <string name="selected_books_count">%1$d / %2$d 冊選択中</string>
+    <string name="proceed_to_checkout">貸出手続きへ進む</string>
+    <string name="no_books_found">本が見つかりませんでした。</string>
+    <string name="limit_reached">上限に達しました</string>
+    <string name="out_of_stock">貸出中</string>
+    <string name="cover_for_title">「%1$s」の表紙</string>
+
+    <!-- Borrower Info Screen -->
+    <string name="checkout_details_title">貸出情報入力</string>
+    <string name="your_details">お名前と連絡先</string>
+    <string name="your_details_desc">選択した本を借りるためにお名前と連絡先を入力してください。</string>
+    <string name="full_name_required">氏名 *</string>
+    <string name="full_name_placeholder">山田 太郎</string>
+    <string name="email_required">メールアドレス *</string>
+    <string name="email_placeholder">yamada@example.com</string>
+    <string name="phone_optional">電話番号</string>
+    <string name="phone_placeholder">090-0000-0000</string>
+    <string name="borrow_duration_label">貸出期間 *</string>
+    <string name="duration_1_week">1週間</string>
+    <string name="duration_2_weeks">2週間</string>
+    <string name="duration_1_month">1か月</string>
+    <string name="duration_2_months">2か月</string>
+    <string name="review_and_confirm">確認して次へ</string>
+    <string name="books_to_checkout">借りる本 (%1$d冊)</string>
+    <string name="reminder_dialog_title">カレンダーに予定を登録！</string>
+    <string name="reminder_dialog_message">お帰りの前に、%1$s後に本を返却するリマインダーをスマートフォンのカレンダーに追加してください。</string>
+    <string name="reminder_dialog_offline_note">本アプリは完全無料かつオフラインで動作するため、メール通知は送信されません。</string>
+    <string name="confirm_loan">貸出を確定する</string>
+    <string name="confirm_loan_timer">貸出を確定する (%1$d秒)</string>
+
+    <!-- Borrow Success Screen -->
+    <string name="success_title">貸出手続き完了！</string>
+    <string name="success_one_book">1冊の貸出が完了しました。\n返却期日は %1$s です。</string>
+    <string name="success_multiple_books">%1$d冊の貸出が完了しました。\n返却期日は %2$s です。</string>
+    <string name="returning_home_seconds">10秒後にホーム画面へ戻ります…</string>
+    <string name="return_to_home_button">ホーム画面へ戻る</string>
+
+    <!-- Return Books Screen -->
+    <string name="return_books_title">本を返却する</string>
+    <string name="search_return_placeholder">お名前または本のタイトルで検索…</string>
+    <string name="no_active_loans">貸出中の本はありません。</string>
+    <string name="return_all_count">すべて返却 (%1$d)</string>
+    <string name="return_all_button">すべて返却</string>
+    <string name="return_book_button">返却する</string>
+    <string name="return_book_dialog_title">本の返却</string>
+    <string name="return_book_dialog_message">%2$s さんが借りている「%1$s」を返却しますか？</string>
+    <string name="return_all_dialog_title">すべての本を返却</string>
+    <string name="return_all_dialog_message">%2$s さんが借りている全 %1$d 冊の本を返却しますか？</string>
+    <string name="borrower_label">借用者: %1$s</string>
+    <string name="overdue_badge">⚠ 期限超過</string>
+    <string name="due_date_label">返却期日: %1$s</string>
+    <string name="book_returned_success">本が正常に返却されました！</string>
+    <string name="all_books_returned_success">すべての本が正常に返却されました！</string>
+
+    <!-- Pin Screen -->
+    <string name="admin_access_title">管理者認証</string>
+    <string name="enter_pin_message">図書管理を行うためのPINコードを入力してください。</string>
+    <string name="default_pin_hint">(初期PIN: 1234)</string>
+    <string name="incorrect_pin_error">PINコードが間違っています。もう一度お試しください。</string>
+
+    <!-- Validation & Error Messages -->
+    <string name="error_book_unavailable">この本は現在利用できません。</string>
+    <string name="error_max_borrow_limit">一度に借りられるのは %1$d 冊までです。</string>
+    <string name="error_only_copies_available">残り %1$d 冊のみ在庫があります。</string>
+    <string name="error_name_email_required">氏名とメールアドレスを入力してください。</string>
+    <string name="error_valid_name_required">正しいお名前を入力してください。</string>
+    <string name="error_valid_email_required">有効なメールアドレスを入力してください。</string>
+    <string name="error_valid_phone_required">有効な電話番号を入力してください。</string>
+    <string name="error_no_books_selected">本が選択されていません。</string>
+
+    <!-- Categories -->
+    <string name="category_biographies">伝記</string>
+    <string name="category_devotionals">デボーション</string>
+    <string name="category_kids">児童書</string>
+    <string name="category_commentaries">注釈書</string>
+    <string name="category_theology">神学</string>
+    <string name="category_practical_christianity">実践的キリスト教</string>
+    <string name="category_bibles">聖書</string>
+    <string name="category_bible_study_material">聖書研究資料</string>
+    <string name="category_christian_living">クリスチャン・ライフ</string>
+    <string name="category_church_history">教会史</string>
+    <string name="category_apologetics">弁証論</string>
+    <string name="category_other">その他</string>
+
+    <!-- Admin Dashboard Hub -->
+    <string name="admin_dashboard_title">管理者ダッシュボード</string>
+    <string name="admin_dashboard_subtitle">蔵書および貸出状況の管理</string>
+    <string name="admin_what_to_do">ご希望の操作を選択してください</string>
+    <string name="admin_active_loans">貸出中の本</string>
+    <string name="admin_active_loans_desc">貸出中の本の確認および返却処理を行います。</string>
+    <string name="admin_manage_inventory">蔵書管理</string>
+    <string name="admin_manage_inventory_desc">本の追加、編集、削除を行います。</string>
+    <string name="admin_settings_backup">設定とバックアップ</string>
+    <string name="admin_settings_backup_desc">オフライン同期、デモモード、図書室設定。</string>
+    <string name="admin_log_out">ログアウト</string>
+    <string name="admin_log_out_desc">管理画面を安全にロックします。</string>
+    <string name="about_developer">開発者について</string>
+</resources>

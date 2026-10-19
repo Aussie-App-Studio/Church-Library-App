@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Църковна библиотека</string>
+
+    <!-- Демо режим -->
+    <string name="demo_mode">Демо режим</string>
+    <string name="demo_mode_active">ДЕМО РЕЖИМЪТ Е АКТИВЕН</string>
+    <string name="demo_mode_banner_desc">Не се притеснявайте! Вашата истинска база данни е скрита и напълно защитена по време на демо режима.</string>
+    <string name="exit_demo_mode">Изход от демо режим</string>
+
+    <!-- Общи -->
+    <string name="back">Назад</string>
+    <string name="cancel">Отказ</string>
+    <string name="delete">Изтриване</string>
+    <string name="save">Запазване</string>
+    <string name="edit">Редактиране</string>
+    <string name="close">Затваряне</string>
+    <string name="admin">Администратор</string>
+    <string name="success">Успех</string>
+    <string name="library_logo">Лого на библиотеката</string>
+
+    <!-- Начален екран -->
+    <string name="welcome_to_library">Добре дошли в библиотеката</string>
+    <string name="home_subtitle">Намерете вашата книга на рафта, след което докоснете отдолу за заемане или връщане.</string>
+    <string name="borrow_books">Заемане на книги</string>
+    <string name="borrow_books_desc">Заемете една или повече книги</string>
+    <string name="return_books">Връщане на книги</string>
+    <string name="return_books_desc">Върнете прочетените книги</string>
+
+    <!-- Избор на книги -->
+    <string name="select_books_title">Изберете книги за заемане</string>
+    <string name="search_books_placeholder">Търсене по заглавие или автор…</string>
+    <string name="selected_books_count">Избрани %1$d / %2$d</string>
+    <string name="proceed_to_checkout">Към заемане</string>
+    <string name="no_books_found">Няма намерени книги.</string>
+    <string name="limit_reached">Достигнат лимит</string>
+    <string name="out_of_stock">ЗАЕТА</string>
+    <string name="cover_for_title">Корица за %1$s</string>
+
+    <!-- Данни за читателя -->
+    <string name="checkout_details_title">Данни за заемането</string>
+    <string name="your_details">Вашите данни</string>
+    <string name="your_details_desc">Моля, въведете данните си, за да заемете избраните книги.</string>
+    <string name="full_name_required">Име и фамилия *</string>
+    <string name="full_name_placeholder">Георги Иванов</string>
+    <string name="email_required">Имейл адрес *</string>
+    <string name="email_placeholder">georgi@example.bg</string>
+    <string name="phone_optional">Телефонен номер</string>
+    <string name="phone_placeholder">088 000 0000</string>
+    <string name="borrow_duration_label">Срок на заемане *</string>
+    <string name="duration_1_week">1 седмица</string>
+    <string name="duration_2_weeks">2 седмици</string>
+    <string name="duration_1_month">1 месец</string>
+    <string name="duration_2_months">2 месеца</string>
+    <string name="review_and_confirm">Преглед и потвърждение</string>
+    <string name="books_to_checkout">Книги за заемане (%1$d)</string>
+    <string name="reminder_dialog_title">Задайте напомняне в календара!</string>
+    <string name="reminder_dialog_message">Преди да тръгнете, добавете напомняне в календара на телефона си за връщане на тези книги след %1$s.</string>
+    <string name="reminder_dialog_offline_note">Не изпращаме имейли с напомняния, за да остане приложението безплатно и работещо офлайн.</string>
+    <string name="confirm_loan">Потвърди заемането</string>
+    <string name="confirm_loan_timer">Потвърди заемането (%1$d сек)</string>
+
+    <!-- Екран за успех -->
+    <string name="success_title">Успешно!</string>
+    <string name="success_one_book">Заехте 1 книга.\nСрок за връщане: %1$s.</string>
+    <string name="success_multiple_books">Заехте %1$d книги.\nСрок за връщане: %2$s.</string>
+    <string name="returning_home_seconds">Връщане към началния екран след 10 секунди…</string>
+    <string name="return_to_home_button">Към началния екран</string>
+
+    <!-- Връщане на книги -->
+    <string name="return_books_title">Връщане на книги</string>
+    <string name="search_return_placeholder">Търсете по име или заглавие на книга…</string>
+    <string name="no_active_loans">Няма намерени активни заеми.</string>
+    <string name="return_all_count">Върни всички (%1$d)</string>
+    <string name="return_all_button">Върни всички</string>
+    <string name="return_book_button">Върни книга</string>
+    <string name="return_book_dialog_title">Връщане на книга</string>
+    <string name="return_book_dialog_message">Връщане на \"%1$s\" за %2$s?</string>
+    <string name="return_all_dialog_title">Връщане на всички книги</string>
+    <string name="return_all_dialog_message">Връщане на всички %1$d книги за %2$s?</string>
+    <string name="borrower_label">Читател: %1$s</string>
+    <string name="overdue_badge">⚠ ПРОСРОЧЕНО</string>
+    <string name="due_date_label">Срок: %1$s</string>
+    <string name="book_returned_success">Книгата е върната успешно!</string>
+    <string name="all_books_returned_success">Всички книги са върнати успешно!</string>
+
+    <!-- PIN екран -->
+    <string name="admin_access_title">Администраторски достъп</string>
+    <string name="enter_pin_message">Въведете PIN код за управление на библиотеката.</string>
+    <string name="default_pin_hint">(PIN по подразбиране: 1234)</string>
+    <string name="incorrect_pin_error">Невалиден PIN код. Опитайте отново.</string>
+
+    <!-- Съобщения за грешки -->
+    <string name="error_book_unavailable">Тази книга в момента не е налична.</string>
+    <string name="error_max_borrow_limit">Можете да заемете най-много %1$d различни заглавия наведнъж.</string>
+    <string name="error_max_borrow_total">Можете да заемете най-много %1$d книги общо.</string>
+    <string name="error_only_copies_available">Остават само %1$d налични екземпляра.</string>
+    <string name="error_name_email_required">Моля, въведете поне име и имейл адрес.</string>
+    <string name="error_valid_name_required">Моля, въведете валидно име.</string>
+    <string name="error_valid_email_required">Моля, въведете валиден имейл адрес.</string>
+    <string name="error_valid_phone_required">Моля, въведете валиден телефонен номер.</string>
+    <string name="error_no_books_selected">Не е избрана книга.</string>
+    <string name="error_overdue_single">Имате просрочена книга (\"%1$s\"), която трябва да върнете преди ново заемане.</string>
+    <string name="error_overdue_multiple">Имате %1$d просрочени книги (%2$s), които трябва да върнете преди ново заемане.</string>
+    <string name="error_duplicate_book">Вече сте заели \"%1$s\". Моля, върнете я, преди да я заемете отново.</string>
+    <string name="error_limit_reached">В момента имате %1$d заемни книги, с което достигате лимита от %2$d. Моля, върнете някои, преди да вземете нови.</string>
+    <string name="error_limit_exceeded">Лимитът е надвишен: Вече имате %1$d книги. При лимит от %2$d можете да заемете още само %3$d книги.</string>
+    <string name="active_loans_info">Активни заеми: В момента имате %1$d книги (Лимит: %2$d). Можете да заемете още до %3$d.</string>
+    <string name="active_loans_limit_reached">Лимитът е достигнат: Имате %1$d книги (Максимум: %2$d). Върнете книги, за да заемете нови.</string>
+    <string name="active_loans_overdue_warning">Внимание: Имате %1$d просрочени книги. Моля, върнете ги преди ново заемане.</string>
+
+    <!-- Категории -->
+    <string name="category_biographies">Биографии</string>
+    <string name="category_devotionals">Духовни размисли и молитви</string>
+    <string name="category_kids">Деца и младежи</string>
+    <string name="category_commentaries">Библейски коментари и тълкувания</string>
+    <string name="category_theology">Богословие</string>
+    <string name="category_practical_christianity">Практическо християнство</string>
+    <string name="category_bibles">Библии</string>
+    <string name="category_bible_study_material">Материали за изучаване на Библията</string>
+    <string name="category_christian_living">Християнски живот</string>
+    <string name="category_church_history">Църковна история</string>
+    <string name="category_apologetics">Апологетика</string>
+    <string name="category_other">Други</string>
+
+    <!-- Администраторски панел -->
+    <string name="admin_dashboard_title">Администраторски панел</string>
+    <string name="admin_dashboard_subtitle">Управление на фонда и заемите</string>
+    <string name="admin_what_to_do">Какво желаете да направите?</string>
+    <string name="admin_active_loans">Активни заеми</string>
+    <string name="admin_active_loans_desc">Преглед и регистриране на върнати книги.</string>
+    <string name="admin_manage_inventory">Управление на книгите</string>
+    <string name="admin_manage_inventory_desc">Добавяне, редактиране или премахване на книги.</string>
+    <string name="admin_settings_backup">Настройки и резервно копие</string>
+    <string name="admin_settings_backup_desc">Офлайн P2P архивиране, демо режим и настройки.</string>
+    <string name="admin_log_out">Изход</string>
+    <string name="admin_log_out_desc">Сигурно заключване на администраторския панел.</string>
+    <string name="about_developer">За разработчика</string>
+</resources>

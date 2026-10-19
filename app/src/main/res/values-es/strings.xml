@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Biblioteca Parroquial</string>
+
+    <!-- Demo Mode -->
+    <string name="demo_mode">Modo Demostración</string>
+    <string name="demo_mode_active">EL MODO DEMOSTRACIÓN ESTÁ ACTIVO</string>
+    <string name="demo_mode_banner_desc">¡No se preocupe! Su base de datos real está protegida y segura en el Modo Demostración.</string>
+    <string name="exit_demo_mode">Salir del Modo Demostración</string>
+
+    <!-- General / Common -->
+    <string name="back">Atrás</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="save">Guardar</string>
+    <string name="edit">Editar</string>
+    <string name="close">Cerrar</string>
+    <string name="admin">Administración</string>
+    <string name="success">Éxito</string>
+    <string name="library_logo">Logotipo de la Biblioteca</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_to_library">Bienvenido a la Biblioteca</string>
+    <string name="home_subtitle">Busque su libro en la estantería y luego toque abajo para llevarlo o devolverlo.</string>
+    <string name="borrow_books">Pedir Libros Prestados</string>
+    <string name="borrow_books_desc">Lleve uno o más libros</string>
+    <string name="return_books">Devolver Libros</string>
+    <string name="return_books_desc">Devuelva los libros que ha leído</string>
+
+    <!-- Select Books Screen -->
+    <string name="select_books_title">Seleccionar Libros para Préstamo</string>
+    <string name="search_books_placeholder">Buscar por título o autor…</string>
+    <string name="selected_books_count">%1$d / %2$d seleccionados</string>
+    <string name="proceed_to_checkout">Proceder al Préstamo</string>
+    <string name="no_books_found">No se encontraron libros.</string>
+    <string name="limit_reached">Límite Alcanzado</string>
+    <string name="out_of_stock">AGOTADO</string>
+    <string name="cover_for_title">Portada de %1$s</string>
+
+    <!-- Borrower Info Screen -->
+    <string name="checkout_details_title">Detalles del Préstamo</string>
+    <string name="your_details">Sus Datos</string>
+    <string name="your_details_desc">Por favor ingrese su información para pedir prestados los libros seleccionados.</string>
+    <string name="full_name_required">Nombre Completo *</string>
+    <string name="full_name_placeholder">Juan Pérez</string>
+    <string name="email_required">Correo Electrónico *</string>
+    <string name="email_placeholder">juan@ejemplo.com</string>
+    <string name="phone_optional">Teléfono</string>
+    <string name="phone_placeholder">0400 000 000</string>
+    <string name="borrow_duration_label">Duración del Préstamo *</string>
+    <string name="duration_1_week">1 Semana</string>
+    <string name="duration_2_weeks">2 Semanas</string>
+    <string name="duration_1_month">1 Mes</string>
+    <string name="duration_2_months">2 Meses</string>
+    <string name="review_and_confirm">Revisar y Confirmar</string>
+    <string name="books_to_checkout">Libros a Prestar (%1$d)</string>
+    <string name="reminder_dialog_title">¡Añadir Recordatorio al Calendario!</string>
+    <string name="reminder_dialog_message">Antes de irse, por favor añada un recordatorio en el calendario de su teléfono para devolver estos libros en %1$s.</string>
+    <string name="reminder_dialog_offline_note">No enviamos correos electrónicos para mantener la aplicación completamente gratis y sin conexión.</string>
+    <string name="confirm_loan">Confirmar Préstamo</string>
+    <string name="confirm_loan_timer">Confirmar Préstamo (%1$ds)</string>
+
+    <!-- Borrow Success Screen -->
+    <string name="success_title">¡Préstamo Registrado!</string>
+    <string name="success_one_book">Ha retirado 1 libro.\nLa fecha de devolución es el %1$s.</string>
+    <string name="success_multiple_books">Ha retirado %1$d libros.\nLa fecha de devolución es el %2$s.</string>
+    <string name="returning_home_seconds">Regresando al inicio en 10 segundos…</string>
+    <string name="return_to_home_button">Volver al Inicio</string>
+
+    <!-- Return Books Screen -->
+    <string name="return_books_title">Devolver Libros</string>
+    <string name="search_return_placeholder">Buscar por su nombre o título del libro…</string>
+    <string name="no_active_loans">No hay préstamos activos encontrados.</string>
+    <string name="return_all_count">Devolver Todos (%1$d)</string>
+    <string name="return_all_button">Devolver Todos</string>
+    <string name="return_book_button">Devolver Libro</string>
+    <string name="return_book_dialog_title">Devolver Libro</string>
+    <string name="return_book_dialog_message">¿Devolver \"%1$s\" para %2$s?</string>
+    <string name="return_all_dialog_title">Devolver Todos los Libros</string>
+    <string name="return_all_dialog_message">¿Devolver los %1$d libros de %2$s?</string>
+    <string name="borrower_label">Lector: %1$s</string>
+    <string name="overdue_badge">⚠ VENCIDO</string>
+    <string name="due_date_label">Vence: %1$s</string>
+    <string name="book_returned_success">¡Libro devuelto con éxito!</string>
+    <string name="all_books_returned_success">¡Todos los libros fueron devueltos con éxito!</string>
+
+    <!-- Pin Screen -->
+    <string name="admin_access_title">Acceso de Administrador</string>
+    <string name="enter_pin_message">Ingrese el PIN para gestionar los registros.</string>
+    <string name="default_pin_hint">(PIN predeterminado: 1234)</string>
+    <string name="incorrect_pin_error">PIN incorrecto. Inténtelo de nuevo.</string>
+
+    <!-- Validation & Error Messages -->
+    <string name="error_book_unavailable">Este libro no está disponible actualmente.</string>
+    <string name="error_max_borrow_limit">Solo puede pedir prestados hasta %1$d títulos diferentes a la vez.</string>
+    <string name="error_only_copies_available">Solo hay %1$d copias disponibles.</string>
+    <string name="error_name_email_required">Por favor ingrese al menos Nombre y Correo.</string>
+    <string name="error_valid_name_required">Por favor ingrese un nombre válido.</string>
+    <string name="error_valid_email_required">Por favor ingrese un correo electrónico válido.</string>
+    <string name="error_valid_phone_required">Por favor ingrese un número de teléfono válido.</string>
+    <string name="error_no_books_selected">No hay libros seleccionados.</string>
+
+    <!-- Categories -->
+    <string name="category_biographies">Biografías</string>
+    <string name="category_devotionals">Devocionales</string>
+    <string name="category_kids">Infantil</string>
+    <string name="category_commentaries">Comentarios</string>
+    <string name="category_theology">Teología</string>
+    <string name="category_practical_christianity">Cristianismo Práctico</string>
+    <string name="category_bibles">Biblias</string>
+    <string name="category_bible_study_material">Material de Estudio Bíblico</string>
+    <string name="category_christian_living">Vida Cristiana</string>
+    <string name="category_church_history">Historia de la Iglesia</string>
+    <string name="category_apologetics">Apologética</string>
+    <string name="category_other">Otro</string>
+
+    <!-- Admin Dashboard Hub -->
+    <string name="admin_dashboard_title">Panel de Administración</string>
+    <string name="admin_dashboard_subtitle">Gestionar inventario y préstamos</string>
+    <string name="admin_what_to_do">¿Qué le gustaría hacer?</string>
+    <string name="admin_active_loans">Préstamos Activos</string>
+    <string name="admin_active_loans_desc">Ver y devolver libros prestados actualmente.</string>
+    <string name="admin_manage_inventory">Gestionar Inventario</string>
+    <string name="admin_manage_inventory_desc">Agregar, editar o eliminar libros de la biblioteca.</string>
+    <string name="admin_settings_backup">Ajustes y Copia de Seguridad</string>
+    <string name="admin_settings_backup_desc">Sincronización P2P, Modo Demo y ajustes generales.</string>
+    <string name="admin_log_out">Cerrar Sesión</string>
+    <string name="admin_log_out_desc">Bloquear de forma segura el panel de administración.</string>
+    <string name="about_developer">Acerca del Desarrollador</string>
+</resources>

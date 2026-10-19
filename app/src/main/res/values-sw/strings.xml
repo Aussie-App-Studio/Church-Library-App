@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Maktaba ya Kanisa</string>
+
+    <!-- Hali ya Jaribio -->
+    <string name="demo_mode">Hali ya Jaribio</string>
+    <string name="demo_mode_active">HALI YA JARIBIO INATUMIKA</string>
+    <string name="demo_mode_banner_desc">Usiwe na wasiwasi! Hifadhidata halisi ya maktaba yako imefichwa na iko salama kabisa wakati wa Hali ya Jaribio.</string>
+    <string name="exit_demo_mode">Ondoka kwenye Hali ya Jaribio</string>
+
+    <!-- Ya Jumla -->
+    <string name="back">Nyuma</string>
+    <string name="cancel">Ghairi</string>
+    <string name="delete">Futa</string>
+    <string name="save">Hifadhi</string>
+    <string name="edit">Hariri</string>
+    <string name="close">Funga</string>
+    <string name="admin">Msimamizi</string>
+    <string name="success">Imefaulu</string>
+    <string name="library_logo">Nembo ya Maktaba</string>
+
+    <!-- Skrini ya Nyumbani -->
+    <string name="welcome_to_library">Karibu kwenye Maktaba</string>
+    <string name="home_subtitle">Tafuta kitabu chako kwenye rafu, kisha gusa hapa chini ili kuazima au kurudisha.</string>
+    <string name="borrow_books">Azima Vitabu</string>
+    <string name="borrow_books_desc">Azima kitabu kimoja au zaidi</string>
+    <string name="return_books">Rudisha Vitabu</string>
+    <string name="return_books_desc">Leta vitabu ulivyomaliza kusoma</string>
+
+    <!-- Chagua Vitabu -->
+    <string name="select_books_title">Chagua Vitabu vya Kuazima</string>
+    <string name="search_books_placeholder">Tafuta kwa kichwa au mwandishi…</string>
+    <string name="selected_books_count">%1$d / %2$d vimechaguliwa</string>
+    <string name="proceed_to_checkout">Endelea Kuazima</string>
+    <string name="no_books_found">Hakuna vitabu vilivyopatikana.</string>
+    <string name="limit_reached">Kikomo Kimefikiwa</string>
+    <string name="out_of_stock">HAKUNA NAFASI</string>
+    <string name="cover_for_title">Jalada la %1$s</string>
+
+    <!-- Maelezo ya Mwaazimaji -->
+    <string name="checkout_details_title">Maelezo ya Kuazima</string>
+    <string name="your_details">Taarifa Zako</string>
+    <string name="your_details_desc">Tafadhali ingiza maelezo yako ili kuazima vitabu vilivyochaguliwa.</string>
+    <string name="full_name_required">Jina Kamili *</string>
+    <string name="full_name_placeholder">Juma Bakari</string>
+    <string name="email_required">Barua Pepe *</string>
+    <string name="email_placeholder">juma@example.com</string>
+    <string name="phone_optional">Nambari ya Simu</string>
+    <string name="phone_placeholder">0700 000 000</string>
+    <string name="borrow_duration_label">Muda wa Kuazima *</string>
+    <string name="duration_1_week">Wiki 1</string>
+    <string name="duration_2_weeks">Wiki 2</string>
+    <string name="duration_1_month">Mwezi 1</string>
+    <string name="duration_2_months">Miezi 2</string>
+    <string name="review_and_confirm">Kagua na Uthibitishe</string>
+    <string name="books_to_checkout">Vitabu vya Kuazima (%1$d)</string>
+    <string name="reminder_dialog_title">Weka Kikumbusho kwenye Kalenda!</string>
+    <string name="reminder_dialog_message">Kabla hujaondoka, weka kikumbusho kwenye kalenda ya simu yako kurudisha vitabu hivi baada ya %1$s.</string>
+    <string name="reminder_dialog_offline_note">Hutumiwi barua pepe za ukumbusho ili programu ibaki bure na bila intaneti.</string>
+    <string name="confirm_loan">Thibitisha Mkopo</string>
+    <string name="confirm_loan_timer">Thibitisha Mkopo (Sekunde %1$d)</string>
+
+    <!-- Skrini ya Kufanikiwa -->
+    <string name="success_title">Imefanikiwa!</string>
+    <string name="success_one_book">Umeazima kitabu 1.\nKinapaswa kurudishwa tarehe %1$s.</string>
+    <string name="success_multiple_books">Umeazima vitabu %1$d.\nVinapaswa kurudishwa tarehe %2$s.</string>
+    <string name="returning_home_seconds">Inarudi skrini ya kwanza baada ya sekunde 10…</string>
+    <string name="return_to_home_button">Rudi Skrini ya Kwanza</string>
+
+    <!-- Skrini ya Kurudisha -->
+    <string name="return_books_title">Rudisha Vitabu</string>
+    <string name="search_return_placeholder">Tafuta kwa jina lako au jina la kitabu…</string>
+    <string name="no_active_loans">Hakuna mikopo inayotumika sasa.</string>
+    <string name="return_all_count">Rudisha Vyote (%1$d)</string>
+    <string name="return_all_button">Rudisha Vyote</string>
+    <string name="return_book_button">Rudisha Kitabu</string>
+    <string name="return_book_dialog_title">Rudisha Kitabu</string>
+    <string name="return_book_dialog_message">Rudisha \"%1$s\" kwa ajili ya %2$s?</string>
+    <string name="return_all_dialog_title">Rudisha Vitabu Vyote</string>
+    <string name="return_all_dialog_message">Rudisha vitabu vyote %1$d kwa ajili ya %2$s?</string>
+    <string name="borrower_label">Mwaazimaji: %1$s</string>
+    <string name="overdue_badge">⚠ IMECHELEWA</string>
+    <string name="due_date_label">Mwisho wa Kurudisha: %1$s</string>
+    <string name="book_returned_success">Kitabu kimerejeshwa vizuri!</string>
+    <string name="all_books_returned_success">Vitabu vyote vimerejeshwa vizuri!</string>
+
+    <!-- Skrini ya PIN -->
+    <string name="admin_access_title">Ufikiaji wa Msimamizi</string>
+    <string name="enter_pin_message">Weka nambari ya siri (PIN) kusimamia maktaba.</string>
+    <string name="default_pin_hint">(PIN ya awali: 1234)</string>
+    <string name="incorrect_pin_error">PIN si sahihi. Jaribu tena.</string>
+
+    <!-- Ujumbe wa Makosa -->
+    <string name="error_book_unavailable">Kitabu hiki hakipatikani kwa sasa.</string>
+    <string name="error_max_borrow_limit">Unaweza kuazima hadi vitabu %1$d tofauti kwa wakati mmoja.</string>
+    <string name="error_max_borrow_total">Unaweza kuazima hadi jumla ya vitabu %1$d.</string>
+    <string name="error_only_copies_available">Zimesalia nakala %1$d pekee.</string>
+    <string name="error_name_email_required">Tafadhali weka angalau Jina na Barua pepe.</string>
+    <string name="error_valid_name_required">Tafadhali ingiza jina sahihi.</string>
+    <string name="error_valid_email_required">Tafadhali ingiza barua pepe sahihi.</string>
+    <string name="error_valid_phone_required">Tafadhali ingiza nambari ya simu sahihi.</string>
+    <string name="error_no_books_selected">Hakuna vitabu vilivyochaguliwa.</string>
+    <string name="error_overdue_single">Una kitabu kilichochelewa (\"%1$s\") ambacho lazima kirudishwe kabla ya kuazima vitabu vipya.</string>
+    <string name="error_overdue_multiple">Una vitabu %1$d vilivyochelewa (%2$s) ambavyo lazima virudishwe kabla ya kuazima vitabu vipya.</string>
+    <string name="error_duplicate_book">Tayari una kitabu \"%1$s\" kwa mkopo. Tafadhali kirudishe kabla ya kukiweka tena.</string>
+    <string name="error_limit_reached">Kwa sasa una vitabu %1$d ulivyoazima, na umefikia kikomo cha %2$d. Tafadhali rudisha baadhi kabla ya kuazima zaidi.</string>
+    <string name="error_limit_exceeded">Umezidisha kikomo: Tayari una vitabu %1$d. Kwa kikomo cha %2$d, unaweza kuazima vitabu %3$d pekee zaidi.</string>
+    <string name="active_loans_info">Mikopo ya Sasa: Una vitabu %1$d (Kikomo: %2$d). Unaweza kuazima hadi vitabu vingine %3$d.</string>
+    <string name="active_loans_limit_reached">Kikomo Kimefikiwa: Una vitabu %1$d (Kikomo cha juu: %2$d). Tafadhali rudisha vitabu ili uazime vipya.</string>
+    <string name="active_loans_overdue_warning">Tahadhari: Una vitabu %1$d vilivyopitisha muda wa kurudishwa. Tafadhali virudishe kabla ya kuazima vipya.</string>
+
+    <!-- Vitengo -->
+    <string name="category_biographies">Wasifu</string>
+    <string name="category_devotionals">Ibada na Tafakari</string>
+    <string name="category_kids">Watoto</string>
+    <string name="category_commentaries">Ufafanuzi wa Biblia</string>
+    <string name="category_theology">Teolojia</string>
+    <string name="category_practical_christianity">Ukristo Vitendo</string>
+    <string name="category_bibles">Biblia Takatifu</string>
+    <string name="category_bible_study_material">Nyenzo za Kujifunzia Biblia</string>
+    <string name="category_christian_living">Maisha ya Kikristo</string>
+    <string name="category_church_history">Historia ya Kanisa</string>
+    <string name="category_apologetics">Utetezi wa Imani</string>
+    <string name="category_other">Mengineyo</string>
+
+    <!-- Dashibodi ya Msimamizi -->
+    <string name="admin_dashboard_title">Dashibodi ya Msimamizi wa Maktaba</string>
+    <string name="admin_dashboard_subtitle">Simamia orodha ya vitabu na mikopo</string>
+    <string name="admin_what_to_do">Ungependa kufanya nini?</string>
+    <string name="admin_active_loans">Mikopo ya Sasa</string>
+    <string name="admin_active_loans_desc">Tazama na urejeshe vitabu vilivyoazimwa sasa.</string>
+    <string name="admin_manage_inventory">Simamia Vitabu</string>
+    <string name="admin_manage_inventory_desc">Ongeza, hariri, au ondoa vitabu kwenye maktaba.</string>
+    <string name="admin_settings_backup">Mipangilio na Nakala ya Akiba</string>
+    <string name="admin_settings_backup_desc">Nakala ya P2P bila intaneti, Hali ya Jaribio, na Mipangilio ya Maktaba.</string>
+    <string name="admin_log_out">Ondoka</string>
+    <string name="admin_log_out_desc">Funga dashibodi ya msimamizi kwa usalama.</string>
+    <string name="about_developer">Kuhusu Msanidi Programu</string>
+</resources>

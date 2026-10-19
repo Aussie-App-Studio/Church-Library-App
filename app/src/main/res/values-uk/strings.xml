@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Церковна бібліотека</string>
+
+    <!-- Демо-режим -->
+    <string name="demo_mode">Демо-режим</string>
+    <string name="demo_mode_active">ДЕМО-РЕЖИМ АКТИВОВАНО</string>
+    <string name="demo_mode_banner_desc">Не хвилюйтеся! Ваша справжня база даних бібліотеки прихована та у цілковитій безпеці під час демо-режиму.</string>
+    <string name="exit_demo_mode">Вийти з демо-режиму</string>
+
+    <!-- Загальні -->
+    <string name="back">Назад</string>
+    <string name="cancel">Скасувати</string>
+    <string name="delete">Видалити</string>
+    <string name="save">Зберегти</string>
+    <string name="edit">Редагувати</string>
+    <string name="close">Закрити</string>
+    <string name="admin">Адміністратор</string>
+    <string name="success">Успішно</string>
+    <string name="library_logo">Логотип бібліотеки</string>
+
+    <!-- Головний екран -->
+    <string name="welcome_to_library">Ласкаво просимо до бібліотеки</string>
+    <string name="home_subtitle">Знайдіть книгу на полиці, потім натисніть нижче, щоб взяти або повернути її.</string>
+    <string name="borrow_books">Взяти книги</string>
+    <string name="borrow_books_desc">Оформити позику однієї або кількох книг</string>
+    <string name="return_books">Повернути книги</string>
+    <string name="return_books_desc">Повернути прочитані книги до бібліотеки</string>
+
+    <!-- Вибір книг -->
+    <string name="select_books_title">Виберіть книги для позики</string>
+    <string name="search_books_placeholder">Пошук за назвою або автором…</string>
+    <string name="selected_books_count">Вибрано %1$d з %2$d</string>
+    <string name="proceed_to_checkout">Перейти до оформлення</string>
+    <string name="no_books_found">Книг не знайдено.</string>
+    <string name="limit_reached">Ліміт вичерпано</string>
+    <string name="out_of_stock">НЕМАЄ В НАЯВНОСТІ</string>
+    <string name="cover_for_title">Обкладинка для %1$s</string>
+
+    <!-- Інформація про читача -->
+    <string name="checkout_details_title">Деталі позики</string>
+    <string name="your_details">Ваші дані</string>
+    <string name="your_details_desc">Будь ласка, введіть свої дані для оформлення вибраних книг.</string>
+    <string name="full_name_required">Повне ім\'я *</string>
+    <string name="full_name_placeholder">Олександр Петренко</string>
+    <string name="email_required">Електронна пошта *</string>
+    <string name="email_placeholder">oleksandr@example.com</string>
+    <string name="phone_optional">Номер телефону</string>
+    <string name="phone_placeholder">050 000 0000</string>
+    <string name="borrow_duration_label">Термін позики *</string>
+    <string name="duration_1_week">1 тиждень</string>
+    <string name="duration_2_weeks">2 тижні</string>
+    <string name="duration_1_month">1 місяць</string>
+    <string name="duration_2_months">2 місяці</string>
+    <string name="review_and_confirm">Перевірити та підтвердити</string>
+    <string name="books_to_checkout">Книги для позики (%1$d)</string>
+    <string name="reminder_dialog_title">Встановіть нагадування в календарі!</string>
+    <string name="reminder_dialog_message">Перед тим як піти, додайте нагадування до календаря телефону про повернення книг через %1$s.</string>
+    <string name="reminder_dialog_offline_note">Ми не надсилаємо нагадування на пошту, щоб додаток залишався повністю безкоштовним та автономним.</string>
+    <string name="confirm_loan">Підтвердити позику</string>
+    <string name="confirm_loan_timer">Підтвердити позику (%1$dс)</string>
+
+    <!-- Екран успіху -->
+    <string name="success_title">Успішно!</string>
+    <string name="success_one_book">Ви взяли 1 книгу.\nТермін повернення: %1$s.</string>
+    <string name="success_multiple_books">Ви взяли %1$d книг.\nТермін повернення: %2$s.</string>
+    <string name="returning_home_seconds">Повернення на головний екран через 10 секунд…</string>
+    <string name="return_to_home_button">Повернутися на головний екран</string>
+
+    <!-- Повернення книг -->
+    <string name="return_books_title">Повернення книг</string>
+    <string name="search_return_placeholder">Шукайте за своїм ім\'ям або назвою книги…</string>
+    <string name="no_active_loans">Активних позик не знайдено.</string>
+    <string name="return_all_count">Повернути всі (%1$d)</string>
+    <string name="return_all_button">Повернути всі</string>
+    <string name="return_book_button">Повернути книгу</string>
+    <string name="return_book_dialog_title">Повернути книгу</string>
+    <string name="return_book_dialog_message">Повернути \"%1$s\" для читача %2$s?</string>
+    <string name="return_all_dialog_title">Повернути всі книги</string>
+    <string name="return_all_dialog_message">Повернути всі %1$d книг для читача %2$s?</string>
+    <string name="borrower_label">Читач: %1$s</string>
+    <string name="overdue_badge">⚠ ПРОСТРОЧЕНО</string>
+    <string name="due_date_label">Термін: %1$s</string>
+    <string name="book_returned_success">Книгу успішно повернуто!</string>
+    <string name="all_books_returned_success">Всі книги успішно повернуто!</string>
+
+    <!-- Екран PIN-коду -->
+    <string name="admin_access_title">Доступ адміністратора</string>
+    <string name="enter_pin_message">Введіть PIN-код для керування бібліотекою.</string>
+    <string name="default_pin_hint">(Стандартний PIN: 1234)</string>
+    <string name="incorrect_pin_error">Невірний PIN-код. Спробуйте ще раз.</string>
+
+    <!-- Повідомлення про помилки -->
+    <string name="error_book_unavailable">Ця книга наразі недоступна.</string>
+    <string name="error_max_borrow_limit">Одночасно можна взяти не більше %1$d різних назв.</string>
+    <string name="error_max_borrow_total">Загалом можна взяти не більше %1$d книг.</string>
+    <string name="error_only_copies_available">Залишилося лише %1$d примірників.</string>
+    <string name="error_name_email_required">Будь ласка, вкажіть хоча б ім\'я та електронну пошту.</string>
+    <string name="error_valid_name_required">Будь ласка, введіть дійсне ім\'я.</string>
+    <string name="error_valid_email_required">Будь ласка, введіть дійсну адресу електронної пошти.</string>
+    <string name="error_valid_phone_required">Будь ласка, введіть дійсний номер телефону.</string>
+    <string name="error_no_books_selected">Не вибрано жодної книги.</string>
+    <string name="error_overdue_single">У вас є прострочена книга (\"%1$s\"), яку необхідно повернути перед отриманням нових.</string>
+    <string name="error_overdue_multiple">У вас є %1$d прострочених книг (%2$s), які необхідно повернути перед отриманням нових.</string>
+    <string name="error_duplicate_book">Книга \"%1$s\" вже у вас на руках. Будь ласка, поверніть її перед повторною позикою.</string>
+    <string name="error_limit_reached">У вас зараз %1$d позичених книг, що досягає ліміту в %2$d. Будь ласка, поверніть частину книг, щоб взяти нові.</string>
+    <string name="error_limit_exceeded">Перевищено ліміт позики: у вас вже є %1$d книг. З урахуванням ліміту в %2$d ви можете взяти ще лише %3$d книг.</string>
+    <string name="active_loans_info">Активні позики: у вас зараз %1$d книг (Ліміт: %2$d). Ви можете взяти ще до %3$d книг.</string>
+    <string name="active_loans_limit_reached">Ліміт досягнуто: у вас зараз %1$d книг (Максимальний ліміт: %2$d). Поверніть книги, щоб взяти нові.</string>
+    <string name="active_loans_overdue_warning">Увага: у вас є %1$d прострочених книг. Будь ласка, поверніть їх перед оформленням нових.</string>
+
+    <!-- Категорії -->
+    <string name="category_biographies">Біографії</string>
+    <string name="category_devotionals">Роздуми та молитви</string>
+    <string name="category_kids">Діти та підлітки</string>
+    <string name="category_commentaries">Коментарі</string>
+    <string name="category_theology">Богослов\'я</string>
+    <string name="category_practical_christianity">Практичне християнство</string>
+    <string name="category_bibles">Біблії</string>
+    <string name="category_bible_study_material">Матеріали для вивчення Біблії</string>
+    <string name="category_christian_living">Християнське життя</string>
+    <string name="category_church_history">Історія Церкви</string>
+    <string name="category_apologetics">Апологетика</string>
+    <string name="category_other">Інше</string>
+
+    <!-- Панель адміністратора -->
+    <string name="admin_dashboard_title">Панель адміністратора бібліотеки</string>
+    <string name="admin_dashboard_subtitle">Керування фондом та позиками</string>
+    <string name="admin_what_to_do">Що ви бажаєте зробити?</string>
+    <string name="admin_active_loans">Активні позики</string>
+    <string name="admin_active_loans_desc">Перегляд та повернення виданих книг.</string>
+    <string name="admin_manage_inventory">Керування книжковим фондом</string>
+    <string name="admin_manage_inventory_desc">Додавання, редагування або видалення книг.</string>
+    <string name="admin_settings_backup">Налаштування та резервне копіювання</string>
+    <string name="admin_settings_backup_desc">Автономне P2P-копіювання, демо-режим та налаштування.</string>
+    <string name="admin_log_out">Вийти</string>
+    <string name="admin_log_out_desc">Безпечно заблокувати панель адміністратора.</string>
+    <string name="about_developer">Про розробника</string>
+</resources>

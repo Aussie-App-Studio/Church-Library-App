@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kirkebibliotek</string>
+
+    <!-- Demomodus -->
+    <string name="demo_mode">Demomodus</string>
+    <string name="demo_mode_active">DEMOMODUS ER AKTIV</string>
+    <string name="demo_mode_banner_desc">Ingen grunn til bekymring! Din ekte biblioteksdatabase er skjult og helt trygg under demomodus.</string>
+    <string name="exit_demo_mode">Avslutt demomodus</string>
+
+    <!-- Generelt -->
+    <string name="back">Tilbake</string>
+    <string name="cancel">Avbryt</string>
+    <string name="delete">Slett</string>
+    <string name="save">Lagre</string>
+    <string name="edit">Rediger</string>
+    <string name="close">Lukk</string>
+    <string name="admin">Administrator</string>
+    <string name="success">Vellykket</string>
+    <string name="library_logo">Biblioteklogo</string>
+
+    <!-- Hovedskjerm -->
+    <string name="welcome_to_library">Velkommen til biblioteket</string>
+    <string name="home_subtitle">Finn boken din i hyllen, og trykk nedenfor for å låne eller levere den.</string>
+    <string name="borrow_books">Lån bøker</string>
+    <string name="borrow_books_desc">Lån én eller flere bøker</string>
+    <string name="return_books">Lever bøker</string>
+    <string name="return_books_desc">Lever tilbake bøker du har lest</string>
+
+    <!-- Velg bøker -->
+    <string name="select_books_title">Velg bøker du vil låne</string>
+    <string name="search_books_placeholder">Søk etter tittel eller forfatter…</string>
+    <string name="selected_books_count">%1$d / %2$d valgt</string>
+    <string name="proceed_to_checkout">Gå til utlån</string>
+    <string name="no_books_found">Ingen bøker funnet.</string>
+    <string name="limit_reached">Grensen er nådd</string>
+    <string name="out_of_stock">UTLÅNT</string>
+    <string name="cover_for_title">Omslag for %1$s</string>
+
+    <!-- Låntakerinformasjon -->
+    <string name="checkout_details_title">Lånedetaljer</string>
+    <string name="your_details">Dine opplysninger</string>
+    <string name="your_details_desc">Vennligst oppgi informasjonen din for å låne de valgte bøkene.</string>
+    <string name="full_name_required">Fullt navn *</string>
+    <string name="full_name_placeholder">Ola Nordmann</string>
+    <string name="email_required">E-postadresse *</string>
+    <string name="email_placeholder">ola@example.no</string>
+    <string name="phone_optional">Telefonnummer</string>
+    <string name="phone_placeholder">400 00 000</string>
+    <string name="borrow_duration_label">Låneperiode *</string>
+    <string name="duration_1_week">1 uke</string>
+    <string name="duration_2_weeks">2 uker</string>
+    <string name="duration_1_month">1 måned</string>
+    <string name="duration_2_months">2 måneder</string>
+    <string name="review_and_confirm">Se over og bekreft</string>
+    <string name="books_to_checkout">Bøker til utlån (%1$d)</string>
+    <string name="reminder_dialog_title">Sett en påminnelse i kalenderen!</string>
+    <string name="reminder_dialog_message">Før du går, legg gjerne inn en påminnelse i telefonens kalender om å levere disse bøkene om %1$s.</string>
+    <string name="reminder_dialog_offline_note">Vi sender ikke e-postpåminnelser for å holde appen helt gratis og offline.</string>
+    <string name="confirm_loan">Bekreft lån</string>
+    <string name="confirm_loan_timer">Bekreft lån (%1$ds)</string>
+
+    <!-- Bekreftelsesskjerm -->
+    <string name="success_title">Vellykket!</string>
+    <string name="success_one_book">Du har lånt 1 bok.\nInnleveringsfrist: %1$s.</string>
+    <string name="success_multiple_books">Du har lånt %1$d bøker.\nInnleveringsfrist: %2$s.</string>
+    <string name="returning_home_seconds">Går tilbake til startskjermen om 10 sekunder…</string>
+    <string name="return_to_home_button">Tilbake til startskjermen</string>
+
+    <!-- Innlevering -->
+    <string name="return_books_title">Lever bøker</string>
+    <string name="search_return_placeholder">Søk etter navnet ditt eller boktittel…</string>
+    <string name="no_active_loans">Ingen aktive lån funnet.</string>
+    <string name="return_all_count">Lever alle (%1$d)</string>
+    <string name="return_all_button">Lever alle</string>
+    <string name="return_book_button">Lever bok</string>
+    <string name="return_book_dialog_title">Lever bok</string>
+    <string name="return_book_dialog_message">Vil du levere \"%1$s\" for %2$s?</string>
+    <string name="return_all_dialog_title">Lever alle bøker</string>
+    <string name="return_all_dialog_message">Vil du levere alle %1$d bøker for %2$s?</string>
+    <string name="borrower_label">Låntaker: %1$s</string>
+    <string name="overdue_badge">⚠ FORFALT</string>
+    <string name="due_date_label">Frist: %1$s</string>
+    <string name="book_returned_success">Boken er levert inn!</string>
+    <string name="all_books_returned_success">Alle bøker er levert inn!</string>
+
+    <!-- PIN-skjerm -->
+    <string name="admin_access_title">Administratortilgang</string>
+    <string name="enter_pin_message">Tast inn PIN-kode for å administrere biblioteket.</string>
+    <string name="default_pin_hint">(Standard PIN: 1234)</string>
+    <string name="incorrect_pin_error">Feil PIN-kode. Prøv igjen.</string>
+
+    <!-- Feilmeldinger -->
+    <string name="error_book_unavailable">Denne boken er for øyeblikket ikke tilgjengelig.</string>
+    <string name="error_max_borrow_limit">Du kan bare låne opptil %1$d forskjellige titler om gangen.</string>
+    <string name="error_max_borrow_total">Du kan maksimalt låne %1$d bøker totalt.</string>
+    <string name="error_only_copies_available">Bare %1$d eksemplarer tilgjengelig.</string>
+    <string name="error_name_email_required">Vennligst oppgi minst navn og e-postadresse.</string>
+    <string name="error_valid_name_required">Vennligst oppgi et gyldig navn.</string>
+    <string name="error_valid_email_required">Vennligst oppgi en gyldig e-postadresse.</string>
+    <string name="error_valid_phone_required">Vennligst oppgi et gyldig telefonnummer.</string>
+    <string name="error_no_books_selected">Ingen bøker er valgt.</string>
+    <string name="error_overdue_single">Du har en forfalt bok (\"%1$s\") som må leveres før du kan låne nye.</string>
+    <string name="error_overdue_multiple">Du har %1$d forfalte bøker (%2$s) som må leveres før du kan låne nye.</string>
+    <string name="error_duplicate_book">Du har allerede lånt \"%1$s\". Lever den tilbake før du låner den på nytt.</string>
+    <string name="error_limit_reached">Du har nå %1$d utlånte bøker, som når grensen på %2$d. Vennligst lever noen før du låner flere.</string>
+    <string name="error_limit_exceeded">Lånegrense overskredet: Du har allerede %1$d bøker. Med grensen på %2$d kan du bare låne %3$d bøker til.</string>
+    <string name="active_loans_info">Aktive lån: Du har nå %1$d bøker (Grense: %2$d). Du kan låne opptil %3$d bøker til.</string>
+    <string name="active_loans_limit_reached">Grensen er nådd: Du har %1$d bøker på lån (Maksimumsgrense: %2$d). Lever bøker for å låne nye.</string>
+    <string name="active_loans_overdue_warning">Obs: Du har %1$d forfalte bøker. Lever dem før du låner nye bøker.</string>
+
+    <!-- Kategorier -->
+    <string name="category_biographies">Biografier</string>
+    <string name="category_devotionals">Andaktsbøker</string>
+    <string name="category_kids">Barn og unge</string>
+    <string name="category_commentaries">Kommentarer og bibelutleggelse</string>
+    <string name="category_theology">Teologi</string>
+    <string name="category_practical_christianity">Praktisk kristenliv</string>
+    <string name="category_bibles">Bibler</string>
+    <string name="category_bible_study_material">Bibelstudiemateriell</string>
+    <string name="category_christian_living">Kristen tro og liv</string>
+    <string name="category_church_history">Kirkehistorie</string>
+    <string name="category_apologetics">Apologetikk</string>
+    <string name="category_other">Annet</string>
+
+    <!-- Administratorpanel -->
+    <string name="admin_dashboard_title">Bibliotek Adminpanel</string>
+    <string name="admin_dashboard_subtitle">Administrer bibliotekets bøker og utlån</string>
+    <string name="admin_what_to_do">Hva ønsker du å gjøre?</string>
+    <string name="admin_active_loans">Aktive lån</string>
+    <string name="admin_active_loans_desc">Se og registrer innlevering av utlånte bøker.</string>
+    <string name="admin_manage_inventory">Administrer samling</string>
+    <string name="admin_manage_inventory_desc">Legg til, rediger eller fjern bøker fra biblioteket.</string>
+    <string name="admin_settings_backup">Innstillinger og sikkerhetskopi</string>
+    <string name="admin_settings_backup_desc">Frakoblet P2P-sikkerhetskopi, demomodus og bibliotekinnstillinger.</string>
+    <string name="admin_log_out">Logg ut</string>
+    <string name="admin_log_out_desc">Lås adminpanelet på en sikker måte.</string>
+    <string name="about_developer">Om utvikleren</string>
+</resources>

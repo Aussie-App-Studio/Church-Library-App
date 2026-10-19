@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Seurakunnan kirjasto</string>
+
+    <!-- Demotila -->
+    <string name="demo_mode">Demotila</string>
+    <string name="demo_mode_active">DEMOTILA ON KÄYTÖSSÄ</string>
+    <string name="demo_mode_banner_desc">Ei huolta! Oikea kirjastotietokantasi on piilotettu ja täysin turvassa demotilan aikana.</string>
+    <string name="exit_demo_mode">Poistu demotilasta</string>
+
+    <!-- Yleiset -->
+    <string name="back">Takaisin</string>
+    <string name="cancel">Peruuta</string>
+    <string name="delete">Poista</string>
+    <string name="save">Tallenna</string>
+    <string name="edit">Muokkaa</string>
+    <string name="close">Sulje</string>
+    <string name="admin">Ylläpitäjä</string>
+    <string name="success">Onnistui</string>
+    <string name="library_logo">Kirjaston logo</string>
+
+    <!-- Kotinäyttö -->
+    <string name="welcome_to_library">Tervetuloa kirjastoon</string>
+    <string name="home_subtitle">Etsi kirjasi hyllystä ja kosketa alta lainataksesi tai palauttaaksesi sen.</string>
+    <string name="borrow_books">Lainaa kirjoja</string>
+    <string name="borrow_books_desc">Lainaa yksi tai useampi kirja</string>
+    <string name="return_books">Palauta kirjoja</string>
+    <string name="return_books_desc">Palauta lukemasi kirjat</string>
+
+    <!-- Kirjojen valinta -->
+    <string name="select_books_title">Valitse lainattavat kirjat</string>
+    <string name="search_books_placeholder">Hae nimen tai tekijän mukaan…</string>
+    <string name="selected_books_count">%1$d / %2$d valittu</string>
+    <string name="proceed_to_checkout">Siirry lainaukseen</string>
+    <string name="no_books_found">Kirjoja ei löytynyt.</string>
+    <string name="limit_reached">Lainausraja saavutettu</string>
+    <string name="out_of_stock">LAINASSA</string>
+    <string name="cover_for_title">Kansi kirjalle %1$s</string>
+
+    <!-- Lainaaajan tiedot -->
+    <string name="checkout_details_title">Lainauksen tiedot</string>
+    <string name="your_details">Omat tiedot</string>
+    <string name="your_details_desc">Syötä tietosi lainataksesi valitut kirjat.</string>
+    <string name="full_name_required">Koko nimi *</string>
+    <string name="full_name_placeholder">Matti Meikäläinen</string>
+    <string name="email_required">Sähköpostiosoite *</string>
+    <string name="email_placeholder">matti@example.fi</string>
+    <string name="phone_optional">Puhelinnumero</string>
+    <string name="phone_placeholder">040 000 0000</string>
+    <string name="borrow_duration_label">Laina-aika *</string>
+    <string name="duration_1_week">1 viikko</string>
+    <string name="duration_2_weeks">2 viikkoa</string>
+    <string name="duration_1_month">1 kuukausi</string>
+    <string name="duration_2_months">2 kuukautta</string>
+    <string name="review_and_confirm">Tarkista ja vahvista</string>
+    <string name="books_to_checkout">Lainattavat kirjat (%1$d)</string>
+    <string name="reminder_dialog_title">Aseta kalenterimuistutus!</string>
+    <string name="reminder_dialog_message">Ennen kuin lähdet, lisää puhelimesi kalenteriin muistutus näiden kirjojen palautuksesta %1$s kuluttua.</string>
+    <string name="reminder_dialog_offline_note">Emme lähetä sähköpostimuistutuksia, jotta sovellus pysyy ilmaisena ja toimii ilman verkkoyhteyttä.</string>
+    <string name="confirm_loan">Vahvista lainaus</string>
+    <string name="confirm_loan_timer">Vahvista lainaus (%1$ds)</string>
+
+    <!-- Onnistumisnäyttö -->
+    <string name="success_title">Onnistui!</string>
+    <string name="success_one_book">Olet lainannut 1 kirjan.\nEräpäivä on %1$s.</string>
+    <string name="success_multiple_books">Olet lainannut %1$d kirjaa.\nEräpäivä on %2$s.</string>
+    <string name="returning_home_seconds">Palataan aloitusnäyttöön 10 sekunnissa…</string>
+    <string name="return_to_home_button">Palaa aloitusnäyttöön</string>
+
+    <!-- Palautusnäyttö -->
+    <string name="return_books_title">Palauta kirjoja</string>
+    <string name="search_return_placeholder">Hae nimelläsi tai kirjan nimellä…</string>
+    <string name="no_active_loans">Aktiivisia lainoja ei löytynyt.</string>
+    <string name="return_all_count">Palauta kaikki (%1$d)</string>
+    <string name="return_all_button">Palauta kaikki</string>
+    <string name="return_book_button">Palauta kirja</string>
+    <string name="return_book_dialog_title">Palauta kirja</string>
+    <string name="return_book_dialog_message">Palautetaanko \"%1$s\" lainaajalle %2$s?</string>
+    <string name="return_all_dialog_title">Palauta kaikki kirjat</string>
+    <string name="return_all_dialog_message">Palautetaanko kaikki %1$d kirjaa lainaajalle %2$s?</string>
+    <string name="borrower_label">Lainaaja: %1$s</string>
+    <string name="overdue_badge">⚠ MYÖHÄSSÄ</string>
+    <string name="due_date_label">Eräpäivä: %1$s</string>
+    <string name="book_returned_success">Kirja palautettu onnistuneesti!</string>
+    <string name="all_books_returned_success">Kaikki kirjat palautettu onnistuneesti!</string>
+
+    <!-- PIN-näyttö -->
+    <string name="admin_access_title">Ylläpitäjän kirjautuminen</string>
+    <string name="enter_pin_message">Syötä PIN-koodi hallinnoidaksesi kirjastoa.</string>
+    <string name="default_pin_hint">(Oletus-PIN: 1234)</string>
+    <string name="incorrect_pin_error">Väärä PIN-koodi. Yritä uudelleen.</string>
+
+    <!-- Virheilmoitukset -->
+    <string name="error_book_unavailable">Tämä kirja ei ole tällä hetkellä saatavilla.</string>
+    <string name="error_max_borrow_limit">Voit lainata kerralla enintään %1$d eri teosta.</string>
+    <string name="error_max_borrow_total">Voit lainata yhteensä enintään %1$d kirjaa.</string>
+    <string name="error_only_copies_available">Vain %1$d kappaletta jäljellä.</string>
+    <string name="error_name_email_required">Anna vähintään nimi ja sähköpostiosoite.</string>
+    <string name="error_valid_name_required">Anna kelvollinen nimi.</string>
+    <string name="error_valid_email_required">Anna kelvollinen sähköpostiosoite.</string>
+    <string name="error_valid_phone_required">Anna kelvollinen puhelinnumero.</string>
+    <string name="error_no_books_selected">Yhtään kirjaa ei ole valittu.</string>
+    <string name="error_overdue_single">Sinulla on myöhässä oleva kirja (\"%1$s\"), joka on palautettava ennen uutta lainausta.</string>
+    <string name="error_overdue_multiple">Sinulla on %1$d myöhässä olevaa kirjaa (%2$s), jotka on palautettava ennen uutta lainausta.</string>
+    <string name="error_duplicate_book">Kirja \"%1$s\" on sinulla jo lainassa. Palauta se ennen kuin lainaat sen uudelleen.</string>
+    <string name="error_limit_reached">Sinulla on tällä hetkellä %1$d lainattua kirjaa, mikä saavuttaa rajan %2$d. Palauta kirjoja ennen kuin lainaat lisää.</string>
+    <string name="error_limit_exceeded">Lainausraja ylittynyt: Sinulla on jo %1$d kirjaa. Rajan ollessa %2$d voit lainata enää vain %3$d kirjaa.</string>
+    <string name="active_loans_info">Aktiiviset lainat: Sinulla on %1$d kirjaa lainassa (Raja: %2$d). Voit lainata vielä enintään %3$d kirjaa.</string>
+    <string name="active_loans_limit_reached">Lainausraja saavutettu: Sinulla on %1$d kirjaa lainassa (Enimmäisraja: %2$d). Palauta kirjoja lainataksesi uusia.</string>
+    <string name="active_loans_overdue_warning">Huomio: Sinulla on %1$d myöhässä olevaa kirjaa. Palauta ne ennen uusien kirjojen lainaamista.</string>
+
+    <!-- Kategoriat -->
+    <string name="category_biographies">Elämäkerrat</string>
+    <string name="category_devotionals">Hartauskirjat ja rukous</string>
+    <string name="category_kids">Lapset ja nuoret</string>
+    <string name="category_commentaries">Raamatunselitykset ja kommentaarit</string>
+    <string name="category_theology">Teologia</string>
+    <string name="category_practical_christianity">Käytännön kristillisyys</string>
+    <string name="category_bibles">Raamatut</string>
+    <string name="category_bible_study_material">Raamatuntutkistelumateriaalit</string>
+    <string name="category_christian_living">Kristillinen elämä</string>
+    <string name="category_church_history">Kirkkohistoria</string>
+    <string name="category_apologetics">Apologetiikka</string>
+    <string name="category_other">Muut</string>
+
+    <!-- Ylläpitäjän hallintapaneeli -->
+    <string name="admin_dashboard_title">Kirjaston hallintapaneeli</string>
+    <string name="admin_dashboard_subtitle">Hallinnoi kirjaston kokoelmaa ja lainoja</string>
+    <string name="admin_what_to_do">Mitä haluat tehdä?</string>
+    <string name="admin_active_loans">Aktiiviset lainat</string>
+    <string name="admin_active_loans_desc">Tarkastele ja kirjaa lainattujen kirjojen palautukset.</string>
+    <string name="admin_manage_inventory">Hallinnoi kirjoja</string>
+    <string name="admin_manage_inventory_desc">Lisää, muokkaa tai poista kirjoja kirjastosta.</string>
+    <string name="admin_settings_backup">Asetukset ja varmuuskopiointi</string>
+    <string name="admin_settings_backup_desc">Offline P2P -varmuuskopiointi, demotila ja asetukset.</string>
+    <string name="admin_log_out">Kirjaudu ulos</string>
+    <string name="admin_log_out_desc">Lukitse hallintapaneeli turvallisesti.</string>
+    <string name="about_developer">Tietoa kehittäjästä</string>
+</resources>

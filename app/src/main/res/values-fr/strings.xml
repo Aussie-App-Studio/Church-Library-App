@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Bibliothèque de l\'Église</string>
+
+    <!-- Demo Mode -->
+    <string name="demo_mode">Mode Démo</string>
+    <string name="demo_mode_active">LE MODE DÉMO EST ACTIF</string>
+    <string name="demo_mode_banner_desc">Pas d\'inquiétude ! Votre véritable base de données est en sécurité pendant le Mode Démo.</string>
+    <string name="exit_demo_mode">Quitter le Mode Démo</string>
+
+    <!-- General / Common -->
+    <string name="back">Retour</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+    <string name="save">Enregistrer</string>
+    <string name="edit">Modifier</string>
+    <string name="close">Fermer</string>
+    <string name="admin">Administration</string>
+    <string name="success">Succès</string>
+    <string name="library_logo">Logo de la bibliothèque</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_to_library">Bienvenue à la Bibliothèque</string>
+    <string name="home_subtitle">Trouvez votre livre sur l\'étagère, puis appuyez ci-dessous pour l\'emprunter ou le retourner.</string>
+    <string name="borrow_books">Emprunter des Livres</string>
+    <string name="borrow_books_desc">Empruntez un ou plusieurs livres</string>
+    <string name="return_books">Retourner des Livres</string>
+    <string name="return_books_desc">Rapportez les livres que vous avez lus</string>
+
+    <!-- Select Books Screen -->
+    <string name="select_books_title">Sélectionner des Livres à Emprunter</string>
+    <string name="search_books_placeholder">Rechercher par titre ou auteur…</string>
+    <string name="selected_books_count">%1$d / %2$d sélectionné(s)</string>
+    <string name="proceed_to_checkout">Passer à l\'emprunt</string>
+    <string name="no_books_found">Aucun livre trouvé.</string>
+    <string name="limit_reached">Limite atteinte</string>
+    <string name="out_of_stock">SORTI</string>
+    <string name="cover_for_title">Couverture de %1$s</string>
+
+    <!-- Borrower Info Screen -->
+    <string name="checkout_details_title">Détails de l\'emprunt</string>
+    <string name="your_details">Vos Coordonnées</string>
+    <string name="your_details_desc">Veuillez saisir vos informations pour emprunter les livres sélectionnés.</string>
+    <string name="full_name_required">Nom complet *</string>
+    <string name="full_name_placeholder">Jean Dupont</string>
+    <string name="email_required">Adresse e-mail *</string>
+    <string name="email_placeholder">jean@exemple.com</string>
+    <string name="phone_optional">Numéro de téléphone</string>
+    <string name="phone_placeholder">06 00 00 00 00</string>
+    <string name="borrow_duration_label">Durée d\'emprunt *</string>
+    <string name="duration_1_week">1 Semaine</string>
+    <string name="duration_2_weeks">2 Semaines</string>
+    <string name="duration_1_month">1 Mois</string>
+    <string name="duration_2_months">2 Mois</string>
+    <string name="review_and_confirm">Vérifier et Confirmer</string>
+    <string name="books_to_checkout">Livres à emprunter (%1$d)</string>
+    <string name="reminder_dialog_title">Créer un rappel dans l\'agenda !</string>
+    <string name="reminder_dialog_message">Avant de partir, prenez un instant pour ajouter un rappel dans l\'agenda de votre téléphone afin de retourner ces livres dans %1$s.</string>
+    <string name="reminder_dialog_offline_note">Nous n\'envoyons pas d\'e-mails afin de préserver la gratuité et le fonctionnement hors ligne de l\'application.</string>
+    <string name="confirm_loan">Confirmer l\'emprunt</string>
+    <string name="confirm_loan_timer">Confirmer l\'emprunt (%1$ds)</string>
+
+    <!-- Borrow Success Screen -->
+    <string name="success_title">Emprunt Réussi !</string>
+    <string name="success_one_book">Vous avez emprunté 1 livre.\nÀ retourner avant le %1$s.</string>
+    <string name="success_multiple_books">Vous avez emprunté %1$d livres.\nÀ retourner avant le %2$s.</string>
+    <string name="returning_home_seconds">Retour à l\'accueil dans 10 secondes…</string>
+    <string name="return_to_home_button">Retour à l\'accueil</string>
+
+    <!-- Return Books Screen -->
+    <string name="return_books_title">Retourner des Livres</string>
+    <string name="search_return_placeholder">Rechercher par nom ou titre de livre…</string>
+    <string name="no_active_loans">Aucun emprunt en cours trouvé.</string>
+    <string name="return_all_count">Tout retourner (%1$d)</string>
+    <string name="return_all_button">Tout retourner</string>
+    <string name="return_book_button">Retourner le livre</string>
+    <string name="return_book_dialog_title">Retourner le livre</string>
+    <string name="return_book_dialog_message">Retourner \"%1$s\" pour %2$s ?</string>
+    <string name="return_all_dialog_title">Retourner tous les livres</string>
+    <string name="return_all_dialog_message">Retourner l\'ensemble des %1$d livres de %2$s ?</string>
+    <string name="borrower_label">Emprunteur : %1$s</string>
+    <string name="overdue_badge">⚠ EN RETARD</string>
+    <string name="due_date_label">Date limite : %1$s</string>
+    <string name="book_returned_success">Livre retourné avec succès !</string>
+    <string name="all_books_returned_success">Tous les livres ont été retournés avec succès !</string>
+
+    <!-- Pin Screen -->
+    <string name="admin_access_title">Accès Administrateur</string>
+    <string name="enter_pin_message">Saisissez votre code PIN pour gérer la bibliothèque.</string>
+    <string name="default_pin_hint">(Code PIN par défaut : 1234)</string>
+    <string name="incorrect_pin_error">Code PIN incorrect. Veuillez réessayer.</string>
+
+    <!-- Validation & Error Messages -->
+    <string name="error_book_unavailable">Ce livre n\'est pas disponible actuellement.</string>
+    <string name="error_max_borrow_limit">Vous ne pouvez emprunter que %1$d titres différents à la fois.</string>
+    <string name="error_only_copies_available">Seulement %1$d exemplaires disponibles.</string>
+    <string name="error_name_email_required">Veuillez renseigner au moins le nom et l\'adresse e-mail.</string>
+    <string name="error_valid_name_required">Veuillez saisir un nom valide.</string>
+    <string name="error_valid_email_required">Veuillez saisir une adresse e-mail valide.</string>
+    <string name="error_valid_phone_required">Veuillez saisir un numéro de téléphone valide.</string>
+    <string name="error_no_books_selected">Aucun livre sélectionné.</string>
+
+    <!-- Categories -->
+    <string name="category_biographies">Biographies</string>
+    <string name="category_devotionals">Méditations</string>
+    <string name="category_kids">Enfants</string>
+    <string name="category_commentaries">Commentaires</string>
+    <string name="category_theology">Théologie</string>
+    <string name="category_practical_christianity">Vie Chrétienne Pratique</string>
+    <string name="category_bibles">Bibles</string>
+    <string name="category_bible_study_material">Études Bibliques</string>
+    <string name="category_christian_living">Vie Chrétienne</string>
+    <string name="category_church_history">Histoire de l\'Église</string>
+    <string name="category_apologetics">Apologétique</string>
+    <string name="category_other">Autre</string>
+
+    <!-- Admin Dashboard Hub -->
+    <string name="admin_dashboard_title">Tableau de Bord Administrateur</string>
+    <string name="admin_dashboard_subtitle">Gérer l\'inventaire et les emprunts</string>
+    <string name="admin_what_to_do">Que souhaitez-vous faire ?</string>
+    <string name="admin_active_loans">Emprunts en cours</string>
+    <string name="admin_active_loans_desc">Consulter les livres prêtés et enregistrer les retours.</string>
+    <string name="admin_manage_inventory">Gérer le Catalogue</string>
+    <string name="admin_manage_inventory_desc">Ajouter, modifier ou retirer des livres de la bibliothèque.</string>
+    <string name="admin_settings_backup">Paramètres &amp; Sauvegarde</string>
+    <string name="admin_settings_backup_desc">Synchronisation P2P, Mode Démo et paramètres.</string>
+    <string name="admin_log_out">Déconnexion</string>
+    <string name="admin_log_out_desc">Verrouiller le tableau de bord administrateur.</string>
+    <string name="about_developer">À propos du Développeur</string>
+</resources>

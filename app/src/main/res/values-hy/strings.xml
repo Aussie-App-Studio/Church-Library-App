@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Եկեղեցական Գրադարան</string>
+
+    <!-- Դեմո ռեժիմ -->
+    <string name="demo_mode">Դեմո ռեժիմ</string>
+    <string name="demo_mode_active">ԴԵՄՈ ՌԵԺԻՄԸ ԱԿՏԻՎ Է</string>
+    <string name="demo_mode_banner_desc">Մի անհանգստացեք: Գրադարանի իրական տվյալների բազան թաքցված է և լիովին ապահով դեմո ռեժիմի ընթացքում:</string>
+    <string name="exit_demo_mode">Դուրս գալ դեմո ռեժիմից</string>
+
+    <!-- Ընդհանուր -->
+    <string name="back">Հետ</string>
+    <string name="cancel">Չեղարկել</string>
+    <string name="delete">Ջնջել</string>
+    <string name="save">Պահպանել</string>
+    <string name="edit">Խմբագրել</string>
+    <string name="close">Փակել</string>
+    <string name="admin">Ադմինիստրատոր</string>
+    <string name="success">Հաջողվեց</string>
+    <string name="library_logo">Գրադարանի տարբերանշան</string>
+
+    <!-- Գլխավոր էկրան -->
+    <string name="welcome_to_library">Բարի գալուստ Գրադարան</string>
+    <string name="home_subtitle">Գտեք ձեր գիրքը դարակում, ապա հպեք ներքևում՝ այն վերցնելու կամ վերադարձնելու համար:</string>
+    <string name="borrow_books">Վերցնել գրքեր</string>
+    <string name="borrow_books_desc">Վերցրեք մեկ կամ ավելի գրքեր</string>
+    <string name="return_books">Վերադարձնել գրքեր</string>
+    <string name="return_books_desc">Վերադարձրեք ձեր կարդացած գրքերը</string>
+
+    <!-- Գրքերի ընտրության էկրան -->
+    <string name="select_books_title">Ընտրեք գրքեր</string>
+    <string name="search_books_placeholder">Որոնել ըստ վերնագրի կամ հեղինակի…</string>
+    <string name="selected_books_count">Ընտրված է %1$d / %2$d</string>
+    <string name="proceed_to_checkout">Անցնել գրանցման</string>
+    <string name="no_books_found">Գրքեր չեն գտնվել:</string>
+    <string name="limit_reached">Սահմանաչափը լրացել է</string>
+    <string name="out_of_stock">ՎԵՐՑՎԱԾ Է</string>
+    <string name="cover_for_title">%1$s-ի կազմը</string>
+
+    <!-- Ընթերցողի տվյալների էկրան -->
+    <string name="checkout_details_title">Վերցնելու մանրամասները</string>
+    <string name="your_details">Ձեր տվյալները</string>
+    <string name="your_details_desc">Խնդրում ենք լրացնել ձեր տվյալները՝ ընտրված գրքերը վերցնելու համար:</string>
+    <string name="full_name_required">Անուն Ազգանուն *</string>
+    <string name="full_name_placeholder">Արմեն Պետրոսյան</string>
+    <string name="email_required">Էլ. փոստի հասցե *</string>
+    <string name="email_placeholder">armen@example.am</string>
+    <string name="phone_optional">Հեռախոսահամար</string>
+    <string name="phone_placeholder">091 000 000</string>
+    <string name="borrow_duration_label">Վերցնելու ժամկետ *</string>
+    <string name="duration_1_week">1 շաբաթ</string>
+    <string name="duration_2_weeks">2 շաբաթ</string>
+    <string name="duration_1_month">1 ամիս</string>
+    <string name="duration_2_months">2 ամիս</string>
+    <string name="review_and_confirm">Ստուգել և հաստատել</string>
+    <string name="books_to_checkout">Վերցվող գրքերը (%1$d)</string>
+    <string name="reminder_dialog_title">Տեղադրեք հիշեցում օրացույցում:</string>
+    <string name="reminder_dialog_message">Մինչ գնալը, խնդրում ենք ավելացնել հիշեցում ձեր հեռախոսի օրացույցում՝ այս գրքերը %1$s-ից վերադարձնելու համար:</string>
+    <string name="reminder_dialog_offline_note">Մենք չենք ուղարկում էլ. փոստի հիշեցումներ, որպեսզի հավելվածը մնա անվճար և օֆլայն:</string>
+    <string name="confirm_loan">Հաստատել</string>
+    <string name="confirm_loan_timer">Հաստատել (%1$dվ)</string>
+
+    <!-- Հաջողության էկրան -->
+    <string name="success_title">Հաջողվեց:</string>
+    <string name="success_one_book">Դուք վերցրել եք 1 գիրք:\nՎերադարձի ժամկետ՝ %1$s:</string>
+    <string name="success_multiple_books">Դուք վերցրել եք %1$d գիրք:\nՎերադարձի ժամկետ՝ %2$s:</string>
+    <string name="returning_home_seconds">Վերադարձ գլխավոր էկրան 10 վայրկյանից…</string>
+    <string name="return_to_home_button">Գլխավոր էկրան</string>
+
+    <!-- Գրքերի վերադարձի էկրան -->
+    <string name="return_books_title">Վերադարձնել գրքեր</string>
+    <string name="search_return_placeholder">Որոնել ըստ անվան կամ գրքի վերնագրի…</string>
+    <string name="no_active_loans">Ակտիվ գրանցումներ չեն գտնվել:</string>
+    <string name="return_all_count">Վերադարձնել բոլորը (%1$d)</string>
+    <string name="return_all_button">Վերադարձնել բոլորը</string>
+    <string name="return_book_button">Վերադարձնել գիրքը</string>
+    <string name="return_book_dialog_title">Վերադարձնել գիրքը</string>
+    <string name="return_book_dialog_message">Վերադարձնե՞լ \"%1$s\"-ը %2$s-ի համար:</string>
+    <string name="return_all_dialog_title">Վերադարձնել բոլոր գրքերը</string>
+    <string name="return_all_dialog_message">Վերադարձնե՞լ բոլոր %1$d գրքերը %2$s-ի համար:</string>
+    <string name="borrower_label">Ընթերցող՝ %1$s</string>
+    <string name="overdue_badge">⚠ ԺԱՄԿԵՏԱՆՑ</string>
+    <string name="due_date_label">Վերադարձման ժամկետ՝ %1$s</string>
+    <string name="book_returned_success">Գիրքը հաջողությամբ վերադարձվեց:</string>
+    <string name="all_books_returned_success">Բոլոր գրքերը հաջողությամբ վերադարձվեցին:</string>
+
+    <!-- PIN էկրան -->
+    <string name="admin_access_title">Ադմինիստրատորի մուտք</string>
+    <string name="enter_pin_message">Մուտքագրեք PIN կոդը՝ գրադարանը կառավարելու համար:</string>
+    <string name="default_pin_hint">(Լռելյայն PIN՝ 1234)</string>
+    <string name="incorrect_pin_error">Սխալ PIN: Կրկին փորձեք:</string>
+
+    <!-- Սխալների հաղորդագրություններ -->
+    <string name="error_book_unavailable">Այս գիրքը ներկայումս հասանելի չէ:</string>
+    <string name="error_max_borrow_limit">Միաժամանակ կարող եք վերցնել առավելագույնը %1$d տարբեր անվանում:</string>
+    <string name="error_max_borrow_total">Ընդհանուր առմամբ կարող եք վերցնել առավելագույնը %1$d գիրք:</string>
+    <string name="error_only_copies_available">Մնացել է միայն %1$d օրինակ:</string>
+    <string name="error_name_email_required">Խնդրում ենք լրացնել առնվազն Անունը և Էլ. փոստը:</string>
+    <string name="error_valid_name_required">Խնդրում ենք մուտքագրել վավեր անուն:</string>
+    <string name="error_valid_email_required">Խնդրում ենք մուտքագրել վավեր էլ. հասցե:</string>
+    <string name="error_valid_phone_required">Խնդրում ենք մուտքագրել վավեր հեռախոսահամար:</string>
+    <string name="error_no_books_selected">Ոչ մի գիրք ընտրված չէ:</string>
+    <string name="error_overdue_single">Դուք ունեք ժամկետանց գիրք (\"%1$s\"), որը պետք է վերադարձնել նախքան նոր գրքեր վերցնելը:</string>
+    <string name="error_overdue_multiple">Դուք ունեք %1$d ժամկետանց գրքեր (%2$s), որոնք պետք է վերադարձնել նախքան նոր գրքեր վերցնելը:</string>
+    <string name="error_duplicate_book">Դուք արդեն վերցրել եք \"%1$s\" գիրքը: Խնդրում ենք վերադարձնել այն նախքան կրկին վերցնելը:</string>
+    <string name="error_limit_reached">Դուք ներկայումս ունեք %1$d վերցված գիրք, ինչը հասել է %2$d սահմանաչափին: Խնդրում ենք վերադարձնել գրքեր նախքան նորերը վերցնելը:</string>
+    <string name="error_limit_exceeded">Սահմանաչափը գերազանցված է. դուք արդեն ունեք %1$d գիրք: %2$d սահմանաչափով կարող եք վերցնել միայն ևս %3$d գիրք:</string>
+    <string name="active_loans_info">Ակտիվ գրանցումներ՝ Դուք ունեք %1$d գիրք (Սահմանաչափ՝ %2$d): Կարող եք վերցնել ևս մինչև %3$d գիրք:</string>
+    <string name="active_loans_limit_reached">Սահմանաչափը լրացել է՝ Դուք ունեք %1$d գիրք (Առավելագույնը՝ %2$d): Վերադարձրեք գրքերը՝ նորերը վերցնելու համար:</string>
+    <string name="active_loans_overdue_warning">Ուշադրություն՝ Դուք ունեք %1$d ժամկետանց գիրք: Խնդրում ենք վերադարձնել դրանք նախքան նոր գրքեր վերցնելը:</string>
+
+    <!-- Բաժիններ -->
+    <string name="category_biographies">Կենսագրություններ</string>
+    <string name="category_devotionals">Հոգևոր խորհրդածություններ և աղոթքներ</string>
+    <string name="category_kids">Մանկապատանեկան</string>
+    <string name="category_commentaries">Աստվածաշնչյան մեկնություններ</string>
+    <string name="category_theology">Աստվածաբանություն</string>
+    <string name="category_practical_christianity">Գործնական քրիստոնեություն</string>
+    <string name="category_bibles">Աստվածաշունչ</string>
+    <string name="category_bible_study_material">Սուրբ Գրքի ուսումնասիրության նյութեր</string>
+    <string name="category_christian_living">Քրիստոնեական կյանք</string>
+    <string name="category_church_history">Եկեղեցու պատմություն</string>
+    <string name="category_apologetics">Ջատագովություն (Ապոլոգետիկա)</string>
+    <string name="category_other">Այլ</string>
+
+    <!-- Ադմինիստրատորի վահանակ -->
+    <string name="admin_dashboard_title">Գրադարանի կառավարման վահանակ</string>
+    <string name="admin_dashboard_subtitle">Կառավարեք գրադարանի գրքերը և գրանցումները</string>
+    <string name="admin_what_to_do">Ի՞նչ կցանկանայիք անել:</string>
+    <string name="admin_active_loans">Ակտիվ գրանցումներ</string>
+    <string name="admin_active_loans_desc">Դիտել և գրանցել վերցված գրքերի վերադարձը:</string>
+    <string name="admin_manage_inventory">Գրքերի ֆոնդի կառավարում</string>
+    <string name="admin_manage_inventory_desc">Ավելացնել, խմբագրել կամ ջնջել գրքեր գրադարանից:</string>
+    <string name="admin_settings_backup">Կարգավորումներ և պահուստավորում</string>
+    <string name="admin_settings_backup_desc">Օֆլայն P2P պահուստավորում, դեմո ռեժիմ և կարգավորումներ:</string>
+    <string name="admin_log_out">Դուրս գալ</string>
+    <string name="admin_log_out_desc">Ապահով կողպեք ադմինիստրատորի վահանակը:</string>
+    <string name="about_developer">Ծրագրավորողի մասին</string>
+</resources>

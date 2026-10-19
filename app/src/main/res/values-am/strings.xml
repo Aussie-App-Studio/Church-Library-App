@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">የቤተክርስቲያን ቤተ-መጻሕፍት</string>
+
+    <!-- የሙከራ ሁነታ -->
+    <string name="demo_mode">የሙከራ ሁነታ</string>
+    <string name="demo_mode_active">የሙከራ ሁነታ ነቅቷል</string>
+    <string name="demo_mode_banner_desc">አይጨነቁ! በሙከራ ሁነታ ወቅት ትክክለኛው የቤተ-መጻሕፍት መረጃ ቋት የተደበቀ እና ሙሉ በሙሉ ደህንነቱ የተጠበቀ ነው።</string>
+    <string name="exit_demo_mode">ከሙከራ ሁነታ ውጣ</string>
+
+    <!-- አጠቃላይ -->
+    <string name="back">ተመለስ</string>
+    <string name="cancel">ሰርዝ</string>
+    <string name="delete">አጥፋ</string>
+    <string name="save">አስቀምጥ</string>
+    <string name="edit">አስተካክል</string>
+    <string name="close">ዝጋ</string>
+    <string name="admin">አስተዳዳሪ</string>
+    <string name="success">ተሳክቷል</string>
+    <string name="library_logo">የቤተ-መጻሕፍት ዓርማ</string>
+
+    <!-- መነሻ ገጽ -->
+    <string name="welcome_to_library">ወደ ቤተ-መጻሕፍቱ በደህና መጡ</string>
+    <string name="home_subtitle">መጽሐፍዎን በመደርደሪያው ላይ ይፈልጉ፣ ከዚያም ለመዋስ ወይም ለመመለስ ከታች ይንኩ።</string>
+    <string name="borrow_books">መጻሕፍትን ተውሰስ</string>
+    <string name="borrow_books_desc">አንድ ወይም ከዚያ በላይ መጻሕፍትን ይዋሱ</string>
+    <string name="return_books">መጻሕፍትን መልስ</string>
+    <string name="return_books_desc">አንብበው የጨረሷቸውን መጻሕፍት ይመልሱ</string>
+
+    <!-- መጽሐፍ መምረጫ ገጽ -->
+    <string name="select_books_title">ለመዋስ መጻሕፍትን ይምረጡ</string>
+    <string name="search_books_placeholder">በርዕስ ወይም በጸሐፊ ይፈልጉ…</string>
+    <string name="selected_books_count">%1$d / %2$d ተመርጠዋል</string>
+    <string name="proceed_to_checkout">ወደ መዋስ ሂደት ቀጥል</string>
+    <string name="no_books_found">ምንም መጻሕፍት አልተገኙም።</string>
+    <string name="limit_reached">ገደቡ ላይ ደርሰዋል</string>
+    <string name="out_of_stock">ተወስዷል</string>
+    <string name="cover_for_title">የ%1$s የፊት ገጽ</string>
+
+    <!-- የተኳሽ መረጃ -->
+    <string name="checkout_details_title">የመዋሻ ዝርዝሮች</string>
+    <string name="your_details">የእርስዎ መረጃ</string>
+    <string name="your_details_desc">የተመረጡትን መጻሕፍት ለመዋስ እባክዎ መረጃዎን ያስገቡ።</string>
+    <string name="full_name_required">ሙሉ ስም *</string>
+    <string name="full_name_placeholder">አበበ በቀለ</string>
+    <string name="email_required">ኢሜይል አድራሻ *</string>
+    <string name="email_placeholder">abebe@example.com</string>
+    <string name="phone_optional">ስልክ ቁጥር</string>
+    <string name="phone_placeholder">0911 000 000</string>
+    <string name="borrow_duration_label">የመዋሻ ጊዜ *</string>
+    <string name="duration_1_week">1 ሳምንት</string>
+    <string name="duration_2_weeks">2 ሳምንታት</string>
+    <string name="duration_1_month">1 ወር</string>
+    <string name="duration_2_months">2 ወራት</string>
+    <string name="review_and_confirm">ይገምግሙ እና ያረጋግጡ</string>
+    <string name="books_to_checkout">የሚወሰዱ መጻሕፍት (%1$d)</string>
+    <string name="reminder_dialog_title">በቀን መቁጠሪያ ላይ ማስታወሻ ያስቀምጡ!</string>
+    <string name="reminder_dialog_message">ከመሄድዎ በፊት እነዚህን መጻሕፍት በ%1$s ውስጥ ለመመለስ በስልክዎ የቀን መቁጠሪያ ላይ ማስታወሻ ያክሉ።</string>
+    <string name="reminder_dialog_offline_note">መተግበሪያው ሙሉ በሙሉ ነፃ እና ከመስመር ውጭ እንዲሆን የኢሜይል ማስታወሻዎችን አንልክም።</string>
+    <string name="confirm_loan">ውሰትን አረጋግጥ</string>
+    <string name="confirm_loan_timer">ውሰትን አረጋግጥ (%1$d ሰከንድ)</string>
+
+    <!-- የስኬት ገጽ -->
+    <string name="success_title">ተሳክቷል!</string>
+    <string name="success_one_book">1 መጽሐፍ ተውሰዋል\nየመመለሻ ቀን: %1$s።</string>
+    <string name="success_multiple_books">%1$d መጻሕፍትን ተውሰዋል\nየመመለሻ ቀን: %2$s።</string>
+    <string name="returning_home_seconds">በ10 ሰከንዶች ውስጥ ወደ መነሻ ገጽ ይመለሳል…</string>
+    <string name="return_to_home_button">ወደ መነሻ ገጽ ተመለስ</string>
+
+    <!-- መጻሕፍትን መመለሻ ገጽ -->
+    <string name="return_books_title">መጻሕፍትን መልስ</string>
+    <string name="search_return_placeholder">በስምዎ ወይም በመጽሐፉ ርዕስ ይፈልጉ…</string>
+    <string name="no_active_loans">ምንም ያልተመለሱ መጻሕፍት አልተገኙም።</string>
+    <string name="return_all_count">ሁሉንም መልስ (%1$d)</string>
+    <string name="return_all_button">ሁሉንም መልስ</string>
+    <string name="return_book_button">መጽሐፉን መልስ</string>
+    <string name="return_book_dialog_title">መጽሐፍ መልስ</string>
+    <string name="return_book_dialog_message">\"%1$s\" ለ%2$s ይመለስ?</string>
+    <string name="return_all_dialog_title">ሁሉንም መጻሕፍት መልስ</string>
+    <string name="return_all_dialog_message">ሁሉንም %1$d መጻሕፍት ለ%2$s ይመለሱ?</string>
+    <string name="borrower_label">ተኳሽ: %1$s</string>
+    <string name="overdue_badge">⚠ ጊዜው ያለፈበት</string>
+    <string name="due_date_label">የመመለሻ ቀን: %1$s</string>
+    <string name="book_returned_success">መጽሐፉ በተሳካ ሁኔታ ተመልሷል!</string>
+    <string name="all_books_returned_success">ሁሉም መጻሕፍት በተሳካ ሁኔታ ተመልሰዋል!</string>
+
+    <!-- የፒን ገጽ -->
+    <string name="admin_access_title">የአስተዳዳሪ መግቢያ</string>
+    <string name="enter_pin_message">የቤተ-መጻሕፍቱን መረጃ ለማስተዳደር ፒን (PIN) ያስገቡ።</string>
+    <string name="default_pin_hint">(መደበኛ ፒን: 1234)</string>
+    <string name="incorrect_pin_error">የተሳሳተ ፒን። እባክዎ እንደገና ይሞክሩ።</string>
+
+    <!-- የስህተት እና ማረጋገጫ መልዕክቶች -->
+    <string name="error_book_unavailable">ይህ መጽሐፍ በአሁኑ ጊዜ አይገኝም።</string>
+    <string name="error_max_borrow_limit">በአንድ ጊዜ እስከ %1$d የተለያዩ መጻሕፍትን ብቻ መዋስ ይችላሉ።</string>
+    <string name="error_max_borrow_total">በአጠቃላይ እስከ %1$d መጻሕፍትን ብቻ መዋስ ይችላሉ።</string>
+    <string name="error_only_copies_available">%1$d ቅጂዎች ብቻ ቀርተዋል።</string>
+    <string name="error_name_email_required">እባክዎ ቢያንስ ስም እና ኢሜይል ያስገቡ።</string>
+    <string name="error_valid_name_required">እባክዎ ትክክለኛ ስም ያስገቡ።</string>
+    <string name="error_valid_email_required">እባክዎ ትክክለኛ የኢሜይል አድራሻ ያስገቡ።</string>
+    <string name="error_valid_phone_required">እባክዎ ትክክለኛ የስልክ ቁጥር ያስገቡ።</string>
+    <string name="error_no_books_selected">ምንም መጽሐፍ አልተመረጠም።</string>
+    <string name="error_overdue_single">አዲስ መጻሕፍትን ከመዋስዎ በፊት መመለስ ያለበት ጊዜው ያለፈበት መጽሐፍ (\"%1$s\") አለዎት።</string>
+    <string name="error_overdue_multiple">አዲስ መጻሕፍትን ከመዋስዎ በፊት መመለስ ያለባቸው %1$d ጊዜያቸው ያለፈባቸው መጻሕፍት (%2$s) አሉዎት።</string>
+    <string name="error_duplicate_book">\"%1$s\" የሚለውን መጽሐፍ ቀድመው ተውሰዋል። እባክዎ በድጋሚ ከመዋስዎ በፊት ይመልሱት።</string>
+    <string name="error_limit_reached">በአሁኑ ጊዜ %1$d የተዋሷቸው መጻሕፍት አሉዎት፣ ይህም የ%2$d ገደብ ላይ ደርሷል። ተጨማሪ ከመዋስዎ በፊት እባክዎ የተወሰኑትን ይመልሱ።</string>
+    <string name="error_limit_exceeded">የመዋሻ ገደብ አልፏል: ቀድሞውኑ %1$d መጻሕፍት በእጅዎ አሉ። በ%2$d ገደብ መሰረት %3$d ተጨማሪ መጻሕፍትን ብቻ መውሰድ ይችላሉ።</string>
+    <string name="active_loans_info">የተዋሷቸው መጻሕፍት: በአሁኑ ጊዜ %1$d መጻሕፍት አሉዎት (ገደብ: %2$d)። እስከ %3$d ተጨማሪ መዋስ ይችላሉ።</string>
+    <string name="active_loans_limit_reached">ገደቡ ላይ ደርሰዋል: በአሁኑ ጊዜ %1$d መጻሕፍት በእጅዎ አሉ (ከፍተኛ ገደብ: %2$d)። አዳዲስ ለመዋስ እባክዎ የነበሩትን ይመልሱ።</string>
+    <string name="active_loans_overdue_warning">ማሳሰቢያ: ጊዜያቸው ያለፈባቸው %1$d መጻሕፍት አሉዎት። አዳዲስ ከመዋስዎ በፊት እባክዎ ይመልሷቸው።</string>
+
+    <!-- ምድቦች -->
+    <string name="category_biographies">የሕይወት ታሪኮች</string>
+    <string name="category_devotionals">የመንፈሳዊ ንባብ እና ጸሎት</string>
+    <string name="category_kids">የህፃናት እና ወጣቶች</string>
+    <string name="category_commentaries">የመጽሐፍ ቅዱስ ማብራሪያዎች</string>
+    <string name="category_theology">ነገረ መለኮት (ቴዎሎጂ)</string>
+    <string name="category_practical_christianity">ተግባራዊ ክርስትና</string>
+    <string name="category_bibles">መጽሐፍ ቅዱስ</string>
+    <string name="category_bible_study_material">የመጽሐፍ ቅዱስ ጥናት መርጃዎች</string>
+    <string name="category_christian_living">የክርስቲያን አኗኗር</string>
+    <string name="category_church_history">የቤተክርስቲያን ታሪክ</string>
+    <string name="category_apologetics">የእምነት መከላከያ (አፖሎጀቲክስ)</string>
+    <string name="category_other">ሌሎች</string>
+
+    <!-- የአስተዳዳሪ ዳሽቦርድ -->
+    <string name="admin_dashboard_title">የቤተ-መጻሕፍት አስተዳዳሪ ዳሽቦርድ</string>
+    <string name="admin_dashboard_subtitle">የመጻሕፍት ክምችት እና ውሰትን ያስተዳድሩ</string>
+    <string name="admin_what_to_do">ምን ማድረግ ይፈልጋሉ?</string>
+    <string name="admin_active_loans">በውሰት ላይ ያሉ መጻሕፍት</string>
+    <string name="admin_active_loans_desc">የተዋሱ መጻሕፍትን ይመልከቱ እና ተመላሾችን ይመዝግቡ።</string>
+    <string name="admin_manage_inventory">መጻሕፍትን አስተዳድር</string>
+    <string name="admin_manage_inventory_desc">መጻሕፍትን ወደ ቤተ-መጻሕፍቱ ያክሉ፣ ያርትዑ ወይም ያስወግዱ።</string>
+    <string name="admin_settings_backup">ቅንብሮች እና መጠባበቂያ</string>
+    <string name="admin_settings_backup_desc">ከመስመር ውጭ P2P መጠባበቂያ፣ የሙከራ ሁነታ እና ቅንብሮች።</string>
+    <string name="admin_log_out">ውጣ</string>
+    <string name="admin_log_out_desc">የአስተዳዳሪ ዳሽቦርዱን በደህንነት ይቆልፉ።</string>
+    <string name="about_developer">ስለ አበልጻጊው</string>
+</resources>

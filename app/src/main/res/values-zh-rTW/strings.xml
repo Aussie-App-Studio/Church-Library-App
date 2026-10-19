@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">教會圖書館</string>
+
+    <!-- 演示模式 -->
+    <string name="demo_mode">演示模式</string>
+    <string name="demo_mode_active">演示模式已啟用</string>
+    <string name="demo_mode_banner_desc">請放心！在演示模式下，您真實的圖書館資料庫已隱藏且絕對安全。</string>
+    <string name="exit_demo_mode">退出演示模式</string>
+
+    <!-- 通用 -->
+    <string name="back">返回</string>
+    <string name="cancel">取消</string>
+    <string name="delete">刪除</string>
+    <string name="save">儲存</string>
+    <string name="edit">編輯</string>
+    <string name="close">關閉</string>
+    <string name="admin">管理員</string>
+    <string name="success">成功</string>
+    <string name="library_logo">圖書館標誌</string>
+
+    <!-- 首頁 -->
+    <string name="welcome_to_library">歡迎來到圖書館</string>
+    <string name="home_subtitle">在書架上找到您的書籍，然後點擊下方進行借閱或歸還。</string>
+    <string name="borrow_books">借閱書籍</string>
+    <string name="borrow_books_desc">借閱一本或多本書籍</string>
+    <string name="return_books">歸還書籍</string>
+    <string name="return_books_desc">歸還您已閱讀完畢的書籍</string>
+
+    <!-- 選擇書籍頁面 -->
+    <string name="select_books_title">選擇要借閱的書籍</string>
+    <string name="search_books_placeholder">依書名或作者搜尋…</string>
+    <string name="selected_books_count">已選擇 %1$d / %2$d 本</string>
+    <string name="proceed_to_checkout">前往借閱結帳</string>
+    <string name="no_books_found">未找到相關書籍。</string>
+    <string name="limit_reached">已達借閱上限</string>
+    <string name="out_of_stock">已借出</string>
+    <string name="cover_for_title">%1$s 的封面</string>
+
+    <!-- 借閱者資訊頁面 -->
+    <string name="checkout_details_title">借閱詳情</string>
+    <string name="your_details">您的資料</string>
+    <string name="your_details_desc">請輸入您的資料以借閱所選書籍。</string>
+    <string name="full_name_required">姓名 *</string>
+    <string name="full_name_placeholder">陳大文</string>
+    <string name="email_required">電子郵件地址 *</string>
+    <string name="email_placeholder">user@example.com</string>
+    <string name="phone_optional">電話號碼</string>
+    <string name="phone_placeholder">0900 000 000</string>
+    <string name="borrow_duration_label">借閱期限 *</string>
+    <string name="duration_1_week">1 週</string>
+    <string name="duration_2_weeks">2 週</string>
+    <string name="duration_1_month">1 個月</string>
+    <string name="duration_2_months">2 個月</string>
+    <string name="review_and_confirm">核對並確認</string>
+    <string name="books_to_checkout">借閱書籍 (%1$d 本)</string>
+    <string name="reminder_dialog_title">設定行事曆提醒！</string>
+    <string name="reminder_dialog_message">離開前，請在您手機的行事曆中新增提醒，以便在 %1$s 後歸還這些書籍。</string>
+    <string name="reminder_dialog_offline_note">為保持應用程式完全免費且離線運行，我們不會發送電子郵件提醒。</string>
+    <string name="confirm_loan">確認借閱</string>
+    <string name="confirm_loan_timer">確認借閱 (%1$d秒)</string>
+
+    <!-- 借閱成功頁面 -->
+    <string name="success_title">借閱成功！</string>
+    <string name="success_one_book">您已借出 1 本書。\n應歸還日期為：%1$s。</string>
+    <string name="success_multiple_books">您已借出 %1$d 本書。\n應歸還日期為：%2$s。</string>
+    <string name="returning_home_seconds">將在 10 秒後返回首頁…</string>
+    <string name="return_to_home_button">返回首頁</string>
+
+    <!-- 歸還書籍頁面 -->
+    <string name="return_books_title">歸還書籍</string>
+    <string name="search_return_placeholder">依您的姓名或書名搜尋…</string>
+    <string name="no_active_loans">未找到進行中的借閱紀錄。</string>
+    <string name="return_all_count">全部歸還 (%1$d)</string>
+    <string name="return_all_button">全部歸還</string>
+    <string name="return_book_button">歸還書籍</string>
+    <string name="return_book_dialog_title">歸還書籍</string>
+    <string name="return_book_dialog_message">確認為 %2$s 歸還《%1$s》？</string>
+    <string name="return_all_dialog_title">歸還全部書籍</string>
+    <string name="return_all_dialog_message">確認為 %2$s 歸還全部 %1$d 本書籍？</string>
+    <string name="borrower_label">借閱人：%1$s</string>
+    <string name="overdue_badge">⚠ 已逾期</string>
+    <string name="due_date_label">應還日期：%1$s</string>
+    <string name="book_returned_success">書籍歸還成功！</string>
+    <string name="all_books_returned_success">所有書籍歸還成功！</string>
+
+    <!-- PIN 碼頁面 -->
+    <string name="admin_access_title">管理員登入</string>
+    <string name="enter_pin_message">請輸入 PIN 碼以管理圖書館資料。</string>
+    <string name="default_pin_hint">(預設 PIN 碼：1234)</string>
+    <string name="incorrect_pin_error">PIN 碼不正確，請再試一次。</string>
+
+    <!-- 錯誤與驗證訊息 -->
+    <string name="error_book_unavailable">該書目前不可借閱。</string>
+    <string name="error_max_borrow_limit">一次最多只能借閱 %1$d 本不同書目。</string>
+    <string name="error_max_borrow_total">總共最多只能借閱 %1$d 本書籍。</string>
+    <string name="error_only_copies_available">僅剩 %1$d 本可借。</string>
+    <string name="error_name_email_required">請至少填寫姓名和電子郵件。</string>
+    <string name="error_valid_name_required">請輸入有效的姓名。</string>
+    <string name="error_valid_email_required">請輸入有效的電子郵件地址。</string>
+    <string name="error_valid_phone_required">請輸入有效的電話號碼。</string>
+    <string name="error_no_books_selected">尚未選擇任何書籍。</string>
+    <string name="error_overdue_single">您有 1 本逾期書籍（《%1$s》），須先歸還方可借閱新書。</string>
+    <string name="error_overdue_multiple">您有 %1$d 本逾期書籍（%2$s），須先歸還方可借閱新書。</string>
+    <string name="error_duplicate_book">您目前已借閱《%1$s》，請歸還後再重新借閱。</string>
+    <string name="error_limit_reached">您目前借閱中的書籍已有 %1$d 本，已達上限 %2$d 本。請先歸還部分書籍後再借新書。</string>
+    <string name="error_limit_exceeded">已超出借閱上限：您已有 %1$d 本在借。在上限 %2$d 本的規定下，您只能再借 %3$d 本。</string>
+    <string name="active_loans_info">目前借閱：您目前借閱了 %1$d 本書（上限：%2$d 本）。您還可以借閱最多 %3$d 本。</string>
+    <string name="active_loans_limit_reached">已達上限：您目前已借出 %1$d 本書（最高上限：%2$d 本）。請歸還書籍以借閱新書。</string>
+    <string name="active_loans_overdue_warning">注意：您有 %1$d 本書籍已逾期。請在借閱新書前歸還逾期書籍。</string>
+
+    <!-- 分類 -->
+    <string name="category_biographies">人物傳記</string>
+    <string name="category_devotionals">靈修默想</string>
+    <string name="category_kids">兒童與青少年</string>
+    <string name="category_commentaries">聖經註釋與研讀</string>
+    <string name="category_theology">神學研究</string>
+    <string name="category_practical_christianity">實踐信仰</string>
+    <string name="category_bibles">聖經經卷</string>
+    <string name="category_bible_study_material">查經教材</string>
+    <string name="category_christian_living">基督徒生活</string>
+    <string name="category_church_history">教會歷史</string>
+    <string name="category_apologetics">護教學</string>
+    <string name="category_other">其他</string>
+
+    <!-- 管理員後台首頁 -->
+    <string name="admin_dashboard_title">圖書館管理員後台</string>
+    <string name="admin_dashboard_subtitle">管理藏書清單與借還紀錄</string>
+    <string name="admin_what_to_do">您想進行什麼操作？</string>
+    <string name="admin_active_loans">借閱中紀錄</string>
+    <string name="admin_active_loans_desc">檢視並處理借閱中書籍的歸還。</string>
+    <string name="admin_manage_inventory">館藏書籍管理</string>
+    <string name="admin_manage_inventory_desc">在圖書館中新增、編輯或刪除書籍。</string>
+    <string name="admin_settings_backup">設定與備份</string>
+    <string name="admin_settings_backup_desc">離線點對點備份、演示模式與圖書館設定。</string>
+    <string name="admin_log_out">登出</string>
+    <string name="admin_log_out_desc">安全鎖定管理員後台。</string>
+    <string name="about_developer">關於開發者</string>
+</resources>

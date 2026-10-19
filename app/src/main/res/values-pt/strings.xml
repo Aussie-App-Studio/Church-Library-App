@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Biblioteca da Igreja</string>
+
+    <!-- Demo Mode -->
+    <string name="demo_mode">Modo de Demonstração</string>
+    <string name="demo_mode_active">O MODO DE DEMONSTRAÇÃO ESTÁ ATIVO</string>
+    <string name="demo_mode_banner_desc">Não se preocupe! Seu banco de dados real está protegido e seguro no Modo de Demonstração.</string>
+    <string name="exit_demo_mode">Sair do Modo de Demonstração</string>
+
+    <!-- General / Common -->
+    <string name="back">Voltar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Excluir</string>
+    <string name="save">Salvar</string>
+    <string name="edit">Editar</string>
+    <string name="close">Fechar</string>
+    <string name="admin">Administração</string>
+    <string name="success">Sucesso</string>
+    <string name="library_logo">Logotipo da Biblioteca</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_to_library">Bem-vindo à Biblioteca</string>
+    <string name="home_subtitle">Encontre o livro na estante e toque abaixo para retirá-lo ou devolvê-lo.</string>
+    <string name="borrow_books">Emprestar Livros</string>
+    <string name="borrow_books_desc">Retire um ou mais livros</string>
+    <string name="return_books">Devolver Livros</string>
+    <string name="return_books_desc">Devolva os livros que você já leu</string>
+
+    <!-- Select Books Screen -->
+    <string name="select_books_title">Selecionar Livros para Empréstimo</string>
+    <string name="search_books_placeholder">Buscar por título ou autor…</string>
+    <string name="selected_books_count">%1$d / %2$d selecionados</string>
+    <string name="proceed_to_checkout">Prosseguir para Empréstimo</string>
+    <string name="no_books_found">Nenhum livro encontrado.</string>
+    <string name="limit_reached">Limite Atingido</string>
+    <string name="out_of_stock">INDISPONÍVEL</string>
+    <string name="cover_for_title">Capa de %1$s</string>
+
+    <!-- Borrower Info Screen -->
+    <string name="checkout_details_title">Dados do Empréstimo</string>
+    <string name="your_details">Seus Dados</string>
+    <string name="your_details_desc">Por favor, insira suas informações para emprestar os livros selecionados.</string>
+    <string name="full_name_required">Nome Completo *</string>
+    <string name="full_name_placeholder">João Silva</string>
+    <string name="email_required">E-mail *</string>
+    <string name="email_placeholder">joao@exemplo.com</string>
+    <string name="phone_optional">Telefone</string>
+    <string name="phone_placeholder">0400 000 000</string>
+    <string name="borrow_duration_label">Prazo de Empréstimo *</string>
+    <string name="duration_1_week">1 Semana</string>
+    <string name="duration_2_weeks">2 Semanas</string>
+    <string name="duration_1_month">1 Mês</string>
+    <string name="duration_2_months">2 Meses</string>
+    <string name="review_and_confirm">Revisar e Confirmar</string>
+    <string name="books_to_checkout">Livros para Emprestar (%1$d)</string>
+    <string name="reminder_dialog_title">Adicione um Lembrete ao Calendário!</string>
+    <string name="reminder_dialog_message">Antes de sair, reserve um momento para adicionar um lembrete ao calendário do seu telefone para devolver os livros em %1$s.</string>
+    <string name="reminder_dialog_offline_note">Não enviamos lembretes por e-mail para manter o aplicativo gratuito e offline.</string>
+    <string name="confirm_loan">Confirmar Empréstimo</string>
+    <string name="confirm_loan_timer">Confirmar Empréstimo (%1$ds)</string>
+
+    <!-- Borrow Success Screen -->
+    <string name="success_title">Empréstimo Concluído!</string>
+    <string name="success_one_book">Você retirou 1 livro.\nA devolução deve ser feita até %1$s.</string>
+    <string name="success_multiple_books">Você retirou %1$d livros.\nA devolução deve ser feita até %2$s.</string>
+    <string name="returning_home_seconds">Voltando ao início em 10 segundos…</string>
+    <string name="return_to_home_button">Voltar à Página Inicial</string>
+
+    <!-- Return Books Screen -->
+    <string name="return_books_title">Devolver Livros</string>
+    <string name="search_return_placeholder">Buscar por seu nome ou título do livro…</string>
+    <string name="no_active_loans">Nenhum empréstimo ativo encontrado.</string>
+    <string name="return_all_count">Devolver Todos (%1$d)</string>
+    <string name="return_all_button">Devolver Todos</string>
+    <string name="return_book_button">Devolver Livro</string>
+    <string name="return_book_dialog_title">Devolver Livro</string>
+    <string name="return_book_dialog_message">Devolver \"%1$s\" para %2$s?</string>
+    <string name="return_all_dialog_title">Devolver Todos os Livros</string>
+    <string name="return_all_dialog_message">Devolver todos os %1$d livros de %2$s?</string>
+    <string name="borrower_label">Leitor: %1$s</string>
+    <string name="overdue_badge">⚠ ATRASADO</string>
+    <string name="due_date_label">Prazo: %1$s</string>
+    <string name="book_returned_success">Livro devolvido com sucesso!</string>
+    <string name="all_books_returned_success">Todos os livros foram devolvidos com sucesso!</string>
+
+    <!-- Pin Screen -->
+    <string name="admin_access_title">Acesso de Administrador</string>
+    <string name="enter_pin_message">Digite o PIN para gerenciar os registros da biblioteca.</string>
+    <string name="default_pin_hint">(PIN padrão: 1234)</string>
+    <string name="incorrect_pin_error">PIN incorreto. Tente novamente.</string>
+
+    <!-- Validation & Error Messages -->
+    <string name="error_book_unavailable">Este livro não está disponível no momento.</string>
+    <string name="error_max_borrow_limit">Você só pode emprestar até %1$d títulos diferentes por vez.</string>
+    <string name="error_only_copies_available">Apenas %1$d exemplares disponíveis.</string>
+    <string name="error_name_email_required">Por favor, informe pelo menos Nome e E-mail.</string>
+    <string name="error_valid_name_required">Por favor, insira um nome válido.</string>
+    <string name="error_valid_email_required">Por favor, insira um endereço de e-mail válido.</string>
+    <string name="error_valid_phone_required">Por favor, insira um número de telefone válido.</string>
+    <string name="error_no_books_selected">Nenhum livro selecionado.</string>
+
+    <!-- Categories -->
+    <string name="category_biographies">Biografias</string>
+    <string name="category_devotionals">Devocionais</string>
+    <string name="category_kids">Infantil</string>
+    <string name="category_commentaries">Comentários</string>
+    <string name="category_theology">Teologia</string>
+    <string name="category_practical_christianity">Cristianismo Prático</string>
+    <string name="category_bibles">Bíblias</string>
+    <string name="category_bible_study_material">Estudo Bíblico</string>
+    <string name="category_christian_living">Vida Cristã</string>
+    <string name="category_church_history">História da Igreja</string>
+    <string name="category_apologetics">Apologética</string>
+    <string name="category_other">Outro</string>
+
+    <!-- Admin Dashboard Hub -->
+    <string name="admin_dashboard_title">Painel do Administrador</string>
+    <string name="admin_dashboard_subtitle">Gerenciar inventário e empréstimos</string>
+    <string name="admin_what_to_do">O que você gostaria de fazer?</string>
+    <string name="admin_active_loans">Empréstimos Ativos</string>
+    <string name="admin_active_loans_desc">Visualizar e dar baixa em livros emprestados.</string>
+    <string name="admin_manage_inventory">Gerenciar Inventário</string>
+    <string name="admin_manage_inventory_desc">Adicionar, editar ou remover livros da biblioteca.</string>
+    <string name="admin_settings_backup">Configurações e Backup</string>
+    <string name="admin_settings_backup_desc">Sincronização P2P, Modo Demonstração e configurações.</string>
+    <string name="admin_log_out">Sair</string>
+    <string name="admin_log_out_desc">Bloquear o painel com segurança.</string>
+    <string name="about_developer">Sobre o Desenvolvedor</string>
+</resources>

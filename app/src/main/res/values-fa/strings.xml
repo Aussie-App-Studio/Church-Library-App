@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">کتابخانه کلیسا</string>
+
+    <!-- حالت دمو -->
+    <string name="demo_mode">حالت آزمایشی</string>
+    <string name="demo_mode_active">حالت آزمایشی فعال است</string>
+    <string name="demo_mode_banner_desc">نگران نباشید! پایگاه داده واقعی کتابخانه در حالت آزمایشی مخفی و کاملاً امن است.</string>
+    <string name="exit_demo_mode">خروج از حالت آزمایشی</string>
+
+    <!-- عمومی -->
+    <string name="back">بازگشت</string>
+    <string name="cancel">لغو</string>
+    <string name="delete">حذف</string>
+    <string name="save">ذخیره</string>
+    <string name="edit">ویرایش</string>
+    <string name="close">بستن</string>
+    <string name="admin">مدیر</string>
+    <string name="success">موفقیت‌آمیز</string>
+    <string name="library_logo">نشان کتابخانه</string>
+
+    <!-- صفحه اصلی -->
+    <string name="welcome_to_library">به کتابخانه خوش آمدید</string>
+    <string name="home_subtitle">کتاب خود را در قفسه پیدا کنید، سپس برای امانت گرفتن یا بازگرداندن روی گزینه‌های زیر ضربه بزنید.</string>
+    <string name="borrow_books">امانت گرفتن کتاب</string>
+    <string name="borrow_books_desc">امانت گرفتن یک یا چند کتاب</string>
+    <string name="return_books">بازگرداندن کتاب</string>
+    <string name="return_books_desc">بازگرداندن کتاب‌هایی که مطالعه کرده‌اید</string>
+
+    <!-- انتخاب کتاب -->
+    <string name="select_books_title">انتخاب کتاب‌ها برای امانت</string>
+    <string name="search_books_placeholder">جستجو بر اساس عنوان یا نویسنده…</string>
+    <string name="selected_books_count">%1$d از %2$d انتخاب شده</string>
+    <string name="proceed_to_checkout">ادامه فرآیند امانت</string>
+    <string name="no_books_found">کتابی یافت نشد.</string>
+    <string name="limit_reached">سقف امانت پر شد</string>
+    <string name="out_of_stock">ناموجود</string>
+    <string name="cover_for_title">جلد کتاب %1$s</string>
+
+    <!-- اطلاعات امانت‌گیرنده -->
+    <string name="checkout_details_title">جزئیات امانت</string>
+    <string name="your_details">مشخصات شما</string>
+    <string name="your_details_desc">لطفاً برای امانت گرفتن کتاب‌های انتخابی، اطلاعات خود را وارد کنید.</string>
+    <string name="full_name_required">نام و نام خانوادگی *</string>
+    <string name="full_name_placeholder">رضا محمدی</string>
+    <string name="email_required">آدرس ایمیل *</string>
+    <string name="email_placeholder">reza@example.com</string>
+    <string name="phone_optional">شماره تلفن</string>
+    <string name="phone_placeholder">0912 000 0000</string>
+    <string name="borrow_duration_label">مدت امانت *</string>
+    <string name="duration_1_week">۱ هفته</string>
+    <string name="duration_2_weeks">۲ هفته</string>
+    <string name="duration_1_month">۱ ماه</string>
+    <string name="duration_2_months">۲ ماه</string>
+    <string name="review_and_confirm">بررسی و تأیید</string>
+    <string name="books_to_checkout">کتاب‌های انتخابی برای امانت (%1$d)</string>
+    <string name="reminder_dialog_title">تنظیم یادآور در تقویم!</string>
+    <string name="reminder_dialog_message">پیش از رفتن، لطفاً یادآوری برای بازگرداندن این کتاب‌ها در %1$s آینده در تقویم گوشی خود ثبت کنید.</string>
+    <string name="reminder_dialog_offline_note">ما برای حفظ ماهیت کاملاً رایگان و آفلاین برنامه، ایمیل یادآوری ارسال نمی‌کنیم.</string>
+    <string name="confirm_loan">تأیید امانت</string>
+    <string name="confirm_loan_timer">تأیید امانت (%1$d ثانیه)</string>
+
+    <!-- صفحه موفقیت -->
+    <string name="success_title">با موفقیت انجام شد!</string>
+    <string name="success_one_book">شما ۱ جلد کتاب به امانت گرفتید.\nمهلت بازگشت: %1$s.</string>
+    <string name="success_multiple_books">شما %1$d جلد کتاب به امانت گرفتید.\nمهلت بازگشت: %2$s.</string>
+    <string name="returning_home_seconds">بازگشت به صفحه اصلی در ۱۰ ثانیه…</string>
+    <string name="return_to_home_button">بازگشت به صفحه اصلی</string>
+
+    <!-- بازگرداندن کتاب -->
+    <string name="return_books_title">بازگرداندن کتاب‌ها</string>
+    <string name="search_return_placeholder">جستجو بر اساس نام شما یا عنوان کتاب…</string>
+    <string name="no_active_loans">هیچ امانت فعالی یافت نشد.</string>
+    <string name="return_all_count">بازگرداندن همه (%1$d)</string>
+    <string name="return_all_button">بازگرداندن همه</string>
+    <string name="return_book_button">بازگرداندن کتاب</string>
+    <string name="return_book_dialog_title">بازگرداندن کتاب</string>
+    <string name="return_book_dialog_message">آیا \"%1$s\" برای %2$s بازگردانده شود؟</string>
+    <string name="return_all_dialog_title">بازگرداندن همه کتاب‌ها</string>
+    <string name="return_all_dialog_message">آیا تمام %1$d کتاب برای %2$s بازگردانده شوند؟</string>
+    <string name="borrower_label">امانت‌گیرنده: %1$s</string>
+    <string name="overdue_badge">⚠ تأخیر در بازگشت</string>
+    <string name="due_date_label">مهلت: %1$s</string>
+    <string name="book_returned_success">کتاب با موفقیت بازگردانده شد!</string>
+    <string name="all_books_returned_success">تمام کتاب‌ها با موفقیت بازگردانده شدند!</string>
+
+    <!-- صفحه پین کد -->
+    <string name="admin_access_title">دسترسی مدیر</string>
+    <string name="enter_pin_message">جهت مدیریت سوابق کتابخانه، کد پین را وارد کنید.</string>
+    <string name="default_pin_hint">(پین پیش‌فرض: 1234)</string>
+    <string name="incorrect_pin_error">کد پین اشتباه است. دوباره امتحان کنید.</string>
+
+    <!-- پیام‌های خطا و اعتبارسنجی -->
+    <string name="error_book_unavailable">این کتاب در حال حاضر موجود نیست.</string>
+    <string name="error_max_borrow_limit">شما هم‌زمان حداکثر می‌توانید تا %1$d عنوان مختلف را به امانت ببرید.</string>
+    <string name="error_max_borrow_total">شما در مجموع حداکثر می‌توانید تا %1$d جلد کتاب به امانت بگیرید.</string>
+    <string name="error_only_copies_available">تنها %1$d نسخه موجود است.</string>
+    <string name="error_name_email_required">لطفاً حداقل نام و ایمیل را وارد نمایید.</string>
+    <string name="error_valid_name_required">لطفاً یک نام معتبر وارد کنید.</string>
+    <string name="error_valid_email_required">لطفاً یک آدرس ایمیل معتبر وارد کنید.</string>
+    <string name="error_valid_phone_required">لطفاً یک شماره تلفن معتبر وارد کنید.</string>
+    <string name="error_no_books_selected">هیچ کتابی انتخاب نشده است.</string>
+    <string name="error_overdue_single">شما یک کتاب دارای تأخیر (\"%1$s\") دارید که باید قبل از امانت گرفتن کتاب‌های جدید تحویل داده شود.</string>
+    <string name="error_overdue_multiple">شما %1$d کتاب دارای تأخیر (%2$s) دارید که باید قبل از امانت گرفتن کتاب‌های جدید بازگردانده شوند.</string>
+    <string name="error_duplicate_book">شما در حال حاضر کتاب \"%1$s\" را در امانت دارید. لطفاً قبل از امانت گرفتن دوباره، آن را بازگردانید.</string>
+    <string name="error_limit_reached">شما در حال حاضر %1$d کتاب به امانت دارید که به سقف مجاز %2$d رسیده است. لطفاً پیش از دریافت کتاب جدید، کتاب‌های قبلی را بازگردانید.</string>
+    <string name="error_limit_exceeded">تعداد امانت بیش از حد مجاز: شما %1$d کتاب دارید. با سقف %2$d کتاب، تنها مجاز به امانت گرفتن %3$d کتاب دیگر هستید.</string>
+    <string name="active_loans_info">امانت‌های فعال: شما در حال حاضر %1$d کتاب در امانت دارید (سقف: %2$d). می‌توانید تا %3$d کتاب دیگر به امانت بگیرید.</string>
+    <string name="active_loans_limit_reached">سقف پر شد: شما در حال حاضر %1$d کتاب در امانت دارید (حداکثر سقف: %2$d). لطفاً برای دریافت کتاب جدید، کتاب‌های قبلی را بازگردانید.</string>
+    <string name="active_loans_overdue_warning">توجه: شما %1$d کتاب با مهلت سپری‌شده دارید. لطفاً پیش از امانت گرفتن کتاب‌های تازه، آن‌ها را بازگردانید.</string>
+
+    <!-- دسته‌بندی‌ها -->
+    <string name="category_biographies">زندگی‌نامه‌ها</string>
+    <string name="category_devotionals">رازگاه و دعایی</string>
+    <string name="category_kids">کودکان و نوجوانان</string>
+    <string name="category_commentaries">تفاسیر کتاب مقدس</string>
+    <string name="category_theology">الهیات</string>
+    <string name="category_practical_christianity">مسیحیت کاربردی</string>
+    <string name="category_bibles">کتاب مقدس</string>
+    <string name="category_bible_study_material">مطالعه و پژوهش کتاب مقدس</string>
+    <string name="category_christian_living">زیست مسیحی</string>
+    <string name="category_church_history">تاریخ کلیسا</string>
+    <string name="category_apologetics">دفاعیات ایمانی</string>
+    <string name="category_other">سایر</string>
+
+    <!-- پنل مدیریت -->
+    <string name="admin_dashboard_title">داشبورد مدیریت کتابخانه</string>
+    <string name="admin_dashboard_subtitle">مدیریت موجودی کتاب‌ها و امانت‌ها</string>
+    <string name="admin_what_to_do">مایل به انجام چه کاری هستید؟</string>
+    <string name="admin_active_loans">امانت‌های فعال</string>
+    <string name="admin_active_loans_desc">مشاهده و ثبت بازگشت کتاب‌های امانت داده شده.</string>
+    <string name="admin_manage_inventory">مدیریت موجودی کتاب‌ها</string>
+    <string name="admin_manage_inventory_desc">افزودن، ویرایش یا حذف کتاب‌ها از کتابخانه.</string>
+    <string name="admin_settings_backup">تنظیمات و پشتیبان‌گیری</string>
+    <string name="admin_settings_backup_desc">پشتیبان‌گیری همتا به همتا آفلاین، حالت آزمایشی و تنظیمات کتابخانه.</string>
+    <string name="admin_log_out">خروج</string>
+    <string name="admin_log_out_desc">قفل ایمن داشبورد مدیریت.</string>
+    <string name="about_developer">درباره توسعه‌دهنده</string>
+</resources>

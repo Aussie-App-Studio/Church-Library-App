@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sborová knihovna</string>
+
+    <!-- Demo režim -->
+    <string name="demo_mode">Demo režim</string>
+    <string name="demo_mode_active">DEMO REŽIM JE AKTIVNÍ</string>
+    <string name="demo_mode_banner_desc">Bez obav! Vaše skutečná databáze knihovny je během demo režimu skrytá a naprosto v bezpečí.</string>
+    <string name="exit_demo_mode">Ukončit demo režim</string>
+
+    <!-- Obecné -->
+    <string name="back">Zpět</string>
+    <string name="cancel">Zrušit</string>
+    <string name="delete">Smazat</string>
+    <string name="save">Uložit</string>
+    <string name="edit">Upravit</string>
+    <string name="close">Zavřít</string>
+    <string name="admin">Správce</string>
+    <string name="success">Úspěch</string>
+    <string name="library_logo">Logo knihovny</string>
+
+    <!-- Domovská obrazovka -->
+    <string name="welcome_to_library">Vítejte v knihovně</string>
+    <string name="home_subtitle">Najděte knihu na polici a potom klepnutím níže zahajte výpůjčku nebo vrácení.</string>
+    <string name="borrow_books">Půjčit knihy</string>
+    <string name="borrow_books_desc">Půjčit si jednu nebo více knih</string>
+    <string name="return_books">Vrátit knihy</string>
+    <string name="return_books_desc">Vraťte přečtené knihy zpět</string>
+
+    <!-- Výběr knih -->
+    <string name="select_books_title">Vyberte knihy k zapůjčení</string>
+    <string name="search_books_placeholder">Hledat podle názvu nebo autora…</string>
+    <string name="selected_books_count">Vybráno %1$d z %2$d</string>
+    <string name="proceed_to_checkout">Přejít k výpůjčce</string>
+    <string name="no_books_found">Nebyly nalezeny žádné knihy.</string>
+    <string name="limit_reached">Limit byl dosažen</string>
+    <string name="out_of_stock">VYPŮJČENO</string>
+    <string name="cover_for_title">Obálka knihy %1$s</string>
+
+    <!-- Údaje o čtenáři -->
+    <string name="checkout_details_title">Podrobnosti výpůjčky</string>
+    <string name="your_details">Vaše údaje</string>
+    <string name="your_details_desc">Pro zapůjčení vybraných knih zadejte prosím své údaje.</string>
+    <string name="full_name_required">Jméno a příjmení *</string>
+    <string name="full_name_placeholder">Jan Novák</string>
+    <string name="email_required">E-mailová adresa *</string>
+    <string name="email_placeholder">jan.novak@example.cz</string>
+    <string name="phone_optional">Telefonní číslo</string>
+    <string name="phone_placeholder">700 000 000</string>
+    <string name="borrow_duration_label">Doba výpůjčky *</string>
+    <string name="duration_1_week">1 týden</string>
+    <string name="duration_2_weeks">2 týdny</string>
+    <string name="duration_1_month">1 měsíc</string>
+    <string name="duration_2_months">2 měsíce</string>
+    <string name="review_and_confirm">Zkontrolovat a potvrdit</string>
+    <string name="books_to_checkout">Knihy k výpůjčce (%1$d)</string>
+    <string name="reminder_dialog_title">Nastavte si připomínku v kalendáři!</string>
+    <string name="reminder_dialog_message">Než odejdete, přidejte si prosím do kalendáře v telefonu připomínku na vrácení těchto knih za %1$s.</string>
+    <string name="reminder_dialog_offline_note">E-mailové připomínky nezasíláme, aby aplikace zůstala zcela bezplatná a offline.</string>
+    <string name="confirm_loan">Potvrdit výpůjčku</string>
+    <string name="confirm_loan_timer">Potvrdit výpůjčku (%1$ds)</string>
+
+    <!-- Úspěšná výpůjčka -->
+    <string name="success_title">Úspěch!</string>
+    <string name="success_one_book">Půjčili jste si 1 knihu.\nTermín vrácení je %1$s.</string>
+    <string name="success_multiple_books">Půjčili jste si %1$d knih.\nTermín vrácení je %2$s.</string>
+    <string name="returning_home_seconds">Návrat na hlavní obrazovku za 10 sekund…</string>
+    <string name="return_to_home_button">Zpět na hlavní obrazovku</string>
+
+    <!-- Vrácení knih -->
+    <string name="return_books_title">Vrátit knihy</string>
+    <string name="search_return_placeholder">Hledat podle jména nebo názvu knihy…</string>
+    <string name="no_active_loans">Nenalezeny žádné aktivní výpůjčky.</string>
+    <string name="return_all_count">Vrátit vše (%1$d)</string>
+    <string name="return_all_button">Vrátit vše</string>
+    <string name="return_book_button">Vrátit knihu</string>
+    <string name="return_book_dialog_title">Vrátit knihu</string>
+    <string name="return_book_dialog_message">Vrátit \"%1$s\" za čtenáře %2$s?</string>
+    <string name="return_all_dialog_title">Vrátit všechny knihy</string>
+    <string name="return_all_dialog_message">Vrátit všech %1$d knih za čtenáře %2$s?</string>
+    <string name="borrower_label">Půjčil/a: %1$s</string>
+    <string name="overdue_badge">⚠ PO TERMÍNU</string>
+    <string name="due_date_label">Termín: %1$s</string>
+    <string name="book_returned_success">Kniha byla úspěšně vrácena!</string>
+    <string name="all_books_returned_success">Všechny knihy byly úspěšně vráceny!</string>
+
+    <!-- Obrazovka PINu -->
+    <string name="admin_access_title">Přístup správce</string>
+    <string name="enter_pin_message">Pro správu knihovny zadejte PIN kód.</string>
+    <string name="default_pin_hint">(Výchozí PIN: 1234)</string>
+    <string name="incorrect_pin_error">Nesprávný PIN. Zkuste to znovu.</string>
+
+    <!-- Chybové zprávy -->
+    <string name="error_book_unavailable">Tato kniha není v současné době dostupná.</string>
+    <string name="error_max_borrow_limit">Současně si můžete půjčit maximálně %1$d různých titulů.</string>
+    <string name="error_max_borrow_total">Celkem si můžete půjčit maximálně %1$d knih.</string>
+    <string name="error_only_copies_available">K dispozici je pouze %1$d výtisků.</string>
+    <string name="error_name_email_required">Vyplňte prosím alespoň jméno a e-mail.</string>
+    <string name="error_valid_name_required">Zadejte prosím platné jméno.</string>
+    <string name="error_valid_email_required">Zadejte prosím platnou e-mailovou adresu.</string>
+    <string name="error_valid_phone_required">Zadejte prosím platné telefonní číslo.</string>
+    <string name="error_no_books_selected">Nebyly vybrány žádné knihy.</string>
+    <string name="error_overdue_single">Máte knihu po termínu (\"%1$s\"), kterou je třeba vrátit před novou výpůjčkou.</string>
+    <string name="error_overdue_multiple">Máte %1$d knih po termínu (%2$s), které je třeba vrátit před novou výpůjčkou.</string>
+    <string name="error_duplicate_book">Knihu \"%1$s\" již máte půjčenou. Před dalším půjčením ji prosím vraťte.</string>
+    <string name="error_limit_reached">V současné době máte půjčeno %1$d knih, což je limit %2$d. Před další výpůjčkou nejprve některé vraťte.</string>
+    <string name="error_limit_exceeded">Překročen limit výpůjček: Již máte %1$d knih. Při limitu %2$d si můžete půjčit už jen %3$d dalších knih.</string>
+    <string name="active_loans_info">Aktivní výpůjčky: V současnosti máte %1$d knih (Limit: %2$d). Můžete si půjčit ještě až %3$d.</string>
+    <string name="active_loans_limit_reached">Limit dosažen: V současnosti máte %1$d knih (Maximální limit: %2$d). Před další výpůjčkou prosím vraťte knihy.</string>
+    <string name="active_loans_overdue_warning">Upozornění: Máte %1$d knih po termínu vrácení. Vraťte je prosím před půjčením nových.</string>
+
+    <!-- Kategorie -->
+    <string name="category_biographies">Biografie</string>
+    <string name="category_devotionals">Zamyšlení a modlitby</string>
+    <string name="category_kids">Děti a mládež</string>
+    <string name="category_commentaries">Komentáře a výklady</string>
+    <string name="category_theology">Teologie</string>
+    <string name="category_practical_christianity">Praktické křesťanství</string>
+    <string name="category_bibles">Bible</string>
+    <string name="category_bible_study_material">Materiály ke studiu Bible</string>
+    <string name="category_christian_living">Křesťanský život</string>
+    <string name="category_church_history">Církevní dějiny</string>
+    <string name="category_apologetics">Apologetika</string>
+    <string name="category_other">Ostatní</string>
+
+    <!-- Panel správce -->
+    <string name="admin_dashboard_title">Správa knihovny</string>
+    <string name="admin_dashboard_subtitle">Správa fondu a výpůjček knihovny</string>
+    <string name="admin_what_to_do">Co si přejete udělat?</string>
+    <string name="admin_active_loans">Aktivní výpůjčky</string>
+    <string name="admin_active_loans_desc">Zobrazit a evidovat vrácení vypůjčených knih.</string>
+    <string name="admin_manage_inventory">Správa knižního fondu</string>
+    <string name="admin_manage_inventory_desc">Přidat, upravit nebo smazat knihy z knihovny.</string>
+    <string name="admin_settings_backup">Nastavení a zálohování</string>
+    <string name="admin_settings_backup_desc">Offline P2P záloha, demo režim a nastavení knihovny.</string>
+    <string name="admin_log_out">Odhlásit se</string>
+    <string name="admin_log_out_desc">Bezpečně uzamknout panel správce.</string>
+    <string name="about_developer">O vývojáři</string>
+</resources>

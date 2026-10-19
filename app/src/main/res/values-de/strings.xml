@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Gemeindebibliothek</string>
+
+    <!-- Demo Mode -->
+    <string name="demo_mode">Demo-Modus</string>
+    <string name="demo_mode_active">DEMO-MODUS IST AKTIV</string>
+    <string name="demo_mode_banner_desc">Keine Sorge! Ihre echte Bibliotheksdatenbank ist im Demo-Modus sicher geschützt.</string>
+    <string name="exit_demo_mode">Demo-Modus beenden</string>
+
+    <!-- General / Common -->
+    <string name="back">Zurück</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="delete">Löschen</string>
+    <string name="save">Speichern</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="close">Schließen</string>
+    <string name="admin">Verwaltung</string>
+    <string name="success">Erfolg</string>
+    <string name="library_logo">Bibliotheks-Logo</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_to_library">Willkommen in der Bibliothek</string>
+    <string name="home_subtitle">Finden Sie Ihr Buch im Regal und tippen Sie unten, um es auszuleihen oder zurückzugeben.</string>
+    <string name="borrow_books">Bücher ausleihen</string>
+    <string name="borrow_books_desc">Ein oder mehrere Bücher ausleihen</string>
+    <string name="return_books">Bücher zurückgeben</string>
+    <string name="return_books_desc">Gelesene Bücher zurückbringen</string>
+
+    <!-- Select Books Screen -->
+    <string name="select_books_title">Bücher zur Ausleihe auswählen</string>
+    <string name="search_books_placeholder">Nach Titel oder Autor suchen…</string>
+    <string name="selected_books_count">%1$d / %2$d ausgewählt</string>
+    <string name="proceed_to_checkout">Weiter zur Ausleihe</string>
+    <string name="no_books_found">Keine Bücher gefunden.</string>
+    <string name="limit_reached">Limit erreicht</string>
+    <string name="out_of_stock">VERGRIFFEN</string>
+    <string name="cover_for_title">Buchcover von %1$s</string>
+
+    <!-- Borrower Info Screen -->
+    <string name="checkout_details_title">Ausleihdetails</string>
+    <string name="your_details">Ihre Daten</string>
+    <string name="your_details_desc">Bitte geben Sie Ihre Daten ein, um die ausgewählten Bücher auszuleihen.</string>
+    <string name="full_name_required">Vollständiger Name *</string>
+    <string name="full_name_placeholder">Max Mustermann</string>
+    <string name="email_required">E-Mail-Adresse *</string>
+    <string name="email_placeholder">max@beispiel.de</string>
+    <string name="phone_optional">Telefonnummer</string>
+    <string name="phone_placeholder">0151 12345678</string>
+    <string name="borrow_duration_label">Ausleihdauer *</string>
+    <string name="duration_1_week">1 Woche</string>
+    <string name="duration_2_weeks">2 Wochen</string>
+    <string name="duration_1_month">1 Monat</string>
+    <string name="duration_2_months">2 Monate</string>
+    <string name="review_and_confirm">Prüfen und Bestätigen</string>
+    <string name="books_to_checkout">Ausgewählte Bücher (%1$d)</string>
+    <string name="reminder_dialog_title">Kalender-Erinnerung erstellen!</string>
+    <string name="reminder_dialog_message">Bevor Sie gehen, erstellen Sie bitte eine Erinnerung im Kalender Ihres Telefons, um diese Bücher in %1$s zurückzugeben.</string>
+    <string name="reminder_dialog_offline_note">Wir versenden keine E-Mails, damit die App vollständig kostenlos und offline bleibt.</string>
+    <string name="confirm_loan">Ausleihe bestätigen</string>
+    <string name="confirm_loan_timer">Ausleihe bestätigen (%1$ds)</string>
+
+    <!-- Borrow Success Screen -->
+    <string name="success_title">Erfolgreich ausgeliehen!</string>
+    <string name="success_one_book">Sie haben 1 Buch ausgeliehen.\nRückgabe bis zum %1$s.</string>
+    <string name="success_multiple_books">Sie haben %1$d Bücher ausgeliehen.\nRückgabe bis zum %2$s.</string>
+    <string name="returning_home_seconds">Rückkehr zum Startbildschirm in 10 Sekunden…</string>
+    <string name="return_to_home_button">Zum Startbildschirm</string>
+
+    <!-- Return Books Screen -->
+    <string name="return_books_title">Bücher zurückgeben</string>
+    <string name="search_return_placeholder">Nach Ihrem Namen oder Buchtitel suchen…</string>
+    <string name="no_active_loans">Keine aktiven Ausleihen gefunden.</string>
+    <string name="return_all_count">Alle zurückgeben (%1$d)</string>
+    <string name="return_all_button">Alle zurückgeben</string>
+    <string name="return_book_button">Buch zurückgeben</string>
+    <string name="return_book_dialog_title">Buchrückgabe</string>
+    <string name="return_book_dialog_message">\"%1$s\" für %2$s zurückgeben?</string>
+    <string name="return_all_dialog_title">Alle Bücher zurückgeben</string>
+    <string name="return_all_dialog_message">Alle %1$d Bücher für %2$s zurückgeben?</string>
+    <string name="borrower_label">Ausleiher: %1$s</string>
+    <string name="overdue_badge">⚠ ÜBERFÄLLIG</string>
+    <string name="due_date_label">Fällig: %1$s</string>
+    <string name="book_returned_success">Buch erfolgreich zurückgegeben!</string>
+    <string name="all_books_returned_success">Alle Bücher erfolgreich zurückgegeben!</string>
+
+    <!-- Pin Screen -->
+    <string name="admin_access_title">Administrator-Zugang</string>
+    <string name="enter_pin_message">Geben Sie die PIN ein, um die Bibliothek zu verwalten.</string>
+    <string name="default_pin_hint">(Standard-PIN: 1234)</string>
+    <string name="incorrect_pin_error">Falsche PIN. Bitte erneut versuchen.</string>
+
+    <!-- Validation & Error Messages -->
+    <string name="error_book_unavailable">Dieses Buch ist derzeit nicht verfügbar.</string>
+    <string name="error_max_borrow_limit">Sie können maximal %1$d verschiedene Titel gleichzeitig ausleihen.</string>
+    <string name="error_only_copies_available">Nur noch %1$d Exemplare verfügbar.</string>
+    <string name="error_name_email_required">Bitte mindestens Name und E-Mail-Adresse angeben.</string>
+    <string name="error_valid_name_required">Bitte einen gültigen Namen eingeben.</string>
+    <string name="error_valid_email_required">Bitte eine gültige E-Mail-Adresse eingeben.</string>
+    <string name="error_valid_phone_required">Bitte eine gültige Telefonnummer eingeben.</string>
+    <string name="error_no_books_selected">Keine Bücher ausgewählt.</string>
+
+    <!-- Categories -->
+    <string name="category_biographies">Biografien</string>
+    <string name="category_devotionals">Andachtsbücher</string>
+    <string name="category_kids">Kinder</string>
+    <string name="category_commentaries">Kommentare</string>
+    <string name="category_theology">Theologie</string>
+    <string name="category_practical_christianity">Praktisches Christsein</string>
+    <string name="category_bibles">Bibeln</string>
+    <string name="category_bible_study_material">Bibelstudien</string>
+    <string name="category_christian_living">Christliches Leben</string>
+    <string name="category_church_history">Kirchengeschichte</string>
+    <string name="category_apologetics">Apologetik</string>
+    <string name="category_other">Sonstiges</string>
+
+    <!-- Admin Dashboard Hub -->
+    <string name="admin_dashboard_title">Bibliotheks-Verwaltung</string>
+    <string name="admin_dashboard_subtitle">Bestand und Ausleihen verwalten</string>
+    <string name="admin_what_to_do">Was möchten Sie tun?</string>
+    <string name="admin_active_loans">Aktive Ausleihen</string>
+    <string name="admin_active_loans_desc">Ausgeliehene Bücher einsehen und Rückgaben buchen.</string>
+    <string name="admin_manage_inventory">Bestand verwalten</string>
+    <string name="admin_manage_inventory_desc">Bücher erfassen, bearbeiten oder entfernen.</string>
+    <string name="admin_settings_backup">Einstellungen &amp; Sicherung</string>
+    <string name="admin_settings_backup_desc">Offline P2P-Abgleich, Demo-Modus und Einstellungen.</string>
+    <string name="admin_log_out">Abmelden</string>
+    <string name="admin_log_out_desc">Verwaltungskonsole sperren.</string>
+    <string name="about_developer">Über den Entwickler</string>
+</resources>

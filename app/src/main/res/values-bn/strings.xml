@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">চার্চ লাইব্রেরি</string>
+
+    <!-- ডেমো মোড -->
+    <string name="demo_mode">ডেমো মোড</string>
+    <string name="demo_mode_active">ডেমো মোড সক্রিয় রয়েছে</string>
+    <string name="demo_mode_banner_desc">চিন্তা করবেন না! ডেমো মোডে আপনার আসল লাইব্রেরি ডেটাবেস সম্পূর্ণ সুরক্ষিত ও লুকানো থাকে।</string>
+    <string name="exit_demo_mode">ডেমো মোড থেকে প্রস্থান</string>
+
+    <!-- সাধারণ -->
+    <string name="back">পেছনে</string>
+    <string name="cancel">বাতিল</string>
+    <string name="delete">মুছুন</string>
+    <string name="save">সংরক্ষণ</string>
+    <string name="edit">সম্পাদনা</string>
+    <string name="close">বন্ধ করুন</string>
+    <string name="admin">অ্যাডমিন</string>
+    <string name="success">সফল</string>
+    <string name="library_logo">লাইব্রেরি লোগো</string>
+
+    <!-- হোম স্ক্রিন -->
+    <string name="welcome_to_library">লাইব্রেরিতে স্বাগতম</string>
+    <string name="home_subtitle">তাক থেকে আপনার পছন্দের বইটি খুঁজুন, তারপর ধার নিতে বা ফেরত দিতে নিচে স্পর্শ করুন।</string>
+    <string name="borrow_books">বই ধার নিন</string>
+    <string name="borrow_books_desc">এক বা একাধিক বই ধার নিন</string>
+    <string name="return_books">বই ফেরত দিন</string>
+    <string name="return_books_desc">পড়া শেষ হওয়া বই ফেরত দিন</string>
+
+    <!-- বই নির্বাচন স্ক্রিন -->
+    <string name="select_books_title">ধার নেওয়ার বই নির্বাচন করুন</string>
+    <string name="search_books_placeholder">শিরোনাম বা লেখক দিয়ে অনুসন্ধান করুন…</string>
+    <string name="selected_books_count">%1$d / %2$d নির্বাচিত</string>
+    <string name="proceed_to_checkout">ধার প্রক্রিয়ায় এগিয়ে যান</string>
+    <string name="no_books_found">কোনো বই পাওয়া যায়নি।</string>
+    <string name="limit_reached">সীমা পূর্ণ হয়েছে</string>
+    <string name="out_of_stock">স্টকে নেই</string>
+    <string name="cover_for_title">%1$s-এর প্রচ্ছদ</string>
+
+    <!-- ধারগ্রহীতার তথ্য স্ক্রিন -->
+    <string name="checkout_details_title">ধার নেওয়ার বিবরণ</string>
+    <string name="your_details">আপনার বিবরণ</string>
+    <string name="your_details_desc">নির্বাচিত বইগুলো ধার নিতে অনুগ্রহ করে আপনার তথ্য দিন।</string>
+    <string name="full_name_required">পূর্ণ নাম *</string>
+    <string name="full_name_placeholder">রহিম আহমেদ</string>
+    <string name="email_required">ইমেইল ঠিকানা *</string>
+    <string name="email_placeholder">rahim@example.com</string>
+    <string name="phone_optional">ফোন নম্বর</string>
+    <string name="phone_placeholder">০১৭০০০০০০০০</string>
+    <string name="borrow_duration_label">ধারের সময়সীমা *</string>
+    <string name="duration_1_week">১ সপ্তাহ</string>
+    <string name="duration_2_weeks">২ সপ্তাহ</string>
+    <string name="duration_1_month">১ মাস</string>
+    <string name="duration_2_months">২ মাস</string>
+    <string name="review_and_confirm">যাচাই ও নিশ্চিত করুন</string>
+    <string name="books_to_checkout">ধার নেওয়ার বই (%1$d)</string>
+    <string name="reminder_dialog_title">ক্যালেন্ডার রিমাইন্ডার সেট করুন!</string>
+    <string name="reminder_dialog_message">যাওয়ার আগে অনুগ্রহ করে আপনার ফোনের ক্যালেন্ডারে %1$s পর বইগুলো ফেরত দেওয়ার একটি রিমাইন্ডার যোগ করুন।</string>
+    <string name="reminder_dialog_offline_note">অ্যাপটিকে সম্পূর্ণ বিনামূল্যে ও অফলাইনে রাখতে আমরা ইমেইল রিমাইন্ডার পাঠাই না।</string>
+    <string name="confirm_loan">ধার নিশ্চিত করুন</string>
+    <string name="confirm_loan_timer">ধার নিশ্চিত করুন (%1$d সেকেন্ড)</string>
+
+    <!-- সফল স্ক্রিন -->
+    <string name="success_title">সফল হয়েছে!</string>
+    <string name="success_one_book">আপনি ১টি বই ধার নিয়েছেন।\nফেরতের শেষ তারিখ: %1$s।</string>
+    <string name="success_multiple_books">আপনি %1$dটি বই ধার নিয়েছেন।\nফেরতের শেষ তারিখ: %2$s।</string>
+    <string name="returning_home_seconds">১০ সেকেন্ডে হোম স্ক্রিনে ফিরে যাওয়া হচ্ছে…</string>
+    <string name="return_to_home_button">হোম স্ক্রিনে ফিরে যান</string>
+
+    <!-- বই ফেরত স্ক্রিন -->
+    <string name="return_books_title">বই ফেরত দিন</string>
+    <string name="search_return_placeholder">আপনার নাম বা বইয়ের নাম দিয়ে খুঁজুন…</string>
+    <string name="no_active_loans">কোনো চলমান ধার পাওয়া যায়নি।</string>
+    <string name="return_all_count">সব ফেরত দিন (%1$d)</string>
+    <string name="return_all_button">সব ফেরত দিন</string>
+    <string name="return_book_button">বই ফেরত দিন</string>
+    <string name="return_book_dialog_title">বই ফেরত দিন</string>
+    <string name="return_book_dialog_message">%2$s-এর জন্য \"%1$s\" ফেরত দিতে চান?</string>
+    <string name="return_all_dialog_title">সব বই ফেরত দিন</string>
+    <string name="return_all_dialog_message">%2$s-এর মোট %1$dটি বই ফেরত দিতে চান?</string>
+    <string name="borrower_label">ধারগ্রহীতা: %1$s</string>
+    <string name="overdue_badge">⚠ মেয়াদোত্তীর্ণ</string>
+    <string name="due_date_label">ফেরতের তারিখ: %1$s</string>
+    <string name="book_returned_success">বই সফলভাবে ফেরত নেওয়া হয়েছে!</string>
+    <string name="all_books_returned_success">সব বই সফলভাবে ফেরত নেওয়া হয়েছে!</string>
+
+    <!-- পিন স্ক্রিন -->
+    <string name="admin_access_title">অ্যাডমিন প্রবেশাধিকার</string>
+    <string name="enter_pin_message">লাইব্রেরি পরিচালনা করতে পিন কোড দিন।</string>
+    <string name="default_pin_hint">(ডিফল্ট পিন: 1234)</string>
+    <string name="incorrect_pin_error">ভুল পিন। আবার চেষ্টা করুন।</string>
+
+    <!-- ত্রুটি ও সতর্কতা বার্তা -->
+    <string name="error_book_unavailable">এই বইটি বর্তমানে উপলভ্য নয়।</string>
+    <string name="error_max_borrow_limit">আপনি একসাথে সর্বোচ্চ %1$dটি ভিন্ন বই ধার নিতে পারেন।</string>
+    <string name="error_max_borrow_total">আপনি মোট সর্বোচ্চ %1$dটি বই ধার নিতে পারেন।</string>
+    <string name="error_only_copies_available">কেবলমাত্র %1$dটি কপি উপলভ্য আছে।</string>
+    <string name="error_name_email_required">অনুগ্রহ করে নাম এবং ইমেইল দুটোই দিন।</string>
+    <string name="error_valid_name_required">অনুগ্রহ করে একটি সঠিক নাম দিন।</string>
+    <string name="error_valid_email_required">অনুগ্রহ করে একটি কার্যকর ইমেইল দিন।</string>
+    <string name="error_valid_phone_required">অনুগ্রহ করে সঠিক ফোন নম্বর দিন।</string>
+    <string name="error_no_books_selected">কোনো বই নির্বাচন করা হয়নি।</string>
+    <string name="error_overdue_single">আপনার একটি মেয়াদোত্তীর্ণ বই (\"%1$s\") রয়েছে যা নতুন বই ধার নেওয়ার আগে ফেরত দিতে হবে।</string>
+    <string name="error_overdue_multiple">আপনার %1$dটি মেয়াদোত্তীর্ণ বই (%2$s) রয়েছে যা নতুন বই নেওয়ার আগে ফেরত দিতে হবে।</string>
+    <string name="error_duplicate_book">\"%1$s\" বইটি আপনার ইতিমধ্যেই ধার নেওয়া আছে। আবার নেওয়ার আগে এটি ফেরত দিন।</string>
+    <string name="error_limit_reached">আপনার বর্তমানে %1$dটি বই ধার নেওয়া আছে, যা সর্বোচ্চ সীমা %2$d-এ পৌঁছেছে। আরও বই নেওয়ার আগে কিছু বই ফেরত দিন।</string>
+    <string name="error_limit_exceeded">ধারের সীমা অতিক্রান্ত: আপনার ইতিমধ্যেই %1$dটি বই আছে। %2$dটি সীমার মধ্যে আপনি আর মাত্র %3$dটি বই নিতে পারবেন।</string>
+    <string name="active_loans_info">চলমান ধার: বর্তমানে আপনার %1$dটি বই ধার নেওয়া আছে (সীমা: %2$d)। আপনি আরও %3$dটি বই নিতে পারেন।</string>
+    <string name="active_loans_limit_reached">সীমা পূর্ণ: বর্তমানে আপনার %1$dটি বই ধার নেওয়া আছে (সর্বোচ্চ সীমা: %2$d)। নতুন বই নিতে অনুগ্রহ করে কিছু বই ফেরত দিন।</string>
+    <string name="active_loans_overdue_warning">মনোযোগ দিন: আপনার %1$dটি বইয়ের মেয়াদ শেষ হয়ে গেছে। নতুন বই নেওয়ার আগে অনুগ্রহ করে সেগুলো ফেরত দিন।</string>
+
+    <!-- বিভাগ -->
+    <string name="category_biographies">জীবনী</string>
+    <string name="category_devotionals">ভক্তি ও প্রার্থনা</string>
+    <string name="category_kids">শিশু-কিশোর</string>
+    <string name="category_commentaries">ব্যাখ্যা ও ভাষ্য</string>
+    <string name="category_theology">ধর্মতত্ত্ব</string>
+    <string name="category_practical_christianity">ব্যবহারিক খ্রিস্টধর্ম</string>
+    <string name="category_bibles">বাইবেল</string>
+    <string name="category_bible_study_material">বাইবেল অধ্যয়নের উপাদান</string>
+    <string name="category_christian_living">খ্রিস্টীয় জীবনযাপন</string>
+    <string name="category_church_history">মণ্ডলীর ইতিহাস</string>
+    <string name="category_apologetics">ধর্মসমর্থনবিদ্যা</string>
+    <string name="category_other">অন্যান্য</string>
+
+    <!-- অ্যাডমিন ড্যাশবোর্ড -->
+    <string name="admin_dashboard_title">লাইব্রেরি অ্যাডমিন ড্যাশবোর্ড</string>
+    <string name="admin_dashboard_subtitle">লাইব্রেরি তালিকা ও ধার পরিচালনা করুন</string>
+    <string name="admin_what_to_do">আপনি কী করতে চান?</string>
+    <string name="admin_active_loans">চলমান ধারসমূহ</string>
+    <string name="admin_active_loans_desc">বর্তমানে ধার নেওয়া বইগুলো দেখুন ও ফেরত গ্রহণ করুন।</string>
+    <string name="admin_manage_inventory">ইনভেন্টরি পরিচালনা</string>
+    <string name="admin_manage_inventory_desc">লাইব্রেরিতে বই যোগ করুন, সম্পাদনা করুন বা মুছুন।</string>
+    <string name="admin_settings_backup">সেটিংস ও ব্যাকআপ</string>
+    <string name="admin_settings_backup_desc">অফলাইন P2P ব্যাকআপ, ডেমো মোড এবং লাইব্রেরি সেটিংস।</string>
+    <string name="admin_log_out">লগআউট</string>
+    <string name="admin_log_out_desc">অ্যাডমিন ড্যাশবোর্ড নিরাপদে লক করুন।</string>
+    <string name="about_developer">ডেভেলপার সম্পর্কে</string>
+</resources>

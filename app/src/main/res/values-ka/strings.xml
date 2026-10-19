@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">სამრევლო ბიბლიოთეკა</string>
+
+    <!-- დემო რეჟიმი -->
+    <string name="demo_mode">დემო რეჟიმი</string>
+    <string name="demo_mode_active">დემო რეჟიმი აქტიურია</string>
+    <string name="demo_mode_banner_desc">ნუ ნერვიულობთ! თქვენი რეალური ბიბლიოთეკის მონაცემთა ბაზა დამალულია და სრულიად დაცულია დემო რეჟიმის დროს.</string>
+    <string name="exit_demo_mode">დემო რეჟიმიდან გასვლა</string>
+
+    <!-- ზოგადი -->
+    <string name="back">უკან</string>
+    <string name="cancel">გაუქმება</string>
+    <string name="delete">წაშლა</string>
+    <string name="save">შენახვა</string>
+    <string name="edit">რედაქტირება</string>
+    <string name="close">დახურვა</string>
+    <string name="admin">ადმინისტრატორი</string>
+    <string name="success">წარმატება</string>
+    <string name="library_logo">ბიბლიოთეკის ლოგო</string>
+
+    <!-- მთავარი ეკრანი -->
+    <string name="welcome_to_library">კეთილი იყოს თქვენი მობრძანება ბიბლიოთეკაში</string>
+    <string name="home_subtitle">იპოვეთ თქვენი წიგნი თაროზე, შემდეგ შეეხეთ ქვემოთ მის გასატანად ან დასაბრუნებლად.</string>
+    <string name="borrow_books">წიგნების გატანა</string>
+    <string name="borrow_books_desc">გაიტანეთ ერთი ან მეტი წიგნი</string>
+    <string name="return_books">წიგნების დაბრუნება</string>
+    <string name="return_books_desc">დააბრუნეთ წაკითხული წიგნები</string>
+
+    <!-- წიგნების არჩევა -->
+    <string name="select_books_title">აირჩიეთ წიგნები გასატანად</string>
+    <string name="search_books_placeholder">ძიება სათაურით ან ავტორით…</string>
+    <string name="selected_books_count">არჩეულია %1$d / %2$d</string>
+    <string name="proceed_to_checkout">გაფორმებაზე გადასვლა</string>
+    <string name="no_books_found">წიგნები ვერ მოიძებნა.</string>
+    <string name="limit_reached">ლიმიტი ამოიწურა</string>
+    <string name="out_of_stock">გატანილია</string>
+    <string name="cover_for_title">%1$s-ის ყდა</string>
+
+    <!-- მკითხველის მონაცემები -->
+    <string name="checkout_details_title">გატანის დეტალები</string>
+    <string name="your_details">თქვენი მონაცემები</string>
+    <string name="your_details_desc">გთხოვთ შეიყვანოთ თქვენი მონაცემები არჩეული წიგნების გასატანად.</string>
+    <string name="full_name_required">სრული სახელი *</string>
+    <string name="full_name_placeholder">გიორგი ბერიძე</string>
+    <string name="email_required">ელფოსტის მისამართი *</string>
+    <string name="email_placeholder">giorgi@example.ge</string>
+    <string name="phone_optional">ტელეფონის ნომერი</string>
+    <string name="phone_placeholder">599 00 00 00</string>
+    <string name="borrow_duration_label">გატანის ვადა *</string>
+    <string name="duration_1_week">1 კვირა</string>
+    <string name="duration_2_weeks">2 კვირა</string>
+    <string name="duration_1_month">1 თვე</string>
+    <string name="duration_2_months">2 თვე</string>
+    <string name="review_and_confirm">გადამოწმება და დადასტურება</string>
+    <string name="books_to_checkout">გასატანი წიგნები (%1$d)</string>
+    <string name="reminder_dialog_title">დააყენეთ შეხსენება კალენდარში!</string>
+    <string name="reminder_dialog_message">წასვლამდე გთხოვთ დაამატოთ შეხსენება ტელეფონის კალენდარში ამ წიგნების %1$s-ში დასაბრუნებლად.</string>
+    <string name="reminder_dialog_offline_note">ჩვენ არ ვაგზავნით ელფოსტის შეხსენებებს, რათა აპლიკაცია დარჩეს უფასო და იმუშაოს ოფლაინში.</string>
+    <string name="confirm_loan">გატანის დადასტურება</string>
+    <string name="confirm_loan_timer">გატანის დადასტურება (%1$d წმ)</string>
+
+    <!-- წარმატების ეკრანი -->
+    <string name="success_title">წარმატებით შესრულდა!</string>
+    <string name="success_one_book">თქვენ გაიტანეთ 1 წიგნი.\nდაბრუნების ვადა: %1$s.</string>
+    <string name="success_multiple_books">თქვენ გაიტანეთ %1$d წიგნი.\nდაბრუნების ვადა: %2$s.</string>
+    <string name="returning_home_seconds">მთავარ ეკრანზე დაბრუნება 10 წამში…</string>
+    <string name="return_to_home_button">მთავარ ეკრანზე დაბრუნება</string>
+
+    <!-- წიგნების დაბრუნება -->
+    <string name="return_books_title">წიგნების დაბრუნება</string>
+    <string name="search_return_placeholder">ძიება სახელით ან წიგნის სათაურით…</string>
+    <string name="no_active_loans">აქტიური გატანები ვერ მოიძებნა.</string>
+    <string name="return_all_count">ყველას დაბრუნება (%1$d)</string>
+    <string name="return_all_button">ყველას დაბრუნება</string>
+    <string name="return_book_button">წიგნის დაბრუნება</string>
+    <string name="return_book_dialog_title">წიგნის დაბრუნება</string>
+    <string name="return_book_dialog_message">დაბრუნდეს \"%1$s\" მკითხველისთვის %2$s?</string>
+    <string name="return_all_dialog_title">ყველა წიგნის დაბრუნება</string>
+    <string name="return_all_dialog_message">დაბრუნდეს ყველა %1$d წიგნი მკითხველისთვის %2$s?</string>
+    <string name="borrower_label">მკითხველი: %1$s</string>
+    <string name="overdue_badge">⚠ ვადაგადაცილებული</string>
+    <string name="due_date_label">ვადა: %1$s</string>
+    <string name="book_returned_success">წიგნი წარმატებით დაბრუნდა!</string>
+    <string name="all_books_returned_success">ყველა წიგნი წარმატებით დაბრუნდა!</string>
+
+    <!-- PIN ეკრანი -->
+    <string name="admin_access_title">ადმინისტრატორის წვდომა</string>
+    <string name="enter_pin_message">შეიყვანეთ PIN კოდი ბიბლიოთეკის სამართავად.</string>
+    <string name="default_pin_hint">(ნაგულისხმევი PIN: 1234)</string>
+    <string name="incorrect_pin_error">არასწორი PIN კოდი. სცადეთ ხელახლა.</string>
+
+    <!-- შეცდომის შეტყობინებები -->
+    <string name="error_book_unavailable">ეს წიგნი ამჟამად მიუწვდომელია.</string>
+    <string name="error_max_borrow_limit">ერთდროულად შეგიძლიათ გაიტანოთ მაქსიმუმ %1$d სხვადასხვა დასახელება.</string>
+    <string name="error_max_borrow_total">სულ შეგიძლიათ გაიტანოთ მაქსიმუმ %1$d წიგნი.</string>
+    <string name="error_only_copies_available">დარჩენილია მხოლოდ %1$d ეგზემპლარი.</string>
+    <string name="error_name_email_required">გთხოვთ მიუთითოთ მინიმუმ სახელი და ელფოსტა.</string>
+    <string name="error_valid_name_required">გთხოვთ შეიყვანოთ სწორი სახელი.</string>
+    <string name="error_valid_email_required">გთხოვთ შეიყვანოთ სწორი ელფოსტის მისამართი.</string>
+    <string name="error_valid_phone_required">გთხოვთ შეიყვანოთ სწორი ტელეფონის ნომერი.</string>
+    <string name="error_no_books_selected">წიგნი არ არის არჩეული.</string>
+    <string name="error_overdue_single">თქვენ გაქვთ ვადაგადაცილებული წიგნი (\"%1$s\"), რომელიც უნდა დააბრუნოთ ახალი წიგნების გატანამდე.</string>
+    <string name="error_overdue_multiple">თქვენ გაქვთ %1$d ვადაგადაცილებული წიგნი (%2$s), რომლებიც უნდა დააბრუნოთ ახალი წიგნების გატანამდე.</string>
+    <string name="error_duplicate_book">წიგნი \"%1$s\" უკვე გატანილი გაქვთ. გთხოვთ დააბრუნოთ ხელახლა გატანამდე.</string>
+    <string name="error_limit_reached">თქვენ გატანილი გაქვთ %1$d წიგნი, რითაც მიაღწიეთ %2$d-იან ლიმიტს. დააბრუნეთ წიგნები ახლების გატანამდე.</string>
+    <string name="error_limit_exceeded">გატანის ლიმიტი ამოიწურა: უკვე გაქვთ %1$d წიგნი. %2$d-იანი ლიმიტით შეგიძლიათ გაიტანოთ კიდევ მხოლოდ %3$d წიგნი.</string>
+    <string name="active_loans_info">აქტიური გატანები: გაქვთ %1$d წიგნი (ლიმიტი: %2$d). შეგიძლიათ გაიტანოთ კიდევ %3$d-მდე წიგნი.</string>
+    <string name="active_loans_limit_reached">ლიმიტი ამოიწურა: გაქვთ %1$d წიგნი (მაქსიმალური ლიმიტი: %2$d). დააბრუნეთ წიგნები ახლების გასატანად.</string>
+    <string name="active_loans_overdue_warning">ყურადღება: გაქვთ %1$d ვადაგადაცილებული წიგნი. გთხოვთ დააბრუნოთ ისინი ახალი წიგნების გატანამდე.</string>
+
+    <!-- კატეგორიები -->
+    <string name="category_biographies">ბიოგრაფიები</string>
+    <string name="category_devotionals">სულიერი საკითხავები და ლოცვები</string>
+    <string name="category_kids">საბავშვო და საყმაწვილო</string>
+    <string name="category_commentaries">ბიბლიის განმარტებები</string>
+    <string name="category_theology">თეოლოგია</string>
+    <string name="category_practical_christianity">პრაქტიკული ქრისტიანობა</string>
+    <string name="category_bibles">ბიბლია (საღმრთო წერილი)</string>
+    <string name="category_bible_study_material">ბიბლიის შემსწავლელი მასალები</string>
+    <string name="category_christian_living">ქრისტიანული ცხოვრება</string>
+    <string name="category_church_history">ეკლესიის ისტორია</string>
+    <string name="category_apologetics">აპოლოგეტიკა</string>
+    <string name="category_other">სხვა</string>
+
+    <!-- ადმინისტრატორის მართვის პანელი -->
+    <string name="admin_dashboard_title">ბიბლიოთეკის მართვის პანელი</string>
+    <string name="admin_dashboard_subtitle">მართეთ წიგნების ფონდი და გატანები</string>
+    <string name="admin_what_to_do">რისი გაკეთება გსურთ?</string>
+    <string name="admin_active_loans">აქტიური გატანები</string>
+    <string name="admin_active_loans_desc">გატანილი წიგნების ნახვა და დაბრუნების აღრიცხვა.</string>
+    <string name="admin_manage_inventory">წიგნების ფონდის მართვა</string>
+    <string name="admin_manage_inventory_desc">წიგნების დამატება, რედაქტირება ან წაშლა.</string>
+    <string name="admin_settings_backup">პარამეტრები და სარეზერვო ასლი</string>
+    <string name="admin_settings_backup_desc">ოფლაინ P2P ასლი, დემო რეჟიმი და პარამეტრები.</string>
+    <string name="admin_log_out">გასვლა</string>
+    <string name="admin_log_out_desc">ადმინისტრატორის პანელის უსაფრთხოდ დაბლოკვა.</string>
+    <string name="about_developer">დეველოპერის შესახებ</string>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Biblioteca della Chiesa</string>
+
+    <!-- Modalità Demo -->
+    <string name="demo_mode">Modalità Demo</string>
+    <string name="demo_mode_active">MODALITÀ DEMO ATTIVA</string>
+    <string name="demo_mode_banner_desc">Niente panico! Il database reale della biblioteca è nascosto e al sicuro durante la modalità demo.</string>
+    <string name="exit_demo_mode">Esci dalla modalità Demo</string>
+
+    <!-- Generale / Comune -->
+    <string name="back">Indietro</string>
+    <string name="cancel">Annulla</string>
+    <string name="delete">Elimina</string>
+    <string name="save">Salva</string>
+    <string name="edit">Modifica</string>
+    <string name="close">Chiudi</string>
+    <string name="admin">Amministratore</string>
+    <string name="success">Operazione riuscita</string>
+    <string name="library_logo">Logo della biblioteca</string>
+
+    <!-- Schermata Principale -->
+    <string name="welcome_to_library">Benvenuti nella Biblioteca</string>
+    <string name="home_subtitle">Trova il tuo libro sullo scaffale, poi tocca qui sotto per prenderlo in prestito o restituirlo.</string>
+    <string name="borrow_books">Prendi in prestito libri</string>
+    <string name="borrow_books_desc">Prendi in prestito uno o più libri</string>
+    <string name="return_books">Restituisci libri</string>
+    <string name="return_books_desc">Riporta i libri che hai letto</string>
+
+    <!-- Schermata Selezione Libri -->
+    <string name="select_books_title">Seleziona i libri da prendere in prestito</string>
+    <string name="search_books_placeholder">Cerca per titolo o autore…</string>
+    <string name="selected_books_count">%1$d / %2$d selezionati</string>
+    <string name="proceed_to_checkout">Procedi al prestito</string>
+    <string name="no_books_found">Nessun libro trovato.</string>
+    <string name="limit_reached">Limite raggiunto</string>
+    <string name="out_of_stock">ESAURITO</string>
+    <string name="cover_for_title">Copertina di %1$s</string>
+
+    <!-- Schermata Dati Utente -->
+    <string name="checkout_details_title">Dettagli del prestito</string>
+    <string name="your_details">I tuoi dati</string>
+    <string name="your_details_desc">Inserisci le tue informazioni per prendere in prestito i libri selezionati.</string>
+    <string name="full_name_required">Nome e Cognome *</string>
+    <string name="full_name_placeholder">Mario Rossi</string>
+    <string name="email_required">Indirizzo Email *</string>
+    <string name="email_placeholder">mario@example.com</string>
+    <string name="phone_optional">Numero di telefono</string>
+    <string name="phone_placeholder">300 000 0000</string>
+    <string name="borrow_duration_label">Durata del prestito *</string>
+    <string name="duration_1_week">1 Settimana</string>
+    <string name="duration_2_weeks">2 Settimane</string>
+    <string name="duration_1_month">1 Mese</string>
+    <string name="duration_2_months">2 Mesi</string>
+    <string name="review_and_confirm">Rivedi e conferma</string>
+    <string name="books_to_checkout">Libri da prendere (%1$d)</string>
+    <string name="reminder_dialog_title">Imposta un promemoria nel calendario!</string>
+    <string name="reminder_dialog_message">Prima di andare, aggiungi un promemoria al calendario del tuo telefono per restituire questi libri tra %1$s.</string>
+    <string name="reminder_dialog_offline_note">Non inviamo email di promemoria per mantenere l\'app completamente gratuita e offline.</string>
+    <string name="confirm_loan">Conferma prestito</string>
+    <string name="confirm_loan_timer">Conferma prestito (%1$ds)</string>
+
+    <!-- Schermata di Successo -->
+    <string name="success_title">Operazione completata!</string>
+    <string name="success_one_book">Hai preso in prestito 1 libro.\nLa data di restituzione è il %1$s.</string>
+    <string name="success_multiple_books">Hai preso in prestito %1$d libri.\nLa data di restituzione è il %2$s.</string>
+    <string name="returning_home_seconds">Ritorno alla schermata iniziale tra 10 secondi…</string>
+    <string name="return_to_home_button">Torna alla schermata iniziale</string>
+
+    <!-- Schermata Restituzione -->
+    <string name="return_books_title">Restituisci libri</string>
+    <string name="search_return_placeholder">Cerca per nome o titolo del libro…</string>
+    <string name="no_active_loans">Nessun prestito attivo trovato.</string>
+    <string name="return_all_count">Restituisci tutti (%1$d)</string>
+    <string name="return_all_button">Restituisci tutti</string>
+    <string name="return_book_button">Restituisci libro</string>
+    <string name="return_book_dialog_title">Restituisci libro</string>
+    <string name="return_book_dialog_message">Restituire \"%1$s\" per %2$s?</string>
+    <string name="return_all_dialog_title">Restituisci tutti i libri</string>
+    <string name="return_all_dialog_message">Restituire tutti i %1$d libri per %2$s?</string>
+    <string name="borrower_label">Prestatario: %1$s</string>
+    <string name="overdue_badge">⚠ IN RITARDO</string>
+    <string name="due_date_label">Scadenza: %1$s</string>
+    <string name="book_returned_success">Libro restituito con successo!</string>
+    <string name="all_books_returned_success">Tutti i libri sono stati restituiti con successo!</string>
+
+    <!-- Schermata PIN -->
+    <string name="admin_access_title">Accesso Amministratore</string>
+    <string name="enter_pin_message">Inserisci il PIN per gestire i dati della biblioteca.</string>
+    <string name="default_pin_hint">(PIN predefinito: 1234)</string>
+    <string name="incorrect_pin_error">PIN non corretto. Riprova.</string>
+
+    <!-- Messaggi di errore e convalida -->
+    <string name="error_book_unavailable">Questo libro non è attualmente disponibile.</string>
+    <string name="error_max_borrow_limit">Puoi prendere in prestito al massimo %1$d titoli diversi contemporaneamente.</string>
+    <string name="error_max_borrow_total">Puoi prendere in prestito al massimo %1$d libri in totale.</string>
+    <string name="error_only_copies_available">Solo %1$d copie disponibili.</string>
+    <string name="error_name_email_required">Inserisci almeno Nome ed Email.</string>
+    <string name="error_valid_name_required">Inserisci un nome valido.</string>
+    <string name="error_valid_email_required">Inserisci un indirizzo email valido.</string>
+    <string name="error_valid_phone_required">Inserisci un numero di telefono valido.</string>
+    <string name="error_no_books_selected">Nessun libro selezionato.</string>
+    <string name="error_overdue_single">Hai un libro in ritardo (\"%1$s\") che deve essere restituito prima di prenderne di nuovi.</string>
+    <string name="error_overdue_multiple">Hai %1$d libri in ritardo (%2$s) che devono essere restituiti prima di prenderne di nuovi.</string>
+    <string name="error_duplicate_book">Hai già in prestito \"%1$s\". Restituiscilo prima di prenderlo di nuovo.</string>
+    <string name="error_limit_reached">Attualmente hai %1$d libri in prestito, raggiungendo il limite di %2$d. Restituisci alcuni libri prima di prenderne altri.</string>
+    <string name="error_limit_exceeded">Limite di prestito superato: hai già %1$d libri in prestito. Con il limite di %2$d, puoi prendere solo altri %3$d libri.</string>
+    <string name="active_loans_info">Prestiti attivi: hai attualmente %1$d libri in prestito (Limite: %2$d). Puoi prenderne altri %3$d.</string>
+    <string name="active_loans_limit_reached">Limite raggiunto: hai attualmente %1$d libri in prestito (Limite massimo: %2$d). Restituisci i libri per prenderne di nuovi.</string>
+    <string name="active_loans_overdue_warning">Attenzione: hai %1$d libri in ritardo. Restituiscili prima di effettuare nuovi prestiti.</string>
+
+    <!-- Categorie -->
+    <string name="category_biographies">Biografie</string>
+    <string name="category_devotionals">Meditazioni</string>
+    <string name="category_kids">Bambini e Ragazzi</string>
+    <string name="category_commentaries">Commentari</string>
+    <string name="category_theology">Teologia</string>
+    <string name="category_practical_christianity">Cristianesimo pratico</string>
+    <string name="category_bibles">Bibbie</string>
+    <string name="category_bible_study_material">Materiale di studio biblico</string>
+    <string name="category_christian_living">Vita cristiana</string>
+    <string name="category_church_history">Storia della Chiesa</string>
+    <string name="category_apologetics">Apologetica</string>
+    <string name="category_other">Altro</string>
+
+    <!-- Pannello Amministratore -->
+    <string name="admin_dashboard_title">Pannello Amministratore Biblioteca</string>
+    <string name="admin_dashboard_subtitle">Gestisci l\'inventario e i prestiti della biblioteca</string>
+    <string name="admin_what_to_do">Cosa desideri fare?</string>
+    <string name="admin_active_loans">Prestiti attivi</string>
+    <string name="admin_active_loans_desc">Visualizza e registra la restituzione dei libri in prestito.</string>
+    <string name="admin_manage_inventory">Gestisci inventario</string>
+    <string name="admin_manage_inventory_desc">Aggiungi, modifica o rimuovi libri dalla biblioteca.</string>
+    <string name="admin_settings_backup">Impostazioni &amp; Backup</string>
+    <string name="admin_settings_backup_desc">Backup P2P offline, Modalità Demo e impostazioni della biblioteca.</string>
+    <string name="admin_log_out">Esci</string>
+    <string name="admin_log_out_desc">Blocca in modo sicuro il pannello amministratore.</string>
+    <string name="about_developer">Informazioni sullo sviluppatore</string>
+</resources>

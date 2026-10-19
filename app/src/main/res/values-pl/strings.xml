@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Biblioteka Kościelna</string>
+
+    <!-- Tryb demo -->
+    <string name="demo_mode">Tryb demo</string>
+    <string name="demo_mode_active">TRYB DEMO JEST AKTYWNY</string>
+    <string name="demo_mode_banner_desc">Bez obaw! Twoja prawdziwa baza biblioteczna jest ukryta i całkowicie bezpieczna w trybie demo.</string>
+    <string name="exit_demo_mode">Opuść tryb demo</string>
+
+    <!-- Ogólne -->
+    <string name="back">Wstecz</string>
+    <string name="cancel">Anuluj</string>
+    <string name="delete">Usuń</string>
+    <string name="save">Zapisz</string>
+    <string name="edit">Edytuj</string>
+    <string name="close">Zamknij</string>
+    <string name="admin">Administrator</string>
+    <string name="success">Sukces</string>
+    <string name="library_logo">Logo biblioteki</string>
+
+    <!-- Ekran główny -->
+    <string name="welcome_to_library">Witamy w Bibliotece</string>
+    <string name="home_subtitle">Znajdź książkę na półce, a następnie dotknij poniżej, aby ją wypożyczyć lub zwrócić.</string>
+    <string name="borrow_books">Wypożycz książki</string>
+    <string name="borrow_books_desc">Wypożycz jedną lub więcej książek</string>
+    <string name="return_books">Zwróć książki</string>
+    <string name="return_books_desc">Oddaj przeczytane książki</string>
+
+    <!-- Wybór książek -->
+    <string name="select_books_title">Wybierz książki do wypożyczenia</string>
+    <string name="search_books_placeholder">Szukaj według tytułu lub autora…</string>
+    <string name="selected_books_count">Wybrano %1$d / %2$d</string>
+    <string name="proceed_to_checkout">Przejdź do wypożyczenia</string>
+    <string name="no_books_found">Nie znaleziono książek.</string>
+    <string name="limit_reached">Osiągnięto limit</string>
+    <string name="out_of_stock">BRAK</string>
+    <string name="cover_for_title">Okładka dla %1$s</string>
+
+    <!-- Dane wypożyczającego -->
+    <string name="checkout_details_title">Szczegóły wypożyczenia</string>
+    <string name="your_details">Twoje dane</string>
+    <string name="your_details_desc">Wprowadź swoje dane, aby wypożyczyć wybrane książki.</string>
+    <string name="full_name_required">Imię i nazwisko *</string>
+    <string name="full_name_placeholder">Jan Kowalski</string>
+    <string name="email_required">Adres e-mail *</string>
+    <string name="email_placeholder">jan@example.com</string>
+    <string name="phone_optional">Numer telefonu</string>
+    <string name="phone_placeholder">500 000 000</string>
+    <string name="borrow_duration_label">Czas wypożyczenia *</string>
+    <string name="duration_1_week">1 tydzień</string>
+    <string name="duration_2_weeks">2 tygodnie</string>
+    <string name="duration_1_month">1 miesiąc</string>
+    <string name="duration_2_months">2 miesiące</string>
+    <string name="review_and_confirm">Sprawdź i potwierdź</string>
+    <string name="books_to_checkout">Książki do wypożyczenia (%1$d)</string>
+    <string name="reminder_dialog_title">Ustaw przypomnienie w kalendarzu!</string>
+    <string name="reminder_dialog_message">Przed wyjściem dodaj przypomnienie w kalendarzu telefonu o zwrocie książek za %1$s.</string>
+    <string name="reminder_dialog_offline_note">Nie wysyłamy powiadomień e-mail, aby aplikacja pozostała całkowicie darmowa i offline.</string>
+    <string name="confirm_loan">Potwierdź wypożyczenie</string>
+    <string name="confirm_loan_timer">Potwierdź wypożyczenie (%1$ds)</string>
+
+    <!-- Sukces -->
+    <string name="success_title">Sukces!</string>
+    <string name="success_one_book">Wypożyczono 1 książkę.\nTermin zwrotu: %1$s.</string>
+    <string name="success_multiple_books">Wypożyczono %1$d książek.\nTermin zwrotu: %2$s.</string>
+    <string name="returning_home_seconds">Powrót do ekranu głównego za 10 sekund…</string>
+    <string name="return_to_home_button">Wróć do ekranu głównego</string>
+
+    <!-- Zwrot książek -->
+    <string name="return_books_title">Zwróć książki</string>
+    <string name="search_return_placeholder">Szukaj po nazwisku lub tytule książki…</string>
+    <string name="no_active_loans">Brak aktywnych wypożyczeń.</string>
+    <string name="return_all_count">Zwróć wszystkie (%1$d)</string>
+    <string name="return_all_button">Zwróć wszystkie</string>
+    <string name="return_book_button">Zwróć książkę</string>
+    <string name="return_book_dialog_title">Zwróć książkę</string>
+    <string name="return_book_dialog_message">Zwrócić \"%1$s\" dla %2$s?</string>
+    <string name="return_all_dialog_title">Zwróć wszystkie książki</string>
+    <string name="return_all_dialog_message">Zwrócić wszystkie %1$d książek dla %2$s?</string>
+    <string name="borrower_label">Wypożyczający: %1$s</string>
+    <string name="overdue_badge">⚠ PO TERMINIE</string>
+    <string name="due_date_label">Termin zwrotu: %1$s</string>
+    <string name="book_returned_success">Książka została pomyślnie zwrócona!</string>
+    <string name="all_books_returned_success">Wszystkie książki zostały pomyślnie zwrócone!</string>
+
+    <!-- Ekran PIN -->
+    <string name="admin_access_title">Dostęp administratora</string>
+    <string name="enter_pin_message">Wprowadź kod PIN, aby zarządzać biblioteką.</string>
+    <string name="default_pin_hint">(Domyślny PIN: 1234)</string>
+    <string name="incorrect_pin_error">Nieprawidłowy kod PIN. Spróbuj ponownie.</string>
+
+    <!-- Komunikaty błędów -->
+    <string name="error_book_unavailable">Ta książka jest obecnie niedostępna.</string>
+    <string name="error_max_borrow_limit">Możesz jednocześnie wypożyczyć maksymalnie %1$d różnych tytułów.</string>
+    <string name="error_max_borrow_total">Możesz wypożyczyć łącznie maksymalnie %1$d książek.</string>
+    <string name="error_only_copies_available">Dostępne tylko %1$d egzemplarzy.</string>
+    <string name="error_name_email_required">Podaj co najmniej imię i nazwisko oraz adres e-mail.</string>
+    <string name="error_valid_name_required">Wprowadź prawidłowe imię i nazwisko.</string>
+    <string name="error_valid_email_required">Wprowadź prawidłowy adres e-mail.</string>
+    <string name="error_valid_phone_required">Wprowadź prawidłowy numer telefonu.</string>
+    <string name="error_no_books_selected">Nie wybrano żadnych książek.</string>
+    <string name="error_overdue_single">Masz zaległą książkę (\"%1$s\"), którą należy zwrócić przed wypożyczeniem nowych.</string>
+    <string name="error_overdue_multiple">Masz %1$d zaległych książek (%2$s), które należy zwrócić przed kolejnym wypożyczeniem.</string>
+    <string name="error_duplicate_book">Masz już wypożyczoną książkę \"%1$s\". Zwróć ją przed ponownym wypożyczeniem.</string>
+    <string name="error_limit_reached">Obecnie masz wypożyczone %1$d książek, co stanowi limit %2$d. Zwróć część książek przed kolejnym wypożyczeniem.</string>
+    <string name="error_limit_exceeded">Przekroczono limit: masz już wypożyczone %1$d książek. Przy limicie %2$d możesz wypożyczyć jeszcze tylko %3$d.</string>
+    <string name="active_loans_info">Aktywne wypożyczenia: masz obecnie %1$d wypożyczonych książek (Limit: %2$d). Możesz wypożyczyć jeszcze %3$d.</string>
+    <string name="active_loans_limit_reached">Osiągnięto limit: masz obecnie %1$d wypożyczonych książek (Limit: %2$d). Zwróć książki, aby wypożyczyć nowe.</string>
+    <string name="active_loans_overdue_warning">Uwaga: masz %1$d zaległych książek. Zwróć je przed kolejnym wypożyczeniem.</string>
+
+    <!-- Kategorie -->
+    <string name="category_biographies">Biografie</string>
+    <string name="category_devotionals">Rozważania</string>
+    <string name="category_kids">Dzieci</string>
+    <string name="category_commentaries">Komentarze</string>
+    <string name="category_theology">Teologia</string>
+    <string name="category_practical_christianity">Praktyczne chrześcijaństwo</string>
+    <string name="category_bibles">Biblie</string>
+    <string name="category_bible_study_material">Materiały do studium Biblii</string>
+    <string name="category_christian_living">Życie chrześcijańskie</string>
+    <string name="category_church_history">Historia Kościoła</string>
+    <string name="category_apologetics">Apologetyka</string>
+    <string name="category_other">Inne</string>
+
+    <!-- Panel administratora -->
+    <string name="admin_dashboard_title">Panel Administratora Biblioteki</string>
+    <string name="admin_dashboard_subtitle">Zarządzaj księgozbiorem i wypożyczeniami</string>
+    <string name="admin_what_to_do">Co chcesz zrobić?</string>
+    <string name="admin_active_loans">Aktywne wypożyczenia</string>
+    <string name="admin_active_loans_desc">Przeglądaj i przyjmuj zwroty wypożyczonych książek.</string>
+    <string name="admin_manage_inventory">Zarządzaj księgozbiorem</string>
+    <string name="admin_manage_inventory_desc">Dodawaj, edytuj lub usuwaj książki z biblioteki.</string>
+    <string name="admin_settings_backup">Ustawienia i kopia zapasowa</string>
+    <string name="admin_settings_backup_desc">Kopia zapasowa P2P offline, tryb demo i ustawienia biblioteki.</string>
+    <string name="admin_log_out">Wyloguj</string>
+    <string name="admin_log_out_desc">Bezpiecznie zablokuj panel administratora.</string>
+    <string name="about_developer">O autorze</string>
+</resources>

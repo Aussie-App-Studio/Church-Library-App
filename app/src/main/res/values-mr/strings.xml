@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">चर्च ग्रंथालय</string>
+
+    <!-- डेमो मोड -->
+    <string name="demo_mode">डेमो मोड</string>
+    <string name="demo_mode_active">डेमो मोड सक्रिय आहे</string>
+    <string name="demo_mode_banner_desc">काळजी करू नका! डेमो मोड दरम्यान तुमचा मूळ ग्रंथालय डेटाबेस लपवलेला आणि पूर्णपणे सुरक्षित आहे.</string>
+    <string name="exit_demo_mode">डेमो मोडमधून बाहेर पडा</string>
+
+    <!-- सामान्य -->
+    <string name="back">मागे</string>
+    <string name="cancel">रद्द करा</string>
+    <string name="delete">हटवा</string>
+    <string name="save">जतन करा</string>
+    <string name="edit">संपादित करा</string>
+    <string name="close">बंद करा</string>
+    <string name="admin">प्रशासक</string>
+    <string name="success">यशस्वी</string>
+    <string name="library_logo">ग्रंथालय लोगो</string>
+
+    <!-- मुख्य स्क्रीन -->
+    <string name="welcome_to_library">ग्रंथालयात आपले स्वागत आहे</string>
+    <string name="home_subtitle">कपाटावर तुमचे पुस्तक शोधा, त्यानंतर उसने घेण्यासाठी किंवा परत करण्यासाठी खाली टॅप करा.</string>
+    <string name="borrow_books">पुस्तके उसने घ्या</string>
+    <string name="borrow_books_desc">एक किंवा अधिक पुस्तके उसने घ्या</string>
+    <string name="return_books">पुस्तके परत करा</string>
+    <string name="return_books_desc">वाचून झालेली पुस्तके परत जमा करा</string>
+
+    <!-- पुस्तक निवड स्क्रीन -->
+    <string name="select_books_title">उसने घेण्यासाठी पुस्तके निवडा</string>
+    <string name="search_books_placeholder">शीर्षक किंवा लेखकानुसार शोधा…</string>
+    <string name="selected_books_count">%1$d / %2$d निवडले</string>
+    <string name="proceed_to_checkout">पुढे जा</string>
+    <string name="no_books_found">एकही पुस्तक सापडले नाही.</string>
+    <string name="limit_reached">मर्यादा संपली</string>
+    <string name="out_of_stock">उपलब्ध नाही</string>
+    <string name="cover_for_title">%1$s चे मुखपृष्ठ</string>
+
+    <!-- वाचक तपशील स्क्रीन -->
+    <string name="checkout_details_title">तपशील</string>
+    <string name="your_details">तुमची माहिती</string>
+    <string name="your_details_desc">निवडलेली पुस्तके घेण्यासाठी कृपया तुमची माहिती भरा.</string>
+    <string name="full_name_required">पूर्ण नाव *</string>
+    <string name="full_name_placeholder">राहुल पाटील</string>
+    <string name="email_required">ईमेल पत्ता *</string>
+    <string name="email_placeholder">rahul@example.com</string>
+    <string name="phone_optional">फोन नंबर</string>
+    <string name="phone_placeholder">09800 00000</string>
+    <string name="borrow_duration_label">मुदत *</string>
+    <string name="duration_1_week">१ आठवडा</string>
+    <string name="duration_2_weeks">२ आठवडे</string>
+    <string name="duration_1_month">१ महिना</string>
+    <string name="duration_2_months">२ महिने</string>
+    <string name="review_and_confirm">तपासा आणि पुष्टी करा</string>
+    <string name="books_to_checkout">घेण्यासाठी पुस्तके (%1$d)</string>
+    <string name="reminder_dialog_title">कॅलेंडर रिमाइंडर सेट करा!</string>
+    <string name="reminder_dialog_message">जाण्यापूर्वी, ही पुस्तके %1$s मध्ये परत करण्यासाठी कृपया तुमच्या फोनच्या कॅलेंडरमध्ये आठवण (रिमाइंडर) जोडा.</string>
+    <string name="reminder_dialog_offline_note">अॅप पूर्णपणे मोफत आणि ऑफलाइन ठेवण्यासाठी आम्ही ईमेल पाठवत नाही.</string>
+    <string name="confirm_loan">पुष्टी करा</string>
+    <string name="confirm_loan_timer">पुष्टी करा (%1$d सेकंद)</string>
+
+    <!-- यश स्क्रीन -->
+    <string name="success_title">यशस्वी!</string>
+    <string name="success_one_book">तुम्ही १ पुस्तक उसने घेतले आहे.\nपरत करण्याची अंतिम तारीख: %1$s.</string>
+    <string name="success_multiple_books">तुम्ही %1$d पुस्तके उसने घेतली आहेत.\nपरत करण्याची अंतिम तारीख: %2$s.</string>
+    <string name="returning_home_seconds">१० सेकंदात मुख्य स्क्रीनवर परत जात आहे…</string>
+    <string name="return_to_home_button">मुख्य स्क्रीनवर जा</string>
+
+    <!-- पुस्तक परत स्क्रीन -->
+    <string name="return_books_title">पुस्तके परत करा</string>
+    <string name="search_return_placeholder">तुमच्या नावाने किंवा पुस्तकाच्या नावाने शोधा…</string>
+    <string name="no_active_loans">सक्रिय नोंदी सापडल्या नाहीत.</string>
+    <string name="return_all_count">सर्व परत करा (%1$d)</string>
+    <string name="return_all_button">सर्व परत करा</string>
+    <string name="return_book_button">पुस्तक परत करा</string>
+    <string name="return_book_dialog_title">पुस्तक परत करा</string>
+    <string name="return_book_dialog_message">%2$s साठी \"%1$s\" परत करायचे आहे का?</string>
+    <string name="return_all_dialog_title">सर्व पुस्तके परत करा</string>
+    <string name="return_all_dialog_message">%2$s ची सर्व %1$d पुस्तके परत करायची आहेत का?</string>
+    <string name="borrower_label">वाचक: %1$s</string>
+    <string name="overdue_badge">⚠ मुदत संपली</string>
+    <string name="due_date_label">अंतिम तारीख: %1$s</string>
+    <string name="book_returned_success">पुस्तक यशस्वीरीत्या परत जमा झाले!</string>
+    <string name="all_books_returned_success">सर्व पुस्तके यशस्वीरीत्या परत जमा झाली!</string>
+
+    <!-- पिन स्क्रीन -->
+    <string name="admin_access_title">प्रशासक प्रवेश</string>
+    <string name="enter_pin_message">ग्रंथालय व्यवस्थापनासाठी पिन प्रविष्ट करा.</string>
+    <string name="default_pin_hint">(डीफॉल्ट पिन: 1234)</string>
+    <string name="incorrect_pin_error">चुकीचा पिन. पुन्हा प्रयत्न करा.</string>
+
+    <!-- त्रुटी संदेश -->
+    <string name="error_book_unavailable">हे पुस्तक सध्या उपलब्ध नाही.</string>
+    <string name="error_max_borrow_limit">तुम्ही एका वेळी जास्तीत जास्त %1$d विविध पुस्तके घेऊ शकता.</string>
+    <string name="error_max_borrow_total">तुम्ही एकूण जास्तीत जास्त %1$d पुस्तके घेऊ शकता.</string>
+    <string name="error_only_copies_available">फक्त %1$d प्रती शिल्लक आहेत.</string>
+    <string name="error_name_email_required">कृपया किमान नाव आणि ईमेल प्रविष्ट करा.</string>
+    <string name="error_valid_name_required">कृपया वैध नाव प्रविष्ट करा.</string>
+    <string name="error_valid_email_required">कृपया वैध ईमेल पत्ता प्रविष्ट करा.</string>
+    <string name="error_valid_phone_required">कृपया वैध फोन नंबर प्रविष्ट करा.</string>
+    <string name="error_no_books_selected">एकही पुस्तक निवडलेले नाही.</string>
+    <string name="error_overdue_single">तुमच्याकडे मुदत संपलेले पुस्तक (\"%1$s\") आहे, नवीन पुस्तक घेण्यापूर्वी ते परत करणे आवश्यक आहे.</string>
+    <string name="error_overdue_multiple">तुमच्याकडे %1$d मुदत संपलेली पुस्तके (%2$s) आहेत, नवीन पुस्तक घेण्यापूर्वी ती परत करणे आवश्यक आहे.</string>
+    <string name="error_duplicate_book">तुमच्याकडे आधीच \"%1$s\" हे पुस्तक आहे. पुन्हा घेण्यापूर्वी कृपया ते परत करा.</string>
+    <string name="error_limit_reached">तुमच्याकडे सध्या %1$d पुस्तके आहेत, जी %2$d ची मर्यादा गाठली आहे. नवीन पुस्तके घेण्यापूर्वी काही परत करा.</string>
+    <string name="error_limit_exceeded">मर्यादा ओलांडली: तुमच्याकडे आधीच %1$d पुस्तके आहेत. %2$d च्या मर्यादेसह, तुम्ही फक्त %3$d अधिक पुस्तके घेऊ शकता.</string>
+    <string name="active_loans_info">सक्रिय उसने: तुमच्याकडे सध्या %1$d पुस्तके आहेत (मर्यादा: %2$d). तुम्ही आणखी %3$d पर्यंत पुस्तके घेऊ शकता.</string>
+    <string name="active_loans_limit_reached">मर्यादा गाठली: तुमच्याकडे सध्या %1$d पुस्तके आहेत (कमाल मर्यादा: %2$d). नवीन पुस्तके घेण्यासाठी कृपया पुस्तके परत करा.</string>
+    <string name="active_loans_overdue_warning">लक्ष द्या: तुमच्याकडे %1$d मुदत संपलेली पुस्तके आहेत. नवीन पुस्तके घेण्यापूर्वी कृपया ती परत करा.</string>
+
+    <!-- वर्गवारी -->
+    <string name="category_biographies">चरित्रे</string>
+    <string name="category_devotionals">भक्तीपर व मनन</string>
+    <string name="category_kids">मुले व तरुण</string>
+    <string name="category_commentaries">बायबल भाष्य</string>
+    <string name="category_theology">ईश्वरशास्त्र</string>
+    <string name="category_practical_christianity">व्यावहारिक ख्रिस्ती जीवन</string>
+    <string name="category_bibles">पवित्र शास्त्र (बायबल)</string>
+    <string name="category_bible_study_material">बायबल अभ्यास साहित्य</string>
+    <string name="category_christian_living">ख्रिस्ती जीवन</string>
+    <string name="category_church_history">मंडळीचा इतिहास</string>
+    <string name="category_apologetics">विश्वास समर्थन</string>
+    <string name="category_other">इतर</string>
+
+    <!-- प्रशासक डॅशबोर्ड -->
+    <string name="admin_dashboard_title">ग्रंथालय प्रशासक डॅशबोर्ड</string>
+    <string name="admin_dashboard_subtitle">साहित्य आणि नोंदी व्यवस्थापित करा</string>
+    <string name="admin_what_to_do">तुम्हाला काय करायचे आहे?</string>
+    <string name="admin_active_loans">सक्रिय नोंदी</string>
+    <string name="admin_active_loans_desc">सध्या उसने दिलेली पुस्तके पहा आणि जमा करा.</string>
+    <string name="admin_manage_inventory">पुस्तके व्यवस्थापित करा</string>
+    <string name="admin_manage_inventory_desc">ग्रंथालयात पुस्तके जोडा, संपादित करा किंवा काढून टाका.</string>
+    <string name="admin_settings_backup">सेटिंग्ज आणि बॅकअप</string>
+    <string name="admin_settings_backup_desc">ऑफलाइन P2P बॅकअप, डेमो मोड आणि ग्रंथालय सेटिंग्ज.</string>
+    <string name="admin_log_out">लॉग आउट</string>
+    <string name="admin_log_out_desc">प्रशासक डॅशबोर्ड सुरक्षितपणे लॉक करा.</string>
+    <string name="about_developer">डेव्हलपरबद्दल माहिती</string>
+</resources>

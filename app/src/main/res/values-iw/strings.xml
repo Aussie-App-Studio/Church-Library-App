@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ספריית הקהילה</string>
+
+    <!-- מצב הדגמה -->
+    <string name="demo_mode">מצב הדגמה</string>
+    <string name="demo_mode_active">מצב הדגמה פעיל</string>
+    <string name="demo_mode_banner_desc">אל דאגה! מסד הנתונים האמיתי של הספרייה מוסתר ובטוח לחלוטין בזמן מצב הדגמה.</string>
+    <string name="exit_demo_mode">יציאה ממצב הדגמה</string>
+
+    <!-- כללי -->
+    <string name="back">חזרה</string>
+    <string name="cancel">ביטול</string>
+    <string name="delete">מחיקה</string>
+    <string name="save">שמירה</string>
+    <string name="edit">עריכה</string>
+    <string name="close">סגירה</string>
+    <string name="admin">מנהל</string>
+    <string name="success">הצלחה</string>
+    <string name="library_logo">סמל הספרייה</string>
+
+    <!-- מסך בית -->
+    <string name="welcome_to_library">ברוכים הבאים לספרייה</string>
+    <string name="home_subtitle">מצא את הספר שלך על המדף, ולאחר מכן הקש למטה כדי לשאול או להחזיר אותו.</string>
+    <string name="borrow_books">השאלת ספרים</string>
+    <string name="borrow_books_desc">השאלת ספר אחד או יותר</string>
+    <string name="return_books">החזרת ספרים</string>
+    <string name="return_books_desc">החזרת ספרים שסיימת לקרוא</string>
+
+    <!-- בחירת ספרים -->
+    <string name="select_books_title">בחירת ספרים להשאלה</string>
+    <string name="search_books_placeholder">חיפוש לפי כותרת או מחבר…</string>
+    <string name="selected_books_count">%1$d מתוך %2$d נבחרו</string>
+    <string name="proceed_to_checkout">המשך להשאלה</string>
+    <string name="no_books_found">לא נמצאו ספרים.</string>
+    <string name="limit_reached">הגעת למגבלה</string>
+    <string name="out_of_stock">אזל מהמלאי</string>
+    <string name="cover_for_title">כריכה עבור %1$s</string>
+
+    <!-- פרטי השואל -->
+    <string name="checkout_details_title">פרטי השאלה</string>
+    <string name="your_details">הפרטים שלך</string>
+    <string name="your_details_desc">אנא הזן את פרטיך כדי לשאול את הספרים שנבחרו.</string>
+    <string name="full_name_required">שם מלא *</string>
+    <string name="full_name_placeholder">יוסי כהן</string>
+    <string name="email_required">כתובת אימייל *</string>
+    <string name="email_placeholder">yossi@example.com</string>
+    <string name="phone_optional">מספר טלפון</string>
+    <string name="phone_placeholder">050 000 0000</string>
+    <string name="borrow_duration_label">תקופת השאלה *</string>
+    <string name="duration_1_week">שבוע 1</string>
+    <string name="duration_2_weeks">שבועיים</string>
+    <string name="duration_1_month">חודש 1</string>
+    <string name="duration_2_months">חודשיים</string>
+    <string name="review_and_confirm">בדיקה ואישור</string>
+    <string name="books_to_checkout">ספרים להשאלה (%1$d)</string>
+    <string name="reminder_dialog_title">הגדר תזכורת ביומן!</string>
+    <string name="reminder_dialog_message">לפני שתלך, אנא הוסף תזכורת ביומן הטלפון שלך להחזרת ספרים אלה בעוד %1$s.</string>
+    <string name="reminder_dialog_offline_note">איננו שולחים תזכורות באימייל כדי שהאפליקציה תישאר חינמית לחלוטין וללא צורך ברשת.</string>
+    <string name="confirm_loan">אישור השאלה</string>
+    <string name="confirm_loan_timer">אישור השאלה (%1$d שניות)</string>
+
+    <!-- מסך הצלחה -->
+    <string name="success_title">בוצע בהצלחה!</string>
+    <string name="success_one_book">שאלת ספר 1.\nתאריך החזרה: %1$s.</string>
+    <string name="success_multiple_books">שאלת %1$d ספרים.\nתאריך החזרה: %2$s.</string>
+    <string name="returning_home_seconds">חזרה למסך הבית בעוד 10 שניות…</string>
+    <string name="return_to_home_button">חזרה למסך הבית</string>
+
+    <!-- החזרת ספרים -->
+    <string name="return_books_title">החזרת ספרים</string>
+    <string name="search_return_placeholder">חיפוש לפי שמך או כותרת הספר…</string>
+    <string name="no_active_loans">לא נמצאו השאלות פעילות.</string>
+    <string name="return_all_count">החזרת הכל (%1$d)</string>
+    <string name="return_all_button">החזרת הכל</string>
+    <string name="return_book_button">החזרת ספר</string>
+    <string name="return_book_dialog_title">החזרת ספר</string>
+    <string name="return_book_dialog_message">להחזיר את \"%1$s\" עבור %2$s?</string>
+    <string name="return_all_dialog_title">החזרת כל הספרים</string>
+    <string name="return_all_dialog_message">להחזיר את כל %1$d הספרים עבור %2$s?</string>
+    <string name="borrower_label">שואל: %1$s</string>
+    <string name="overdue_badge">⚠ באיחור</string>
+    <string name="due_date_label">תאריך יעד: %1$s</string>
+    <string name="book_returned_success">הספר הוחזר בהצלחה!</string>
+    <string name="all_books_returned_success">כל הספרים הוחזרו בהצלחה!</string>
+
+    <!-- מסך קוד גישה -->
+    <string name="admin_access_title">גישת מנהל</string>
+    <string name="enter_pin_message">הזן קוד PIN לניהול רשומות הספרייה.</string>
+    <string name="default_pin_hint">(קוד ברירת מחדל: 1234)</string>
+    <string name="incorrect_pin_error">קוד PIN שגוי. נסה שוב.</string>
+
+    <!-- הודעות שגיאה ואימות -->
+    <string name="error_book_unavailable">ספר זה אינו זמין כעת.</string>
+    <string name="error_max_borrow_limit">ניתן לשאול עד %1$d כותרים שונים בו-זמנית.</string>
+    <string name="error_max_borrow_total">ניתן לשאול בסך הכל עד %1$d ספרים.</string>
+    <string name="error_only_copies_available">נותרו %1$d עותקים בלבד.</string>
+    <string name="error_name_email_required">אנא הזן לפחות שם ואימייל.</string>
+    <string name="error_valid_name_required">אנא הזן שם תקין.</string>
+    <string name="error_valid_email_required">אנא הזן כתובת אימייל תקינה.</string>
+    <string name="error_valid_phone_required">אנא הזן מספר טלפון תקין.</string>
+    <string name="error_no_books_selected">לא נבחרו ספרים.</string>
+    <string name="error_overdue_single">יש לך ספר באיחור (\"%1$s\") שיש להחזיר לפני השאלת ספרים חדשים.</string>
+    <string name="error_overdue_multiple">יש לך %1$d ספרים באיחור (%2$s) שיש להחזיר לפני השאלת ספרים חדשים.</string>
+    <string name="error_duplicate_book">הספר \"%1$s\" כבר מושאל אצלך. אנא החזר אותו לפני השאלה חוזרת.</string>
+    <string name="error_limit_reached">יש ברשותך כרגע %1$d ספרים מושאלים, והגעת למגבלה של %2$d. אנא החזר ספרים לפני שתשאל נוספים.</string>
+    <string name="error_limit_exceeded">חריגה ממגבלת השאלה: יש לך כבר %1$d ספרים. עם מגבלה של %2$d, תוכל לשאול עוד %3$d ספרים בלבד.</string>
+    <string name="active_loans_info">השאלות פעילות: יש ברשותך כרגע %1$d ספרים (מגבלה: %2$d). ניתן לשאול עד עוד %3$d ספרים.</string>
+    <string name="active_loans_limit_reached">הגעת למגבלה: יש ברשותך %1$d ספרים מושאלים (מגבלה מקסימלית: %2$d). יש להחזיר ספרים כדי לשאול חדשים.</string>
+    <string name="active_loans_overdue_warning">לתשומת לבך: יש לך %1$d ספרים באיחור. אנא החזר אותם לפני השאלת ספרים חדשים.</string>
+
+    <!-- קטגוריות -->
+    <string name="category_biographies">ביוגרפיות</string>
+    <string name="category_devotionals">ספרי הגות ותפילה</string>
+    <string name="category_kids">ילדים ונוער</string>
+    <string name="category_commentaries">פירושים ומחקר מקראי</string>
+    <string name="category_theology">תיאולוגיה</string>
+    <string name="category_practical_christianity">חיי אמונה מעשיים</string>
+    <string name="category_bibles">תנ\"ך וכתבי הקודש</string>
+    <string name="category_bible_study_material">חומרי לימוד מקרא</string>
+    <string name="category_christian_living">חיים משיחיים</string>
+    <string name="category_church_history">תולדות הקהילה והכנסייה</string>
+    <string name="category_apologetics">הגנת האמונה (אפולוגטיקה)</string>
+    <string name="category_other">אחר</string>
+
+    <!-- לוח מנהל -->
+    <string name="admin_dashboard_title">לוח ניהול ספרייה</string>
+    <string name="admin_dashboard_subtitle">ניהול מלאי הספרים וההשאלות</string>
+    <string name="admin_what_to_do">מה ברצונך לעשות?</string>
+    <string name="admin_active_loans">השאלות פעילות</string>
+    <string name="admin_active_loans_desc">צפייה וקבלת ספרים המושאלים כעת.</string>
+    <string name="admin_manage_inventory">ניהול מלאי</string>
+    <string name="admin_manage_inventory_desc">הוספה, עריכה או מחיקה של ספרים מהספרייה.</string>
+    <string name="admin_settings_backup">הגדרות וגיבוי</string>
+    <string name="admin_settings_backup_desc">גיבוי P2P ללא רשת, מצב הדגמה והגדרות ספרייה.</string>
+    <string name="admin_log_out">התנתקות</string>
+    <string name="admin_log_out_desc">נעילה מאובטחת של לוח הניהול.</string>
+    <string name="about_developer">אודות המפתח</string>
+</resources>

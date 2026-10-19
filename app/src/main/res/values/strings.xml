@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Church Library</string>
+
+    <!-- Demo Mode -->
+    <string name="demo_mode">Demo Mode</string>
+    <string name="demo_mode_active">DEMO MODE IS ACTIVE</string>
+    <string name="demo_mode_banner_desc">Don\'t panic! Your real library database is hidden and perfectly safe while in Demo Mode.</string>
+    <string name="exit_demo_mode">Exit Demo Mode</string>
+
+    <!-- General / Common -->
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="close">Close</string>
+    <string name="admin">Admin</string>
+    <string name="success">Success</string>
+    <string name="library_logo">Library Logo</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_to_library">Welcome to the Library</string>
+    <string name="home_subtitle">Find your book on the shelf, then tap below to check it out or return it.</string>
+    <string name="borrow_books">Borrow Books</string>
+    <string name="borrow_books_desc">Check out one or more books</string>
+    <string name="return_books">Return Books</string>
+    <string name="return_books_desc">Bring back books you\'ve read</string>
+
+    <!-- Select Books Screen -->
+    <string name="select_books_title">Select Books to Borrow</string>
+    <string name="search_books_placeholder">Search by title or author…</string>
+    <string name="selected_books_count">%1$d / %2$d selected</string>
+    <string name="proceed_to_checkout">Proceed to Checkout</string>
+    <string name="no_books_found">No books found.</string>
+    <string name="limit_reached">Limit Reached</string>
+    <string name="out_of_stock">OUT</string>
+    <string name="cover_for_title">Cover for %1$s</string>
+
+    <!-- Borrower Info Screen -->
+    <string name="checkout_details_title">Checkout Details</string>
+    <string name="your_details">Your Details</string>
+    <string name="your_details_desc">Please enter your information to borrow the selected books.</string>
+    <string name="full_name_required">Full Name *</string>
+    <string name="full_name_placeholder">John Doe</string>
+    <string name="email_required">Email Address *</string>
+    <string name="email_placeholder">john@example.com</string>
+    <string name="phone_optional">Phone Number</string>
+    <string name="phone_placeholder">0400 000 000</string>
+    <string name="borrow_duration_label">Borrow Duration *</string>
+    <string name="duration_1_week">1 Week</string>
+    <string name="duration_2_weeks">2 Weeks</string>
+    <string name="duration_1_month">1 Month</string>
+    <string name="duration_2_months">2 Months</string>
+    <string name="review_and_confirm">Review &amp; Confirm</string>
+    <string name="books_to_checkout">Books to Checkout (%1$d)</string>
+    <string name="reminder_dialog_title">Set a Calendar Reminder!</string>
+    <string name="reminder_dialog_message">Before you go, please take a moment to add a reminder to your phone\'s calendar to return these books in %1$s.</string>
+    <string name="reminder_dialog_offline_note">We don\'t send email reminders to keep the app completely free and offline.</string>
+    <string name="confirm_loan">Confirm Loan</string>
+    <string name="confirm_loan_timer">Confirm Loan (%1$ds)</string>
+
+    <!-- Borrow Success Screen -->
+    <string name="success_title">Success!</string>
+    <string name="success_one_book">You have checked out 1 book.\nIt is due back on %1$s.</string>
+    <string name="success_multiple_books">You have checked out %1$d books.\nThey are due back on %2$s.</string>
+    <string name="returning_home_seconds">Returning to home in 10 seconds…</string>
+    <string name="return_to_home_button">Return to Home Screen</string>
+
+    <!-- Return Books Screen -->
+    <string name="return_books_title">Return Books</string>
+    <string name="search_return_placeholder">Search by your name or book title…</string>
+    <string name="no_active_loans">No active loans found.</string>
+    <string name="return_all_count">Return All (%1$d)</string>
+    <string name="return_all_button">Return All</string>
+    <string name="return_book_button">Return Book</string>
+    <string name="return_book_dialog_title">Return Book</string>
+    <string name="return_book_dialog_message">Return \"%1$s\" for %2$s?</string>
+    <string name="return_all_dialog_title">Return All Books</string>
+    <string name="return_all_dialog_message">Return all %1$d books for %2$s?</string>
+    <string name="borrower_label">Borrower: %1$s</string>
+    <string name="overdue_badge">⚠ OVERDUE</string>
+    <string name="due_date_label">Due: %1$s</string>
+    <string name="book_returned_success">Book returned successfully!</string>
+    <string name="all_books_returned_success">All books returned successfully!</string>
+
+    <!-- Pin Screen -->
+    <string name="admin_access_title">Admin Access</string>
+    <string name="enter_pin_message">Enter PIN to manage library records.</string>
+    <string name="default_pin_hint">Default PIN: 1234</string>
+    <string name="default_pin_change_hint">Can be changed in Admin Settings</string>
+    <string name="default_pin_banner_title">Default PIN in use (1234)</string>
+    <string name="default_pin_banner_desc">For security, set your own custom admin PIN.</string>
+    <string name="default_pin_banner_action">Change PIN</string>
+    <string name="incorrect_pin_error">Incorrect PIN. Try again.</string>
+
+    <!-- Validation & Error Messages -->
+    <string name="error_book_unavailable">This book is currently unavailable.</string>
+    <string name="error_max_borrow_limit">You can only borrow up to %1$d different titles at once.</string>
+    <string name="error_max_borrow_total">You can only borrow up to %1$d books in total.</string>
+    <string name="error_only_copies_available">Only %1$d copies available.</string>
+    <string name="error_name_email_required">Please provide at least Name and Email.</string>
+    <string name="error_valid_name_required">Please enter a valid name.</string>
+    <string name="error_valid_email_required">Please enter a valid email address.</string>
+    <string name="error_valid_phone_required">Please enter a valid phone number.</string>
+    <string name="error_no_books_selected">No books selected.</string>
+    <string name="error_overdue_single">You have an overdue book (\"%1$s\") that must be returned before borrowing new books.</string>
+    <string name="error_overdue_multiple">You have %1$d overdue books (%2$s) that must be returned before borrowing new books.</string>
+    <string name="error_duplicate_book">You already have \"%1$s\" on loan. Please return it before borrowing it again.</string>
+    <string name="error_limit_reached">You currently have %1$d active borrowed book(s), reaching the limit of %2$d. Please return some books before borrowing more.</string>
+    <string name="error_limit_exceeded">Borrow limit exceeded: You already have %1$d book(s) on loan. With the limit of %2$d, you can only borrow %3$d more book(s).</string>
+    <string name="active_loans_info">Active Loans: You currently have %1$d book(s) on loan (Limit: %2$d). You can borrow up to %3$d more.</string>
+    <string name="active_loans_limit_reached">Limit Reached: You currently have %1$d book(s) on loan (Maximum limit: %2$d). Please return books to borrow new ones.</string>
+    <string name="active_loans_overdue_warning">Attention: You have %1$d overdue book(s). Please return them before checking out new books.</string>
+
+    <!-- Categories -->
+    <string name="category_biographies">Biographies</string>
+    <string name="category_devotionals">Devotionals</string>
+    <string name="category_kids">Kids</string>
+    <string name="category_commentaries">Commentaries</string>
+    <string name="category_theology">Theology</string>
+    <string name="category_practical_christianity">Practical Christianity</string>
+    <string name="category_bibles">Bibles</string>
+    <string name="category_bible_study_material">Bible Study Material</string>
+    <string name="category_christian_living">Christian Living</string>
+    <string name="category_church_history">Church History</string>
+    <string name="category_apologetics">Apologetics</string>
+    <string name="category_other">Other</string>
+
+    <!-- Admin Dashboard Hub -->
+    <string name="admin_dashboard_title">Library Admin Dashboard</string>
+    <string name="admin_dashboard_subtitle">Manage library inventory and loans</string>
+    <string name="admin_what_to_do">What would you like to do?</string>
+    <string name="admin_active_loans">Active Loans</string>
+    <string name="admin_active_loans_desc">View and return currently borrowed books.</string>
+    <string name="admin_manage_inventory">Manage Inventory</string>
+    <string name="admin_manage_inventory_desc">Add, edit, or remove books from the library.</string>
+    <string name="admin_settings_backup">Settings &amp; Backup</string>
+    <string name="admin_settings_backup_desc">Offline P2P Backup, Demo Mode, and Library Settings.</string>
+    <string name="admin_log_out">Log Out</string>
+    <string name="admin_log_out_desc">Securely lock the admin dashboard.</string>
+    <string name="about_developer">About Developer</string>
+</resources>

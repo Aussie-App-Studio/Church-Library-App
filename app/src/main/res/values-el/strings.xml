@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Βιβλιοθήκη Εκκλησίας</string>
+
+    <!-- Λειτουργία επίδειξης -->
+    <string name="demo_mode">Λειτουργία επίδειξης</string>
+    <string name="demo_mode_active">Η ΛΕΙΤΟΥΡΓΙΑ ΕΠΙΔΕΙΞΗΣ ΕΙΝΑΙ ΕΝΕΡΓΗ</string>
+    <string name="demo_mode_banner_desc">Μην ανησυχείτε! Η πραγματική βάση δεδομένων της βιβλιοθήκης είναι κρυμμένη και ασφαλής κατά τη λειτουργία επίδειξης.</string>
+    <string name="exit_demo_mode">Έξοδος από τη λειτουργία επίδειξης</string>
+
+    <!-- Γενικά -->
+    <string name="back">Πίσω</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="save">Αποθήκευση</string>
+    <string name="edit">Επεξεργασία</string>
+    <string name="close">Κλείσιμο</string>
+    <string name="admin">Διαχειριστής</string>
+    <string name="success">Επιτυχία</string>
+    <string name="library_logo">Λογότυπο Βιβλιοθήκης</string>
+
+    <!-- Αρχική οθόνη -->
+    <string name="welcome_to_library">Καλώς ήρθατε στη Βιβλιοθήκη</string>
+    <string name="home_subtitle">Βρείτε το βιβλίο σας στο ράφι και πατήστε παρακάτω για δανεισμό ή επιστροφή.</string>
+    <string name="borrow_books">Δανεισμός βιβλίων</string>
+    <string name="borrow_books_desc">Δανειστείτε ένα ή περισσότερα βιβλία</string>
+    <string name="return_books">Επιστροφή βιβλίων</string>
+    <string name="return_books_desc">Επιστρέψτε τα βιβλία που διαβάσατε</string>
+
+    <!-- Επιλογή βιβλίων -->
+    <string name="select_books_title">Επιλέξτε βιβλία για δανεισμό</string>
+    <string name="search_books_placeholder">Αναζήτηση κατά τίτλο ή συγγραφέα…</string>
+    <string name="selected_books_count">Επιλέχθηκαν %1$d / %2$d</string>
+    <string name="proceed_to_checkout">Συνέχεια στον δανεισμό</string>
+    <string name="no_books_found">Δεν βρέθηκαν βιβλία.</string>
+    <string name="limit_reached">Συμπληρώθηκε το όριο</string>
+    <string name="out_of_stock">ΜΗ ΔΙΑΘΕΣΙΜΟ</string>
+    <string name="cover_for_title">Εξώφυλλο για %1$s</string>
+
+    <!-- Στοιχεία δανειζομένου -->
+    <string name="checkout_details_title">Στοιχεία δανεισμού</string>
+    <string name="your_details">Τα στοιχεία σας</string>
+    <string name="your_details_desc">Παρακαλούμε εισάγετε τα στοιχεία σας για να δανειστείτε τα επιλεγμένα βιβλία.</string>
+    <string name="full_name_required">Ονοματεπώνυμο *</string>
+    <string name="full_name_placeholder">Γεώργιος Παπαδόπουλος</string>
+    <string name="email_required">Διεύθυνση Email *</string>
+    <string name="email_placeholder">george@example.gr</string>
+    <string name="phone_optional">Αριθμός τηλεφώνου</string>
+    <string name="phone_placeholder">690 000 0000</string>
+    <string name="borrow_duration_label">Διάρκεια δανεισμού *</string>
+    <string name="duration_1_week">1 Εβδομάδα</string>
+    <string name="duration_2_weeks">2 Εβδομάδες</string>
+    <string name="duration_1_month">1 Μήνας</string>
+    <string name="duration_2_months">2 Μήνες</string>
+    <string name="review_and_confirm">Έλεγχος και επιβεβαίωση</string>
+    <string name="books_to_checkout">Βιβλία προς δανεισμό (%1$d)</string>
+    <string name="reminder_dialog_title">Ορίστε υπενθύμιση στο ημερολόγιο!</string>
+    <string name="reminder_dialog_message">Πριν φύγετε, προσθέστε μια υπενθύμιση στο ημερολόγιο του τηλεφώνου σας για την επιστροφή των βιβλίων σε %1$s.</string>
+    <string name="reminder_dialog_offline_note">Δεν στέλνουμε email υπενθύμισης ώστε η εφαρμογή να παραμένει δωρεάν και εκτός σύνδεσης.</string>
+    <string name="confirm_loan">Επιβεβαίωση δανεισμού</string>
+    <string name="confirm_loan_timer">Επιβεβαίωση δανεισμού (%1$dδ)</string>
+
+    <!-- Οθόνη επιτυχίας -->
+    <string name="success_title">Επιτυχία!</string>
+    <string name="success_one_book">Δανειστήκατε 1 βιβλίο.\nΗμερομηνία επιστροφής: %1$s.</string>
+    <string name="success_multiple_books">Δανειστήκατε %1$d βιβλία.\nΗμερομηνία επιστροφής: %2$s.</string>
+    <string name="returning_home_seconds">Επιστροφή στην αρχική οθόνη σε 10 δευτερόλεπτα…</string>
+    <string name="return_to_home_button">Επιστροφή στην αρχική οθόνη</string>
+
+    <!-- Επιστροφή βιβλίων -->
+    <string name="return_books_title">Επιστροφή βιβλίων</string>
+    <string name="search_return_placeholder">Αναζήτηση με το όνομά σας ή τον τίτλο βιβλίου…</string>
+    <string name="no_active_loans">Δεν βρέθηκαν ενεργοί δανεισμοί.</string>
+    <string name="return_all_count">Επιστροφή όλων (%1$d)</string>
+    <string name="return_all_button">Επιστροφή όλων</string>
+    <string name="return_book_button">Επιστροφή βιβλίου</string>
+    <string name="return_book_dialog_title">Επιστροφή βιβλίου</string>
+    <string name="return_book_dialog_message">Επιστροφή του \"%1$s\" για τον/την %2$s;</string>
+    <string name="return_all_dialog_title">Επιστροφή όλων των βιβλίων</string>
+    <string name="return_all_dialog_message">Επιστροφή και των %1$d βιβλίων για τον/την %2$s;</string>
+    <string name="borrower_label">Δανειζόμενος: %1$s</string>
+    <string name="overdue_badge">⚠ ΕΚΠΡΟΘΕΣΜΟ</string>
+    <string name="due_date_label">Προθεσμία: %1$s</string>
+    <string name="book_returned_success">Το βιβλίο επιστράφηκε επιτυχώς!</string>
+    <string name="all_books_returned_success">Όλα τα βιβλία επιστράφηκαν επιτυχώς!</string>
+
+    <!-- Οθόνη PIN -->
+    <string name="admin_access_title">Πρόσβαση Διαχειριστή</string>
+    <string name="enter_pin_message">Εισαγάγετε το PIN για τη διαχείριση της βιβλιοθήκης.</string>
+    <string name="default_pin_hint">(Προεπιλεγμένο PIN: 1234)</string>
+    <string name="incorrect_pin_error">Λανθασμένο PIN. Δοκιμάστε ξανά.</string>
+
+    <!-- Μηνύματα σφαλμάτων -->
+    <string name="error_book_unavailable">Αυτό το βιβλίο δεν είναι διαθέσιμο αυτή τη στιγμή.</string>
+    <string name="error_max_borrow_limit">Μπορείτε να δανειστείτε έως και %1$d διαφορετικούς τίτλους ταυτόχρονα.</string>
+    <string name="error_max_borrow_total">Μπορείτε να δανειστείτε έως και %1$d βιβλία συνολικά.</string>
+    <string name="error_only_copies_available">Απομένουν μόνο %1$d αντίτυπα.</string>
+    <string name="error_name_email_required">Παρακαλούμε δώστε τουλάχιστον Όνομα και Email.</string>
+    <string name="error_valid_name_required">Παρακαλούμε εισάγετε έγκυρο όνομα.</string>
+    <string name="error_valid_email_required">Παρακαλούμε εισάγετε έγκυρη διεύθυνση email.</string>
+    <string name="error_valid_phone_required">Παρακαλούμε εισάγετε έγκυρο αριθμό τηλεφώνου.</string>
+    <string name="error_no_books_selected">Δεν επιλέχθηκε κανένα βιβλίο.</string>
+    <string name="error_overdue_single">Έχετε ένα εκπρόθεσμο βιβλίο (\"%1$s\") που πρέπει να επιστραφεί πριν από νέο δανεισμό.</string>
+    <string name="error_overdue_multiple">Έχετε %1$d εκπρόθεσμα βιβλία (%2$s) που πρέπει να επιστραφούν πριν δανειστείτε νέα.</string>
+    <string name="error_duplicate_book">Έχετε ήδη δανειστεί το \"%1$s\". Παρακαλούμε επιστρέψτε το πριν το ξαναδανειστείτε.</string>
+    <string name="error_limit_reached">Έχετε δανειστεί %1$d βιβλία, φτάνοντας το όριο των %2$d. Επιστρέψτε κάποια πριν δανειστείτε άλλα.</string>
+    <string name="error_limit_exceeded">Υπέρβαση ορίου δανεισμού: Έχετε ήδη %1$d βιβλία. Με όριο %2$d, μπορείτε να δανειστείτε μόνο %3$d ακόμη.</string>
+    <string name="active_loans_info">Ενεργοί δανεισμοί: Έχετε δανειστεί %1$d βιβλία (Όριο: %2$d). Μπορείτε να πάρετε έως και %3$d ακόμη.</string>
+    <string name="active_loans_limit_reached">Συμπληρώθηκε το όριο: Έχετε %1$d βιβλία (Μέγιστο όριο: %2$d). Επιστρέψτε βιβλία για να πάρετε νέα.</string>
+    <string name="active_loans_overdue_warning">Προσοχή: Έχετε %1$d εκπρόθεσμα βιβλία. Παρακαλούμε επιστρέψτε τα πριν από νέο δανεισμό.</string>
+
+    <!-- Κατηγορίες -->
+    <string name="category_biographies">Βιογραφίες</string>
+    <string name="category_devotionals">Προσευχητάρια και στοχασμοί</string>
+    <string name="category_kids">Παιδιά και νέοι</string>
+    <string name="category_commentaries">Ερμηνευτικά υπομνήματα</string>
+    <string name="category_theology">Θεολογία</string>
+    <string name="category_practical_christianity">Πρακτικός Χριστιανισμός</string>
+    <string name="category_bibles">Αγία Γραφή</string>
+    <string name="category_bible_study_material">Υλικό μελέτης της Αγίας Γραφής</string>
+    <string name="category_christian_living">Χριστιανική ζωή</string>
+    <string name="category_church_history">Εκκλησιαστική Ιστορία</string>
+    <string name="category_apologetics">Απολογητική</string>
+    <string name="category_other">Άλλα</string>
+
+    <!-- Πίνακας διαχειριστή -->
+    <string name="admin_dashboard_title">Πίνακας Διαχειριστή Βιβλιοθήκης</string>
+    <string name="admin_dashboard_subtitle">Διαχείριση αποθέματος και δανεισμών</string>
+    <string name="admin_what_to_do">Τι θα θέλατε να κάνετε;</string>
+    <string name="admin_active_loans">Ενεργοί δανεισμοί</string>
+    <string name="admin_active_loans_desc">Προβολή και καταγραφή επιστροφής δανεισμένων βιβλίων.</string>
+    <string name="admin_manage_inventory">Διαχείριση αποθέματος</string>
+    <string name="admin_manage_inventory_desc">Προσθήκη, επεξεργασία ή διαγραφή βιβλίων.</string>
+    <string name="admin_settings_backup">Ρυθμίσεις &amp; Αντίγραφα</string>
+    <string name="admin_settings_backup_desc">Αντίγραφα P2P εκτός σύνδεσης, λειτουργία επίδειξης και ρυθμίσεις.</string>
+    <string name="admin_log_out">Αποσύνδεση</string>
+    <string name="admin_log_out_desc">Ασφαλές κλείδωμα του πίνακα διαχειριστή.</string>
+    <string name="about_developer">Σχετικά με τον δημιουργό</string>
+</resources>

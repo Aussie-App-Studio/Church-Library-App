@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aklatan ng Simbahan</string>
+
+    <!-- Demo Mode -->
+    <string name="demo_mode">Demo Mode</string>
+    <string name="demo_mode_active">AKTIBO ANG DEMO MODE</string>
+    <string name="demo_mode_banner_desc">Huwag mag-alala! Ang iyong tunay na database ng aklatan ay nakatago at ligtas habang nasa Demo Mode.</string>
+    <string name="exit_demo_mode">Lumabas sa Demo Mode</string>
+
+    <!-- Pangkalahatan -->
+    <string name="back">Bumalik</string>
+    <string name="cancel">Kanselahin</string>
+    <string name="delete">Tanggalin</string>
+    <string name="save">I-save</string>
+    <string name="edit">I-edit</string>
+    <string name="close">Isara</string>
+    <string name="admin">Admin</string>
+    <string name="success">Tagumpay</string>
+    <string name="library_logo">Logo ng Aklatan</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_to_library">Maligayang Pagdating sa Aklatan</string>
+    <string name="home_subtitle">Hanapin ang iyong aklat sa istante, pagkatapos ay pindutin sa ibaba upang humiram o magsauli.</string>
+    <string name="borrow_books">Humiram ng Aklat</string>
+    <string name="borrow_books_desc">Humiram ng isa o higit pang mga aklat</string>
+    <string name="return_books">Magsauli ng Aklat</string>
+    <string name="return_books_desc">Ibalik ang mga aklat na nabasa mo na</string>
+
+    <!-- Pagpili ng Aklat -->
+    <string name="select_books_title">Pumili ng Aklat na Hihiramin</string>
+    <string name="search_books_placeholder">Maghanap ayon sa pamagat o may-akda…</string>
+    <string name="selected_books_count">%1$d / %2$d ang napili</string>
+    <string name="proceed_to_checkout">Magpatuloy sa Paghiram</string>
+    <string name="no_books_found">Walang nahanap na aklat.</string>
+    <string name="limit_reached">Naabot ang Limitasyon</string>
+    <string name="out_of_stock">WALANG KOPYA</string>
+    <string name="cover_for_title">Pabalat para sa %1$s</string>
+
+    <!-- Impormasyon ng Nanghihiram -->
+    <string name="checkout_details_title">Mga Detalye ng Paghiram</string>
+    <string name="your_details">Iyong Impormasyon</string>
+    <string name="your_details_desc">Mangyaring ilagay ang iyong impormasyon upang mahiram ang napiling mga aklat.</string>
+    <string name="full_name_required">Buong Pangalan *</string>
+    <string name="full_name_placeholder">Juan dela Cruz</string>
+    <string name="email_required">Email Address *</string>
+    <string name="email_placeholder">juan@example.com</string>
+    <string name="phone_optional">Numero ng Telepono</string>
+    <string name="phone_placeholder">0900 000 0000</string>
+    <string name="borrow_duration_label">Tagal ng Paghiram *</string>
+    <string name="duration_1_week">1 Linggo</string>
+    <string name="duration_2_weeks">2 Linggo</string>
+    <string name="duration_1_month">1 Buwan</string>
+    <string name="duration_2_months">2 Buwan</string>
+    <string name="review_and_confirm">Suriin at Kumpirmahin</string>
+    <string name="books_to_checkout">Mga Aklat na Hihiramin (%1$d)</string>
+    <string name="reminder_dialog_title">Magtakda ng Paalala sa Kalendaryo!</string>
+    <string name="reminder_dialog_message">Bago ka umalis, mangyaring magdagdag ng paalala sa kalendaryo ng iyong telepono upang isauli ang mga aklat na ito sa loob ng %1$s.</string>
+    <string name="reminder_dialog_offline_note">Hindi kami nagpapadala ng mga paalala sa email upang manatiling libre at offline ang app.</string>
+    <string name="confirm_loan">Kumpirmahin ang Paghiram</string>
+    <string name="confirm_loan_timer">Kumpirmahin ang Paghiram (%1$ds)</string>
+
+    <!-- Matagumpay na Paghiram -->
+    <string name="success_title">Tagumpay!</string>
+    <string name="success_one_book">Nakahiram ka ng 1 aklat.\nDapat itong isauli sa %1$s.</string>
+    <string name="success_multiple_books">Nakahiram ka ng %1$d mga aklat.\nDapat itong isauli sa %2$s.</string>
+    <string name="returning_home_seconds">Babalik sa home screen sa loob ng 10 segundo…</string>
+    <string name="return_to_home_button">Bumalik sa Home Screen</string>
+
+    <!-- Pagsasauli ng Aklat -->
+    <string name="return_books_title">Magsauli ng Aklat</string>
+    <string name="search_return_placeholder">Maghanap ayon sa iyong pangalan o pamagat ng aklat…</string>
+    <string name="no_active_loans">Walang nahanap na aktibong hiniram.</string>
+    <string name="return_all_count">Isauli Lahat (%1$d)</string>
+    <string name="return_all_button">Isauli Lahat</string>
+    <string name="return_book_button">Isauli ang Aklat</string>
+    <string name="return_book_dialog_title">Isauli ang Aklat</string>
+    <string name="return_book_dialog_message">Isauli ang \"%1$s\" para kay %2$s?</string>
+    <string name="return_all_dialog_title">Isauli ang Lahat ng Aklat</string>
+    <string name="return_all_dialog_message">Isauli ang lahat ng %1$d aklat para kay %2$s?</string>
+    <string name="borrower_label">Nanghiram: %1$s</string>
+    <string name="overdue_badge">⚠ LAMPAS NA SA TAKDANG ARAW</string>
+    <string name="due_date_label">Huling Araw: %1$s</string>
+    <string name="book_returned_success">Matagumpay na naisauli ang aklat!</string>
+    <string name="all_books_returned_success">Matagumpay na naisauli ang lahat ng aklat!</string>
+
+    <!-- PIN Screen -->
+    <string name="admin_access_title">Access ng Admin</string>
+    <string name="enter_pin_message">Ilagay ang PIN upang pamahalaan ang aklatan.</string>
+    <string name="default_pin_hint">(Default na PIN: 1234)</string>
+    <string name="incorrect_pin_error">Maling PIN. Subukan muli.</string>
+
+    <!-- Error at Pagpapatunay -->
+    <string name="error_book_unavailable">Hindi available ang aklat na ito ngayon.</string>
+    <string name="error_max_borrow_limit">Maaari ka lamang humiram ng hanggang %1$d magkakaibang pamagat nang sabay-sabay.</string>
+    <string name="error_max_borrow_total">Maaari ka lamang humiram ng hanggang %1$d aklat sa kabuuan.</string>
+    <string name="error_only_copies_available">%1$d na kopya na lamang ang available.</string>
+    <string name="error_name_email_required">Mangyaring ibigay kahit man lang ang Pangalan at Email.</string>
+    <string name="error_valid_name_required">Mangyaring maglagay ng wastong pangalan.</string>
+    <string name="error_valid_email_required">Mangyaring maglagay ng wastong email address.</string>
+    <string name="error_valid_phone_required">Mangyaring maglagay ng wastong numero ng telepono.</string>
+    <string name="error_no_books_selected">Walang napiling aklat.</string>
+    <string name="error_overdue_single">Mayroon kang lampas na aklat sa takdang araw (\"%1$s\") na kailangang isauli bago humiram ng bago.</string>
+    <string name="error_overdue_multiple">Mayroon kang %1$d na lampas na aklat sa takdang araw (%2$s) na kailangang isauli bago humiram ng bago.</string>
+    <string name="error_duplicate_book">Kasalukuyan mo nang hiniram ang \"%1$s\". Mangyaring isauli ito bago humiram muli.</string>
+    <string name="error_limit_reached">Mayroon kang %1$d aktibong hiniram na aklat, naabot na ang limitasyon na %2$d. Mangyaring magsauli muna bago humiram ng iba pa.</string>
+    <string name="error_limit_exceeded">Lumampas sa limitasyon ng paghiram: Mayroon ka nang %1$d aklat. Sa limitasyon na %2$d, makakahiram ka na lamang ng %3$d pang aklat.</string>
+    <string name="active_loans_info">Aktibong Hiniram: Kasalukuyan kang may %1$d aklat (Limitasyon: %2$d). Maaari ka pang humiram ng hanggang %3$d.</string>
+    <string name="active_loans_limit_reached">Naabot ang Limitasyon: Mayroon kang %1$d aklat na hiniram (Pinakamataas na limit: %2$d). Mangyaring magsauli ng aklat upang makahiram ng bago.</string>
+    <string name="active_loans_overdue_warning">Paunawa: Mayroon kang %1$d na aklat na lampas na sa takdang araw. Mangyaring isauli ang mga ito bago humiram ng bago.</string>
+
+    <!-- Mga Kategorya -->
+    <string name="category_biographies">Mga Talambuhay</string>
+    <string name="category_devotionals">Debosyonal</string>
+    <string name="category_kids">Mga Bata</string>
+    <string name="category_commentaries">Mga Komentaryo</string>
+    <string name="category_theology">Teolohiya</string>
+    <string name="category_practical_christianity">Praktikal na Kristiyanismo</string>
+    <string name="category_bibles">Mga Bibliya</string>
+    <string name="category_bible_study_material">Materyales sa Pag-aaral ng Bibliya</string>
+    <string name="category_christian_living">Pamumuhay Kristiyano</string>
+    <string name="category_church_history">Kasaysayan ng Simbahan</string>
+    <string name="category_apologetics">Apoluhetika</string>
+    <string name="category_other">Iba pa</string>
+
+    <!-- Admin Dashboard -->
+    <string name="admin_dashboard_title">Dashboard ng Admin ng Aklatan</string>
+    <string name="admin_dashboard_subtitle">Pamahalaan ang mga aklat at mga hiniram</string>
+    <string name="admin_what_to_do">Ano ang nais mong gawin?</string>
+    <string name="admin_active_loans">Aktibong mga Hiniram</string>
+    <string name="admin_active_loans_desc">Tingnan at isauli ang mga kasalukuyang hiniram na aklat.</string>
+    <string name="admin_manage_inventory">Pamahalaan ang Imbentaryo</string>
+    <string name="admin_manage_inventory_desc">Magdagdag, mag-edit, o mag-alis ng mga aklat sa aklatan.</string>
+    <string name="admin_settings_backup">Mga Setting at Backup</string>
+    <string name="admin_settings_backup_desc">Offline P2P Backup, Demo Mode, at mga Setting ng Aklatan.</string>
+    <string name="admin_log_out">Mag-log Out</string>
+    <string name="admin_log_out_desc">Ligtas na i-lock ang dashboard ng admin.</string>
+    <string name="about_developer">Tungkol sa Nag-develop</string>
+</resources>

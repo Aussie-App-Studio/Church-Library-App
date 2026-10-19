@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bažnyčios biblioteka</string>
+
+    <!-- Demonstracinis režimas -->
+    <string name="demo_mode">Demonstracinis režimas</string>
+    <string name="demo_mode_active">DEMONSTRACINIS REŽIMAS ĮJUNGTAS</string>
+    <string name="demo_mode_banner_desc">Nesijaudinkite! Jūsų tikroji bibliotekos duomenų bazė demonstraciniu režimu yra paslėpta ir visiškai saugi.</string>
+    <string name="exit_demo_mode">Išeiti iš demonstracinio režimo</string>
+
+    <!-- Bendra -->
+    <string name="back">Atgal</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="delete">Ištrinti</string>
+    <string name="save">Išsaugoti</string>
+    <string name="edit">Redaguoti</string>
+    <string name="close">Uždaryti</string>
+    <string name="admin">Administratorius</string>
+    <string name="success">Pavyko</string>
+    <string name="library_logo">Bibliotekos logotipas</string>
+
+    <!-- Pradinis ekranas -->
+    <string name="welcome_to_library">Sveiki atvykę į biblioteką</string>
+    <string name="home_subtitle">Raskite knygą lentynoje, tada bakstelėkite žemiau, kad ją pasiskolintumėte arba grąžintumėte.</string>
+    <string name="borrow_books">Skolintis knygas</string>
+    <string name="borrow_books_desc">Pasiskolinkite vieną ar kelias knygas</string>
+    <string name="return_books">Grąžinti knygas</string>
+    <string name="return_books_desc">Grąžinkite perskaitytas knygas</string>
+
+    <!-- Knygų pasirinkimas -->
+    <string name="select_books_title">Pasirinkite knygas skolinimuisi</string>
+    <string name="search_books_placeholder">Ieškoti pagal pavadinimą arba autorių…</string>
+    <string name="selected_books_count">Pasirinkta %1$d iš %2$d</string>
+    <string name="proceed_to_checkout">Tęsti skolinimąsi</string>
+    <string name="no_books_found">Knygų nerasta.</string>
+    <string name="limit_reached">Pasiektas limitas</string>
+    <string name="out_of_stock">IŠDUOTA</string>
+    <string name="cover_for_title">%1$s viršelis</string>
+
+    <!-- Skaitytojo duomenys -->
+    <string name="checkout_details_title">Skolinimosi informacija</string>
+    <string name="your_details">Jūsų duomenys</string>
+    <string name="your_details_desc">Įveskite savo duomenis, kad pasiskolintumėte pasirinktas knygas.</string>
+    <string name="full_name_required">Vardas ir pavardė *</string>
+    <string name="full_name_placeholder">Jonas Jonaitis</string>
+    <string name="email_required">El. pašto adresas *</string>
+    <string name="email_placeholder">jonas@example.lt</string>
+    <string name="phone_optional">Telefono numeris</string>
+    <string name="phone_placeholder">+370 600 00000</string>
+    <string name="borrow_duration_label">Skolinimosi laikotarpis *</string>
+    <string name="duration_1_week">1 savaitė</string>
+    <string name="duration_2_weeks">2 savaitės</string>
+    <string name="duration_1_month">1 mėnuo</string>
+    <string name="duration_2_months">2 mėnesiai</string>
+    <string name="review_and_confirm">Peržiūrėti ir patvirtinti</string>
+    <string name="books_to_checkout">Skolinamos knygos (%1$d)</string>
+    <string name="reminder_dialog_title">Nustatykite priminimą kalendoriuje!</string>
+    <string name="reminder_dialog_message">Prieš išeidami, pridėkite priminimą savo telefono kalendoriuje grąžinti šias knygas po %1$s.</string>
+    <string name="reminder_dialog_offline_note">Nesiunčiame priminimų el. paštu, kad programėlė liktų visiškai nemokama ir veiktų be interneto.</string>
+    <string name="confirm_loan">Patvirtinti skolinimąsi</string>
+    <string name="confirm_loan_timer">Patvirtinti skolinimąsi (%1$ds)</string>
+
+    <!-- Sėkmės ekranas -->
+    <string name="success_title">Pavyko!</string>
+    <string name="success_one_book">Pasiskolinote 1 knygą.\nGrąžinimo data: %1$s.</string>
+    <string name="success_multiple_books">Pasiskolinote %1$d knygas(-ų).\nGrąžinimo data: %2$s.</string>
+    <string name="returning_home_seconds">Grįžtama į pradžios ekraną po 10 sekundžių…</string>
+    <string name="return_to_home_button">Grįžti į pradžios ekraną</string>
+
+    <!-- Knygų grąžinimas -->
+    <string name="return_books_title">Grąžinti knygas</string>
+    <string name="search_return_placeholder">Ieškoti pagal savo vardą arba knygos pavadinimą…</string>
+    <string name="no_active_loans">Aktyvių pasiskolinimų nerasta.</string>
+    <string name="return_all_count">Grąžinti visas (%1$d)</string>
+    <string name="return_all_button">Grąžinti visas</string>
+    <string name="return_book_button">Grąžinti knygą</string>
+    <string name="return_book_dialog_title">Grąžinti knygą</string>
+    <string name="return_book_dialog_message">Ar grąžinti \"%1$s\" skaitytojui %2$s?</string>
+    <string name="return_all_dialog_title">Grąžinti visas knygas</string>
+    <string name="return_all_dialog_message">Ar grąžinti visas %1$d knygas skaitytojui %2$s?</string>
+    <string name="borrower_label">Skaitytojas: %1$s</string>
+    <string name="overdue_badge">⚠ VĖLUOJA</string>
+    <string name="due_date_label">Terminas: %1$s</string>
+    <string name="book_returned_success">Knyga sėkmingai grąžinta!</string>
+    <string name="all_books_returned_success">Visos knygos sėkmingai grąžintos!</string>
+
+    <!-- PIN ekranas -->
+    <string name="admin_access_title">Administratoriaus prieiga</string>
+    <string name="enter_pin_message">Įveskite PIN kodą bibliotekai valdyti.</string>
+    <string name="default_pin_hint">(Numatytasis PIN: 1234)</string>
+    <string name="incorrect_pin_error">Neteisingas PIN kodas. Bandykite dar kartą.</string>
+
+    <!-- Klaidų pranešimai -->
+    <string name="error_book_unavailable">Šios knygos šiuo metu nėra.</string>
+    <string name="error_max_borrow_limit">Vienu metu galite pasiskolinti iki %1$d skirtingų pavadinimų.</string>
+    <string name="error_max_borrow_total">Iš viso galite pasiskolinti iki %1$d knygų.</string>
+    <string name="error_only_copies_available">Liko tik %1$d egzemplioriai(-ų).</string>
+    <string name="error_name_email_required">Nurodykite bent vardą ir el. pašto adresą.</string>
+    <string name="error_valid_name_required">Įveskite galiojantį vardą.</string>
+    <string name="error_valid_email_required">Įveskite galiojantį el. pašto adresą.</string>
+    <string name="error_valid_phone_required">Įveskite galiojantį telefono numerį.</string>
+    <string name="error_no_books_selected">Nepasirinkta jokia knyga.</string>
+    <string name="error_overdue_single">Turite vėluojančią knygą (\"%1$s\"), kurią reikia grąžinti prieš skolinantis naujas.</string>
+    <string name="error_overdue_multiple">Turite %1$d vėluojančių knygų (%2$s), kurias reikia grąžinti prieš skolinantis naujas.</string>
+    <string name="error_duplicate_book">Knygą \"%1$s\" jau esate pasiskolinę. Grąžinkite ją prieš skolinantis iš naujo.</string>
+    <string name="error_limit_reached">Šiuo metu turite %1$d pasiskolintų knygų, pasiekta %2$d riba. Grąžinkite dalį knygų prieš skolinantis daugiau.</string>
+    <string name="error_limit_exceeded">Viršytas limitas: Jau turite %1$d knygas(-ų). Esant %2$d limitui, galite pasiskolinti tik dar %3$d knygas(-ų).</string>
+    <string name="active_loans_info">Aktyvūs pasiskolinimai: Turite %1$d knygas(-ų) (Limitas: %2$d). Galite pasiskolinti dar iki %3$d.</string>
+    <string name="active_loans_limit_reached">Limitas pasiektas: Turite %1$d knygų (Maksimalus limitas: %2$d). Grąžinkite knygas, kad pasiskolintumėte naujų.</string>
+    <string name="active_loans_overdue_warning">Dėmesio: Turite %1$d vėluojančių knygų. Grąžinkite jas prieš skolinantis naujas.</string>
+
+    <!-- Kategorijos -->
+    <string name="category_biographies">Biografijos</string>
+    <string name="category_devotionals">Dvasiniai skaitiniai ir maldos</string>
+    <string name="category_kids">Vaikams ir jaunimui</string>
+    <string name="category_commentaries">Biblijos komentarai</string>
+    <string name="category_theology">Teologija</string>
+    <string name="category_practical_christianity">Praktinė krikščionybė</string>
+    <string name="category_bibles">Biblijos</string>
+    <string name="category_bible_study_material">Biblijos studijų medžiaga</string>
+    <string name="category_christian_living">Krikščioniškas gyvenimas</string>
+    <string name="category_church_history">Bažnyčios istorija</string>
+    <string name="category_apologetics">Apologetika</string>
+    <string name="category_other">Kita</string>
+
+    <!-- Administratoriaus skydelis -->
+    <string name="admin_dashboard_title">Bibliotekos valdymo skydelis</string>
+    <string name="admin_dashboard_subtitle">Valdykite bibliotekos fondą ir skolinimus</string>
+    <string name="admin_what_to_do">Ką norėtumėte daryti?</string>
+    <string name="admin_active_loans">Aktyvūs skolinimai</string>
+    <string name="admin_active_loans_desc">Peržiūrėkite ir registruokite paskolintų knygų grąžinimą.</string>
+    <string name="admin_manage_inventory">Knygų fondo valdymas</string>
+    <string name="admin_manage_inventory_desc">Pridėkite, redaguokite ar šalinkite knygas iš bibliotekos.</string>
+    <string name="admin_settings_backup">Nustatymai ir atsarginė kopija</string>
+    <string name="admin_settings_backup_desc">Vietinė P2P atsarginė kopija, demo režimas ir nustatymai.</string>
+    <string name="admin_log_out">Atsijungti</string>
+    <string name="admin_log_out_desc">Saugiai užrakinti administratoriaus skydelį.</string>
+    <string name="about_developer">Apie kūrėją</string>
+</resources>

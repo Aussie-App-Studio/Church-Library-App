@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Biblioteca Parroquial</string>
+
+    <!-- Mode de demostració -->
+    <string name="demo_mode">Mode de demostració</string>
+    <string name="demo_mode_active">EL MODE DE DEMOSTRACIÓ ÉS ACTIU</string>
+    <string name="demo_mode_banner_desc">Cap preocupació! La base de dades real de la biblioteca està oculta i protegida durant el mode de demostració.</string>
+    <string name="exit_demo_mode">Surt del mode de demostració</string>
+
+    <!-- General -->
+    <string name="back">Enrere</string>
+    <string name="cancel">Cancel·la</string>
+    <string name="delete">Suprimeix</string>
+    <string name="save">Desa</string>
+    <string name="edit">Edita</string>
+    <string name="close">Tanca</string>
+    <string name="admin">Administrador</string>
+    <string name="success">Èxit</string>
+    <string name="library_logo">Logotip de la biblioteca</string>
+
+    <!-- Pantalla d\'inici -->
+    <string name="welcome_to_library">Benvinguts a la Biblioteca</string>
+    <string name="home_subtitle">Trobeu el vostre llibre a la prestatgeria i toqueu a sota per agafar-lo en préstec o retornar-lo.</string>
+    <string name="borrow_books">Préstec de llibres</string>
+    <string name="borrow_books_desc">Agafeu en préstec un o més llibres</string>
+    <string name="return_books">Retorn de llibres</string>
+    <string name="return_books_desc">Retorneu els llibres que heu llegit</string>
+
+    <!-- Selecció de llibres -->
+    <string name="select_books_title">Seleccioneu llibres per al préstec</string>
+    <string name="search_books_placeholder">Cerca per títol o autor…</string>
+    <string name="selected_books_count">%1$d / %2$d seleccionats</string>
+    <string name="proceed_to_checkout">Tramita el préstec</string>
+    <string name="no_books_found">No s\'ha trobat cap llibre.</string>
+    <string name="limit_reached">Límit assolit</string>
+    <string name="out_of_stock">EN PRÉSTEC</string>
+    <string name="cover_for_title">Portada de %1$s</string>
+
+    <!-- Dades del lector -->
+    <string name="checkout_details_title">Detalls del préstec</string>
+    <string name="your_details">Les vostres dades</string>
+    <string name="your_details_desc">Introduïu les vostres dades per agafar en préstec els llibres seleccionats.</string>
+    <string name="full_name_required">Nom i cognoms *</string>
+    <string name="full_name_placeholder">Jordi Puig</string>
+    <string name="email_required">Adreça electrònica *</string>
+    <string name="email_placeholder">jordi@example.cat</string>
+    <string name="phone_optional">Número de telèfon</string>
+    <string name="phone_placeholder">600 000 000</string>
+    <string name="borrow_duration_label">Durada del préstec *</string>
+    <string name="duration_1_week">1 Setmana</string>
+    <string name="duration_2_weeks">2 Setmanes</string>
+    <string name="duration_1_month">1 Mes</string>
+    <string name="duration_2_months">2 Mesos</string>
+    <string name="review_and_confirm">Revisa i confirma</string>
+    <string name="books_to_checkout">Llibres en préstec (%1$d)</string>
+    <string name="reminder_dialog_title">Afegiu un recordatori al calendari!</string>
+    <string name="reminder_dialog_message">Abans de marxar, afegiu un recordatori al calendari del vostre telèfon per retornar aquests llibres d\'aquí a %1$s.</string>
+    <string name="reminder_dialog_offline_note">No enviem recordatoris per correu perquè l\'aplicació continuï sent gratuïta i funcioni sense connexió.</string>
+    <string name="confirm_loan">Confirma el préstec</string>
+    <string name="confirm_loan_timer">Confirma el préstec (%1$ds)</string>
+
+    <!-- Pantalla d\'èxit -->
+    <string name="success_title">Operació completada!</string>
+    <string name="success_one_book">Heu agafat 1 llibre en préstec.\nData de retorn: %1$s.</string>
+    <string name="success_multiple_books">Heu agafat %1$d llibres en préstec.\nData de retorn: %2$s.</string>
+    <string name="returning_home_seconds">Tornant a la pantalla d\'inici en 10 segons…</string>
+    <string name="return_to_home_button">Torna a la pantalla d\'inici</string>
+
+    <!-- Retorn de llibres -->
+    <string name="return_books_title">Retorn de llibres</string>
+    <string name="search_return_placeholder">Cerca pel vostre nom o pel títol del llibre…</string>
+    <string name="no_active_loans">No s\'ha trobat cap préstec actiu.</string>
+    <string name="return_all_count">Retorna\'ls tots (%1$d)</string>
+    <string name="return_all_button">Retorna\'ls tots</string>
+    <string name="return_book_button">Retorna el llibre</string>
+    <string name="return_book_dialog_title">Retorn de llibre</string>
+    <string name="return_book_dialog_message">Voleu retornar \"%1$s\" per a %2$s?</string>
+    <string name="return_all_dialog_title">Retorn de tots els llibres</string>
+    <string name="return_all_dialog_message">Voleu retornar tots els %1$d llibres per a %2$s?</string>
+    <string name="borrower_label">Lector: %1$s</string>
+    <string name="overdue_badge">⚠ FORA DE TERMINI</string>
+    <string name="due_date_label">Termini: %1$s</string>
+    <string name="book_returned_success">Llibre retornat correctament!</string>
+    <string name="all_books_returned_success">Tots els llibres s\'han retornat correctament!</string>
+
+    <!-- Pantalla de PIN -->
+    <string name="admin_access_title">Accés d\'administrador</string>
+    <string name="enter_pin_message">Introduïu el PIN per gestionar la biblioteca.</string>
+    <string name="default_pin_hint">(PIN per defecte: 1234)</string>
+    <string name="incorrect_pin_error">PIN incorrecte. Torneu-ho a provar.</string>
+
+    <!-- Missatges d\'error -->
+    <string name="error_book_unavailable">Aquest llibre no està disponible actualment.</string>
+    <string name="error_max_borrow_limit">Només podeu agafar fins a %1$d títols diferents alhora.</string>
+    <string name="error_max_borrow_total">Només podeu agafar fins a %1$d llibres en total.</string>
+    <string name="error_only_copies_available">Només queden %1$d exemplars disponibles.</string>
+    <string name="error_name_email_required">Introduïu com a mínim el nom i el correu electrònic.</string>
+    <string name="error_valid_name_required">Introduïu un nom vàlid.</string>
+    <string name="error_valid_email_required">Introduïu una adreça electrònica vàlida.</string>
+    <string name="error_valid_phone_required">Introduïu un número de telèfon vàlid.</string>
+    <string name="error_no_books_selected">No s\'ha seleccionat cap llibre.</string>
+    <string name="error_overdue_single">Teniu un llibre fora de termini (\"%1$s\") que cal retornar abans de demanar-ne de nous.</string>
+    <string name="error_overdue_multiple">Teniu %1$d llibres fora de termini (%2$s) que cal retornar abans de nous préstecs.</string>
+    <string name="error_duplicate_book">Ja teniu \"%1$s\" en préstec. Retorneu-lo abans de tornar-lo a agafar.</string>
+    <string name="error_limit_reached">Actualment teniu %1$d llibres en préstec, assolint el límit de %2$d. Retorneu-ne alguns abans d\'agafar-ne més.</string>
+    <string name="error_limit_exceeded">S\'ha superat el límit de préstec: Ja teniu %1$d llibres. Amb el límit de %2$d, només en podeu agafar %3$d més.</string>
+    <string name="active_loans_info">Préstecs actius: Actualment teniu %1$d llibres (Límit: %2$d). En podeu agafar fins a %3$d més.</string>
+    <string name="active_loans_limit_reached">Límit assolit: Teniu %1$d llibres en préstec (Límit màxim: %2$d). Retorneu llibres per agafar-ne de nous.</string>
+    <string name="active_loans_overdue_warning">Atenció: Teniu %1$d llibres fora de termini. Retorneu-los abans d\'iniciar un nou préstec.</string>
+
+    <!-- Categories -->
+    <string name="category_biographies">Biografies</string>
+    <string name="category_devotionals">Devocionaris i meditacions</string>
+    <string name="category_kids">Infants i joves</string>
+    <string name="category_commentaries">Comentaris i exègesi bíblica</string>
+    <string name="category_theology">Teologia</string>
+    <string name="category_practical_christianity">Cristianisme pràctic</string>
+    <string name="category_bibles">Bíbiles</string>
+    <string name="category_bible_study_material">Materials d\'estudi bíblic</string>
+    <string name="category_christian_living">Vida cristiana</string>
+    <string name="category_church_history">Història de l\'Església</string>
+    <string name="category_apologetics">Apologètica</string>
+    <string name="category_other">Altres</string>
+
+    <!-- Tauler d\'administració -->
+    <string name="admin_dashboard_title">Tauler d\'Administració</string>
+    <string name="admin_dashboard_subtitle">Gestió del fons bibliogràfic i préstecs</string>
+    <string name="admin_what_to_do">Què voleu fer?</string>
+    <string name="admin_active_loans">Préstecs actius</string>
+    <string name="admin_active_loans_desc">Consulteu i registreu el retorn dels llibres en préstec.</string>
+    <string name="admin_manage_inventory">Gestió del fons</string>
+    <string name="admin_manage_inventory_desc">Afegiu, editeu o elimineu llibres de la biblioteca.</string>
+    <string name="admin_settings_backup">Paràmetres i còpia de seguretat</string>
+    <string name="admin_settings_backup_desc">Còpia P2P sense connexió, mode demo i configuració.</string>
+    <string name="admin_log_out">Tanca la sessió</string>
+    <string name="admin_log_out_desc">Bloqueja de manera segura el tauler d\'administració.</string>
+    <string name="about_developer">Sobre el desenvolupador</string>
+</resources>

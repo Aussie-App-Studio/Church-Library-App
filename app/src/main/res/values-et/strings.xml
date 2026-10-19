@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Koguduse raamatukogu</string>
+
+    <!-- Demorežiim -->
+    <string name="demo_mode">Demorežiim</string>
+    <string name="demo_mode_active">DEMOREŽIIM ON AKTIIVNE</string>
+    <string name="demo_mode_banner_desc">Ärge muretsege! Teie tegelik raamatukogu andmebaas on demorežiimi ajal peidetud ja täiesti turvaline.</string>
+    <string name="exit_demo_mode">Välju demorežiimist</string>
+
+    <!-- Üldine -->
+    <string name="back">Tagasi</string>
+    <string name="cancel">Tühista</string>
+    <string name="delete">Kustuta</string>
+    <string name="save">Salvesta</string>
+    <string name="edit">Muuda</string>
+    <string name="close">Sulge</string>
+    <string name="admin">Administraator</string>
+    <string name="success">Õnnestus</string>
+    <string name="library_logo">Raamatukogu logo</string>
+
+    <!-- Avakuva -->
+    <string name="welcome_to_library">Tere tulemast raamatukokku</string>
+    <string name="home_subtitle">Leidke oma raamat riiulilt ja puudutage allpool laenutamiseks või tagastamiseks.</string>
+    <string name="borrow_books">Laenuta raamatuid</string>
+    <string name="borrow_books_desc">Laenutage üks või mitu raamatut</string>
+    <string name="return_books">Tagasta raamatuid</string>
+    <string name="return_books_desc">Tooge loetud raamatud tagasi</string>
+
+    <!-- Raamatute valimine -->
+    <string name="select_books_title">Valige laenutatavad raamatud</string>
+    <string name="search_books_placeholder">Otsige pealkirja või autori järgi…</string>
+    <string name="selected_books_count">Valitud %1$d / %2$d</string>
+    <string name="proceed_to_checkout">Jätka laenutamisega</string>
+    <string name="no_books_found">Raamatuid ei leitud.</string>
+    <string name="limit_reached">Limiit on täis</string>
+    <string name="out_of_stock">VÄLJA LAENUTATUD</string>
+    <string name="cover_for_title">%1$s kaanepilt</string>
+
+    <!-- Laenutaja andmed -->
+    <string name="checkout_details_title">Laenutuse üksikasjad</string>
+    <string name="your_details">Teie andmed</string>
+    <string name="your_details_desc">Valitud raamatute laenutamiseks sisestage palun oma andmed.</string>
+    <string name="full_name_required">Täisnimi *</string>
+    <string name="full_name_placeholder">Jaan Tamm</string>
+    <string name="email_required">E-posti aadress *</string>
+    <string name="email_placeholder">jaan@example.ee</string>
+    <string name="phone_optional">Telefoninumber</string>
+    <string name="phone_placeholder">5000 0000</string>
+    <string name="borrow_duration_label">Laenutusperiood *</string>
+    <string name="duration_1_week">1 nädal</string>
+    <string name="duration_2_weeks">2 nädalat</string>
+    <string name="duration_1_month">1 kuu</string>
+    <string name="duration_2_months">2 kuud</string>
+    <string name="review_and_confirm">Vaata üle ja kinnita</string>
+    <string name="books_to_checkout">Laenutatavad raamatud (%1$d)</string>
+    <string name="reminder_dialog_title">Määrake kalendrisse meeldetuletus!</string>
+    <string name="reminder_dialog_message">Enne lahkumist lisage oma telefoni kalendrisse meeldetuletus nende raamatute tagastamiseks %1$s pärast.</string>
+    <string name="reminder_dialog_offline_note">Me ei saada e-posti meeldetuletusi, et rakendus püsiks täiesti tasuta ja võrguühenduseta.</string>
+    <string name="confirm_loan">Kinnita laenutus</string>
+    <string name="confirm_loan_timer">Kinnita laenutus (%1$ds)</string>
+
+    <!-- Õnnestumise kuva -->
+    <string name="success_title">Õnnestus!</string>
+    <string name="success_one_book">Olete laenutanud 1 raamatu.\nTagastamistähtaeg: %1$s.</string>
+    <string name="success_multiple_books">Olete laenutanud %1$d raamatut.\nTagastamistähtaeg: %2$s.</string>
+    <string name="returning_home_seconds">Tagasi avakuvale 10 sekundi pärast…</string>
+    <string name="return_to_home_button">Tagasi avakuvale</string>
+
+    <!-- Tagastamise kuva -->
+    <string name="return_books_title">Tagasta raamatuid</string>
+    <string name="search_return_placeholder">Otsige oma nime või raamatu pealkirja järgi…</string>
+    <string name="no_active_loans">Aktiivseid laenutusi ei leitud.</string>
+    <string name="return_all_count">Tagasta kõik (%1$d)</string>
+    <string name="return_all_button">Tagasta kõik</string>
+    <string name="return_book_button">Tagasta raamat</string>
+    <string name="return_book_dialog_title">Tagasta raamat</string>
+    <string name="return_book_dialog_message">Kas tagastada \"%1$s\" laenutajale %2$s?</string>
+    <string name="return_all_dialog_title">Tagasta kõik raamatud</string>
+    <string name="return_all_dialog_message">Kas tagastada kõik %1$d raamatut laenutajale %2$s?</string>
+    <string name="borrower_label">Laenutaja: %1$s</string>
+    <string name="overdue_badge">⚠ TÄHTAEG ÜLETATUD</string>
+    <string name="due_date_label">Tähtaeg: %1$s</string>
+    <string name="book_returned_success">Raamat edukalt tagastatud!</string>
+    <string name="all_books_returned_success">Kõik raamatud edukalt tagastatud!</string>
+
+    <!-- PIN-koodi kuva -->
+    <string name="admin_access_title">Administraatori juurdepääs</string>
+    <string name="enter_pin_message">Sisestage PIN-kood raamatukogu haldamiseks.</string>
+    <string name="default_pin_hint">(Vaikimisi PIN: 1234)</string>
+    <string name="incorrect_pin_error">Vale PIN-kood. Proovige uuesti.</string>
+
+    <!-- Veateated -->
+    <string name="error_book_unavailable">See raamat ei ole hetkel saadaval.</string>
+    <string name="error_max_borrow_limit">Korraga saab laenutada kuni %1$d erinevat teost.</string>
+    <string name="error_max_borrow_total">Kokku saab laenutada kuni %1$d raamatut.</string>
+    <string name="error_only_copies_available">Saadaval on vaid %1$d eksemplari.</string>
+    <string name="error_name_email_required">Palun sisestage vähemalt nimi ja e-posti aadress.</string>
+    <string name="error_valid_name_required">Palun sisestage kehtiv nimi.</string>
+    <string name="error_valid_email_required">Palun sisestage kehtiv e-posti aadress.</string>
+    <string name="error_valid_phone_required">Palun sisestage kehtiv telefoninumber.</string>
+    <string name="error_no_books_selected">Ühtegi raamatut pole valitud.</string>
+    <string name="error_overdue_single">Teil on tähtaja ületanud raamat (\"%1$s\"), mis tuleb enne uute laenutamist tagastada.</string>
+    <string name="error_overdue_multiple">Teil on %1$d tähtaja ületanud raamatut (%2$s), mis tuleb enne uute laenutamist tagastada.</string>
+    <string name="error_duplicate_book">Raamat \"%1$s\" on teil juba laenutatud. Palun tagastage see enne uuesti laenutamist.</string>
+    <string name="error_limit_reached">Teil on hetkel laenutatud %1$d raamatut, mis saavutab limiidi %2$d. Enne uute laenutamist tagastage palun osa raamatuid.</string>
+    <string name="error_limit_exceeded">Laenutuslimiit ületatud: Teil on juba %1$d raamatut. Limiidiga %2$d saate laenutada veel vaid %3$d raamatut.</string>
+    <string name="active_loans_info">Aktiivsed laenutused: Teil on %1$d raamatut (Limiit: %2$d). Saate laenutada veel kuni %3$d raamatut.</string>
+    <string name="active_loans_limit_reached">Limiit täis: Teil on %1$d raamatut laenutatud (Maksimum: %2$d). Tagastage raamatuid, et laenutada uusi.</string>
+    <string name="active_loans_overdue_warning">Tähelepanu: Teil on %1$d tähtaja ületanud raamatut. Palun tagastage need enne uute laenutamist.</string>
+
+    <!-- Kategooriad -->
+    <string name="category_biographies">Biograafiad</string>
+    <string name="category_devotionals">Vaimulikud mõtisklused ja palved</string>
+    <string name="category_kids">Lapsed ja noored</string>
+    <string name="category_commentaries">Piibli seletused ja kommentaarid</string>
+    <string name="category_theology">Teoloogia</string>
+    <string name="category_practical_christianity">Praktiline kristlus</string>
+    <string name="category_bibles">Piiblid</string>
+    <string name="category_bible_study_material">Piibliuurimise materjalid</string>
+    <string name="category_christian_living">Kristlik elu</string>
+    <string name="category_church_history">Kirikulugu</string>
+    <string name="category_apologetics">Apologeetika</string>
+    <string name="category_other">Muu</string>
+
+    <!-- Halduspaneel -->
+    <string name="admin_dashboard_title">Raamatukogu halduspaneel</string>
+    <string name="admin_dashboard_subtitle">Halda raamatukogu kogu ja laenutusi</string>
+    <string name="admin_what_to_do">Mida soovite teha?</string>
+    <string name="admin_active_loans">Aktiivsed laenutused</string>
+    <string name="admin_active_loans_desc">Vaata ja registreeri välja laenutatud raamatute tagastusi.</string>
+    <string name="admin_manage_inventory">Halda raamatute kogu</string>
+    <string name="admin_manage_inventory_desc">Lisa, muuda või eemalda raamatukogust raamatuid.</string>
+    <string name="admin_settings_backup">Seaded ja varukoopia</string>
+    <string name="admin_settings_backup_desc">Võrguühenduseta P2P-varukoopia, demorežiim ja seaded.</string>
+    <string name="admin_log_out">Logi välja</string>
+    <string name="admin_log_out_desc">Lukusta halduspaneel turvaliselt.</string>
+    <string name="about_developer">Teave arendaja kohta</string>
+</resources>

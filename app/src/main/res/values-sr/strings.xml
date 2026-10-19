@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Црквена библиотека</string>
+
+    <!-- Демо режим -->
+    <string name="demo_mode">Демо режим</string>
+    <string name="demo_mode_active">ДЕМО РЕЖИМ ЈЕ АКТИВАН</string>
+    <string name="demo_mode_banner_desc">Без бриге! Ваша стварна база података је скривена и потпуно безбедна током демо режима.</string>
+    <string name="exit_demo_mode">Напусти демо режим</string>
+
+    <!-- Опште -->
+    <string name="back">Назад</string>
+    <string name="cancel">Откажи</string>
+    <string name="delete">Обриши</string>
+    <string name="save">Сачувај</string>
+    <string name="edit">Уреди</string>
+    <string name="close">Затвори</string>
+    <string name="admin">Администратор</string>
+    <string name="success">Успешно</string>
+    <string name="library_logo">Логотип библиотеке</string>
+
+    <!-- Почетни екран -->
+    <string name="welcome_to_library">Добродошли у библиотеку</string>
+    <string name="home_subtitle">Пронађите своју књигу на полици, а затим додирните испод за позајмицу или враћање.</string>
+    <string name="borrow_books">Позајми књиге</string>
+    <string name="borrow_books_desc">Позајмите једну или више књига</string>
+    <string name="return_books">Врати књиге</string>
+    <string name="return_books_desc">Вратите прочитане књиге</string>
+
+    <!-- Избор књига -->
+    <string name="select_books_title">Изаберите књиге за позајмицу</string>
+    <string name="search_books_placeholder">Претражите по наслову или аутору…</string>
+    <string name="selected_books_count">Изабрано %1$d / %2$d</string>
+    <string name="proceed_to_checkout">Настави на позајмицу</string>
+    <string name="no_books_found">Нема пронађених књига.</string>
+    <string name="limit_reached">Достигнут лимит</string>
+    <string name="out_of_stock">ПОЗАЈМЉЕНО</string>
+    <string name="cover_for_title">Корице за %1$s</string>
+
+    <!-- Подаци о кориснику -->
+    <string name="checkout_details_title">Подаци о позајмици</string>
+    <string name="your_details">Ваши подаци</string>
+    <string name="your_details_desc">Молимо унесите своје податке за позајмицу изабраних књига.</string>
+    <string name="full_name_required">Име и презиме *</string>
+    <string name="full_name_placeholder">Марко Јовановић</string>
+    <string name="email_required">Имејл адреса *</string>
+    <string name="email_placeholder">marko@example.rs</string>
+    <string name="phone_optional">Број телефона</string>
+    <string name="phone_placeholder">060 000 0000</string>
+    <string name="borrow_duration_label">Период позајмице *</string>
+    <string name="duration_1_week">1 недеља</string>
+    <string name="duration_2_weeks">2 недеље</string>
+    <string name="duration_1_month">1 месец</string>
+    <string name="duration_2_months">2 месеца</string>
+    <string name="review_and_confirm">Прегледај и потврди</string>
+    <string name="books_to_checkout">Књиге за позајмицу (%1$d)</string>
+    <string name="reminder_dialog_title">Поставите подсетник у календар!</string>
+    <string name="reminder_dialog_message">Пре него што кренете, додајте подсетник у календар свог телефона да вратите књиге за %1$s.</string>
+    <string name="reminder_dialog_offline_note">Не шаљемо имејл подсетнике како би апликација остала потпуно бесплатна и ван мреже.</string>
+    <string name="confirm_loan">Потврди позајмицу</string>
+    <string name="confirm_loan_timer">Потврди позајмицу (%1$dс)</string>
+
+    <!-- Екран успеха -->
+    <string name="success_title">Успешно!</string>
+    <string name="success_one_book">Позајмили сте 1 књигу.\nРок за враћање: %1$s.</string>
+    <string name="success_multiple_books">Позајмили сте %1$d књига.\nРок за враћање: %2$s.</string>
+    <string name="returning_home_seconds">Повратак на почетни екран за 10 секунди…</string>
+    <string name="return_to_home_button">Назад на почетни екран</string>
+
+    <!-- Враћање књига -->
+    <string name="return_books_title">Врати књиге</string>
+    <string name="search_return_placeholder">Претражите по имену или наслову књиге…</string>
+    <string name="no_active_loans">Нема активних позајмица.</string>
+    <string name="return_all_count">Врати све (%1$d)</string>
+    <string name="return_all_button">Врати све</string>
+    <string name="return_book_button">Врати књигу</string>
+    <string name="return_book_dialog_title">Врати књигу</string>
+    <string name="return_book_dialog_message">Вратити \"%1$s\" за корисника %2$s?</string>
+    <string name="return_all_dialog_title">Врати све књиге</string>
+    <string name="return_all_dialog_message">Вратити свих %1$d књига за корисника %2$s?</string>
+    <string name="borrower_label">Корисник: %1$s</string>
+    <string name="overdue_badge">⚠ РОК ИСТЕКАО</string>
+    <string name="due_date_label">Рок: %1$s</string>
+    <string name="book_returned_success">Књига је успешно враћена!</string>
+    <string name="all_books_returned_success">Све књиге су успешно враћене!</string>
+
+    <!-- PIN екран -->
+    <string name="admin_access_title">Администраторски приступ</string>
+    <string name="enter_pin_message">Унесите PIN код за управљање библиотеком.</string>
+    <string name="default_pin_hint">(Подразумевани PIN: 1234)</string>
+    <string name="incorrect_pin_error">Нетачан PIN код. Покушајте поново.</string>
+
+    <!-- Поруке о грешкама -->
+    <string name="error_book_unavailable">Ова књига тренутно није доступна.</string>
+    <string name="error_max_borrow_limit">Можете позајмити највише до %1$d различитих наслова истовремено.</string>
+    <string name="error_max_borrow_total">Можете позајмити највише до %1$d књига укупно.</string>
+    <string name="error_only_copies_available">Преостало је само %1$d примерака.</string>
+    <string name="error_name_email_required">Молимо унесите барем име и имејл адресу.</string>
+    <string name="error_valid_name_required">Молимо унесите важеће име.</string>
+    <string name="error_valid_email_required">Молимо унесите важећу имејл адресу.</string>
+    <string name="error_valid_phone_required">Молимо унесите важећи број телефона.</string>
+    <string name="error_no_books_selected">Ниједна књига није изабрана.</string>
+    <string name="error_overdue_single">Имате књигу са истеклим роком (\"%1$s\") коју морате вратити пре нове позајмице.</string>
+    <string name="error_overdue_multiple">Имате %1$d књига са истеклим роком (%2$s) које морате вратити пре нове позајмице.</string>
+    <string name="error_duplicate_book">Књигу \"%1$s\" већ имате на позајмици. Вратите је пре поновног узимања.</string>
+    <string name="error_limit_reached">Тренутно имате %1$d позајмљених књига, чиме је достигнут лимит од %2$d. Вратите неке пре нових позајмица.</string>
+    <string name="error_limit_exceeded">Лимит је прекорачен: Већ имате %1$d књига. Уз лимит од %2$d можете позајмити још само %3$d књига.</string>
+    <string name="active_loans_info">Активне позајмице: Тренутно имате %1$d књига (Лимит: %2$d). Можете позајмити још до %3$d.</string>
+    <string name="active_loans_limit_reached">Лимит достигнут: Имате %1$d књига (Максимум: %2$d). Вратите књиге да бисте позајмили нове.</string>
+    <string name="active_loans_overdue_warning">Пажња: Имате %1$d књига са истеклим роком. Вратите их пре нове позајмице.</string>
+
+    <!-- Категорије -->
+    <string name="category_biographies">Биографије</string>
+    <string name="category_devotionals">Духовна читања и молитве</string>
+    <string name="category_kids">Деца и омладина</string>
+    <string name="category_commentaries">Библијска тумачења</string>
+    <string name="category_theology">Теологија</string>
+    <string name="category_practical_christianity">Практично хришћанство</string>
+    <string name="category_bibles">Свето писмо (Библија)</string>
+    <string name="category_bible_study_material">Материјали за проучавање Библије</string>
+    <string name="category_christian_living">Хришћански живот</string>
+    <string name="category_church_history">Историја Цркве</string>
+    <string name="category_apologetics">Апологетика</string>
+    <string name="category_other">Остало</string>
+
+    <!-- Администраторска табла -->
+    <string name="admin_dashboard_title">Администраторска табла</string>
+    <string name="admin_dashboard_subtitle">Управљање књижним фондом и позајмицама</string>
+    <string name="admin_what_to_do">Шта желите да урадите?</string>
+    <string name="admin_active_loans">Активне позајмице</string>
+    <string name="admin_active_loans_desc">Преглед и евидентирање враћених књига.</string>
+    <string name="admin_manage_inventory">Управљање фондом</string>
+    <string name="admin_manage_inventory_desc">Додавање, уређивање или уклањање књига.</string>
+    <string name="admin_settings_backup">Подешавања и резервна копија</string>
+    <string name="admin_settings_backup_desc">Ванмрежна P2P копија, демо режим и подешавања.</string>
+    <string name="admin_log_out">Одјава</string>
+    <string name="admin_log_out_desc">Безбедно закључајте администраторску таблу.</string>
+    <string name="about_developer">О програмеру</string>
+</resources>

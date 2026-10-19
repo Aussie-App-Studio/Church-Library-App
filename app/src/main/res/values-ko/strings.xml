@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">교회 도서관</string>
+
+    <!-- 데모 모드 -->
+    <string name="demo_mode">데모 모드</string>
+    <string name="demo_mode_active">데모 모드가 실행 중입니다</string>
+    <string name="demo_mode_banner_desc">안심하세요! 데모 모드 동안에는 실제 도서관 데이터베이스가 숨겨져 안전하게 보호됩니다.</string>
+    <string name="exit_demo_mode">데모 모드 종료</string>
+
+    <!-- 일반 / 공통 -->
+    <string name="back">뒤로</string>
+    <string name="cancel">취소</string>
+    <string name="delete">삭제</string>
+    <string name="save">저장</string>
+    <string name="edit">수정</string>
+    <string name="close">닫기</string>
+    <string name="admin">관리자</string>
+    <string name="success">성공</string>
+    <string name="library_logo">도서관 로고</string>
+
+    <!-- 홈 화면 -->
+    <string name="welcome_to_library">도서관에 오신 것을 환영합니다</string>
+    <string name="home_subtitle">서가에서 책을 찾은 후, 아래 버튼을 눌러 대출하거나 반납하세요.</string>
+    <string name="borrow_books">도서 대출</string>
+    <string name="borrow_books_desc">한 권 이상의 도서를 대출합니다</string>
+    <string name="return_books">도서 반납</string>
+    <string name="return_books_desc">다 읽은 도서를 반납합니다</string>
+
+    <!-- 도서 선택 화면 -->
+    <string name="select_books_title">대출할 도서 선택</string>
+    <string name="search_books_placeholder">도서명 또는 저자로 검색…</string>
+    <string name="selected_books_count">%1$d / %2$d권 선택됨</string>
+    <string name="proceed_to_checkout">대출 진행하기</string>
+    <string name="no_books_found">도서를 찾을 수 없습니다.</string>
+    <string name="limit_reached">대출 한도 도달</string>
+    <string name="out_of_stock">대출중</string>
+    <string name="cover_for_title">%1$s 표지</string>
+
+    <!-- 대출자 정보 화면 -->
+    <string name="checkout_details_title">대출 상세 정보</string>
+    <string name="your_details">대출자 정보</string>
+    <string name="your_details_desc">도서를 대출하려면 정보를 입력해 주세요.</string>
+    <string name="full_name_required">성명 *</string>
+    <string name="full_name_placeholder">홍길동</string>
+    <string name="email_required">이메일 주소 *</string>
+    <string name="email_placeholder">user@example.com</string>
+    <string name="phone_optional">전화번호</string>
+    <string name="phone_placeholder">010-0000-0000</string>
+    <string name="borrow_duration_label">대출 기간 *</string>
+    <string name="duration_1_week">1주일</string>
+    <string name="duration_2_weeks">2주일</string>
+    <string name="duration_1_month">1개월</string>
+    <string name="duration_2_months">2개월</string>
+    <string name="review_and_confirm">확인 및 대출</string>
+    <string name="books_to_checkout">대출할 도서 (%1$d권)</string>
+    <string name="reminder_dialog_title">캘린더 알림 설정!</string>
+    <string name="reminder_dialog_message">가시기 전에 스마트폰 캘린더에 %1$s 후 반납 일정을 등록해 두시면 좋습니다.</string>
+    <string name="reminder_dialog_offline_note">오프라인 무료 앱 유지를 위해 별도의 이메일 알림을 발송하지 않습니다.</string>
+    <string name="confirm_loan">대출 확정</string>
+    <string name="confirm_loan_timer">대출 확정 (%1$d초)</string>
+
+    <!-- 대출 완료 화면 -->
+    <string name="success_title">대출 완료!</string>
+    <string name="success_one_book">도서 1권이 대출되었습니다.\n반납 예정일: %1$s</string>
+    <string name="success_multiple_books">도서 %1$d권이 대출되었습니다.\n반납 예정일: %2$s</string>
+    <string name="returning_home_seconds">10초 후 홈 화면으로 돌아갑니다…</string>
+    <string name="return_to_home_button">홈 화면으로 돌아가기</string>
+
+    <!-- 반납 화면 -->
+    <string name="return_books_title">도서 반납</string>
+    <string name="search_return_placeholder">이름 또는 도서명으로 검색…</string>
+    <string name="no_active_loans">현재 대출 중인 도서가 없습니다.</string>
+    <string name="return_all_count">모두 반납 (%1$d)</string>
+    <string name="return_all_button">모두 반납</string>
+    <string name="return_book_button">도서 반납</string>
+    <string name="return_book_dialog_title">도서 반납</string>
+    <string name="return_book_dialog_message">%2$s님의 \"%1$s\" 도서를 반납하시겠습니까?</string>
+    <string name="return_all_dialog_title">전체 도서 반납</string>
+    <string name="return_all_dialog_message">%2$s님의 도서 총 %1$d권을 모두 반납하시겠습니까?</string>
+    <string name="borrower_label">대출자: %1$s</string>
+    <string name="overdue_badge">⚠ 연체됨</string>
+    <string name="due_date_label">반납일: %1$s</string>
+    <string name="book_returned_success">도서가 정상적으로 반납되었습니다!</string>
+    <string name="all_books_returned_success">모든 도서가 정상적으로 반납되었습니다!</string>
+
+    <!-- PIN 화면 -->
+    <string name="admin_access_title">관리자 접속</string>
+    <string name="enter_pin_message">도서관 관리를 위해 PIN 번호를 입력하세요.</string>
+    <string name="default_pin_hint">(초기 PIN: 1234)</string>
+    <string name="incorrect_pin_error">PIN 번호가 일치하지 않습니다. 다시 시도해 주세요.</string>
+
+    <!-- 오류 및 안내 메시지 -->
+    <string name="error_book_unavailable">현재 대출 불가능한 도서입니다.</string>
+    <string name="error_max_borrow_limit">한 번에 최대 %1$d종의 다른 도서만 대출할 수 있습니다.</string>
+    <string name="error_max_borrow_total">한 번에 최대 %1$d권까지 대출할 수 있습니다.</string>
+    <string name="error_only_copies_available">남은 수량은 %1$d권뿐입니다.</string>
+    <string name="error_name_email_required">성명과 이메일을 모두 입력해 주세요.</string>
+    <string name="error_valid_name_required">올바른 성명을 입력해 주세요.</string>
+    <string name="error_valid_email_required">올바른 이메일 주소를 입력해 주세요.</string>
+    <string name="error_valid_phone_required">올바른 전화번호를 입력해 주세요.</string>
+    <string name="error_no_books_selected">선택된 도서가 없습니다.</string>
+    <string name="error_overdue_single">새 도서를 대출하기 전에 먼저 반납해야 하는 연체 도서(\"%1$s\")가 있습니다.</string>
+    <string name="error_overdue_multiple">새 도서를 대출하기 전에 먼저 반납해야 하는 연체 도서가 %1$d권(%2$s) 있습니다.</string>
+    <string name="error_duplicate_book">이미 대출 중인 도서입니다: \"%1$s\". 반납 후 다시 대출해 주세요.</string>
+    <string name="error_limit_reached">현재 %1$d권을 대출 중이며 최대 한도(%2$d권)에 도달했습니다. 새 도서를 빌리기 전에 기존 도서를 먼저 반납해 주세요.</string>
+    <string name="error_limit_exceeded">대출 한도 초과: 현재 %1$d권을 대출 중입니다. 한도(%2$d권)에 따라 %3$d권만 추가 대출할 수 있습니다.</string>
+    <string name="active_loans_info">현재 대출 현황: 대출 중 %1$d권 (한도: %2$d권). 추가로 %3$d권 더 대출 가능합니다.</string>
+    <string name="active_loans_limit_reached">한도 도달: 현재 %1$d권을 대출 중입니다 (최대 한도: %2$d권). 새 도서를 빌리려면 먼저 반납해 주세요.</string>
+    <string name="active_loans_overdue_warning">주의: 연체된 도서가 %1$d권 있습니다. 새 도서를 대출하기 전에 먼저 반납해 주세요.</string>
+
+    <!-- 카테고리 -->
+    <string name="category_biographies">전기 및 인물</string>
+    <string name="category_devotionals">묵상 및 경건</string>
+    <string name="category_kids">어린이</string>
+    <string name="category_commentaries">주석 및 강해</string>
+    <string name="category_theology">신학</string>
+    <string name="category_practical_christianity">실천 신앙</string>
+    <string name="category_bibles">성경</string>
+    <string name="category_bible_study_material">성경 공부 교재</string>
+    <string name="category_christian_living">그리스도인의 삶</string>
+    <string name="category_church_history">교회사</string>
+    <string name="category_apologetics">변증학</string>
+    <string name="category_other">기타</string>
+
+    <!-- 관리자 대시보드 허브 -->
+    <string name="admin_dashboard_title">도서관 관리자 대시보드</string>
+    <string name="admin_dashboard_subtitle">도서 목록 및 대출 현황 관리</string>
+    <string name="admin_what_to_do">어떤 작업을 진행하시겠습니까?</string>
+    <string name="admin_active_loans">대출 현황 관리</string>
+    <string name="admin_active_loans_desc">현재 대출된 도서를 조회하고 반납 처리합니다.</string>
+    <string name="admin_manage_inventory">도서 목록 관리</string>
+    <string name="admin_manage_inventory_desc">도서관 도서를 추가, 수정 또는 삭제합니다.</string>
+    <string name="admin_settings_backup">설정 및 백업</string>
+    <string name="admin_settings_backup_desc">오프라인 P2P 백업, 데모 모드, 도서관 설정 관리.</string>
+    <string name="admin_log_out">로그아웃</string>
+    <string name="admin_log_out_desc">관리자 대시보드를 안전하게 잠급니다.</string>
+    <string name="about_developer">개발자 정보</string>
+</resources>

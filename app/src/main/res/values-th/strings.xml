@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ห้องสมุดคริสตจักร</string>
+
+    <!-- โหมดทดลอง -->
+    <string name="demo_mode">โหมดทดลอง</string>
+    <string name="demo_mode_active">เปิดใช้งานโหมดทดลองอยู่</string>
+    <string name="demo_mode_banner_desc">ไม่ต้องกังวล! ฐานข้อมูลจริงของห้องสมุดของคุณจะถูกซ่อนและปลอดภัยอย่างสมบูรณ์ในระหว่างโหมดทดลอง</string>
+    <string name="exit_demo_mode">ออกจากโหมดทดลอง</string>
+
+    <!-- ทั่วไป -->
+    <string name="back">ย้อนกลับ</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="delete">ลบ</string>
+    <string name="save">บันทึก</string>
+    <string name="edit">แก้ไข</string>
+    <string name="close">ปิด</string>
+    <string name="admin">ผู้ดูแลระบบ</string>
+    <string name="success">สำเร็จ</string>
+    <string name="library_logo">โลโก้ห้องสมุด</string>
+
+    <!-- หน้าแรก -->
+    <string name="welcome_to_library">ยินดีต้อนรับสู่ห้องสมุด</string>
+    <string name="home_subtitle">ค้นหาหนังสือบนชั้นวาง จากนั้นแตะด้านล่างเพื่อยืมหรือคืนหนังสือ</string>
+    <string name="borrow_books">ยืมหนังสือ</string>
+    <string name="borrow_books_desc">ยืมหนังสือหนึ่งเล่มขึ้นไป</string>
+    <string name="return_books">คืนหนังสือ</string>
+    <string name="return_books_desc">นำหนังสือที่คุณอ่านแล้วมาคืน</string>
+
+    <!-- หน้าเลือกหนังสือ -->
+    <string name="select_books_title">เลือกหนังสือที่จะยืม</string>
+    <string name="search_books_placeholder">ค้นหาตามชื่อหนังสือหรือผู้แต่ง…</string>
+    <string name="selected_books_count">เลือกแล้ว %1$d / %2$d เล่ม</string>
+    <string name="proceed_to_checkout">ดำเนินการยืมหนังสือ</string>
+    <string name="no_books_found">ไม่พบหนังสือ</string>
+    <string name="limit_reached">ถึงขีดจำกัดแล้ว</string>
+    <string name="out_of_stock">หมด</string>
+    <string name="cover_for_title">ภาพปกสำหรับ %1$s</string>
+
+    <!-- หน้าข้อมูลผู้ยืม -->
+    <string name="checkout_details_title">รายละเอียดการยืม</string>
+    <string name="your_details">ข้อมูลของคุณ</string>
+    <string name="your_details_desc">กรุณากรอกข้อมูลของคุณเพื่อยืมหนังสือที่เลือก</string>
+    <string name="full_name_required">ชื่อ-นามสกุล *</string>
+    <string name="full_name_placeholder">สมชาย ใจดี</string>
+    <string name="email_required">ที่อยู่อีเมล *</string>
+    <string name="email_placeholder">somchai@example.com</string>
+    <string name="phone_optional">เบอร์โทรศัพท์</string>
+    <string name="phone_placeholder">081 234 5678</string>
+    <string name="borrow_duration_label">ระยะเวลายืม *</string>
+    <string name="duration_1_week">1 สัปดาห์</string>
+    <string name="duration_2_weeks">2 สัปดาห์</string>
+    <string name="duration_1_month">1 เดือน</string>
+    <string name="duration_2_months">2 เดือน</string>
+    <string name="review_and_confirm">ตรวจสอบและยืนยัน</string>
+    <string name="books_to_checkout">หนังสือที่จะยืม (%1$d เล่ม)</string>
+    <string name="reminder_dialog_title">ตั้งการแจ้งเตือนในปฏิทิน!</string>
+    <string name="reminder_dialog_message">ก่อนออกไป กรุณาสละเวลาสักครู่เพื่อตั้งเตือนในปฏิทินของโทรศัพท์เพื่อคืนหนังสือภายใน %1$s</string>
+    <string name="reminder_dialog_offline_note">เราไม่ได้ส่งอีเมลเตือน เพื่อให้แอปใช้งานได้ฟรีและออฟไลน์อย่างสมบูรณ์</string>
+    <string name="confirm_loan">ยืนยันการยืม</string>
+    <string name="confirm_loan_timer">ยืนยันการยืม (%1$d วินาที)</string>
+
+    <!-- หน้าสำเร็จ -->
+    <string name="success_title">สำเร็จแล้ว!</string>
+    <string name="success_one_book">คุณได้ยืมหนังสือ 1 เล่ม\nกำหนดคืนวันที่ %1$s</string>
+    <string name="success_multiple_books">คุณได้ยืมหนังสือ %1$d เล่ม\nกำหนดคืนวันที่ %2$s</string>
+    <string name="returning_home_seconds">กำลังกลับสู่หน้าหลักใน 10 วินาที…</string>
+    <string name="return_to_home_button">กลับสู่หน้าหลัก</string>
+
+    <!-- หน้าคืนหนังสือ -->
+    <string name="return_books_title">คืนหนังสือ</string>
+    <string name="search_return_placeholder">ค้นหาตามชื่อของคุณหรือชื่อหนังสือ…</string>
+    <string name="no_active_loans">ไม่พบรายการยืมที่ยังเปิดอยู่</string>
+    <string name="return_all_count">คืนทั้งหมด (%1$d)</string>
+    <string name="return_all_button">คืนทั้งหมด</string>
+    <string name="return_book_button">คืนหนังสือ</string>
+    <string name="return_book_dialog_title">คืนหนังสือ</string>
+    <string name="return_book_dialog_message">ต้องการคืน \"%1$s\" สำหรับ %2$s หรือไม่?</string>
+    <string name="return_all_dialog_title">คืนหนังสือทั้งหมด</string>
+    <string name="return_all_dialog_message">ต้องการคืนหนังสือทั้งหมด %1$d เล่ม สำหรับ %2$s หรือไม่?</string>
+    <string name="borrower_label">ผู้ยืม: %1$s</string>
+    <string name="overdue_badge">⚠ เกินกำหนด</string>
+    <string name="due_date_label">กำหนดส่ง: %1$s</string>
+    <string name="book_returned_success">คืนหนังสือเรียบร้อยแล้ว!</string>
+    <string name="all_books_returned_success">คืนหนังสือทั้งหมดเรียบร้อยแล้ว!</string>
+
+    <!-- หน้า PIN -->
+    <string name="admin_access_title">การเข้าถึงของผู้ดูแล</string>
+    <string name="enter_pin_message">ป้อนรหัส PIN เพื่อจัดการข้อมูลห้องสมุด</string>
+    <string name="default_pin_hint">(รหัส PIN เริ่มต้น: 1234)</string>
+    <string name="incorrect_pin_error">รหัส PIN ไม่ถูกต้อง โปรดลองอีกครั้ง</string>
+
+    <!-- ข้อผิดพลาดและการตรวจสอบ -->
+    <string name="error_book_unavailable">หนังสือเล่มนี้ยังไม่พร้อมให้ยืมในขณะนี้</string>
+    <string name="error_max_borrow_limit">คุณสามารถยืมหนังสือได้สูงสุด %1$d รายการที่แตกต่างกันในครั้งเดียว</string>
+    <string name="error_max_borrow_total">คุณสามารถยืมหนังสือได้สูงสุดรวม %1$d เล่ม</string>
+    <string name="error_only_copies_available">มีเหลือเพียง %1$d เล่มเท่านั้น</string>
+    <string name="error_name_email_required">กรุณาระบุอย่างน้อย ชื่อ และ อีเมล</string>
+    <string name="error_valid_name_required">กรุณากรอกชื่อที่ถูกต้อง</string>
+    <string name="error_valid_email_required">กรุณากรอกที่อยู่อีเมลที่ถูกต้อง</string>
+    <string name="error_valid_phone_required">กรุณากรอกหมายเลขโทรศัพท์ที่ถูกต้อง</string>
+    <string name="error_no_books_selected">ยังไม่ได้เลือกหนังสือ</string>
+    <string name="error_overdue_single">คุณมีหนังสือเกินกำหนดคืน (\"%1$s\") ที่ต้องคืนก่อนจึงจะยืมเล่มใหม่ได้</string>
+    <string name="error_overdue_multiple">คุณมีหนังสือเกินกำหนดคืน %1$d เล่ม (%2$s) ที่ต้องคืนก่อนจึงจะยืมเล่มใหม่ได้</string>
+    <string name="error_duplicate_book">คุณกำลังยืมหนังสือ \"%1$s\" อยู่แล้ว กรุณาคืนก่อนยืมซ้ำ</string>
+    <string name="error_limit_reached">ปัจจุบันคุณยืมหนังสืออยู่ %1$d เล่ม ซึ่งถึงขีดจำกัด %2$d เล่มแล้ว กรุณาคืนหนังสือก่อนยืมเพิ่ม</string>
+    <string name="error_limit_exceeded">เกินขีดจำกัดการยืม: คุณยืมหนังสืออยู่แล้ว %1$d เล่ม ด้วยขีดจำกัด %2$d เล่ม คุณสามารถยืมเพิ่มได้อีกเพียง %3$d เล่ม</string>
+    <string name="active_loans_info">รายการที่กำลังยืม: ปัจจุบันยืมอยู่ %1$d เล่ม (จำกัด: %2$d เล่ม) คุณสามารถยืมเพิ่มได้อีก %3$d เล่ม</string>
+    <string name="active_loans_limit_reached">ถึงขีดจำกัด: ปัจจุบันยืมอยู่ %1$d เล่ม (ขีดจำกัดสูงสุด: %2$d เล่ม) กรุณาคืนหนังสือก่อนยืมเล่มใหม่</string>
+    <string name="active_loans_overdue_warning">ข้อควรระวัง: คุณมีหนังสือค้างส่ง %1$d เล่ม กรุณานำมาคืนก่อนยืมหนังสือเล่มใหม่</string>
+
+    <!-- หมวดหมู่ -->
+    <string name="category_biographies">ชีวประวัติ</string>
+    <string name="category_devotionals">บทเฝ้าเดี่ยว</string>
+    <string name="category_kids">เด็กและเยาวชน</string>
+    <string name="category_commentaries">อรรถกถา</string>
+    <string name="category_theology">เทววิทยา</string>
+    <string name="category_practical_christianity">คริสเตียนเชิงปฏิบัติ</string>
+    <string name="category_bibles">พระคริสตธรรมคัมภีร์</string>
+    <string name="category_bible_study_material">คู่มือศึกษาพระคัมภีร์</string>
+    <string name="category_christian_living">การดำเนินชีวิตคริสเตียน</string>
+    <string name="category_church_history">ประวัติศาสตร์คริสตจักร</string>
+    <string name="category_apologetics">การปกป้องความเชื่อ</string>
+    <string name="category_other">อื่นๆ</string>
+
+    <!-- แดชบอร์ดผู้ดูแล -->
+    <string name="admin_dashboard_title">แดชบอร์ดผู้ดูแลห้องสมุด</string>
+    <string name="admin_dashboard_subtitle">จัดการคลังหนังสือและการยืมคืน</string>
+    <string name="admin_what_to_do">คุณต้องการทำอะไร?</string>
+    <string name="admin_active_loans">รายการที่กำลังยืม</string>
+    <string name="admin_active_loans_desc">ดูและรับคืนหนังสือที่ถูกยืมอยู่ในขณะนี้</string>
+    <string name="admin_manage_inventory">จัดการคลังหนังสือ</string>
+    <string name="admin_manage_inventory_desc">เพิ่ม แก้ไข หรือลบหนังสือในห้องสมุด</string>
+    <string name="admin_settings_backup">การตั้งค่าและการสำรองข้อมูล</string>
+    <string name="admin_settings_backup_desc">สำรองข้อมูลแบบ P2P ออฟไลน์ โหมดทดลอง และการตั้งค่าห้องสมุด</string>
+    <string name="admin_log_out">ออกจากระบบ</string>
+    <string name="admin_log_out_desc">ล็อกแดชบอร์ดผู้ดูแลอย่างปลอดภัย</string>
+    <string name="about_developer">เกี่ยวกับผู้พัฒนา</string>
+</resources>

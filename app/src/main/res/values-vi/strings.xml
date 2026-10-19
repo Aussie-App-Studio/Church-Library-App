@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Thư viện Hội Thánh</string>
+
+    <!-- Chế độ Demo -->
+    <string name="demo_mode">Chế độ Demo</string>
+    <string name="demo_mode_active">CHẾ ĐỘ DEMO ĐANG HOẠT ĐỘNG</string>
+    <string name="demo_mode_banner_desc">Đừng lo lắng! Cơ sở dữ liệu thư viện thực của bạn được ẩn và hoàn toàn an toàn khi ở Chế độ Demo.</string>
+    <string name="exit_demo_mode">Thoát chế độ Demo</string>
+
+    <!-- Chung -->
+    <string name="back">Quay lại</string>
+    <string name="cancel">Hủy</string>
+    <string name="delete">Xóa</string>
+    <string name="save">Lưu</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="close">Đóng</string>
+    <string name="admin">Quản trị</string>
+    <string name="success">Thành công</string>
+    <string name="library_logo">Biểu trưng Thư viện</string>
+
+    <!-- Màn hình chính -->
+    <string name="welcome_to_library">Chào mừng đến với Thư viện</string>
+    <string name="home_subtitle">Tìm sách trên kệ, sau đó chạm vào bên dưới để mượn hoặc trả sách.</string>
+    <string name="borrow_books">Mượn sách</string>
+    <string name="borrow_books_desc">Mượn một hoặc nhiều cuốn sách</string>
+    <string name="return_books">Trả sách</string>
+    <string name="return_books_desc">Trả lại những cuốn sách bạn đã đọc xong</string>
+
+    <!-- Chọn sách -->
+    <string name="select_books_title">Chọn sách để mượn</string>
+    <string name="search_books_placeholder">Tìm kiếm theo tựa đề hoặc tác giả…</string>
+    <string name="selected_books_count">Đã chọn %1$d / %2$d</string>
+    <string name="proceed_to_checkout">Tiến hành mượn sách</string>
+    <string name="no_books_found">Không tìm thấy sách nào.</string>
+    <string name="limit_reached">Đã đạt giới hạn</string>
+    <string name="out_of_stock">HẾT SÁCH</string>
+    <string name="cover_for_title">Bìa sách %1$s</string>
+
+    <!-- Thông tin người mượn -->
+    <string name="checkout_details_title">Chi tiết mượn sách</string>
+    <string name="your_details">Thông tin của bạn</string>
+    <string name="your_details_desc">Vui lòng nhập thông tin của bạn để mượn các cuốn sách đã chọn.</string>
+    <string name="full_name_required">Họ và tên *</string>
+    <string name="full_name_placeholder">Nguyễn Văn A</string>
+    <string name="email_required">Địa chỉ Email *</string>
+    <string name="email_placeholder">nguyenvana@example.com</string>
+    <string name="phone_optional">Số điện thoại</string>
+    <string name="phone_placeholder">0900 000 000</string>
+    <string name="borrow_duration_label">Thời hạn mượn *</string>
+    <string name="duration_1_week">1 tuần</string>
+    <string name="duration_2_weeks">2 tuần</string>
+    <string name="duration_1_month">1 tháng</string>
+    <string name="duration_2_months">2 tháng</string>
+    <string name="review_and_confirm">Xem lại &amp; Xác nhận</string>
+    <string name="books_to_checkout">Sách cần mượn (%1$d)</string>
+    <string name="reminder_dialog_title">Đặt lời nhắc trên Lịch!</string>
+    <string name="reminder_dialog_message">Trước khi rời đi, vui lòng dành chút thời gian thêm lời nhắc vào lịch trên điện thoại của bạn để trả sách sau %1$s.</string>
+    <string name="reminder_dialog_offline_note">Chúng tôi không gửi email nhắc nhở để giữ cho ứng dụng hoàn toàn miễn phí và ngoại tuyến.</string>
+    <string name="confirm_loan">Xác nhận mượn</string>
+    <string name="confirm_loan_timer">Xác nhận mượn (%1$ds)</string>
+
+    <!-- Thành công -->
+    <string name="success_title">Thành công!</string>
+    <string name="success_one_book">Bạn đã mượn 1 cuốn sách.\nHạn trả vào ngày %1$s.</string>
+    <string name="success_multiple_books">Bạn đã mượn %1$d cuốn sách.\nHạn trả vào ngày %2$s.</string>
+    <string name="returning_home_seconds">Trở về màn hình chính sau 10 giây…</string>
+    <string name="return_to_home_button">Quay lại màn hình chính</string>
+
+    <!-- Trả sách -->
+    <string name="return_books_title">Trả sách</string>
+    <string name="search_return_placeholder">Tìm theo tên bạn hoặc tên sách…</string>
+    <string name="no_active_loans">Không tìm thấy sách nào đang mượn.</string>
+    <string name="return_all_count">Trả tất cả (%1$d)</string>
+    <string name="return_all_button">Trả tất cả</string>
+    <string name="return_book_button">Trả sách</string>
+    <string name="return_book_dialog_title">Trả sách</string>
+    <string name="return_book_dialog_message">Trả \"%1$s\" cho %2$s?</string>
+    <string name="return_all_dialog_title">Trả tất cả sách</string>
+    <string name="return_all_dialog_message">Trả tất cả %1$d cuốn sách cho %2$s?</string>
+    <string name="borrower_label">Người mượn: %1$s</string>
+    <string name="overdue_badge">⚠ QUÁ HẠN</string>
+    <string name="due_date_label">Hạn trả: %1$s</string>
+    <string name="book_returned_success">Trả sách thành công!</string>
+    <string name="all_books_returned_success">Đã trả tất cả sách thành công!</string>
+
+    <!-- Mã PIN -->
+    <string name="admin_access_title">Quyền Quản trị viên</string>
+    <string name="enter_pin_message">Nhập mã PIN để quản lý thư viện.</string>
+    <string name="default_pin_hint">(Mã PIN mặc định: 1234)</string>
+    <string name="incorrect_pin_error">Mã PIN không đúng. Vui lòng thử lại.</string>
+
+    <!-- Lỗi & Xác thực -->
+    <string name="error_book_unavailable">Cuốn sách này hiện không có sẵn.</string>
+    <string name="error_max_borrow_limit">Bạn chỉ có thể mượn tối đa %1$d tựa sách khác nhau cùng lúc.</string>
+    <string name="error_max_borrow_total">Bạn chỉ có thể mượn tối đa %1$d cuốn sách.</string>
+    <string name="error_only_copies_available">Chỉ còn %1$d bản sao.</string>
+    <string name="error_name_email_required">Vui lòng cung cấp ít nhất Tên và Email.</string>
+    <string name="error_valid_name_required">Vui lòng nhập tên hợp lệ.</string>
+    <string name="error_valid_email_required">Vui lòng nhập địa chỉ email hợp lệ.</string>
+    <string name="error_valid_phone_required">Vui lòng nhập số điện thoại hợp lệ.</string>
+    <string name="error_no_books_selected">Chưa chọn cuốn sách nào.</string>
+    <string name="error_overdue_single">Bạn có một cuốn sách quá hạn (\"%1$s\") cần phải trả trước khi mượn sách mới.</string>
+    <string name="error_overdue_multiple">Bạn có %1$d cuốn sách quá hạn (%2$s) cần phải trả trước khi mượn sách mới.</string>
+    <string name="error_duplicate_book">Bạn hiện đang mượn \"%1$s\". Vui lòng trả sách trước khi mượn lại.</string>
+    <string name="error_limit_reached">Bạn hiện đang mượn %1$d cuốn sách, đã đạt giới hạn %2$d. Vui lòng trả bớt sách trước khi mượn thêm.</string>
+    <string name="error_limit_exceeded">Đã vượt quá giới hạn mượn: Bạn đang mượn %1$d cuốn sách. Với giới hạn %2$d, bạn chỉ có thể mượn thêm %3$d cuốn.</string>
+    <string name="active_loans_info">Đang mượn: Bạn hiện có %1$d cuốn sách đang mượn (Giới hạn: %2$d). Bạn có thể mượn thêm tối đa %3$d cuốn.</string>
+    <string name="active_loans_limit_reached">Đã đạt giới hạn: Bạn hiện đang mượn %1$d cuốn sách (Giới hạn tối đa: %2$d). Vui lòng trả sách để mượn sách mới.</string>
+    <string name="active_loans_overdue_warning">Lưu ý: Bạn có %1$d cuốn sách quá hạn. Vui lòng trả sách trước khi mượn thêm.</string>
+
+    <!-- Thể loại -->
+    <string name="category_biographies">Tiểu sử</string>
+    <string name="category_devotionals">Tĩnh nguyện</string>
+    <string name="category_kids">Thiếu nhi</string>
+    <string name="category_commentaries">Giải kinh</string>
+    <string name="category_theology">Thần học</string>
+    <string name="category_practical_christianity">Đời sống Cơ Đốc thực hành</string>
+    <string name="category_bibles">Kinh Thánh</string>
+    <string name="category_bible_study_material">Tài liệu học Kinh Thánh</string>
+    <string name="category_christian_living">Đời sống Cơ Đốc</string>
+    <string name="category_church_history">Lịch sử Hội Thánh</string>
+    <string name="category_apologetics">Biện giáo</string>
+    <string name="category_other">Khác</string>
+
+    <!-- Bảng điều khiển Quản trị -->
+    <string name="admin_dashboard_title">Bảng Quản trị Thư viện</string>
+    <string name="admin_dashboard_subtitle">Quản lý kho sách và lượt mượn</string>
+    <string name="admin_what_to_do">Bạn muốn làm gì?</string>
+    <string name="admin_active_loans">Sách đang mượn</string>
+    <string name="admin_active_loans_desc">Xem và trả những cuốn sách đang được mượn.</string>
+    <string name="admin_manage_inventory">Quản lý kho sách</string>
+    <string name="admin_manage_inventory_desc">Thêm, sửa hoặc xóa sách trong thư viện.</string>
+    <string name="admin_settings_backup">Cài đặt &amp; Sao lưu</string>
+    <string name="admin_settings_backup_desc">Sao lưu ngang hàng ngoại tuyến, Chế độ Demo và Cài đặt.</string>
+    <string name="admin_log_out">Đăng xuất</string>
+    <string name="admin_log_out_desc">Khóa bảng điều khiển quản trị một cách an toàn.</string>
+    <string name="about_developer">Về nhà phát triển</string>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kilise Kütüphanesi</string>
+
+    <!-- Demo Modu -->
+    <string name="demo_mode">Demo Modu</string>
+    <string name="demo_mode_active">DEMO MODU AKTİF</string>
+    <string name="demo_mode_banner_desc">Endişelenmeyin! Gerçek kütüphane veritabanınız Demo Modu sırasında gizlidir ve tamamen güvendedir.</string>
+    <string name="exit_demo_mode">Demo Modundan Çık</string>
+
+    <!-- Genel / Ortak -->
+    <string name="back">Geri</string>
+    <string name="cancel">İptal</string>
+    <string name="delete">Sil</string>
+    <string name="save">Kaydet</string>
+    <string name="edit">Düzenle</string>
+    <string name="close">Kapat</string>
+    <string name="admin">Yönetici</string>
+    <string name="success">Başarılı</string>
+    <string name="library_logo">Kütüphane Logosu</string>
+
+    <!-- Ana Ekran -->
+    <string name="welcome_to_library">Kütüphaneye Hoş Geldiniz</string>
+    <string name="home_subtitle">Kitabınızı rafta bulun, ardından ödünç almak veya iade etmek için aşağıya dokunun.</string>
+    <string name="borrow_books">Kitap Ödünç Al</string>
+    <string name="borrow_books_desc">Bir veya daha fazla kitap ödünç alın</string>
+    <string name="return_books">Kitap İade Et</string>
+    <string name="return_books_desc">Okuduğunuz kitapları geri getirin</string>
+
+    <!-- Kitap Seçim Ekranı -->
+    <string name="select_books_title">Ödünç Alınacak Kitapları Seçin</string>
+    <string name="search_books_placeholder">Başlığa veya yazara göre arayın…</string>
+    <string name="selected_books_count">%1$d / %2$d seçildi</string>
+    <string name="proceed_to_checkout">Ödünç Alma İşlemine Geç</string>
+    <string name="no_books_found">Kitap bulunamadı.</string>
+    <string name="limit_reached">Limite Ulaşıldı</string>
+    <string name="out_of_stock">TÜKENDİ</string>
+    <string name="cover_for_title">%1$s kapağı</string>
+
+    <!-- Ödünç Alan Bilgileri Ekranı -->
+    <string name="checkout_details_title">Ödünç Alma Detayları</string>
+    <string name="your_details">Bilgileriniz</string>
+    <string name="your_details_desc">Seçilen kitapları ödünç almak için lütfen bilgilerinizi girin.</string>
+    <string name="full_name_required">Ad Soyad *</string>
+    <string name="full_name_placeholder">Ahmet Yılmaz</string>
+    <string name="email_required">E-posta Adresi *</string>
+    <string name="email_placeholder">ahmet@ornek.com</string>
+    <string name="phone_optional">Telefon Numarası</string>
+    <string name="phone_placeholder">0500 000 0000</string>
+    <string name="borrow_duration_label">Ödünç Alma Süresi *</string>
+    <string name="duration_1_week">1 Hafta</string>
+    <string name="duration_2_weeks">2 Hafta</string>
+    <string name="duration_1_month">1 Ay</string>
+    <string name="duration_2_months">2 Ay</string>
+    <string name="review_and_confirm">İncele ve Onayla</string>
+    <string name="books_to_checkout">Ödünç Alınacak Kitaplar (%1$d)</string>
+    <string name="reminder_dialog_title">Takvim Hatırlatıcısı Ayarlayın!</string>
+    <string name="reminder_dialog_message">Ayrılmadan önce lütfen telefonunuzun takvimine bu kitapları %1$s içinde iade etmek için bir hatırlatıcı ekleyin.</string>
+    <string name="reminder_dialog_offline_note">Uygulamayı tamamen ücretsiz ve çevrimdışı tutmak için e-posta hatırlatıcıları göndermiyoruz.</string>
+    <string name="confirm_loan">Ödünç Almayı Onayla</string>
+    <string name="confirm_loan_timer">Ödünç Almayı Onayla (%1$ds)</string>
+
+    <!-- Başarı Ekranı -->
+    <string name="success_title">Başarılı!</string>
+    <string name="success_one_book">1 kitap ödünç aldınız.\nİade tarihi: %1$s.</string>
+    <string name="success_multiple_books">%1$d kitap ödünç aldınız.\nİade tarihi: %2$s.</string>
+    <string name="returning_home_seconds">10 saniye içinde ana ekrana dönülüyor…</string>
+    <string name="return_to_home_button">Ana Ekrana Dön</string>
+
+    <!-- İade Ekranı -->
+    <string name="return_books_title">Kitap İade Et</string>
+    <string name="search_return_placeholder">Adınıza veya kitap adına göre arayın…</string>
+    <string name="no_active_loans">Aktif ödünç kaydı bulunamadı.</string>
+    <string name="return_all_count">Tümünü İade Et (%1$d)</string>
+    <string name="return_all_button">Tümünü İade Et</string>
+    <string name="return_book_button">Kitabı İade Et</string>
+    <string name="return_book_dialog_title">Kitabı İade Et</string>
+    <string name="return_book_dialog_message">%2$s için \"%1$s\" iade edilsin mi?</string>
+    <string name="return_all_dialog_title">Tüm Kitapları İade Et</string>
+    <string name="return_all_dialog_message">%2$s için toplam %1$d kitap iade edilsin mi?</string>
+    <string name="borrower_label">Ödünç Alan: %1$s</string>
+    <string name="overdue_badge">⚠ GECİKMİŞ</string>
+    <string name="due_date_label">Son Tarih: %1$s</string>
+    <string name="book_returned_success">Kitap başarıyla iade edildi!</string>
+    <string name="all_books_returned_success">Tüm kitaplar başarıyla iade edildi!</string>
+
+    <!-- PIN Ekranı -->
+    <string name="admin_access_title">Yönetici Girişi</string>
+    <string name="enter_pin_message">Kütüphane kayıtlarını yönetmek için PIN girin.</string>
+    <string name="default_pin_hint">(Varsayılan PIN: 1234)</string>
+    <string name="incorrect_pin_error">Hatalı PIN. Tekrar deneyin.</string>
+
+    <!-- Hata ve Doğrulama Mesajları -->
+    <string name="error_book_unavailable">Bu kitap şu anda mevcut değil.</string>
+    <string name="error_max_borrow_limit">Aynı anda en fazla %1$d farklı kitap ödünç alabilirsiniz.</string>
+    <string name="error_max_borrow_total">Toplamda en fazla %1$d kitap ödünç alabilirsiniz.</string>
+    <string name="error_only_copies_available">Yalnızca %1$d kopya mevcut.</string>
+    <string name="error_name_email_required">Lütfen en az Ad ve E-posta belirtin.</string>
+    <string name="error_valid_name_required">Lütfen geçerli bir ad girin.</string>
+    <string name="error_valid_email_required">Lütfen geçerli bir e-posta adresi girin.</string>
+    <string name="error_valid_phone_required">Lütfen geçerli bir telefon numarası girin.</string>
+    <string name="error_no_books_selected">Hiçbir kitap seçilmedi.</string>
+    <string name="error_overdue_single">Yeni kitap ödünç almadan önce iade etmeniz gereken gecikmiş bir kitabınız var (\"%1$s\").</string>
+    <string name="error_overdue_multiple">Yeni kitap ödünç almadan önce iade etmeniz gereken %1$d gecikmiş kitabınız var (%2$s).</string>
+    <string name="error_duplicate_book">\"%1$s\" zaten ödünç listenizde. Yeniden almadan önce lütfen iade edin.</string>
+    <string name="error_limit_reached">Şu anda %1$d adet ödünç kitabınız var, %2$d sınırına ulaşıldı. Lütfen daha fazla kitap almadan önce bazılarını iade edin.</string>
+    <string name="error_limit_exceeded">Ödünç limiti aşıldı: Zaten %1$d kitabınız var. %2$d sınırı ile yalnızca %3$d kitap daha ödünç alabilirsiniz.</string>
+    <string name="active_loans_info">Aktif Ödünçler: Şu anda %1$d kitabınız var (Limit: %2$d). En fazla %3$d kitap daha alabilirsiniz.</string>
+    <string name="active_loans_limit_reached">Sınıra Ulaşıldı: Şu anda %1$d kitabınız var (Maksimum limit: %2$d). Yeni kitap almak için lütfen kitapları iade edin.</string>
+    <string name="active_loans_overdue_warning">Dikkat: %1$d adet gecikmiş kitabınız var. Yeni kitap almadan önce lütfen onları iade edin.</string>
+
+    <!-- Kategoriler -->
+    <string name="category_biographies">Biyografiler</string>
+    <string name="category_devotionals">Adanmışlık</string>
+    <string name="category_kids">Çocuklar</string>
+    <string name="category_commentaries">Tefsirler ve Yorumlar</string>
+    <string name="category_theology">Teoloji</string>
+    <string name="category_practical_christianity">Pratik Hristiyanlık</string>
+    <string name="category_bibles">Kutsal Kitaplar</string>
+    <string name="category_bible_study_material">Kutsal Kitap İnceleme Materyali</string>
+    <string name="category_christian_living">Hristiyan Yaşamı</string>
+    <string name="category_church_history">Kilise Tarihi</string>
+    <string name="category_apologetics">Apolojetik</string>
+    <string name="category_other">Diğer</string>
+
+    <!-- Yönetici Paneli -->
+    <string name="admin_dashboard_title">Kütüphane Yönetim Paneli</string>
+    <string name="admin_dashboard_subtitle">Kütüphane envanterini ve ödünç kayıtlarını yönetin</string>
+    <string name="admin_what_to_do">Ne yapmak istersiniz?</string>
+    <string name="admin_active_loans">Aktif Ödünçler</string>
+    <string name="admin_active_loans_desc">Şu anda ödünç verilmiş kitapları görüntüleyin ve iade alın.</string>
+    <string name="admin_manage_inventory">Envanteri Yönet</string>
+    <string name="admin_manage_inventory_desc">Kütüphaneye kitap ekleyin, düzenleyin veya silin.</string>
+    <string name="admin_settings_backup">Ayarlar ve Yedekleme</string>
+    <string name="admin_settings_backup_desc">Çevrimdışı P2P Yedekleme, Demo Modu ve Kütüphane Ayarları.</string>
+    <string name="admin_log_out">Çıkış Yap</string>
+    <string name="admin_log_out_desc">Yönetici panelini güvenli bir şekilde kilitleyin.</string>
+    <string name="about_developer">Geliştirici Hakkında</string>
+</resources>

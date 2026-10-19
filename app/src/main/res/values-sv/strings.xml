@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kyrkbibliotek</string>
+
+    <!-- Demoläge -->
+    <string name="demo_mode">Demoläge</string>
+    <string name="demo_mode_active">DEMOLÄGE ÄR AKTIVT</string>
+    <string name="demo_mode_banner_desc">Ingen fara! Din riktiga biblioteksdatabas är dold och helt säker i demoläget.</string>
+    <string name="exit_demo_mode">Avsluta demoläge</string>
+
+    <!-- Allmänt -->
+    <string name="back">Tillbaka</string>
+    <string name="cancel">Avbryt</string>
+    <string name="delete">Ta bort</string>
+    <string name="save">Spara</string>
+    <string name="edit">Redigera</string>
+    <string name="close">Stäng</string>
+    <string name="admin">Administratör</string>
+    <string name="success">Klart</string>
+    <string name="library_logo">Bibliotekslogotyp</string>
+
+    <!-- Hemskärm -->
+    <string name="welcome_to_library">Välkommen till biblioteket</string>
+    <string name="home_subtitle">Hitta din bok i hyllan och tryck sedan nedan för att låna eller återlämna den.</string>
+    <string name="borrow_books">Låna böcker</string>
+    <string name="borrow_books_desc">Låna en eller flera böcker</string>
+    <string name="return_books">Återlämna böcker</string>
+    <string name="return_books_desc">Lämna tillbaka böcker du har läst</string>
+
+    <!-- Välj böcker -->
+    <string name="select_books_title">Välj böcker att låna</string>
+    <string name="search_books_placeholder">Sök på titel eller författare…</string>
+    <string name="selected_books_count">%1$d / %2$d valda</string>
+    <string name="proceed_to_checkout">Gå vidare till utlåning</string>
+    <string name="no_books_found">Inga böcker hittades.</string>
+    <string name="limit_reached">Gränsen har nåtts</string>
+    <string name="out_of_stock">UTLÅNAD</string>
+    <string name="cover_for_title">Omslag för %1$s</string>
+
+    <!-- Låntagarinformation -->
+    <string name="checkout_details_title">Lånedetaljer</string>
+    <string name="your_details">Dina uppgifter</string>
+    <string name="your_details_desc">Fyll i dina uppgifter för att låna de valda böckerna.</string>
+    <string name="full_name_required">För- och efternamn *</string>
+    <string name="full_name_placeholder">Anna Andersson</string>
+    <string name="email_required">E-postadress *</string>
+    <string name="email_placeholder">anna@example.se</string>
+    <string name="phone_optional">Telefonnummer</string>
+    <string name="phone_placeholder">070 000 00 00</string>
+    <string name="borrow_duration_label">Låneperiod *</string>
+    <string name="duration_1_week">1 vecka</string>
+    <string name="duration_2_weeks">2 veckor</string>
+    <string name="duration_1_month">1 månad</string>
+    <string name="duration_2_months">2 månader</string>
+    <string name="review_and_confirm">Granska och bekräfta</string>
+    <string name="books_to_checkout">Böcker att låna (%1$d)</string>
+    <string name="reminder_dialog_title">Ställ in en kalenderpåminnelse!</string>
+    <string name="reminder_dialog_message">Innan du går, lägg till en påminnelse i telefonens kalender om att lämna tillbaka böckerna om %1$s.</string>
+    <string name="reminder_dialog_offline_note">Vi skickar inga e-postpåminnelser för att hålla appen helt gratis och offline.</string>
+    <string name="confirm_loan">Bekräfta lån</string>
+    <string name="confirm_loan_timer">Bekräfta lån (%1$ds)</string>
+
+    <!-- Bekräftelseskärm -->
+    <string name="success_title">Klart!</string>
+    <string name="success_one_book">Du har lånat 1 bok.\nÅterlämningsdatum: %1$s.</string>
+    <string name="success_multiple_books">Du har lånat %1$d böcker.\nÅterlämningsdatum: %2$s.</string>
+    <string name="returning_home_seconds">Återgår till hemskärmen om 10 sekunder…</string>
+    <string name="return_to_home_button">Tillbaka till hemskärmen</string>
+
+    <!-- Återlämning -->
+    <string name="return_books_title">Återlämna böcker</string>
+    <string name="search_return_placeholder">Sök på ditt namn eller boktitel…</string>
+    <string name="no_active_loans">Inga aktiva lån hittades.</string>
+    <string name="return_all_count">Återlämna alla (%1$d)</string>
+    <string name="return_all_button">Återlämna alla</string>
+    <string name="return_book_button">Återlämna bok</string>
+    <string name="return_book_dialog_title">Återlämna bok</string>
+    <string name="return_book_dialog_message">Vill du återlämna \"%1$s\" för %2$s?</string>
+    <string name="return_all_dialog_title">Återlämna alla böcker</string>
+    <string name="return_all_dialog_message">Vill du återlämna alla %1$d böcker för %2$s?</string>
+    <string name="borrower_label">Låntagare: %1$s</string>
+    <string name="overdue_badge">⚠ FÖRSENAD</string>
+    <string name="due_date_label">Återlämnas senast: %1$s</string>
+    <string name="book_returned_success">Boken har återlämnats!</string>
+    <string name="all_books_returned_success">Alla böcker har återlämnats!</string>
+
+    <!-- PIN-skärm -->
+    <string name="admin_access_title">Administratörsinloggning</string>
+    <string name="enter_pin_message">Ange PIN-kod för att hantera biblioteket.</string>
+    <string name="default_pin_hint">(Standard-PIN: 1234)</string>
+    <string name="incorrect_pin_error">Fel PIN-kod. Försök igen.</string>
+
+    <!-- Felmeddelanden -->
+    <string name="error_book_unavailable">Denna bok är för närvarande inte tillgänglig.</string>
+    <string name="error_max_borrow_limit">Du kan bara låna upp till %1$d olika titlar samtidigt.</string>
+    <string name="error_max_borrow_total">Du kan bara låna upp till %1$d böcker totalt.</string>
+    <string name="error_only_copies_available">Endast %1$d exemplar kvar.</string>
+    <string name="error_name_email_required">Ange minst namn och e-postadress.</string>
+    <string name="error_valid_name_required">Ange ett giltigt namn.</string>
+    <string name="error_valid_email_required">Ange en giltig e-postadress.</string>
+    <string name="error_valid_phone_required">Ange ett giltigt telefonnummer.</string>
+    <string name="error_no_books_selected">Inga böcker har valts.</string>
+    <string name="error_overdue_single">Du har en försenad bok (\"%1$s\") som måste återlämnas innan du kan låna nya.</string>
+    <string name="error_overdue_multiple">Du har %1$d försenade böcker (%2$s) som måste återlämnas innan nya lån kan göras.</string>
+    <string name="error_duplicate_book">Du har redan lånat \"%1$s\". Återlämna den innan du lånar den igen.</string>
+    <string name="error_limit_reached">Du har för närvarande %1$d böcker lånade och har nått gränsen på %2$d. Återlämna några innan du lånar fler.</string>
+    <string name="error_limit_exceeded">Lånegränsen överskriden: Du har redan %1$d böcker. Med gränsen på %2$d kan du bara låna %3$d böcker till.</string>
+    <string name="active_loans_info">Aktiva lån: Du har för närvarande %1$d böcker (Gräns: %2$d). Du kan låna upp till %3$d till.</string>
+    <string name="active_loans_limit_reached">Gränsen nådd: Du har %1$d böcker lånade (Max: %2$d). Återlämna böcker för att låna nya.</string>
+    <string name="active_loans_overdue_warning">Observera: Du har %1$d försenade böcker. Återlämna dem innan du lånar nya.</string>
+
+    <!-- Kategorier -->
+    <string name="category_biographies">Biografier</string>
+    <string name="category_devotionals">Andaktsböcker</string>
+    <string name="category_kids">Barn och unga</string>
+    <string name="category_commentaries">Kommentarer och utläggningar</string>
+    <string name="category_theology">Teologi</string>
+    <string name="category_practical_christianity">Praktisk kristendom</string>
+    <string name="category_bibles">Biblar</string>
+    <string name="category_bible_study_material">Bibelstudiematerial</string>
+    <string name="category_christian_living">Kristen livsstil</string>
+    <string name="category_church_history">Kyrkohistoria</string>
+    <string name="category_apologetics">Apologetik</string>
+    <string name="category_other">Övrigt</string>
+
+    <!-- Administratörspanel -->
+    <string name="admin_dashboard_title">Administratörspanel</string>
+    <string name="admin_dashboard_subtitle">Hantera biblioteksbestånd och lån</string>
+    <string name="admin_what_to_do">Vad vill du göra?</string>
+    <string name="admin_active_loans">Aktiva lån</string>
+    <string name="admin_active_loans_desc">Visa och registrera återlämning av utlånade böcker.</string>
+    <string name="admin_manage_inventory">Hantera bestånd</string>
+    <string name="admin_manage_inventory_desc">Lägg till, redigera eller ta bort böcker.</string>
+    <string name="admin_settings_backup">Inställningar och säkerhetskopiering</string>
+    <string name="admin_settings_backup_desc">Lokal P2P-backup, demoläge och biblioteksinställningar.</string>
+    <string name="admin_log_out">Logga ut</string>
+    <string name="admin_log_out_desc">Lås administratörspanelen på ett säkert sätt.</string>
+    <string name="about_developer">Om utvecklaren</string>
+</resources>

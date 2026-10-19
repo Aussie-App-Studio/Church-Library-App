@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">教会图书馆</string>
+
+    <!-- Demo Mode -->
+    <string name="demo_mode">演示模式</string>
+    <string name="demo_mode_active">演示模式已开启</string>
+    <string name="demo_mode_banner_desc">请放心！在演示模式下，真实的图书馆数据库已被安全隔离。</string>
+    <string name="exit_demo_mode">退出演示模式</string>
+
+    <!-- General / Common -->
+    <string name="back">返回</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="save">保存</string>
+    <string name="edit">编辑</string>
+    <string name="close">关闭</string>
+    <string name="admin">管理</string>
+    <string name="success">成功</string>
+    <string name="library_logo">图书馆标志</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_to_library">欢迎来到图书馆</string>
+    <string name="home_subtitle">请在书架上挑选图书，然后点击下方按钮借阅或归还。</string>
+    <string name="borrow_books">借阅图书</string>
+    <string name="borrow_books_desc">借阅一本或多本图书</string>
+    <string name="return_books">归还图书</string>
+    <string name="return_books_desc">归还已阅读的图书</string>
+
+    <!-- Select Books Screen -->
+    <string name="select_books_title">选择要借阅的图书</string>
+    <string name="search_books_placeholder">按书名或作者搜索…</string>
+    <string name="selected_books_count">已选 %1$d / %2$d 本</string>
+    <string name="proceed_to_checkout">继续办理借阅</string>
+    <string name="no_books_found">未找到相关图书。</string>
+    <string name="limit_reached">已达上限</string>
+    <string name="out_of_stock">借出</string>
+    <string name="cover_for_title">《%1$s》的封面</string>
+
+    <!-- Borrower Info Screen -->
+    <string name="checkout_details_title">借阅详情</string>
+    <string name="your_details">借阅人信息</string>
+    <string name="your_details_desc">请输入您的信息以借阅所选图书。</string>
+    <string name="full_name_required">姓名 *</string>
+    <string name="full_name_placeholder">张三</string>
+    <string name="email_required">电子邮箱 *</string>
+    <string name="email_placeholder">zhangsan@example.com</string>
+    <string name="phone_optional">联系电话</string>
+    <string name="phone_placeholder">13800000000</string>
+    <string name="borrow_duration_label">借阅期限 *</string>
+    <string name="duration_1_week">1 周</string>
+    <string name="duration_2_weeks">2 周</string>
+    <string name="duration_1_month">1 个月</string>
+    <string name="duration_2_months">2 个月</string>
+    <string name="review_and_confirm">核对并确认</string>
+    <string name="books_to_checkout">待借图书 (%1$d)</string>
+    <string name="reminder_dialog_title">添加日历提醒！</string>
+    <string name="reminder_dialog_message">离开前，请在手机日历中添加提醒，以便在 %1$s 后按时归还图书。</string>
+    <string name="reminder_dialog_offline_note">为保持本应用完全免费且支持离线使用，我们不会发送邮件提醒。</string>
+    <string name="confirm_loan">确认借阅</string>
+    <string name="confirm_loan_timer">确认借阅 (%1$ds)</string>
+
+    <!-- Borrow Success Screen -->
+    <string name="success_title">借阅成功！</string>
+    <string name="success_one_book">您已成功借出 1 本图书。\n应还日期为：%1$s。</string>
+    <string name="success_multiple_books">您已成功借出 %1$d 本图书。\n应还日期为：%2$s。</string>
+    <string name="returning_home_seconds">将在 10 秒后返回主页…</string>
+    <string name="return_to_home_button">返回主页</string>
+
+    <!-- Return Books Screen -->
+    <string name="return_books_title">归还图书</string>
+    <string name="search_return_placeholder">输入姓名或书名搜索…</string>
+    <string name="no_active_loans">暂无正在借阅的图书记录。</string>
+    <string name="return_all_count">全部归还 (%1$d)</string>
+    <string name="return_all_button">全部归还</string>
+    <string name="return_book_button">归还图书</string>
+    <string name="return_book_dialog_title">归还图书</string>
+    <string name="return_book_dialog_message">确认归还借予 %2$s 的《%1$s》吗？</string>
+    <string name="return_all_dialog_title">归还所有图书</string>
+    <string name="return_all_dialog_message">确认归还 %2$s 所借的全部 %1$d 本图书吗？</string>
+    <string name="borrower_label">借阅人：%1$s</string>
+    <string name="overdue_badge">⚠ 已逾期</string>
+    <string name="due_date_label">应还日期：%1$s</string>
+    <string name="book_returned_success">图书已成功归还！</string>
+    <string name="all_books_returned_success">所有图书均已成功归还！</string>
+
+    <!-- Pin Screen -->
+    <string name="admin_access_title">管理员认证</string>
+    <string name="enter_pin_message">请输入 PIN 码以管理图书档案。</string>
+    <string name="default_pin_hint">（默认 PIN 码：1234）</string>
+    <string name="incorrect_pin_error">PIN 码错误，请重试。</string>
+
+    <!-- Validation & Error Messages -->
+    <string name="error_book_unavailable">该图书目前不可借阅。</string>
+    <string name="error_max_borrow_limit">一次最多只能借阅 %1$d 本不同图书。</string>
+    <string name="error_only_copies_available">仅剩 %1$d 本在馆。</string>
+    <string name="error_name_email_required">请至少填写姓名和电子邮箱。</string>
+    <string name="error_valid_name_required">请输入有效的姓名。</string>
+    <string name="error_valid_email_required">请输入有效的电子邮箱地址。</string>
+    <string name="error_valid_phone_required">请输入有效的电话号码。</string>
+    <string name="error_no_books_selected">尚未选择任何图书。</string>
+
+    <!-- Categories -->
+    <string name="category_biographies">传记</string>
+    <string name="category_devotionals">灵修</string>
+    <string name="category_kids">儿童</string>
+    <string name="category_commentaries">注释书</string>
+    <string name="category_theology">神学</string>
+    <string name="category_practical_christianity">实践信仰</string>
+    <string name="category_bibles">圣经</string>
+    <string name="category_bible_study_material">查经资料</string>
+    <string name="category_christian_living">基督徒生活</string>
+    <string name="category_church_history">教会历史</string>
+    <string name="category_apologetics">护教学</string>
+    <string name="category_other">其他</string>
+
+    <!-- Admin Dashboard Hub -->
+    <string name="admin_dashboard_title">图书管理控制台</string>
+    <string name="admin_dashboard_subtitle">管理馆藏图书与借还记录</string>
+    <string name="admin_what_to_do">您想进行什么操作？</string>
+    <string name="admin_active_loans">当前借出</string>
+    <string name="admin_active_loans_desc">查看在借图书及办理还书。</string>
+    <string name="admin_manage_inventory">馆藏管理</string>
+    <string name="admin_manage_inventory_desc">添加、修改或删除图书。</string>
+    <string name="admin_settings_backup">设置与备份</string>
+    <string name="admin_settings_backup_desc">离线点对点同步、演示模式及图书馆设置。</string>
+    <string name="admin_log_out">退出登录</string>
+    <string name="admin_log_out_desc">安全锁定管理控制台。</string>
+    <string name="about_developer">关于开发者</string>
+</resources>

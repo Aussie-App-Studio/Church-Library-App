@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">திருச்சபை நூலகம்</string>
+
+    <!-- டெமோ பயன்முறை -->
+    <string name="demo_mode">டெமோ பயன்முறை</string>
+    <string name="demo_mode_active">டெமோ பயன்முறை செயலில் உள்ளது</string>
+    <string name="demo_mode_banner_desc">கவலைப்பட வேண்டாம்! டெமோ பயன்முறையில் இருக்கும்போது உங்கள் உண்மையான நூலகத் தரவுத்தளம் மறைக்கப்பட்டு பாதுகாப்பாக உள்ளது.</string>
+    <string name="exit_demo_mode">டெமோவிலிருந்து வெளியேறு</string>
+
+    <!-- பொதுவானவை -->
+    <string name="back">பின்செல்</string>
+    <string name="cancel">ரத்துசெய்</string>
+    <string name="delete">நீக்கு</string>
+    <string name="save">சேமி</string>
+    <string name="edit">திருத்து</string>
+    <string name="close">மூடு</string>
+    <string name="admin">நிர்வாகி</string>
+    <string name="success">வெற்றி</string>
+    <string name="library_logo">நூலகச் சின்னம்</string>
+
+    <!-- முகப்புத் திரை -->
+    <string name="welcome_to_library">நூலகத்திற்கு நல்வரவு</string>
+    <string name="home_subtitle">அடுக்கில் உங்கள் புத்தகத்தைக் கண்டறிந்து, கடன் பெற அல்லது திருப்பியளிக்க கீழே தொடவும்.</string>
+    <string name="borrow_books">புத்தகங்களை கடன் பெற</string>
+    <string name="borrow_books_desc">ஒன்று அல்லது அதற்கு மேற்பட்ட புத்தகங்களை எடுக்கவும்</string>
+    <string name="return_books">புத்தகங்களை திருப்பியளிக்க</string>
+    <string name="return_books_desc">படித்து முடித்த புத்தகங்களை திருப்பித் தரவும்</string>
+
+    <!-- புத்தகத் தேர்வு திரை -->
+    <string name="select_books_title">கடன் பெற புத்தகங்களைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="search_books_placeholder">தலைப்பு அல்லது எழுத்தாளர் மூலம் தேடுங்கள்…</string>
+    <string name="selected_books_count">%1$d / %2$d தேர்ந்தெடுக்கப்பட்டது</string>
+    <string name="proceed_to_checkout">கடன் பெற தொடரவும்</string>
+    <string name="no_books_found">புத்தகங்கள் எதுவும் கிடைக்கவில்லை.</string>
+    <string name="limit_reached">அளவு வரம்பு முடிந்தது</string>
+    <string name="out_of_stock">கையிருப்பில் இல்லை</string>
+    <string name="cover_for_title">%1$s அட்டப்படம்</string>
+
+    <!-- கடன் பெறுபவர் விவரங்கள் -->
+    <string name="checkout_details_title">கடன் விவரங்கள்</string>
+    <string name="your_details">உங்கள் விவரங்கள்</string>
+    <string name="your_details_desc">தேர்ந்தெடுத்த புத்தகங்களைப் பெற உங்கள் விவரங்களை உள்ளிடவும்.</string>
+    <string name="full_name_required">முழு பெயர் *</string>
+    <string name="full_name_placeholder">கார்த்திக்</string>
+    <string name="email_required">மின்னஞ்சல் முகவரி *</string>
+    <string name="email_placeholder">karthik@example.com</string>
+    <string name="phone_optional">தொலைபேசி எண்</string>
+    <string name="phone_placeholder">09000 00000</string>
+    <string name="borrow_duration_label">கடன் கால அளவு *</string>
+    <string name="duration_1_week">1 வாரம்</string>
+    <string name="duration_2_weeks">2 வாரங்கள்</string>
+    <string name="duration_1_month">1 மாதம்</string>
+    <string name="duration_2_months">2 மாதங்கள்</string>
+    <string name="review_and_confirm">சரிபார்த்து உறுதிப்படுத்தவும்</string>
+    <string name="books_to_checkout">கடன் பெறும் புத்தகங்கள் (%1$d)</string>
+    <string name="reminder_dialog_title">நாள்காட்டியில் நினைவூட்டலை அமைக்கவும்!</string>
+    <string name="reminder_dialog_message">செல்லும் முன், இந்த புத்தகங்களை %1$s கழித்து திருப்பியளிக்க உங்கள் தொலைபேசி நாள்காட்டியில் நினைவூட்டலைச் சேர்க்கவும்.</string>
+    <string name="reminder_dialog_offline_note">பயன்பாட்டை முற்றிலும் இலவசமாகவும் ஆஃப்லைனிலும் வைத்திருக்க மின்னஞ்சல் நினைவூட்டல்களை நாங்கள் அனுப்புவதில்லை.</string>
+    <string name="confirm_loan">கடனை உறுதிசெய்</string>
+    <string name="confirm_loan_timer">கடனை உறுதிசெய் (%1$d விநாடிகள்)</string>
+
+    <!-- வெற்றித் திரை -->
+    <string name="success_title">வெற்றி!</string>
+    <string name="success_one_book">நீங்கள் 1 புத்தகம் கடன் பெற்றுள்ளீர்கள்.\nதிருப்பியளிக்க வேண்டிய நாள்: %1$s.</string>
+    <string name="success_multiple_books">நீங்கள் %1$d புத்தகங்களை கடன் பெற்றுள்ளீர்கள்.\nதிருப்பியளிக்க வேண்டிய நாள்: %2$s.</string>
+    <string name="returning_home_seconds">10 விநாடிகளில் முகப்புத் திரைக்குத் திரும்புகிறது…</string>
+    <string name="return_to_home_button">முகப்புத் திரைக்குச் செல்</string>
+
+    <!-- திருப்பியளிக்கும் திரை -->
+    <string name="return_books_title">புத்தகங்களை திருப்பியளிக்க</string>
+    <string name="search_return_placeholder">உங்கள் பெயர் அல்லது புத்தகத் தலைப்பு கொண்டு தேடுங்கள்…</string>
+    <string name="no_active_loans">செயலில் உள்ள கடன்கள் எதுவும் இல்லை.</string>
+    <string name="return_all_count">அனைத்தையும் திருப்பியளிக்க (%1$d)</string>
+    <string name="return_all_button">அனைத்தையும் திருப்பியளிக்க</string>
+    <string name="return_book_button">புத்தகத்தை திருப்பியளிக்க</string>
+    <string name="return_book_dialog_title">புத்தகத்தை திருப்பியளிக்க</string>
+    <string name="return_book_dialog_message">%2$s க்காக \"%1$s\" திருப்பியளிக்கவா?</string>
+    <string name="return_all_dialog_title">அனைத்து புத்தகங்களையும் திருப்பியளிக்க</string>
+    <string name="return_all_dialog_message">%2$s க்காக அனைத்து %1$d புத்தகங்களையும் திருப்பியளிக்கவா?</string>
+    <string name="borrower_label">கடன் பெற்றவர்: %1$s</string>
+    <string name="overdue_badge">⚠ தவணை கடந்தது</string>
+    <string name="due_date_label">கடைசி நாள்: %1$s</string>
+    <string name="book_returned_success">புத்தகம் வெற்றிகரமாகத் திருப்பியளிக்கப்பட்டது!</string>
+    <string name="all_books_returned_success">அனைத்து புத்தகங்களும் வெற்றிகரமாகத் திருப்பியளிக்கப்பட்டன!</string>
+
+    <!-- பின் திரை -->
+    <string name="admin_access_title">நிர்வாகி அணுகல்</string>
+    <string name="enter_pin_message">நூலகப் பதிவுகளை நிர்வகிக்க பின் (PIN) எண்ணை உள்ளிடவும்.</string>
+    <string name="default_pin_hint">(இயல்புநிலை PIN: 1234)</string>
+    <string name="incorrect_pin_error">தவறான PIN எண். மீண்டும் முயற்சிக்கவும்.</string>
+
+    <!-- பிழைச் செய்திகள் -->
+    <string name="error_book_unavailable">இந்த புத்தகம் தற்போது கிடைக்கவில்லை.</string>
+    <string name="error_max_borrow_limit">ஒரே நேரத்தில் அதிகபட்சம் %1$d வெவ்வேறு தலைப்புகளை மட்டுமே கடன் பெற முடியும்.</string>
+    <string name="error_max_borrow_total">மொத்தமாக அதிகபட்சம் %1$d புத்தகங்களை மட்டுமே கடன் பெற முடியும்.</string>
+    <string name="error_only_copies_available">%1$d பிரதிகள் மட்டுமே உள்ளன.</string>
+    <string name="error_name_email_required">தயவுசெய்து பெயர் மற்றும் மின்னஞ்சலை உள்ளிடவும்.</string>
+    <string name="error_valid_name_required">சரியான பெயரை உள்ளிடவும்.</string>
+    <string name="error_valid_email_required">சரியான மின்னஞ்சல் முகவரியை உள்ளிடவும்.</string>
+    <string name="error_valid_phone_required">சரியான தொலைபேசி எண்ணை உள்ளிடவும்.</string>
+    <string name="error_no_books_selected">புத்தகங்கள் எதுவும் தேர்ந்தெடுக்கப்படவில்லை.</string>
+    <string name="error_overdue_single">புதிய புத்தகங்களை எடுப்பதற்கு முன் திருப்பியளிக்க வேண்டிய ஒரு காலாவதியான புத்தகம் (\"%1$s\") உங்களிடம் உள்ளது.</string>
+    <string name="error_overdue_multiple">புதிய புத்தகங்களை எடுப்பதற்கு முன் திருப்பியளிக்க வேண்டிய %1$d காலாவதியான புத்தகங்கள் (%2$s) உங்களிடம் உள்ளன.</string>
+    <string name="error_duplicate_book">\"%1$s\" புத்தகம் ஏற்கனவே உங்களிடம் உள்ளது. மீண்டும் எடுப்பதற்கு முன் அதைத் திருப்பித் தரவும்.</string>
+    <string name="error_limit_reached">உங்களிடம் தற்போது %1$d புத்தகங்கள் உள்ளன, அதிகபட்ச வரம்பான %2$d-ஐ எட்டியுள்ளது. மேலும் புத்தகங்களை எடுப்பதற்கு முன் சிலவற்றைத் திருப்பித் தரவும்.</string>
+    <string name="error_limit_exceeded">கடன் வரம்பு தாண்டியது: உங்களிடம் ஏற்கனவே %1$d புத்தகங்கள் உள்ளன. %2$d வரம்பிற்குள் நீங்கள் மேலும் %3$d புத்தகங்களை மட்டுமே எடுக்க முடியும்.</string>
+    <string name="active_loans_info">செயலில் உள்ள கடன்கள்: தற்போது உங்களிடம் %1$d புத்தகங்கள் உள்ளன (வரம்பு: %2$d). மேலும் %3$d வரை எடுக்கலாம்.</string>
+    <string name="active_loans_limit_reached">வரம்பு முடிந்தது: தற்போது உங்களிடம் %1$d புத்தகங்கள் உள்ளன (அதிகபட்ச வரம்பு: %2$d). புதிய புத்தகங்களை எடுக்க தயவுசெய்து புத்தகங்களைத் திருப்பியளிக்கவும்.</string>
+    <string name="active_loans_overdue_warning">கவனம்: உங்களிடம் %1$d தவணை கடந்த புத்தகங்கள் உள்ளன. புதிய புத்தகங்களை எடுப்பதற்கு முன் அவற்றைத் திருப்பியளிக்கவும்.</string>
+
+    <!-- பிரிவுகள் -->
+    <string name="category_biographies">சுயசரிதைகள்</string>
+    <string name="category_devotionals">தியான நூல்கள்</string>
+    <string name="category_kids">சிறுவர்கள்</string>
+    <string name="category_commentaries">விளக்கவுரைகள்</string>
+    <string name="category_theology">இறையியல்</string>
+    <string name="category_practical_christianity">நடைமுறை கிறிஸ்தவம்</string>
+    <string name="category_bibles">பரிசுத்த வேதாகமம்</string>
+    <string name="category_bible_study_material">வேத ஆய்வுப் பாடங்கள்</string>
+    <string name="category_christian_living">கிறிஸ்தவ வாழ்க்கை</string>
+    <string name="category_church_history">திருச்சபை வரலாறு</string>
+    <string name="category_apologetics">விசுவாச விளக்கம்</string>
+    <string name="category_other">மற்றவை</string>
+
+    <!-- நிர்வாகப் பலகை -->
+    <string name="admin_dashboard_title">நூலக நிர்வாகப் பலகை</string>
+    <string name="admin_dashboard_subtitle">நூலகப் புத்தகங்கள் மற்றும் கடன்களை நிர்வகிக்கவும்</string>
+    <string name="admin_what_to_do">நீங்கள் என்ன செய்ய விரும்புகிறீர்கள்?</string>
+    <string name="admin_active_loans">செயலில் உள்ள கடன்கள்</string>
+    <string name="admin_active_loans_desc">தற்போது கடன் கொடுக்கப்பட்டுள்ள புத்தகங்களைக் காணவும் திரும்பப் பெறவும்.</string>
+    <string name="admin_manage_inventory">புத்தகப் பட்டியலை நிர்வகி</string>
+    <string name="admin_manage_inventory_desc">புத்தகங்களைச் சேர்க்க, திருத்த அல்லது நீக்க.</string>
+    <string name="admin_settings_backup">அமைப்புகள் &amp; காப்புப் பிரதி</string>
+    <string name="admin_settings_backup_desc">ஆஃப்லைன் P2P காப்புப் பிரதி, டெமோ பயன்முறை மற்றும் அமைப்புகள்.</string>
+    <string name="admin_log_out">வெளியேறு</string>
+    <string name="admin_log_out_desc">நிர்வாகப் பலகையைப் பாதுகாப்பாகப் பூட்டவும்.</string>
+    <string name="about_developer">உருவாக்கியவர் பற்றி</string>
+</resources>

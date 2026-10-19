@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dakin Karatu na Coci</string>
+
+    <!-- Yanayin Gwaji -->
+    <string name="demo_mode">Yanayin Gwaji</string>
+    <string name="demo_mode_active">YANAYIN GWAJI YANA AIKI</string>
+    <string name="demo_mode_banner_desc">Kada ku damu! Ainihin bayanan dakin karatunku na nan a boye kuma a amince a lokacin Yanayin Gwaji.</string>
+    <string name="exit_demo_mode">Fita daga Yanayin Gwaji</string>
+
+    <!-- Na kowa -->
+    <string name="back">Koma baya</string>
+    <string name="cancel">Soke</string>
+    <string name="delete">Goge</string>
+    <string name="save">Ajiye</string>
+    <string name="edit">Gyara</string>
+    <string name="close">Rufe</string>
+    <string name="admin">Mai Gudanarwa</string>
+    <string name="success">Nasarar Samu</string>
+    <string name="library_logo">Tambarin Dakin Karatu</string>
+
+    <!-- Babban Shafin Farko -->
+    <string name="welcome_to_library">Barka da zuwa Dakin Karatu</string>
+    <string name="home_subtitle">Nemo littafinku a kan shiryayye, sannan ku danna kasa don aro ko mayarwa.</string>
+    <string name="borrow_books">Aro Littattafai</string>
+    <string name="borrow_books_desc">Aro littafi daya ko fiye</string>
+    <string name="return_books">Mayar da Littattafai</string>
+    <string name="return_books_desc">Kawo littattafan da kuka kammala karantawa</string>
+
+    <!-- Zaben Littattafai -->
+    <string name="select_books_title">Zabi Littattafan da za a Ara</string>
+    <string name="search_books_placeholder">Nemo ta hanyar suna ko marubuci…</string>
+    <string name="selected_books_count">An zabi %1$d / %2$d</string>
+    <string name="proceed_to_checkout">Ci gaba zuwa Karba</string>
+    <string name="no_books_found">Ba a sami littafi ba.</string>
+    <string name="limit_reached">An kai Iyakar</string>
+    <string name="out_of_stock">BABU SHI</string>
+    <string name="cover_for_title">Murfin littafin %1$s</string>
+
+    <!-- Bayanin Mai Aro -->
+    <string name="checkout_details_title">Bayanin Karbar Aro</string>
+    <string name="your_details">Bayananku</string>
+    <string name="your_details_desc">Da fatan za a shigar da bayananku don aron littattafan da aka zaba.</string>
+    <string name="full_name_required">Cikakken Suna *</string>
+    <string name="full_name_placeholder">Musa Ibrahim</string>
+    <string name="email_required">Adireshin Imel *</string>
+    <string name="email_placeholder">musa@example.com</string>
+    <string name="phone_optional">Lambar Waya</string>
+    <string name="phone_placeholder">0800 000 0000</string>
+    <string name="borrow_duration_label">Tsawon Lokacin Aro *</string>
+    <string name="duration_1_week">Sati 1</string>
+    <string name="duration_2_weeks">Sati 2</string>
+    <string name="duration_1_month">Wata 1</string>
+    <string name="duration_2_months">Wata 2</string>
+    <string name="review_and_confirm">Duba sannan a Tabbatar</string>
+    <string name="books_to_checkout">Littattafan da za a Ara (%1$d)</string>
+    <string name="reminder_dialog_title">Saita Tunatarwa a Kalanda!</string>
+    <string name="reminder_dialog_message">Kafin ku tafi, da fatan za a saita tunatarwa a kalandar wayarku don mayar da wadannan littattafai cikin %1$s.</string>
+    <string name="reminder_dialog_offline_note">Ba ma tura imel na tunatarwa don manhajar ta kasance kyauta kuma ba tare da intanet ba.</string>
+    <string name="confirm_loan">Tabbatar da Aro</string>
+    <string name="confirm_loan_timer">Tabbatar da Aro (Daƙiƙa %1$d)</string>
+
+    <!-- Shafin Nasara -->
+    <string name="success_title">An Yi Nasara!</string>
+    <string name="success_one_book">Kun ari littafi 1.\nRanar mayarwa ita ce %1$s.</string>
+    <string name="success_multiple_books">Kun ari littattafai %1$d.\nRanar mayarwa ita ce %2$s.</string>
+    <string name="returning_home_seconds">Komawa shafin farko a cikin daƙiƙa 10…</string>
+    <string name="return_to_home_button">Koma Babban Shafin Farko</string>
+
+    <!-- Mayar da Littattafai -->
+    <string name="return_books_title">Mayar da Littattafai</string>
+    <string name="search_return_placeholder">Nemo ta sunanku ko sunan littafi…</string>
+    <string name="no_active_loans">Babu wani aro da ke aiki a yanzu.</string>
+    <string name="return_all_count">Mayar da Duka (%1$d)</string>
+    <string name="return_all_button">Mayar da Duka</string>
+    <string name="return_book_button">Mayar da Littafi</string>
+    <string name="return_book_dialog_title">Mayar da Littafi</string>
+    <string name="return_book_dialog_message">A mayar da \"%1$s\" domin %2$s?</string>
+    <string name="return_all_dialog_title">Mayar da Duk Littattafai</string>
+    <string name="return_all_dialog_message">A mayar da duk littattafai %1$d domin %2$s?</string>
+    <string name="borrower_label">Mai Aro: %1$s</string>
+    <string name="overdue_badge">⚠ LOKACI YA WUCE</string>
+    <string name="due_date_label">Ranar Karewa: %1$s</string>
+    <string name="book_returned_success">An mayar da littafi cikin nasara!</string>
+    <string name="all_books_returned_success">An mayar da duk littattafai cikin nasara!</string>
+
+    <!-- Shafin PIN -->
+    <string name="admin_access_title">Shigar Mai Gudanarwa</string>
+    <string name="enter_pin_message">Shigar da lambar sirri (PIN) don gudanar da dakin karatu.</string>
+    <string name="default_pin_hint">(Asalin PIN: 1234)</string>
+    <string name="incorrect_pin_error">PIN ba daidai ba ne. Sake gwadawa.</string>
+
+    <!-- Sakonnin Kuskure -->
+    <string name="error_book_unavailable">Wannan littafin ba ya samuwa a yanzu.</string>
+    <string name="error_max_borrow_limit">Kuna iya aron littattafai daban-daban har guda %1$d a lokaci guda.</string>
+    <string name="error_max_borrow_total">Kuna iya aron jimillar littattafai har guda %1$d.</string>
+    <string name="error_only_copies_available">Kwafi %1$d kacal suka rage.</string>
+    <string name="error_name_email_required">Da fatan za a ba da akalla Suna da Imel.</string>
+    <string name="error_valid_name_required">Da fatan za a shigar da ingantaccen suna.</string>
+    <string name="error_valid_email_required">Da fatan za a shigar da ingantaccen adireshin imel.</string>
+    <string name="error_valid_phone_required">Da fatan za a shigar da ingantacciyar lambar waya.</string>
+    <string name="error_no_books_selected">Ba a zabi wani littafi ba.</string>
+    <string name="error_overdue_single">Kuna da littafin da lokacinsa ya wuce (\"%1$s\") wanda dole ne a mayar kafin aron sababbi.</string>
+    <string name="error_overdue_multiple">Kuna da littattafai %1$d da lokacinsu ya wuce (%2$s) wadanda dole ne a mayar kafin sabon aro.</string>
+    <string name="error_duplicate_book">Kuna da littafin \"%1$s\" a hannunku a halin yanzu. Da fatan za a mayar kafin sake aro.</string>
+    <string name="error_limit_reached">A halin yanzu kuna da littattafai %1$d a hannunku, wanda ya cika iyakar %2$d. Da fatan za a mayar da wasu kafin karbar kari.</string>
+    <string name="error_limit_exceeded">An wuce iyakar aro: Kuna da littattafai %1$d. Tare da iyakar %2$d, kuna iya karbar littattafai %3$d kacal a yanzu.</string>
+    <string name="active_loans_info">Aron da ke aiki: Kuna da littattafai %1$d (Iyaka: %2$d). Kuna iya karbar har guda %3$d.</string>
+    <string name="active_loans_limit_reached">An kai Iyakar: Kuna da littattafai %1$d a hannu (Mafi yawa: %2$d). Mayar da littattafai don samun sababbi.</string>
+    <string name="active_loans_overdue_warning">Lura: Kuna da littattafai %1$d da lokacin mayarwa ya wuce. Da fatan za a mayar kafin sabon aro.</string>
+
+    <!-- Rukuni -->
+    <string name="category_biographies">Tarihin Rayuwa</string>
+    <string name="category_devotionals">Bimbini da Addu\'a</string>
+    <string name="category_kids">Yara da Matasa</string>
+    <string name="category_commentaries">Fassarar Littafi Mai Tsarki</string>
+    <string name="category_theology">Ilimin Tauhidi</string>
+    <string name="category_practical_christianity">Rayuwar Kiristanci Ta Aikace</string>
+    <string name="category_bibles">Littafi Mai Tsarki</string>
+    <string name="category_bible_study_material">Kayan Nazarin Littafi Mai Tsarki</string>
+    <string name="category_christian_living">Rayuwar Kirista</string>
+    <string name="category_church_history">Tarihin Coci</string>
+    <string name="category_apologetics">Kare Bangaskiya</string>
+    <string name="category_other">Sauran</string>
+
+    <!-- Shafin Mai Gudanarwa -->
+    <string name="admin_dashboard_title">Shafin Mai Gudanar da Dakin Karatu</string>
+    <string name="admin_dashboard_subtitle">Gudanar da littattafai da bayanan aro</string>
+    <string name="admin_what_to_do">Me kuke son yi?</string>
+    <string name="admin_active_loans">Littattafan da ke Waje</string>
+    <string name="admin_active_loans_desc">Duba da karbar littattafan da aka bayar aro.</string>
+    <string name="admin_manage_inventory">Sarrafa Littattafai</string>
+    <string name="admin_manage_inventory_desc">Kara, gyara, ko goge littattafai daga dakin karatu.</string>
+    <string name="admin_settings_backup">Saituna da Ajiya</string>
+    <string name="admin_settings_backup_desc">Ajiyar P2P ba tare da intanet ba, Yanayin Gwaji, da Saituna.</string>
+    <string name="admin_log_out">Fita</string>
+    <string name="admin_log_out_desc">Kulle shafin mai gudanarwa cikin aminci.</string>
+    <string name="about_developer">Game da Mai Gina Manhaja</string>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">چرچ لائبریری</string>
+
+    <!-- ڈیمو موڈ -->
+    <string name="demo_mode">ڈیمو موڈ</string>
+    <string name="demo_mode_active">ڈیمو موڈ فعال ہے</string>
+    <string name="demo_mode_banner_desc">پریشان نہ ہوں! ڈیمو موڈ کے دوران آپ کا اصل لائبریری ڈیٹا بیس پوشیدہ اور مکمل طور پر محفوظ ہے۔</string>
+    <string name="exit_demo_mode">ڈیمو موڈ سے باہر نکلیں</string>
+
+    <!-- عمومی -->
+    <string name="back">پیچھے</string>
+    <string name="cancel">منسوخ کریں</string>
+    <string name="delete">حذف کریں</string>
+    <string name="save">محفوظ کریں</string>
+    <string name="edit">ترمیم کریں</string>
+    <string name="close">بند کریں</string>
+    <string name="admin">ایڈمن</string>
+    <string name="success">کامیابی</string>
+    <string name="library_logo">لائبریری لوگو</string>
+
+    <!-- ہوم اسکرین -->
+    <string name="welcome_to_library">لائبریری میں خوش آمدید</string>
+    <string name="home_subtitle">شیلف پر اپنی کتاب تلاش کریں، پھر ادھار لینے یا واپس کرنے کے لیے نیچے ٹیپ کریں۔</string>
+    <string name="borrow_books">کتابیں ادھار لیں</string>
+    <string name="borrow_books_desc">ایک یا زیادہ کتابیں حاصل کریں</string>
+    <string name="return_books">کتابیں واپس کریں</string>
+    <string name="return_books_desc">پڑھی ہوئی کتابیں واپس لائیں</string>
+
+    <!-- کتاب منتخب کرنے کی اسکرین -->
+    <string name="select_books_title">ادھار لینے کے لیے کتابیں منتخب کریں</string>
+    <string name="search_books_placeholder">عنوان یا مصنف کے ذریعے تلاش کریں…</string>
+    <string name="selected_books_count">%1$d / %2$d منتخب شدہ</string>
+    <string name="proceed_to_checkout">چیک آؤٹ کے لیے آگے بڑھیں</string>
+    <string name="no_books_found">کوئی کتاب نہیں ملی۔</string>
+    <string name="limit_reached">حد ختم ہو گئی</string>
+    <string name="out_of_stock">دستیاب نہیں</string>
+    <string name="cover_for_title">%1$s کا سرورق</string>
+
+    <!-- قرض لینے والے کی تفصیلات -->
+    <string name="checkout_details_title">چیک آؤٹ کی تفصیلات</string>
+    <string name="your_details">آپ کی تفصیلات</string>
+    <string name="your_details_desc">منتخب کتابیں ادھار لینے کے لیے براہ کرم اپنی معلومات درج کریں۔</string>
+    <string name="full_name_required">پورا نام *</string>
+    <string name="full_name_placeholder">علی احمد</string>
+    <string name="email_required">ای میل پتہ *</string>
+    <string name="email_placeholder">ali@example.com</string>
+    <string name="phone_optional">فون نمبر</string>
+    <string name="phone_placeholder">0300 0000000</string>
+    <string name="borrow_duration_label">ادھار کی مدت *</string>
+    <string name="duration_1_week">1 ہفتہ</string>
+    <string name="duration_2_weeks">2 ہفتے</string>
+    <string name="duration_1_month">1 مہینہ</string>
+    <string name="duration_2_months">2 مہینے</string>
+    <string name="review_and_confirm">جائزہ لیں اور تصدیق کریں</string>
+    <string name="books_to_checkout">ادھار لی جانے والی کتابیں (%1$d)</string>
+    <string name="reminder_dialog_title">کیلنڈر میں یاد دہانی سیٹ کریں!</string>
+    <string name="reminder_dialog_message">جانے سے پہلے، براہ کرم اپنے فون کے کیلنڈر میں ان کتابوں کو %1$s میں واپس کرنے کی یاد دہانی شامل کریں۔</string>
+    <string name="reminder_dialog_offline_note">ایپ کو مکمل طور پر مفت اور آف لائن رکھنے کے لیے ہم ای میل یاد دہانیاں نہیں بھیجتے ہیں۔</string>
+    <string name="confirm_loan">قرض کی تصدیق کریں</string>
+    <string name="confirm_loan_timer">قرض کی تصدیق کریں (%1$d سیکنڈ)</string>
+
+    <!-- کامیابی کی اسکرین -->
+    <string name="success_title">کامیابی!</string>
+    <string name="success_one_book">آپ نے 1 کتاب ادھار لی ہے۔\nواپسی کی تاریخ: %1$s۔</string>
+    <string name="success_multiple_books">آپ نے %1$d کتابیں ادھار لی ہیں۔\nواپسی کی تاریخ: %2$s۔</string>
+    <string name="returning_home_seconds">10 سیکنڈ میں ہوم اسکرین پر واپس جا رہے ہیں…</string>
+    <string name="return_to_home_button">ہوم اسکرین پر واپس جائیں</string>
+
+    <!-- کتابوں کی واپسی کی اسکرین -->
+    <string name="return_books_title">کتابیں واپس کریں</string>
+    <string name="search_return_placeholder">اپنے نام یا کتاب کے عنوان سے تلاش کریں…</string>
+    <string name="no_active_loans">کوئی فعال ادھار ریکارڈ نہیں ملا۔</string>
+    <string name="return_all_count">تمام واپس کریں (%1$d)</string>
+    <string name="return_all_button">تمام واپس کریں</string>
+    <string name="return_book_button">کتاب واپس کریں</string>
+    <string name="return_book_dialog_title">کتاب واپس کریں</string>
+    <string name="return_book_dialog_message">کیا %2$s کے لیے \"%1$s\" واپس کرنی ہے؟</string>
+    <string name="return_all_dialog_title">تمام کتابیں واپس کریں</string>
+    <string name="return_all_dialog_message">کیا %2$s کی تمام %1$d کتابیں واپس کرنی ہیں؟</string>
+    <string name="borrower_label">ادھار لینے والا: %1$s</string>
+    <string name="overdue_badge">⚠ تاخیر شدہ</string>
+    <string name="due_date_label">آخری تاریخ: %1$s</string>
+    <string name="book_returned_success">کتاب کامیابی سے واپس کر دی گئی!</string>
+    <string name="all_books_returned_success">تمام کتابیں کامیابی سے واپس کر دی گئیں!</string>
+
+    <!-- پن اسکرین -->
+    <string name="admin_access_title">ایڈمن رسائی</string>
+    <string name="enter_pin_message">لائبریری کے ریکارڈ کا انتظام کرنے کے لیے پن درج کریں۔</string>
+    <string name="default_pin_hint">(طے شدہ پن: 1234)</string>
+    <string name="incorrect_pin_error">غلط پن۔ دوبارہ کوشش کریں۔</string>
+
+    <!-- غلطی اور توثیق کے پیغامات -->
+    <string name="error_book_unavailable">یہ کتاب فی الحال دستیاب نہیں ہے۔</string>
+    <string name="error_max_borrow_limit">آپ ایک وقت میں زیادہ سے زیادہ %1$d مختلف کتابیں ادھار لے سکتے ہیں۔</string>
+    <string name="error_max_borrow_total">آپ کل %1$d کتابیں ادھار لے سکتے ہیں۔</string>
+    <string name="error_only_copies_available">صرف %1$d کاپیاں دستیاب ہیں۔</string>
+    <string name="error_name_email_required">براہ کرم کم از کم نام اور ای میل فراہم کریں۔</string>
+    <string name="error_valid_name_required">براہ کرم درست نام درج کریں۔</string>
+    <string name="error_valid_email_required">براہ کرم درست ای میل پتہ درج کریں۔</string>
+    <string name="error_valid_phone_required">براہ کرم درست فون نمبر درج کریں۔</string>
+    <string name="error_no_books_selected">کوئی کتاب منتخب نہیں کی گئی۔</string>
+    <string name="error_overdue_single">آپ کے پاس ایک تاخیر شدہ کتاب (\"%1$s\") ہے جسے نئی کتابیں لینے سے پہلے واپس کرنا ضروری ہے۔</string>
+    <string name="error_overdue_multiple">آپ کے پاس %1$d تاخیر شدہ کتابیں (%2$s) ہیں جنہیں نئی کتابیں ادھار لینے سے پہلے واپس کرنا ضروری ہے۔</string>
+    <string name="error_duplicate_book">آپ کے پاس پہلے سے ہی \"%1$s\" ادھار پر ہے۔ براہ کرم دوبارہ لینے سے پہلے اسے واپس کریں۔</string>
+    <string name="error_limit_reached">آپ کے پاس فی الحال %1$d ادھار لی گئی کتابیں ہیں، جو %2$d کی حد تک پہنچ چکی ہیں۔ مزید کتابیں لینے سے پہلے کچھ کتابیں واپس کریں۔</string>
+    <string name="error_limit_exceeded">ادھار کی حد سے تجاوز: آپ کے پاس پہلے سے %1$d کتابیں ہیں۔ %2$d کی حد کے ساتھ، آپ صرف %3$d مزید کتابیں لے سکتے ہیں۔</string>
+    <string name="active_loans_info">فعال ادھار: آپ کے پاس فی الحال %1$d کتابیں ہیں (حد: %2$d)۔ آپ مزید %3$d کتابیں لے سکتے ہیں۔</string>
+    <string name="active_loans_limit_reached">حد ختم: آپ کے پاس فی الحال %1$d کتابیں ہیں (زیادہ سے زیادہ حد: %2$d)۔ نئی کتابیں ادھار لینے کے لیے براہ کرم کتابیں واپس کریں۔</string>
+    <string name="active_loans_overdue_warning">توجہ فرمائیں: آپ کے پاس %1$d تاخیر شدہ کتابیں ہیں۔ نئی کتابیں لینے سے پہلے انہیں واپس کریں۔</string>
+
+    <!-- زمرہ جات -->
+    <string name="category_biographies">سوانح حیات</string>
+    <string name="category_devotionals">روحانی و دعائیہ</string>
+    <string name="category_kids">بچے</string>
+    <string name="category_commentaries">تفاسیر</string>
+    <string name="category_theology">علم الہیات</string>
+    <string name="category_practical_christianity">عملی مسیحیت</string>
+    <string name="category_bibles">مقدس بائبل</string>
+    <string name="category_bible_study_material">بائبل مطالعہ مواد</string>
+    <string name="category_christian_living">مسیحی زندگی</string>
+    <string name="category_church_history">کلیسیائی تاریخ</string>
+    <string name="category_apologetics">دفاعیات</string>
+    <string name="category_other">دیگر</string>
+
+    <!-- ایڈمن ڈیش بورڈ -->
+    <string name="admin_dashboard_title">لائبریری ایڈمن ڈیش بورڈ</string>
+    <string name="admin_dashboard_subtitle">لائبریری کی فہرست اور ادھار کا انتظام کریں</string>
+    <string name="admin_what_to_do">آپ کیا کرنا چاہیں گے؟</string>
+    <string name="admin_active_loans">فعال ادھار</string>
+    <string name="admin_active_loans_desc">موجودہ ادھار شدہ کتابیں دیکھیں اور واپس لیں۔</string>
+    <string name="admin_manage_inventory">کتب خانہ فہرست کا انتظام</string>
+    <string name="admin_manage_inventory_desc">لائبریری میں کتابیں شامل کریں، ترمیم کریں یا حذف کریں۔</string>
+    <string name="admin_settings_backup">ترتیبات اور بیک اپ</string>
+    <string name="admin_settings_backup_desc">آف لائن پی ٹو پی بیک اپ، ڈیمو موڈ اور لائبریری ترتیبات۔</string>
+    <string name="admin_log_out">لاگ آؤٹ</string>
+    <string name="admin_log_out_desc">ایڈمن ڈیش بورڈ کو محفوظ طریقے سے مقفل کریں۔</string>
+    <string name="about_developer">ڈویلپر کے بارے میں</string>
+</resources>

@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Perpustakaan Gereja</string>
+
+    <!-- Demo Mode -->
+    <string name="demo_mode">Mode Demo</string>
+    <string name="demo_mode_active">MODE DEMO SEDANG AKTIF</string>
+    <string name="demo_mode_banner_desc">Jangan khawatir! Basis data perpustakaan asli Anda tersimpan dengan aman selama Mode Demo.</string>
+    <string name="exit_demo_mode">Keluar dari Mode Demo</string>
+
+    <!-- General / Common -->
+    <string name="back">Kembali</string>
+    <string name="cancel">Batal</string>
+    <string name="delete">Hapus</string>
+    <string name="save">Simpan</string>
+    <string name="edit">Ubah</string>
+    <string name="close">Tutup</string>
+    <string name="admin">Admin</string>
+    <string name="success">Berhasil</string>
+    <string name="library_logo">Logo Perpustakaan</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_to_library">Selamat Datang di Perpustakaan</string>
+    <string name="home_subtitle">Temukan buku di rak, lalu ketuk di bawah untuk meminjam atau mengembalikannya.</string>
+    <string name="borrow_books">Pinjam Buku</string>
+    <string name="borrow_books_desc">Pinjam satu atau beberapa buku</string>
+    <string name="return_books">Kembalikan Buku</string>
+    <string name="return_books_desc">Kembalikan buku yang telah Anda baca</string>
+
+    <!-- Select Books Screen -->
+    <string name="select_books_title">Pilih Buku untuk Dipinjam</string>
+    <string name="search_books_placeholder">Cari berdasarkan judul atau penulis…</string>
+    <string name="selected_books_count">%1$d / %2$d terpilih</string>
+    <string name="proceed_to_checkout">Lanjut ke Peminjaman</string>
+    <string name="no_books_found">Buku tidak ditemukan.</string>
+    <string name="limit_reached">Batas Tercapai</string>
+    <string name="out_of_stock">HABIS</string>
+    <string name="cover_for_title">Sampul buku %1$s</string>
+
+    <!-- Borrower Info Screen -->
+    <string name="checkout_details_title">Detail Peminjaman</string>
+    <string name="your_details">Informasi Anda</string>
+    <string name="your_details_desc">Silakan masukkan data diri Anda untuk meminjam buku yang dipilih.</string>
+    <string name="full_name_required">Nama Lengkap *</string>
+    <string name="full_name_placeholder">Budi Santoso</string>
+    <string name="email_required">Alamat Email *</string>
+    <string name="email_placeholder">budi@example.com</string>
+    <string name="phone_optional">Nomor Telepon</string>
+    <string name="phone_placeholder">08123456789</string>
+    <string name="borrow_duration_label">Durasi Peminjaman *</string>
+    <string name="duration_1_week">1 Minggu</string>
+    <string name="duration_2_weeks">2 Minggu</string>
+    <string name="duration_1_month">1 Bulan</string>
+    <string name="duration_2_months">2 Bulan</string>
+    <string name="review_and_confirm">Tinjau &amp; Konfirmasi</string>
+    <string name="books_to_checkout">Buku Dipinjam (%1$d)</string>
+    <string name="reminder_dialog_title">Pasang Pengingat Kalender!</string>
+    <string name="reminder_dialog_message">Sebelum pergi, luangkan waktu sejenak untuk memasang pengingat di kalender ponsel Anda untuk mengembalikan buku ini dalam %1$s.</string>
+    <string name="reminder_dialog_offline_note">Kami tidak mengirim email pengingat agar aplikasi tetap gratis dan berjalan sepenuhnya luring (offline).</string>
+    <string name="confirm_loan">Konfirmasi Pinjaman</string>
+    <string name="confirm_loan_timer">Konfirmasi Pinjaman (%1$ds)</string>
+
+    <!-- Borrow Success Screen -->
+    <string name="success_title">Berhasil!</string>
+    <string name="success_one_book">Anda telah meminjam 1 buku.\nHarap dikembalikan sebelum %1$s.</string>
+    <string name="success_multiple_books">Anda telah meminjam %1$d buku.\nHarap dikembalikan sebelum %2$s.</string>
+    <string name="returning_home_seconds">Kembali ke beranda dalam 10 detik…</string>
+    <string name="return_to_home_button">Kembali ke Beranda</string>
+
+    <!-- Return Books Screen -->
+    <string name="return_books_title">Kembalikan Buku</string>
+    <string name="search_return_placeholder">Cari nama Anda atau judul buku…</string>
+    <string name="no_active_loans">Tidak ada peminjaman aktif ditemukan.</string>
+    <string name="return_all_count">Kembalikan Semua (%1$d)</string>
+    <string name="return_all_button">Kembalikan Semua</string>
+    <string name="return_book_button">Kembalikan Buku</string>
+    <string name="return_book_dialog_title">Kembalikan Buku</string>
+    <string name="return_book_dialog_message">Kembalikan \"%1$s\" untuk %2$s?</string>
+    <string name="return_all_dialog_title">Kembalikan Semua Buku</string>
+    <string name="return_all_dialog_message">Kembalikan seluruh %1$d buku untuk %2$s?</string>
+    <string name="borrower_label">Peminjam: %1$s</string>
+    <string name="overdue_badge">⚠ TERLAMBAT</string>
+    <string name="due_date_label">Batas Waktu: %1$s</string>
+    <string name="book_returned_success">Buku berhasil dikembalikan!</string>
+    <string name="all_books_returned_success">Semua buku berhasil dikembalikan!</string>
+
+    <!-- Pin Screen -->
+    <string name="admin_access_title">Akses Admin</string>
+    <string name="enter_pin_message">Masukkan PIN untuk mengelola arsip perpustakaan.</string>
+    <string name="default_pin_hint">(PIN standar: 1234)</string>
+    <string name="incorrect_pin_error">PIN salah. Silakan coba lagi.</string>
+
+    <!-- Validation & Error Messages -->
+    <string name="error_book_unavailable">Buku ini sedang tidak tersedia.</string>
+    <string name="error_max_borrow_limit">Anda hanya dapat meminjam hingga %1$d judul berbeda sekaligus.</string>
+    <string name="error_only_copies_available">Hanya tersedia %1$d eksemplar.</string>
+    <string name="error_name_email_required">Harap cantumkan setidaknya Nama dan Email.</string>
+    <string name="error_valid_name_required">Harap masukkan nama yang valid.</string>
+    <string name="error_valid_email_required">Harap masukkan alamat email yang valid.</string>
+    <string name="error_valid_phone_required">Harap masukkan nomor telepon yang valid.</string>
+    <string name="error_no_books_selected">Tidak ada buku yang dipilih.</string>
+
+    <!-- Categories -->
+    <string name="category_biographies">Biografi</string>
+    <string name="category_devotionals">Renungan</string>
+    <string name="category_kids">Anak-anak</string>
+    <string name="category_commentaries">Tafsiran</string>
+    <string name="category_theology">Teologi</string>
+    <string name="category_practical_christianity">Kekristenan Praktis</string>
+    <string name="category_bibles">Alkitab</string>
+    <string name="category_bible_study_material">Bahan Pendalaman Alkitab</string>
+    <string name="category_christian_living">Kehidupan Kristen</string>
+    <string name="category_church_history">Sejarah Gereja</string>
+    <string name="category_apologetics">Apologetika</string>
+    <string name="category_other">Lainnya</string>
+
+    <!-- Admin Dashboard Hub -->
+    <string name="admin_dashboard_title">Dasbor Admin Perpustakaan</string>
+    <string name="admin_dashboard_subtitle">Kelola inventaris dan peminjaman</string>
+    <string name="admin_what_to_do">Apa yang ingin Anda lakukan?</string>
+    <string name="admin_active_loans">Peminjaman Aktif</string>
+    <string name="admin_active_loans_desc">Lihat dan proses pengembalian buku yang sedang dipinjam.</string>
+    <string name="admin_manage_inventory">Kelola Inventaris</string>
+    <string name="admin_manage_inventory_desc">Tambah, ubah, atau hapus buku perpustakaan.</string>
+    <string name="admin_settings_backup">Pengaturan &amp; Cadangan</string>
+    <string name="admin_settings_backup_desc">Sinkronisasi P2P offline, Mode Demo, dan pengaturan.</string>
+    <string name="admin_log_out">Keluar</string>
+    <string name="admin_log_out_desc">Kunci dasbor admin dengan aman.</string>
+    <string name="about_developer">Tentang Pengembang</string>
+</resources>

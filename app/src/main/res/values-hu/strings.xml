@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gyülekezeti Könyvtár</string>
+
+    <!-- Demo mód -->
+    <string name="demo_mode">Demo mód</string>
+    <string name="demo_mode_active">A DEMO MÓD AKTÍV</string>
+    <string name="demo_mode_banner_desc">Semmi pánik! A valódi könyvtári adatbázis rejtve és biztonságban van a demo mód alatt.</string>
+    <string name="exit_demo_mode">Kilépés a demo módból</string>
+
+    <!-- Általános -->
+    <string name="back">Vissza</string>
+    <string name="cancel">Mégse</string>
+    <string name="delete">Törlés</string>
+    <string name="save">Mentés</string>
+    <string name="edit">Szerkesztés</string>
+    <string name="close">Bezárás</string>
+    <string name="admin">Adminisztrátor</string>
+    <string name="success">Sikeres művelet</string>
+    <string name="library_logo">Könyvtár logó</string>
+
+    <!-- Főképernyő -->
+    <string name="welcome_to_library">Üdvözöljük a Könyvtárban</string>
+    <string name="home_subtitle">Keresse meg a könyvet a polcon, majd koppintson lent a kölcsönzéshez vagy visszahozatalhoz.</string>
+    <string name="borrow_books">Könyvek kölcsönzése</string>
+    <string name="borrow_books_desc">Egy vagy több könyv kikölcsönzése</string>
+    <string name="return_books">Könyvek visszahozatala</string>
+    <string name="return_books_desc">Elolvasott könyvek visszahozatala</string>
+
+    <!-- Könyvválasztás -->
+    <string name="select_books_title">Kölcsönözendő könyvek kiválasztása</string>
+    <string name="search_books_placeholder">Keresés cím vagy szerző alapján…</string>
+    <string name="selected_books_count">%1$d / %2$d kiválasztva</string>
+    <string name="proceed_to_checkout">Tovább a kölcsönzéshez</string>
+    <string name="no_books_found">Nem található könyv.</string>
+    <string name="limit_reached">Elérte a limitet</string>
+    <string name="out_of_stock">KIKÖLCSÖNÖZVE</string>
+    <string name="cover_for_title">%1$s borítója</string>
+
+    <!-- Kölcsönző adatai -->
+    <string name="checkout_details_title">Kölcsönzés részletei</string>
+    <string name="your_details">Az Ön adatai</string>
+    <string name="your_details_desc">Kérjük, adja meg adatait a kiválasztott könyvek kikölcsönzéséhez.</string>
+    <string name="full_name_required">Teljes név *</string>
+    <string name="full_name_placeholder">Kovács János</string>
+    <string name="email_required">Email cím *</string>
+    <string name="email_placeholder">janos@example.hu</string>
+    <string name="phone_optional">Telefonszám</string>
+    <string name="phone_placeholder">06 30 000 0000</string>
+    <string name="borrow_duration_label">Kölcsönzési idő *</string>
+    <string name="duration_1_week">1 hét</string>
+    <string name="duration_2_weeks">2 hét</string>
+    <string name="duration_1_month">1 hónap</string>
+    <string name="duration_2_months">2 hónap</string>
+    <string name="review_and_confirm">Áttekintés és megerősítés</string>
+    <string name="books_to_checkout">Kölcsönzött könyvek (%1$d)</string>
+    <string name="reminder_dialog_title">Állítson be naptári emlékeztetőt!</string>
+    <string name="reminder_dialog_message">Mielőtt távozik, kérjük, állítson be egy emlékeztetőt a telefonja naptárában, hogy a könyveket %1$s múlva vissza kell hozni.</string>
+    <string name="reminder_dialog_offline_note">Nem küldünk email emlékeztetőket, hogy az alkalmazás teljesen ingyenes és offline maradhasson.</string>
+    <string name="confirm_loan">Kölcsönzés megerősítése</string>
+    <string name="confirm_loan_timer">Kölcsönzés megerősítése (%1$d mp)</string>
+
+    <!-- Sikeres kölcsönzés -->
+    <string name="success_title">Sikeres!</string>
+    <string name="success_one_book">Kikölcsönzött 1 könyvet.\nVisszahozatali határidő: %1$s.</string>
+    <string name="success_multiple_books">Kikölcsönzött %1$d könyvet.\nVisszahozatali határidő: %2$s.</string>
+    <string name="returning_home_seconds">Visszatérés a kezdőlapra 10 másodpercen belül…</string>
+    <string name="return_to_home_button">Vissza a kezdőlapra</string>
+
+    <!-- Könyvek visszahozatala -->
+    <string name="return_books_title">Könyvek visszahozatala</string>
+    <string name="search_return_placeholder">Keresés név vagy könyvcím alapján…</string>
+    <string name="no_active_loans">Nincsenek aktív kölcsönzések.</string>
+    <string name="return_all_count">Összes visszahozatala (%1$d)</string>
+    <string name="return_all_button">Összes visszahozatala</string>
+    <string name="return_book_button">Könyv visszahozatala</string>
+    <string name="return_book_dialog_title">Könyv visszahozatala</string>
+    <string name="return_book_dialog_message">Visszahozza a(z) \"%1$s\" könyvet (%2$s részére)?</string>
+    <string name="return_all_dialog_title">Összes könyv visszahozatala</string>
+    <string name="return_all_dialog_message">Visszahozza mind a(z) %1$d könyvet (%2$s részére)?</string>
+    <string name="borrower_label">Kölcsönző: %1$s</string>
+    <string name="overdue_badge">⚠ LEJÁRT HATÁRIDŐ</string>
+    <string name="due_date_label">Határidő: %1$s</string>
+    <string name="book_returned_success">A könyv sikeresen visszavéve!</string>
+    <string name="all_books_returned_success">Minden könyv sikeresen visszavéve!</string>
+
+    <!-- PIN képernyő -->
+    <string name="admin_access_title">Adminisztrátori hozzáférés</string>
+    <string name="enter_pin_message">Adja meg a PIN kódot a könyvtár kezeléséhez.</string>
+    <string name="default_pin_hint">(Alapértelmezett PIN: 1234)</string>
+    <string name="incorrect_pin_error">Helytelen PIN kód. Próbálja újra.</string>
+
+    <!-- Hibaüzenetek -->
+    <string name="error_book_unavailable">Ez a könyv jelenleg nem elérhető.</string>
+    <string name="error_max_borrow_limit">Egyszerre legfeljebb %1$d különböző címet kölcsönözhet ki.</string>
+    <string name="error_max_borrow_total">Összesen legfeljebb %1$d könyvet kölcsönözhet ki.</string>
+    <string name="error_only_copies_available">Már csak %1$d példány érhető el.</string>
+    <string name="error_name_email_required">Kérjük, adja meg legalább a Nevet és az Email címet.</string>
+    <string name="error_valid_name_required">Kérjük, adjon meg érvényes nevet.</string>
+    <string name="error_valid_email_required">Kérjük, adjon meg érvényes email címet.</string>
+    <string name="error_valid_phone_required">Kérjük, adjon meg érvényes telefonszámot.</string>
+    <string name="error_no_books_selected">Nincs könyv kiválasztva.</string>
+    <string name="error_overdue_single">Van egy lejárt határidejű könyve (\"%1$s\"), amelyet vissza kell hoznia új könyvek kölcsönzése előtt.</string>
+    <string name="error_overdue_multiple">Van %1$d lejárt határidejű könyve (%2$s), amelyeket vissza kell hoznia új könyvek kölcsönzése előtt.</string>
+    <string name="error_duplicate_book">A(z) \"%1$s\" már ki van kölcsönözve Önnek. Kérjük, hozza vissza, mielőtt újra kikölcsönzi.</string>
+    <string name="error_limit_reached">Jelenleg %1$d könyv van Önnél, ezzel elérte a(z) %2$d darabos limitet. Kérjük, hozzon vissza könyveket újabbak kikölcsönzése előtt.</string>
+    <string name="error_limit_exceeded">Kölcsönzési limit túllépve: Már van %1$d könyve. A(z) %2$d darabos limittel már csak %3$d további könyvet vihet el.</string>
+    <string name="active_loans_info">Aktív kölcsönzések: Jelenleg %1$d könyv van Önnél (Limit: %2$d). Még legfeljebb %3$d könyvet kölcsönözhet.</string>
+    <string name="active_loans_limit_reached">Limit elérve: Jelenleg %1$d könyv van Önnél (Maximum limit: %2$d). Hozzon vissza könyveket újabbak kölcsönzéséhez.</string>
+    <string name="active_loans_overdue_warning">Figyelem: %1$d lejárt határidejű könyve van. Kérjük, hozza vissza őket újabb könyvek elvitele előtt.</string>
+
+    <!-- Kategóriák -->
+    <string name="category_biographies">Életrajzok</string>
+    <string name="category_devotionals">Áhítatos és imádságos könyvek</string>
+    <string name="category_kids">Gyermek- és ifjúsági</string>
+    <string name="category_commentaries">Bibliamagyarázatok és kommentárok</string>
+    <string name="category_theology">Teológia</string>
+    <string name="category_practical_christianity">Gyakorlati keresztyén élet</string>
+    <string name="category_bibles">Bibliák</string>
+    <string name="category_bible_study_material">Bibliatanulmányozási anyagok</string>
+    <string name="category_christian_living">Keresztyén életmód</string>
+    <string name="category_church_history">Egyháztörténelem</string>
+    <string name="category_apologetics">Hitvédelem (Apologetika)</string>
+    <string name="category_other">Egyéb</string>
+
+    <!-- Adminisztrátori felület -->
+    <string name="admin_dashboard_title">Könyvtár Adminisztráció</string>
+    <string name="admin_dashboard_subtitle">Könyvállomány és kölcsönzések kezelése</string>
+    <string name="admin_what_to_do">Mit szeretne tenni?</string>
+    <string name="admin_active_loans">Aktív kölcsönzések</string>
+    <string name="admin_active_loans_desc">Kikölcsönzött könyvek megtekintése és visszavétele.</string>
+    <string name="admin_manage_inventory">Állománykezelés</string>
+    <string name="admin_manage_inventory_desc">Könyvek hozzáadása, szerkesztése vagy törlése.</string>
+    <string name="admin_settings_backup">Beállítások és biztonsági mentés</string>
+    <string name="admin_settings_backup_desc">Offline P2P mentés, demo mód és beállítások.</string>
+    <string name="admin_log_out">Kijelentkezés</string>
+    <string name="admin_log_out_desc">Adminisztrátori felület biztonságos zárolása.</string>
+    <string name="about_developer">A fejlesztőről</string>
+</resources>

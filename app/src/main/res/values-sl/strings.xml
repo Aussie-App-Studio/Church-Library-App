@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Župnijska knjižnica</string>
+
+    <!-- Predstavitveni način -->
+    <string name="demo_mode">Predstavitveni način</string>
+    <string name="demo_mode_active">PREDSTATVENI NAČIN JE AKTIVEN</string>
+    <string name="demo_mode_banner_desc">Brez skrbi! Vaša prava zbirka knjižnice je med predstavitvenim načinom skrita in povsem varna.</string>
+    <string name="exit_demo_mode">Izhod iz predstavitvenega načina</string>
+
+    <!-- Splošno -->
+    <string name="back">Nazaj</string>
+    <string name="cancel">Prekliči</string>
+    <string name="delete">Izbriši</string>
+    <string name="save">Shrani</string>
+    <string name="edit">Uredi</string>
+    <string name="close">Zapri</string>
+    <string name="admin">Skrbnik</string>
+    <string name="success">Uspešno</string>
+    <string name="library_logo">Logotip knjižnice</string>
+
+    <!-- Začetni zaslon -->
+    <string name="welcome_to_library">Dobrodošli v knjižnici</string>
+    <string name="home_subtitle">Poiščite knjigo na polici, nato pa se dotaknite spodaj za izposojo ali vračilo.</string>
+    <string name="borrow_books">Izposoja knjig</string>
+    <string name="borrow_books_desc">Izposodite si eno ali več knjig</string>
+    <string name="return_books">Vračilo knjig</string>
+    <string name="return_books_desc">Vrnite prebrane knjige</string>
+
+    <!-- Izbira knjig -->
+    <string name="select_books_title">Izberite knjige za izposojo</string>
+    <string name="search_books_placeholder">Iščite po naslovu ali avtorju…</string>
+    <string name="selected_books_count">Izbrano %1$d / %2$d</string>
+    <string name="proceed_to_checkout">Nadaljuj na izposojo</string>
+    <string name="no_books_found">Nobena knjiga ni bila najdena.</string>
+    <string name="limit_reached">Omejitev dosežena</string>
+    <string name="out_of_stock">IZPOSOJENO</string>
+    <string name="cover_for_title">Platnica za %1$s</string>
+
+    <!-- Podatki o izposojevalcu -->
+    <string name="checkout_details_title">Podrobnosti izposoje</string>
+    <string name="your_details">Vaši podatki</string>
+    <string name="your_details_desc">Vnesite svoje podatke za izposojo izbranih knjig.</string>
+    <string name="full_name_required">Ime in priimek *</string>
+    <string name="full_name_placeholder">Janez Novak</string>
+    <string name="email_required">E-poštni naslov *</string>
+    <string name="email_placeholder">janez@example.si</string>
+    <string name="phone_optional">Telefonska številka</string>
+    <string name="phone_placeholder">040 000 000</string>
+    <string name="borrow_duration_label">Čas izposoje *</string>
+    <string name="duration_1_week">1 teden</string>
+    <string name="duration_2_weeks">2 tedna</string>
+    <string name="duration_1_month">1 mesec</string>
+    <string name="duration_2_months">2 meseca</string>
+    <string name="review_and_confirm">Pregled in potrditev</string>
+    <string name="books_to_checkout">Knjige za izposojo (%1$d)</string>
+    <string name="reminder_dialog_title">Nastavite opomnik v koledarju!</string>
+    <string name="reminder_dialog_message">Preden odidete, v koledar svojega telefona dodajte opomnik za vračilo teh knjig čez %1$s.</string>
+    <string name="reminder_dialog_offline_note">E-poštnih opomnikov ne pošiljamo, da aplikacija ostane brezplačna in deluje brez povezave.</string>
+    <string name="confirm_loan">Potrdi izposojo</string>
+    <string name="confirm_loan_timer">Potrdi izposojo (%1$ds)</string>
+
+    <!-- Uspešen zaključek -->
+    <string name="success_title">Uspešno!</string>
+    <string name="success_one_book">Izposodili ste si 1 knjigo.\nRok vračila je %1$s.</string>
+    <string name="success_multiple_books">Izposodili ste si %1$d knjig.\nRok vračila je %2$s.</string>
+    <string name="returning_home_seconds">Vrnitev na začetni zaslon čez 10 sekund…</string>
+    <string name="return_to_home_button">Nazaj na začetni zaslon</string>
+
+    <!-- Vračilo knjig -->
+    <string name="return_books_title">Vračilo knjig</string>
+    <string name="search_return_placeholder">Iščite po svojem imenu ali naslovu knjige…</string>
+    <string name="no_active_loans">Ni aktivnih izposoj.</string>
+    <string name="return_all_count">Vrni vse (%1$d)</string>
+    <string name="return_all_button">Vrni vse</string>
+    <string name="return_book_button">Vrni knjigo</string>
+    <string name="return_book_dialog_title">Vrni knjigo</string>
+    <string name="return_book_dialog_message">Ali želite vrniti \"%1$s\" za osebo %2$s?</string>
+    <string name="return_all_dialog_title">Vrni vse knjige</string>
+    <string name="return_all_dialog_message">Ali želite vrniti vseh %1$d knjig za osebo %2$s?</string>
+    <string name="borrower_label">Izposojevalec: %1$s</string>
+    <string name="overdue_badge">⚠ ZAMUDA</string>
+    <string name="due_date_label">Rok: %1$s</string>
+    <string name="book_returned_success">Knjiga je bila uspešno vrnjena!</string>
+    <string name="all_books_returned_success">Vse knjige so bile uspešno vrnjene!</string>
+
+    <!-- PIN zaslon -->
+    <string name="admin_access_title">Skrbniški dostop</string>
+    <string name="enter_pin_message">Vnesite kodo PIN za upravljanje knjižnice.</string>
+    <string name="default_pin_hint">(Privzeti PIN: 1234)</string>
+    <string name="incorrect_pin_error">Napačna koda PIN. Poskusite znova.</string>
+
+    <!-- Sporočila o napakah -->
+    <string name="error_book_unavailable">Ta knjiga trenutno ni na voljo.</string>
+    <string name="error_max_borrow_limit">Hkrati si lahko izposodite največ %1$d različnih naslovov.</string>
+    <string name="error_max_borrow_total">Skupaj si lahko izposodite največ %1$d knjig.</string>
+    <string name="error_only_copies_available">Na voljo je le še %1$d izvodov.</string>
+    <string name="error_name_email_required">Navedite vsaj ime in e-poštni naslov.</string>
+    <string name="error_valid_name_required">Vnesite veljavno ime.</string>
+    <string name="error_valid_email_required">Vnesite veljaven e-poštni naslov.</string>
+    <string name="error_valid_phone_required">Vnesite veljavno telefonsko številko.</string>
+    <string name="error_no_books_selected">Izbrana ni nobena knjiga.</string>
+    <string name="error_overdue_single">Imate knjigo z zamudo (\"%1$s\"), ki jo morate vrniti pred novo izposojo.</string>
+    <string name="error_overdue_multiple">Imate %1$d knjig z zamudo (%2$s), ki jih morate vrniti pred novo izposojo.</string>
+    <string name="error_duplicate_book">Knjigo \"%1$s\" že imate izposojeno. Prosimo, vrnite jo pred ponovno izposojo.</string>
+    <string name="error_limit_reached">Trenutno imate izposojenih %1$d knjig, kar je meja %2$d. Pred novo izposojo najprej vrnite nekaj knjig.</string>
+    <string name="error_limit_exceeded">Omejitev izposoje presežena: Imate že %1$d knjig. Pri omejitvi %2$d si lahko izposodite le še %3$d knjig.</string>
+    <string name="active_loans_info">Aktivne izposoje: Imate %1$d knjig (Omejitev: %2$d). Izposodite si lahko še do %3$d knjig.</string>
+    <string name="active_loans_limit_reached">Omejitev dosežena: Imate %1$d izposojenih knjig (Največ: %2$d). Za novo izposojo najprej vrnite knjige.</string>
+    <string name="active_loans_overdue_warning">Pozor: Imate %1$d knjig z zamudo. Vrnite jih pred novo izposojo.</string>
+
+    <!-- Kategorije -->
+    <string name="category_biographies">Biografije</string>
+    <string name="category_devotionals">Duhovna branja in molitve</string>
+    <string name="category_kids">Otroci in mladina</string>
+    <string name="category_commentaries">Svetopisemske razlage</string>
+    <string name="category_theology">Teologija</string>
+    <string name="category_practical_christianity">Praktično krščanstvo</string>
+    <string name="category_bibles">Sveto pismo</string>
+    <string name="category_bible_study_material">Gradiva za preučevanje Svetega pisma</string>
+    <string name="category_christian_living">Krščansko življenje</string>
+    <string name="category_church_history">Cerkvena zgodovina</string>
+    <string name="category_apologetics">Apologetika</string>
+    <string name="category_other">Drugo</string>
+
+    <!-- Skrbniška nadzorna plošča -->
+    <string name="admin_dashboard_title">Skrbniška plošča knjižnice</string>
+    <string name="admin_dashboard_subtitle">Upravljanje knjižne zbirke in izposoj</string>
+    <string name="admin_what_to_do">Kaj želite storiti?</string>
+    <string name="admin_active_loans">Aktivne izposoje</string>
+    <string name="admin_active_loans_desc">Pregled in vnos vračil izposojenih knjig.</string>
+    <string name="admin_manage_inventory">Upravljanje zbirke</string>
+    <string name="admin_manage_inventory_desc">Dodajte, uredite ali odstranite knjige iz knjižnice.</string>
+    <string name="admin_settings_backup">Nastavitve in varnostno kopiranje</string>
+    <string name="admin_settings_backup_desc">Lokalno P2P kopiranje, predstavitveni način in nastavitve.</string>
+    <string name="admin_log_out">Odjava</string>
+    <string name="admin_log_out_desc">Varno zaklenite skrbniško ploščo.</string>
+    <string name="about_developer">O razvijalcu</string>
+</resources>

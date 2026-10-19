@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">चर्च पुस्तकालय</string>
+
+    <!-- Demo Mode -->
+    <string name="demo_mode">डेमो मोड</string>
+    <string name="demo_mode_active">डेमो मोड सक्रिय है</string>
+    <string name="demo_mode_banner_desc">चिंता न करें! डेमो मोड में आपका वास्तविक पुस्तकालय डेटा पूरी तरह सुरक्षित है।</string>
+    <string name="exit_demo_mode">डेमो मोड से बाहर निकलें</string>
+
+    <!-- General / Common -->
+    <string name="back">वापस</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="delete">हटाएं</string>
+    <string name="save">सहेजें</string>
+    <string name="edit">संपादित करें</string>
+    <string name="close">बंद करें</string>
+    <string name="admin">व्यवस्थापक</string>
+    <string name="success">सफल</string>
+    <string name="library_logo">पुस्तकालय लोगो</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_to_library">पुस्तकालय में आपका स्वागत है</string>
+    <string name="home_subtitle">शेल्फ से अपनी पुस्तक चुनें, फिर लेने या वापस करने के लिए नीचे टैप करें।</string>
+    <string name="borrow_books">पुस्तकें उधार लें</string>
+    <string name="borrow_books_desc">एक या अधिक पुस्तकें प्राप्त करें</string>
+    <string name="return_books">पुस्तकें वापस करें</string>
+    <string name="return_books_desc">पढ़ी गई पुस्तकें वापस जमा करें</string>
+
+    <!-- Select Books Screen -->
+    <string name="select_books_title">उधार लेने के लिए पुस्तकें चुनें</string>
+    <string name="search_books_placeholder">शीर्षक या लेखक द्वारा खोजें…</string>
+    <string name="selected_books_count">%1$d / %2$d चुनी गई</string>
+    <string name="proceed_to_checkout">आगे बढ़ें</string>
+    <string name="no_books_found">कोई पुस्तक नहीं मिली।</string>
+    <string name="limit_reached">सीमा समाप्त</string>
+    <string name="out_of_stock">अनुपलब्ध</string>
+    <string name="cover_for_title">%1$s का कवर</string>
+
+    <!-- Borrower Info Screen -->
+    <string name="checkout_details_title">विवरण दर्ज करें</string>
+    <string name="your_details">आपका विवरण</string>
+    <string name="your_details_desc">पुस्तकें प्राप्त करने के लिए कृपया अपनी जानकारी दर्ज करें।</string>
+    <string name="full_name_required">पूरा नाम *</string>
+    <string name="full_name_placeholder">राहुल कुमार</string>
+    <string name="email_required">ईमेल पता *</string>
+    <string name="email_placeholder">rahul@example.com</string>
+    <string name="phone_optional">फ़ोन नंबर</string>
+    <string name="phone_placeholder">9876543210</string>
+    <string name="borrow_duration_label">उधार अवधि *</string>
+    <string name="duration_1_week">1 सप्ताह</string>
+    <string name="duration_2_weeks">2 सप्ताह</string>
+    <string name="duration_1_month">1 महीना</string>
+    <string name="duration_2_months">2 महीने</string>
+    <string name="review_and_confirm">समीक्षा और पुष्टि करें</string>
+    <string name="books_to_checkout">चुनी गई पुस्तकें (%1$d)</string>
+    <string name="reminder_dialog_title">कैलेंडर रिमाइंडर सेट करें!</string>
+    <string name="reminder_dialog_message">कृपया अपने फ़ोन के कैलेंडर में %1$s में इन पुस्तकों को वापस करने का रिमाइंडर जोड़ें।</string>
+    <string name="reminder_dialog_offline_note">ऐप को पूरी तरह मुफ़्त और ऑफ़लाइन रखने के लिए हम ईमेल नहीं भेजते हैं।</string>
+    <string name="confirm_loan">उधार की पुष्टि करें</string>
+    <string name="confirm_loan_timer">उधार की पुष्टि करें (%1$ds)</string>
+
+    <!-- Borrow Success Screen -->
+    <string name="success_title">सफलता!</string>
+    <string name="success_one_book">आपने 1 पुस्तक उधार ली है।\nवापसी की अंतिम तिथि %1$s है।</string>
+    <string name="success_multiple_books">आपने %1$d पुस्तकें उधार ली हैं।\nवापसी की अंतिम तिथि %2$s है।</string>
+    <string name="returning_home_seconds">10 सेकंड में होम स्क्रीन पर वापस जा रहे हैं…</string>
+    <string name="return_to_home_button">होम स्क्रीन पर लौटें</string>
+
+    <!-- Return Books Screen -->
+    <string name="return_books_title">पुस्तकें वापस करें</string>
+    <string name="search_return_placeholder">अपने नाम या पुस्तक शीर्षक से खोजें…</string>
+    <string name="no_active_loans">कोई सक्रिय ऋण नहीं मिला।</string>
+    <string name="return_all_count">सभी वापस करें (%1$d)</string>
+    <string name="return_all_button">सभी वापस करें</string>
+    <string name="return_book_button">पुस्तक वापस करें</string>
+    <string name="return_book_dialog_title">पुस्तक वापसी</string>
+    <string name="return_book_dialog_message">क्या %2$s के लिए \"%1$s\" वापस करना चाहते हैं?</string>
+    <string name="return_all_dialog_title">सभी पुस्तकें वापस करें</string>
+    <string name="return_all_dialog_message">क्या %2$s की सभी %1$d पुस्तकें वापस करना चाहते हैं?</string>
+    <string name="borrower_label">उधारकर्ता: %1$s</string>
+    <string name="overdue_badge">⚠ अतिदेय</string>
+    <string name="due_date_label">नियत तिथि: %1$s</string>
+    <string name="book_returned_success">पुस्तक सफलतापूर्वक वापस कर दी गई!</string>
+    <string name="all_books_returned_success">सभी पुस्तकें सफलतापूर्वक वापस कर दी गईं!</string>
+
+    <!-- Pin Screen -->
+    <string name="admin_access_title">व्यवस्थापक पहुँच</string>
+    <string name="enter_pin_message">पुस्तकालय रिकॉर्ड प्रबंधित करने के लिए पिन दर्ज करें।</string>
+    <string name="default_pin_hint">(डिफ़ॉल्ट पिन: 1234)</string>
+    <string name="incorrect_pin_error">गलत पिन। पुनः प्रयास करें।</string>
+
+    <!-- Validation & Error Messages -->
+    <string name="error_book_unavailable">यह पुस्तक वर्तमान में अनुपलब्ध है।</string>
+    <string name="error_max_borrow_limit">आप एक बार में केवल %1$d पुस्तकें ही उधार ले सकते हैं।</string>
+    <string name="error_only_copies_available">केवल %1$d प्रतियां उपलब्ध हैं।</string>
+    <string name="error_name_email_required">कृपया कम से कम नाम और ईमेल प्रदान करें।</string>
+    <string name="error_valid_name_required">कृपया एक मान्य नाम दर्ज करें।</string>
+    <string name="error_valid_email_required">कृपया एक मान्य ईमेल पता दर्ज करें।</string>
+    <string name="error_valid_phone_required">कृपया एक मान्य फ़ोन नंबर दर्ज करें।</string>
+    <string name="error_no_books_selected">कोई पुस्तक चयनित नहीं है।</string>
+
+    <!-- Categories -->
+    <string name="category_biographies">जीवनी</string>
+    <string name="category_devotionals">भक्ति साहित्य</string>
+    <string name="category_kids">बाल साहित्य</string>
+    <string name="category_commentaries">टीकाएँ</string>
+    <string name="category_theology">धर्मशास्त्र</string>
+    <string name="category_practical_christianity">व्यावहारिक ईसाई धर्म</string>
+    <string name="category_bibles">बाइबिल</string>
+    <string name="category_bible_study_material">बाइबिल अध्ययन सामग्री</string>
+    <string name="category_christian_living">ईसाई जीवन शैली</string>
+    <string name="category_church_history">कलीसिया का इतिहास</string>
+    <string name="category_apologetics">धर्मरक्षा</string>
+    <string name="category_other">अन्य</string>
+
+    <!-- Admin Dashboard Hub -->
+    <string name="admin_dashboard_title">व्यवस्थापक डैशबोर्ड</string>
+    <string name="admin_dashboard_subtitle">इन्वेंटरी और ऋण का प्रबंधन करें</string>
+    <string name="admin_what_to_do">आप क्या करना चाहते हैं?</string>
+    <string name="admin_active_loans">सक्रिय ऋण</string>
+    <string name="admin_active_loans_desc">वर्तमान में उधार ली गई पुस्तकें देखें और वापसी दर्ज करें।</string>
+    <string name="admin_manage_inventory">इन्वेंटरी प्रबंधित करें</string>
+    <string name="admin_manage_inventory_desc">पुस्तकालय में पुस्तकें जोड़ें, संपादित करें या हटाएं।</string>
+    <string name="admin_settings_backup">सेटिंग्स और बैकअप</string>
+    <string name="admin_settings_backup_desc">ऑफ़लाइन P2P बैकअप, डेमो मोड और सेटिंग्स।</string>
+    <string name="admin_log_out">लॉग आउट</string>
+    <string name="admin_log_out_desc">डैशबोर्ड को सुरक्षित रूप से लॉक करें।</string>
+    <string name="about_developer">डेवलपर के बारे में</string>
+</resources>
